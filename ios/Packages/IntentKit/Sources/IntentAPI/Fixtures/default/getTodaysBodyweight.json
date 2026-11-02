@@ -1,0 +1,12 @@
+{
+  "status": 200,
+  "body": {
+    "id": 88,
+    "userId": "user_mock_alex",
+    "date": "{{date:0}}",
+    "weight": 78.6,
+    "weightUnit": "kg",
+    "createdAt": "{{datetime:0}}",
+    "updatedAt": "{{datetime:0}}"
+  }
+}

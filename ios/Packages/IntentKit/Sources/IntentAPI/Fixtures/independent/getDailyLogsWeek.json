@@ -1,0 +1,80 @@
+{
+  "status": 200,
+  "body": {
+    "days": [
+      {
+        "date": "{{date:0}}",
+        "calories": 2210,
+        "steps": 10450,
+        "cardioType": "Walk",
+        "cardioMinutes": 30,
+        "weight": 78.1,
+        "weightUnit": "kg"
+      },
+      {
+        "date": "{{dow:mon:0}}",
+        "calories": 2280,
+        "steps": 8800,
+        "cardioType": null,
+        "cardioMinutes": null,
+        "weight": 78.5,
+        "weightUnit": "kg"
+      },
+      {
+        "date": "{{dow:tue:0}}",
+        "calories": null,
+        "steps": null,
+        "cardioType": null,
+        "cardioMinutes": null,
+        "weight": null,
+        "weightUnit": null
+      },
+      {
+        "date": "{{dow:wed:0}}",
+        "calories": null,
+        "steps": null,
+        "cardioType": null,
+        "cardioMinutes": null,
+        "weight": null,
+        "weightUnit": null
+      },
+      {
+        "date": "{{dow:thu:0}}",
+        "calories": null,
+        "steps": null,
+        "cardioType": null,
+        "cardioMinutes": null,
+        "weight": null,
+        "weightUnit": null
+      },
+      {
+        "date": "{{dow:fri:0}}",
+        "calories": null,
+        "steps": null,
+        "cardioType": null,
+        "cardioMinutes": null,
+        "weight": null,
+        "weightUnit": null
+      },
+      {
+        "date": "{{dow:sat:0}}",
+        "calories": null,
+        "steps": null,
+        "cardioType": null,
+        "cardioMinutes": null,
+        "weight": null,
+        "weightUnit": null
+      },
+      {
+        "date": "{{dow:sun:0}}",
+        "calories": null,
+        "steps": null,
+        "cardioType": null,
+        "cardioMinutes": null,
+        "weight": null,
+        "weightUnit": null
+      }
+    ],
+    "shortTermPhase": null
+  }
+}

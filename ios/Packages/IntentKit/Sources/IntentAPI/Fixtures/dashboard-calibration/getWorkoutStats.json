@@ -1,0 +1,9 @@
+{
+  "status": 200,
+  "body": {
+    "currentWeek": 1,
+    "totalLogged": 1,
+    "lastSessionDate": "{{date:-2}}",
+    "streakDays": 1
+  }
+}

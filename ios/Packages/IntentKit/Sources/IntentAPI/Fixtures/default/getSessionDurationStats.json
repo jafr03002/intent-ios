@@ -1,0 +1,31 @@
+{
+  "status": 200,
+  "body": {
+    "stats": [
+      {
+        "dayLabel": "Upper A",
+        "dayNumber": 1,
+        "averageSeconds": 3617,
+        "sampleCount": 3
+      },
+      {
+        "dayLabel": "Lower A",
+        "dayNumber": 2,
+        "averageSeconds": 3328,
+        "sampleCount": 2
+      },
+      {
+        "dayLabel": "Upper B",
+        "dayNumber": 3,
+        "averageSeconds": 3448,
+        "sampleCount": 2
+      },
+      {
+        "dayLabel": "Lower B",
+        "dayNumber": 4,
+        "averageSeconds": 3148,
+        "sampleCount": 2
+      }
+    ]
+  }
+}

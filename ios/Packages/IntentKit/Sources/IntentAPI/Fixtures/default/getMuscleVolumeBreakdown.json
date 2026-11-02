@@ -1,0 +1,47 @@
+{
+  "status": 200,
+  "body": [
+    {
+      "week": 1,
+      "chest": 6,
+      "shoulders": 6,
+      "biceps": 4,
+      "triceps": 4,
+      "upperBack": 6,
+      "lats": 6,
+      "quads": 10,
+      "hamstrings": 6,
+      "glutes": 6,
+      "calves": 6,
+      "core": 0
+    },
+    {
+      "week": 2,
+      "chest": 6,
+      "shoulders": 6,
+      "biceps": 4,
+      "triceps": 4,
+      "upperBack": 6,
+      "lats": 6,
+      "quads": 10,
+      "hamstrings": 6,
+      "glutes": 6,
+      "calves": 6,
+      "core": 0
+    },
+    {
+      "week": 3,
+      "chest": 3,
+      "shoulders": 3,
+      "biceps": 2,
+      "triceps": 2,
+      "upperBack": 3,
+      "lats": 3,
+      "quads": 0,
+      "hamstrings": 0,
+      "glutes": 0,
+      "calves": 0,
+      "core": 0
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "status": 200,
+  "body": [
+    {
+      "id": 32,
+      "userId": "user_mock_alex",
+      "weekNumber": 4,
+      "energy": 4,
+      "sleep": 4,
+      "soreness": "low",
+      "completion": null,
+      "sessionsPlanned": 4,
+      "sessionsLogged": 4,
+      "missedSessionReason": null,
+      "ratingScaleMax": 5,
+      "hungerAppetite": 3,
+      "offDayDeviation": false,
+      "exerciseIssues": "Left shoulder pinches a little at the bottom of the incline press.",
+      "wentWell": "Bench went up again.",
+      "didntGoWell": null,
+      "sleepDecline": null,
+      "digestionIssues": null,
+      "notes": null,
+      "submittedAt": "{{dowtime:tue:-1}}"
+    },
+    {
+      "id": 31,
+      "userId": "user_mock_alex",
+      "weekNumber": 3,
+      "energy": 3,
+      "sleep": 3,
+      "soreness": "moderate",
+      "completion": null,
+      "sessionsPlanned": 4,
+      "sessionsLogged": 4,
+      "missedSessionReason": null,
+      "ratingScaleMax": 5,
+      "hungerAppetite": 2,
+      "offDayDeviation": false,
+      "exerciseIssues": null,
+      "wentWell": "Hit every session and the squat finally felt grooved.",
+      "didntGoWell": "Struggled to eat enough on work days.",
+      "sleepDecline": null,
+      "digestionIssues": null,
+      "notes": null,
+      "submittedAt": "{{dowtime:tue:-2}}"
+    }
+  ]
+}

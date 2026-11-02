@@ -1,0 +1,25 @@
+{
+  "status": 200,
+  "body": {
+    "id": 21,
+    "userId": "user_mock_alex",
+    "weekNumber": 2,
+    "energy": 4,
+    "sleep": 3,
+    "soreness": "moderate",
+    "completion": null,
+    "sessionsPlanned": 4,
+    "sessionsLogged": 4,
+    "missedSessionReason": null,
+    "ratingScaleMax": 5,
+    "hungerAppetite": 3,
+    "offDayDeviation": false,
+    "exerciseIssues": null,
+    "wentWell": "Bench moved well",
+    "didntGoWell": null,
+    "sleepDecline": null,
+    "digestionIssues": null,
+    "notes": null,
+    "submittedAt": "{{datetime:-7}}"
+  }
+}

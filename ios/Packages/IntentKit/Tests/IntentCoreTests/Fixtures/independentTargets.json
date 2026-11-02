@@ -1,0 +1,1612 @@
+{
+ "phaseOptions": [
+  {
+   "phase": "bulk",
+   "goal": "gain_weight",
+   "heading": "Gaining weight",
+   "tag": "Bulk phase",
+   "sub": "Build muscle in a surplus"
+  },
+  {
+   "phase": "maintenance",
+   "goal": "general",
+   "heading": "General fitness",
+   "tag": "Maintenance",
+   "sub": "Hold weight, stay consistent"
+  },
+  {
+   "phase": "diet",
+   "goal": "lose_weight",
+   "heading": "Losing weight",
+   "tag": "Diet phase",
+   "sub": "Lean out, keep muscle"
+  }
+ ],
+ "goalToPhase": [
+  {
+   "in": "gain_weight",
+   "out": "bulk"
+  },
+  {
+   "in": "lose_weight",
+   "out": "diet"
+  },
+  {
+   "in": "general",
+   "out": "maintenance"
+  },
+  {
+   "in": "maintain",
+   "out": "maintenance"
+  },
+  {
+   "in": "",
+   "out": "maintenance"
+  },
+  {
+   "in": null,
+   "out": "maintenance"
+  },
+  {
+   "in": "GAIN_WEIGHT",
+   "out": "maintenance"
+  }
+ ],
+ "phaseGoalWeightError": [
+  {
+   "in": {
+    "phase": "bulk",
+    "current": 80,
+    "goal": "",
+    "unit": "kg"
+   },
+   "out": "Set a goal weight to continue."
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": 80,
+    "goal": "  ",
+    "unit": "kg"
+   },
+   "out": "Set a goal weight to continue."
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": 80,
+    "goal": "abc",
+    "unit": "kg"
+   },
+   "out": "Enter a valid goal weight."
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": 80,
+    "goal": "85",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": 80,
+    "goal": "75",
+    "unit": "kg"
+   },
+   "out": "Bulk needs a target above your current 80 kg. 75 kg is below it - that's a diet."
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": 80,
+    "goal": "80",
+    "unit": "kg"
+   },
+   "out": "That's your current weight (80 kg) - enter a target above it."
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": 80,
+    "goal": "80.5",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": 80,
+    "goal": "10",
+    "unit": "kg"
+   },
+   "out": "Enter a goal weight between 20 and 1,000."
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": 80,
+    "goal": "1001",
+    "unit": "kg"
+   },
+   "out": "Enter a goal weight between 20 and 1,000."
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": 80,
+    "goal": "85kg",
+    "unit": "kg"
+   },
+   "out": "Enter a valid goal weight."
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": 80,
+    "goal": "1e2",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": 80,
+    "goal": "-50",
+    "unit": "kg"
+   },
+   "out": "Enter a goal weight between 20 and 1,000."
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": 80,
+    "goal": "0x55",
+    "unit": "kg"
+   },
+   "out": "Bulk needs a target above your current 80 kg. 0 kg is below it - that's a diet."
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": 80,
+    "goal": " 90 ",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": 80.5,
+    "goal": "",
+    "unit": "kg"
+   },
+   "out": "Set a goal weight to continue."
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": 80.5,
+    "goal": "  ",
+    "unit": "kg"
+   },
+   "out": "Set a goal weight to continue."
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": 80.5,
+    "goal": "abc",
+    "unit": "kg"
+   },
+   "out": "Enter a valid goal weight."
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": 80.5,
+    "goal": "85",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": 80.5,
+    "goal": "75",
+    "unit": "kg"
+   },
+   "out": "Bulk needs a target above your current 80.5 kg. 75 kg is below it - that's a diet."
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": 80.5,
+    "goal": "80",
+    "unit": "kg"
+   },
+   "out": "Bulk needs a target above your current 80.5 kg. 80 kg is below it - that's a diet."
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": 80.5,
+    "goal": "80.5",
+    "unit": "kg"
+   },
+   "out": "That's your current weight (80.5 kg) - enter a target above it."
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": 80.5,
+    "goal": "10",
+    "unit": "kg"
+   },
+   "out": "Enter a goal weight between 20 and 1,000."
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": 80.5,
+    "goal": "1001",
+    "unit": "kg"
+   },
+   "out": "Enter a goal weight between 20 and 1,000."
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": 80.5,
+    "goal": "85kg",
+    "unit": "kg"
+   },
+   "out": "Enter a valid goal weight."
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": 80.5,
+    "goal": "1e2",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": 80.5,
+    "goal": "-50",
+    "unit": "kg"
+   },
+   "out": "Enter a goal weight between 20 and 1,000."
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": 80.5,
+    "goal": "0x55",
+    "unit": "kg"
+   },
+   "out": "Bulk needs a target above your current 80.5 kg. 0 kg is below it - that's a diet."
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": 80.5,
+    "goal": " 90 ",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": null,
+    "goal": "",
+    "unit": "kg"
+   },
+   "out": "Set a goal weight to continue."
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": null,
+    "goal": "  ",
+    "unit": "kg"
+   },
+   "out": "Set a goal weight to continue."
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": null,
+    "goal": "abc",
+    "unit": "kg"
+   },
+   "out": "Enter a valid goal weight."
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": null,
+    "goal": "85",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": null,
+    "goal": "75",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": null,
+    "goal": "80",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": null,
+    "goal": "80.5",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": null,
+    "goal": "10",
+    "unit": "kg"
+   },
+   "out": "Enter a goal weight between 20 and 1,000."
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": null,
+    "goal": "1001",
+    "unit": "kg"
+   },
+   "out": "Enter a goal weight between 20 and 1,000."
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": null,
+    "goal": "85kg",
+    "unit": "kg"
+   },
+   "out": "Enter a valid goal weight."
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": null,
+    "goal": "1e2",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": null,
+    "goal": "-50",
+    "unit": "kg"
+   },
+   "out": "Enter a goal weight between 20 and 1,000."
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": null,
+    "goal": "0x55",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": null,
+    "goal": " 90 ",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": null,
+    "goal": "",
+    "unit": "kg"
+   },
+   "out": "Set a goal weight to continue."
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": null,
+    "goal": "  ",
+    "unit": "kg"
+   },
+   "out": "Set a goal weight to continue."
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": null,
+    "goal": "abc",
+    "unit": "kg"
+   },
+   "out": "Enter a valid goal weight."
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": null,
+    "goal": "85",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": null,
+    "goal": "75",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": null,
+    "goal": "80",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": null,
+    "goal": "80.5",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": null,
+    "goal": "10",
+    "unit": "kg"
+   },
+   "out": "Enter a goal weight between 20 and 1,000."
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": null,
+    "goal": "1001",
+    "unit": "kg"
+   },
+   "out": "Enter a goal weight between 20 and 1,000."
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": null,
+    "goal": "85kg",
+    "unit": "kg"
+   },
+   "out": "Enter a valid goal weight."
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": null,
+    "goal": "1e2",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": null,
+    "goal": "-50",
+    "unit": "kg"
+   },
+   "out": "Enter a goal weight between 20 and 1,000."
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": null,
+    "goal": "0x55",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "bulk",
+    "current": null,
+    "goal": " 90 ",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": 80,
+    "goal": "",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": 80,
+    "goal": "  ",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": 80,
+    "goal": "abc",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": 80,
+    "goal": "85",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": 80,
+    "goal": "75",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": 80,
+    "goal": "80",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": 80,
+    "goal": "80.5",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": 80,
+    "goal": "10",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": 80,
+    "goal": "1001",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": 80,
+    "goal": "85kg",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": 80,
+    "goal": "1e2",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": 80,
+    "goal": "-50",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": 80,
+    "goal": "0x55",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": 80,
+    "goal": " 90 ",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": 80.5,
+    "goal": "",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": 80.5,
+    "goal": "  ",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": 80.5,
+    "goal": "abc",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": 80.5,
+    "goal": "85",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": 80.5,
+    "goal": "75",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": 80.5,
+    "goal": "80",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": 80.5,
+    "goal": "80.5",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": 80.5,
+    "goal": "10",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": 80.5,
+    "goal": "1001",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": 80.5,
+    "goal": "85kg",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": 80.5,
+    "goal": "1e2",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": 80.5,
+    "goal": "-50",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": 80.5,
+    "goal": "0x55",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": 80.5,
+    "goal": " 90 ",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": null,
+    "goal": "",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": null,
+    "goal": "  ",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": null,
+    "goal": "abc",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": null,
+    "goal": "85",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": null,
+    "goal": "75",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": null,
+    "goal": "80",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": null,
+    "goal": "80.5",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": null,
+    "goal": "10",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": null,
+    "goal": "1001",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": null,
+    "goal": "85kg",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": null,
+    "goal": "1e2",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": null,
+    "goal": "-50",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": null,
+    "goal": "0x55",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": null,
+    "goal": " 90 ",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": null,
+    "goal": "",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": null,
+    "goal": "  ",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": null,
+    "goal": "abc",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": null,
+    "goal": "85",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": null,
+    "goal": "75",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": null,
+    "goal": "80",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": null,
+    "goal": "80.5",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": null,
+    "goal": "10",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": null,
+    "goal": "1001",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": null,
+    "goal": "85kg",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": null,
+    "goal": "1e2",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": null,
+    "goal": "-50",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": null,
+    "goal": "0x55",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "maintenance",
+    "current": null,
+    "goal": " 90 ",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": 80,
+    "goal": "",
+    "unit": "kg"
+   },
+   "out": "Set a goal weight to continue."
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": 80,
+    "goal": "  ",
+    "unit": "kg"
+   },
+   "out": "Set a goal weight to continue."
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": 80,
+    "goal": "abc",
+    "unit": "kg"
+   },
+   "out": "Enter a valid goal weight."
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": 80,
+    "goal": "85",
+    "unit": "kg"
+   },
+   "out": "Diet needs a target below your current 80 kg. 85 kg is above it - that's a bulk."
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": 80,
+    "goal": "75",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": 80,
+    "goal": "80",
+    "unit": "kg"
+   },
+   "out": "That's your current weight (80 kg) - enter a target below it."
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": 80,
+    "goal": "80.5",
+    "unit": "kg"
+   },
+   "out": "Diet needs a target below your current 80 kg. 80.5 kg is above it - that's a bulk."
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": 80,
+    "goal": "10",
+    "unit": "kg"
+   },
+   "out": "Enter a goal weight between 20 and 1,000."
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": 80,
+    "goal": "1001",
+    "unit": "kg"
+   },
+   "out": "Enter a goal weight between 20 and 1,000."
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": 80,
+    "goal": "85kg",
+    "unit": "kg"
+   },
+   "out": "Enter a valid goal weight."
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": 80,
+    "goal": "1e2",
+    "unit": "kg"
+   },
+   "out": "Diet needs a target below your current 80 kg. 100 kg is above it - that's a bulk."
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": 80,
+    "goal": "-50",
+    "unit": "kg"
+   },
+   "out": "Enter a goal weight between 20 and 1,000."
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": 80,
+    "goal": "0x55",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": 80,
+    "goal": " 90 ",
+    "unit": "kg"
+   },
+   "out": "Diet needs a target below your current 80 kg. 90 kg is above it - that's a bulk."
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": 80.5,
+    "goal": "",
+    "unit": "kg"
+   },
+   "out": "Set a goal weight to continue."
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": 80.5,
+    "goal": "  ",
+    "unit": "kg"
+   },
+   "out": "Set a goal weight to continue."
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": 80.5,
+    "goal": "abc",
+    "unit": "kg"
+   },
+   "out": "Enter a valid goal weight."
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": 80.5,
+    "goal": "85",
+    "unit": "kg"
+   },
+   "out": "Diet needs a target below your current 80.5 kg. 85 kg is above it - that's a bulk."
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": 80.5,
+    "goal": "75",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": 80.5,
+    "goal": "80",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": 80.5,
+    "goal": "80.5",
+    "unit": "kg"
+   },
+   "out": "That's your current weight (80.5 kg) - enter a target below it."
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": 80.5,
+    "goal": "10",
+    "unit": "kg"
+   },
+   "out": "Enter a goal weight between 20 and 1,000."
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": 80.5,
+    "goal": "1001",
+    "unit": "kg"
+   },
+   "out": "Enter a goal weight between 20 and 1,000."
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": 80.5,
+    "goal": "85kg",
+    "unit": "kg"
+   },
+   "out": "Enter a valid goal weight."
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": 80.5,
+    "goal": "1e2",
+    "unit": "kg"
+   },
+   "out": "Diet needs a target below your current 80.5 kg. 100 kg is above it - that's a bulk."
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": 80.5,
+    "goal": "-50",
+    "unit": "kg"
+   },
+   "out": "Enter a goal weight between 20 and 1,000."
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": 80.5,
+    "goal": "0x55",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": 80.5,
+    "goal": " 90 ",
+    "unit": "kg"
+   },
+   "out": "Diet needs a target below your current 80.5 kg. 90 kg is above it - that's a bulk."
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": null,
+    "goal": "",
+    "unit": "kg"
+   },
+   "out": "Set a goal weight to continue."
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": null,
+    "goal": "  ",
+    "unit": "kg"
+   },
+   "out": "Set a goal weight to continue."
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": null,
+    "goal": "abc",
+    "unit": "kg"
+   },
+   "out": "Enter a valid goal weight."
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": null,
+    "goal": "85",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": null,
+    "goal": "75",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": null,
+    "goal": "80",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": null,
+    "goal": "80.5",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": null,
+    "goal": "10",
+    "unit": "kg"
+   },
+   "out": "Enter a goal weight between 20 and 1,000."
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": null,
+    "goal": "1001",
+    "unit": "kg"
+   },
+   "out": "Enter a goal weight between 20 and 1,000."
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": null,
+    "goal": "85kg",
+    "unit": "kg"
+   },
+   "out": "Enter a valid goal weight."
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": null,
+    "goal": "1e2",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": null,
+    "goal": "-50",
+    "unit": "kg"
+   },
+   "out": "Enter a goal weight between 20 and 1,000."
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": null,
+    "goal": "0x55",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": null,
+    "goal": " 90 ",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": null,
+    "goal": "",
+    "unit": "kg"
+   },
+   "out": "Set a goal weight to continue."
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": null,
+    "goal": "  ",
+    "unit": "kg"
+   },
+   "out": "Set a goal weight to continue."
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": null,
+    "goal": "abc",
+    "unit": "kg"
+   },
+   "out": "Enter a valid goal weight."
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": null,
+    "goal": "85",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": null,
+    "goal": "75",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": null,
+    "goal": "80",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": null,
+    "goal": "80.5",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": null,
+    "goal": "10",
+    "unit": "kg"
+   },
+   "out": "Enter a goal weight between 20 and 1,000."
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": null,
+    "goal": "1001",
+    "unit": "kg"
+   },
+   "out": "Enter a goal weight between 20 and 1,000."
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": null,
+    "goal": "85kg",
+    "unit": "kg"
+   },
+   "out": "Enter a valid goal weight."
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": null,
+    "goal": "1e2",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": null,
+    "goal": "-50",
+    "unit": "kg"
+   },
+   "out": "Enter a goal weight between 20 and 1,000."
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": null,
+    "goal": "0x55",
+    "unit": "kg"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "phase": "diet",
+    "current": null,
+    "goal": " 90 ",
+    "unit": "kg"
+   },
+   "out": null
+  }
+ ],
+ "cardioDays": [
+  "Mon",
+  "Tue",
+  "Wed",
+  "Thu",
+  "Fri",
+  "Sat",
+  "Sun"
+ ],
+ "orderCardioDays": [
+  {
+   "in": [
+    "Sun",
+    "Mon"
+   ],
+   "out": [
+    "Mon",
+    "Sun"
+   ]
+  },
+  {
+   "in": [
+    "Fri",
+    "Tue",
+    "Fri"
+   ],
+   "out": [
+    "Tue",
+    "Fri"
+   ]
+  },
+  {
+   "in": [
+    "mon",
+    "Xyz"
+   ],
+   "out": []
+  },
+  {
+   "in": [],
+   "out": []
+  }
+ ]
+}

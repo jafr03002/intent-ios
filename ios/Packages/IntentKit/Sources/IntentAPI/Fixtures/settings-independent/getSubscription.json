@@ -1,0 +1,11 @@
+{
+  "status": 200,
+  "body": {
+    "userId": "user_mock_alex",
+    "plan": "free",
+    "status": "active",
+    "stripeCustomerId": null,
+    "stripeSubscriptionId": null,
+    "currentPeriodEnd": null
+  }
+}

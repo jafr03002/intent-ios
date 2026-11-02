@@ -1,0 +1,20 @@
+{
+  "status": 200,
+  "body": [
+    {
+      "week": 1,
+      "totalSets": 60,
+      "totalReps": 530
+    },
+    {
+      "week": 2,
+      "totalSets": 60,
+      "totalReps": 530
+    },
+    {
+      "week": 3,
+      "totalSets": 16,
+      "totalReps": 138
+    }
+  ]
+}

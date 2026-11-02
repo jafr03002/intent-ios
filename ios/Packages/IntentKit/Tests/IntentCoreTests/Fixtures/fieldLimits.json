@@ -1,0 +1,1752 @@
+{
+ "limits": {
+  "age": {
+   "min": 13,
+   "max": 120,
+   "noun": "age",
+   "article": "an",
+   "integer": true
+  },
+  "weight": {
+   "min": 20,
+   "max": 1000,
+   "noun": "weight",
+   "article": "a"
+  },
+  "goalWeight": {
+   "min": 20,
+   "max": 1000,
+   "noun": "goal weight",
+   "article": "a"
+  },
+  "dailyCalorieTarget": {
+   "min": 800,
+   "max": 10000,
+   "noun": "calorie target",
+   "article": "a",
+   "unit": "kcal",
+   "integer": true
+  },
+  "dailyStepTarget": {
+   "min": 0,
+   "max": 100000,
+   "noun": "step target",
+   "article": "a",
+   "unit": "steps",
+   "integer": true
+  },
+  "cardioMinutes": {
+   "min": 0,
+   "max": 1440,
+   "noun": "cardio duration",
+   "article": "a",
+   "unit": "minutes",
+   "integer": true
+  },
+  "calories": {
+   "min": 0,
+   "max": 20000,
+   "noun": "calorie count",
+   "article": "a",
+   "unit": "kcal",
+   "integer": true
+  },
+  "steps": {
+   "min": 0,
+   "max": 200000,
+   "noun": "step count",
+   "article": "a",
+   "unit": "steps",
+   "integer": true
+  },
+  "sets": {
+   "min": 1,
+   "max": 50,
+   "noun": "set count",
+   "article": "a",
+   "integer": true
+  }
+ },
+ "loggedSetBounds": {
+  "weight": {
+   "min": 0,
+   "max": 2000
+  },
+  "reps": {
+   "min": 0,
+   "max": 1000
+  }
+ },
+ "maxLengths": {
+  "MAX_EXERCISE_NAME": 80,
+  "MAX_DAY_LABEL": 60,
+  "MAX_PROFILE_NAME": 80
+ },
+ "rangeError": [
+  {
+   "key": "age",
+   "raw": "",
+   "out": null
+  },
+  {
+   "key": "age",
+   "raw": "   ",
+   "out": null
+  },
+  {
+   "key": "age",
+   "raw": "abc",
+   "out": "Enter a valid age."
+  },
+  {
+   "key": "age",
+   "raw": "50",
+   "out": null
+  },
+  {
+   "key": "age",
+   "raw": "13",
+   "out": null
+  },
+  {
+   "key": "age",
+   "raw": "12",
+   "out": "Enter an age between 13 and 120."
+  },
+  {
+   "key": "age",
+   "raw": "120",
+   "out": null
+  },
+  {
+   "key": "age",
+   "raw": "121",
+   "out": "Enter an age between 13 and 120."
+  },
+  {
+   "key": "age",
+   "raw": "12.5",
+   "out": "Enter your age as a whole number."
+  },
+  {
+   "key": "age",
+   "raw": "80.5",
+   "out": "Enter your age as a whole number."
+  },
+  {
+   "key": "age",
+   "raw": "1e3",
+   "out": "Enter an age between 13 and 120."
+  },
+  {
+   "key": "age",
+   "raw": "0x10",
+   "out": null
+  },
+  {
+   "key": "age",
+   "raw": "-5",
+   "out": "Enter an age between 13 and 120."
+  },
+  {
+   "key": "age",
+   "raw": "1,000",
+   "out": "Enter a valid age."
+  },
+  {
+   "key": "age",
+   "raw": "Infinity",
+   "out": "Enter a valid age."
+  },
+  {
+   "key": "age",
+   "raw": "10000",
+   "out": "Enter an age between 13 and 120."
+  },
+  {
+   "key": "age",
+   "raw": "10001",
+   "out": "Enter an age between 13 and 120."
+  },
+  {
+   "key": "age",
+   "raw": "799",
+   "out": "Enter an age between 13 and 120."
+  },
+  {
+   "key": "age",
+   "raw": "800",
+   "out": "Enter an age between 13 and 120."
+  },
+  {
+   "key": "age",
+   "raw": " 900 ",
+   "out": "Enter an age between 13 and 120."
+  },
+  {
+   "key": "age",
+   "raw": "100000",
+   "out": "Enter an age between 13 and 120."
+  },
+  {
+   "key": "age",
+   "raw": "100001",
+   "out": "Enter an age between 13 and 120."
+  },
+  {
+   "key": "age",
+   "raw": "0",
+   "out": "Enter an age between 13 and 120."
+  },
+  {
+   "key": "age",
+   "raw": "-0",
+   "out": "Enter an age between 13 and 120."
+  },
+  {
+   "key": "age",
+   "raw": ".5",
+   "out": "Enter your age as a whole number."
+  },
+  {
+   "key": "age",
+   "raw": "20",
+   "out": null
+  },
+  {
+   "key": "age",
+   "raw": "19.99",
+   "out": "Enter your age as a whole number."
+  },
+  {
+   "key": "age",
+   "raw": "1000",
+   "out": "Enter an age between 13 and 120."
+  },
+  {
+   "key": "age",
+   "raw": "1000.01",
+   "out": "Enter your age as a whole number."
+  },
+  {
+   "key": "age",
+   "raw": "200000",
+   "out": "Enter an age between 13 and 120."
+  },
+  {
+   "key": "age",
+   "raw": "1440",
+   "out": "Enter an age between 13 and 120."
+  },
+  {
+   "key": "age",
+   "raw": "1441",
+   "out": "Enter an age between 13 and 120."
+  },
+  {
+   "key": "age",
+   "raw": "50",
+   "out": null
+  },
+  {
+   "key": "age",
+   "raw": "51",
+   "out": null
+  },
+  {
+   "key": "age",
+   "raw": "1",
+   "out": "Enter an age between 13 and 120."
+  },
+  {
+   "key": "weight",
+   "raw": "",
+   "out": null
+  },
+  {
+   "key": "weight",
+   "raw": "   ",
+   "out": null
+  },
+  {
+   "key": "weight",
+   "raw": "abc",
+   "out": "Enter a valid weight."
+  },
+  {
+   "key": "weight",
+   "raw": "50",
+   "out": null
+  },
+  {
+   "key": "weight",
+   "raw": "13",
+   "out": "Enter a weight between 20 and 1,000."
+  },
+  {
+   "key": "weight",
+   "raw": "12",
+   "out": "Enter a weight between 20 and 1,000."
+  },
+  {
+   "key": "weight",
+   "raw": "120",
+   "out": null
+  },
+  {
+   "key": "weight",
+   "raw": "121",
+   "out": null
+  },
+  {
+   "key": "weight",
+   "raw": "12.5",
+   "out": "Enter a weight between 20 and 1,000."
+  },
+  {
+   "key": "weight",
+   "raw": "80.5",
+   "out": null
+  },
+  {
+   "key": "weight",
+   "raw": "1e3",
+   "out": null
+  },
+  {
+   "key": "weight",
+   "raw": "0x10",
+   "out": "Enter a weight between 20 and 1,000."
+  },
+  {
+   "key": "weight",
+   "raw": "-5",
+   "out": "Enter a weight between 20 and 1,000."
+  },
+  {
+   "key": "weight",
+   "raw": "1,000",
+   "out": "Enter a valid weight."
+  },
+  {
+   "key": "weight",
+   "raw": "Infinity",
+   "out": "Enter a valid weight."
+  },
+  {
+   "key": "weight",
+   "raw": "10000",
+   "out": "Enter a weight between 20 and 1,000."
+  },
+  {
+   "key": "weight",
+   "raw": "10001",
+   "out": "Enter a weight between 20 and 1,000."
+  },
+  {
+   "key": "weight",
+   "raw": "799",
+   "out": null
+  },
+  {
+   "key": "weight",
+   "raw": "800",
+   "out": null
+  },
+  {
+   "key": "weight",
+   "raw": " 900 ",
+   "out": null
+  },
+  {
+   "key": "weight",
+   "raw": "100000",
+   "out": "Enter a weight between 20 and 1,000."
+  },
+  {
+   "key": "weight",
+   "raw": "100001",
+   "out": "Enter a weight between 20 and 1,000."
+  },
+  {
+   "key": "weight",
+   "raw": "0",
+   "out": "Enter a weight between 20 and 1,000."
+  },
+  {
+   "key": "weight",
+   "raw": "-0",
+   "out": "Enter a weight between 20 and 1,000."
+  },
+  {
+   "key": "weight",
+   "raw": ".5",
+   "out": "Enter a weight between 20 and 1,000."
+  },
+  {
+   "key": "weight",
+   "raw": "20",
+   "out": null
+  },
+  {
+   "key": "weight",
+   "raw": "19.99",
+   "out": "Enter a weight between 20 and 1,000."
+  },
+  {
+   "key": "weight",
+   "raw": "1000",
+   "out": null
+  },
+  {
+   "key": "weight",
+   "raw": "1000.01",
+   "out": "Enter a weight between 20 and 1,000."
+  },
+  {
+   "key": "weight",
+   "raw": "200000",
+   "out": "Enter a weight between 20 and 1,000."
+  },
+  {
+   "key": "weight",
+   "raw": "1440",
+   "out": "Enter a weight between 20 and 1,000."
+  },
+  {
+   "key": "weight",
+   "raw": "1441",
+   "out": "Enter a weight between 20 and 1,000."
+  },
+  {
+   "key": "weight",
+   "raw": "50",
+   "out": null
+  },
+  {
+   "key": "weight",
+   "raw": "51",
+   "out": null
+  },
+  {
+   "key": "weight",
+   "raw": "1",
+   "out": "Enter a weight between 20 and 1,000."
+  },
+  {
+   "key": "goalWeight",
+   "raw": "",
+   "out": null
+  },
+  {
+   "key": "goalWeight",
+   "raw": "   ",
+   "out": null
+  },
+  {
+   "key": "goalWeight",
+   "raw": "abc",
+   "out": "Enter a valid goal weight."
+  },
+  {
+   "key": "goalWeight",
+   "raw": "50",
+   "out": null
+  },
+  {
+   "key": "goalWeight",
+   "raw": "13",
+   "out": "Enter a goal weight between 20 and 1,000."
+  },
+  {
+   "key": "goalWeight",
+   "raw": "12",
+   "out": "Enter a goal weight between 20 and 1,000."
+  },
+  {
+   "key": "goalWeight",
+   "raw": "120",
+   "out": null
+  },
+  {
+   "key": "goalWeight",
+   "raw": "121",
+   "out": null
+  },
+  {
+   "key": "goalWeight",
+   "raw": "12.5",
+   "out": "Enter a goal weight between 20 and 1,000."
+  },
+  {
+   "key": "goalWeight",
+   "raw": "80.5",
+   "out": null
+  },
+  {
+   "key": "goalWeight",
+   "raw": "1e3",
+   "out": null
+  },
+  {
+   "key": "goalWeight",
+   "raw": "0x10",
+   "out": "Enter a goal weight between 20 and 1,000."
+  },
+  {
+   "key": "goalWeight",
+   "raw": "-5",
+   "out": "Enter a goal weight between 20 and 1,000."
+  },
+  {
+   "key": "goalWeight",
+   "raw": "1,000",
+   "out": "Enter a valid goal weight."
+  },
+  {
+   "key": "goalWeight",
+   "raw": "Infinity",
+   "out": "Enter a valid goal weight."
+  },
+  {
+   "key": "goalWeight",
+   "raw": "10000",
+   "out": "Enter a goal weight between 20 and 1,000."
+  },
+  {
+   "key": "goalWeight",
+   "raw": "10001",
+   "out": "Enter a goal weight between 20 and 1,000."
+  },
+  {
+   "key": "goalWeight",
+   "raw": "799",
+   "out": null
+  },
+  {
+   "key": "goalWeight",
+   "raw": "800",
+   "out": null
+  },
+  {
+   "key": "goalWeight",
+   "raw": " 900 ",
+   "out": null
+  },
+  {
+   "key": "goalWeight",
+   "raw": "100000",
+   "out": "Enter a goal weight between 20 and 1,000."
+  },
+  {
+   "key": "goalWeight",
+   "raw": "100001",
+   "out": "Enter a goal weight between 20 and 1,000."
+  },
+  {
+   "key": "goalWeight",
+   "raw": "0",
+   "out": "Enter a goal weight between 20 and 1,000."
+  },
+  {
+   "key": "goalWeight",
+   "raw": "-0",
+   "out": "Enter a goal weight between 20 and 1,000."
+  },
+  {
+   "key": "goalWeight",
+   "raw": ".5",
+   "out": "Enter a goal weight between 20 and 1,000."
+  },
+  {
+   "key": "goalWeight",
+   "raw": "20",
+   "out": null
+  },
+  {
+   "key": "goalWeight",
+   "raw": "19.99",
+   "out": "Enter a goal weight between 20 and 1,000."
+  },
+  {
+   "key": "goalWeight",
+   "raw": "1000",
+   "out": null
+  },
+  {
+   "key": "goalWeight",
+   "raw": "1000.01",
+   "out": "Enter a goal weight between 20 and 1,000."
+  },
+  {
+   "key": "goalWeight",
+   "raw": "200000",
+   "out": "Enter a goal weight between 20 and 1,000."
+  },
+  {
+   "key": "goalWeight",
+   "raw": "1440",
+   "out": "Enter a goal weight between 20 and 1,000."
+  },
+  {
+   "key": "goalWeight",
+   "raw": "1441",
+   "out": "Enter a goal weight between 20 and 1,000."
+  },
+  {
+   "key": "goalWeight",
+   "raw": "50",
+   "out": null
+  },
+  {
+   "key": "goalWeight",
+   "raw": "51",
+   "out": null
+  },
+  {
+   "key": "goalWeight",
+   "raw": "1",
+   "out": "Enter a goal weight between 20 and 1,000."
+  },
+  {
+   "key": "dailyCalorieTarget",
+   "raw": "",
+   "out": null
+  },
+  {
+   "key": "dailyCalorieTarget",
+   "raw": "   ",
+   "out": null
+  },
+  {
+   "key": "dailyCalorieTarget",
+   "raw": "abc",
+   "out": "Enter a valid calorie target."
+  },
+  {
+   "key": "dailyCalorieTarget",
+   "raw": "50",
+   "out": "Enter a calorie target between 800 and 10,000 kcal."
+  },
+  {
+   "key": "dailyCalorieTarget",
+   "raw": "13",
+   "out": "Enter a calorie target between 800 and 10,000 kcal."
+  },
+  {
+   "key": "dailyCalorieTarget",
+   "raw": "12",
+   "out": "Enter a calorie target between 800 and 10,000 kcal."
+  },
+  {
+   "key": "dailyCalorieTarget",
+   "raw": "120",
+   "out": "Enter a calorie target between 800 and 10,000 kcal."
+  },
+  {
+   "key": "dailyCalorieTarget",
+   "raw": "121",
+   "out": "Enter a calorie target between 800 and 10,000 kcal."
+  },
+  {
+   "key": "dailyCalorieTarget",
+   "raw": "12.5",
+   "out": "Enter your calorie target as a whole number."
+  },
+  {
+   "key": "dailyCalorieTarget",
+   "raw": "80.5",
+   "out": "Enter your calorie target as a whole number."
+  },
+  {
+   "key": "dailyCalorieTarget",
+   "raw": "1e3",
+   "out": null
+  },
+  {
+   "key": "dailyCalorieTarget",
+   "raw": "0x10",
+   "out": "Enter a calorie target between 800 and 10,000 kcal."
+  },
+  {
+   "key": "dailyCalorieTarget",
+   "raw": "-5",
+   "out": "Enter a calorie target between 800 and 10,000 kcal."
+  },
+  {
+   "key": "dailyCalorieTarget",
+   "raw": "1,000",
+   "out": "Enter a valid calorie target."
+  },
+  {
+   "key": "dailyCalorieTarget",
+   "raw": "Infinity",
+   "out": "Enter a valid calorie target."
+  },
+  {
+   "key": "dailyCalorieTarget",
+   "raw": "10000",
+   "out": null
+  },
+  {
+   "key": "dailyCalorieTarget",
+   "raw": "10001",
+   "out": "Enter a calorie target between 800 and 10,000 kcal."
+  },
+  {
+   "key": "dailyCalorieTarget",
+   "raw": "799",
+   "out": "Enter a calorie target between 800 and 10,000 kcal."
+  },
+  {
+   "key": "dailyCalorieTarget",
+   "raw": "800",
+   "out": null
+  },
+  {
+   "key": "dailyCalorieTarget",
+   "raw": " 900 ",
+   "out": null
+  },
+  {
+   "key": "dailyCalorieTarget",
+   "raw": "100000",
+   "out": "Enter a calorie target between 800 and 10,000 kcal."
+  },
+  {
+   "key": "dailyCalorieTarget",
+   "raw": "100001",
+   "out": "Enter a calorie target between 800 and 10,000 kcal."
+  },
+  {
+   "key": "dailyCalorieTarget",
+   "raw": "0",
+   "out": "Enter a calorie target between 800 and 10,000 kcal."
+  },
+  {
+   "key": "dailyCalorieTarget",
+   "raw": "-0",
+   "out": "Enter a calorie target between 800 and 10,000 kcal."
+  },
+  {
+   "key": "dailyCalorieTarget",
+   "raw": ".5",
+   "out": "Enter your calorie target as a whole number."
+  },
+  {
+   "key": "dailyCalorieTarget",
+   "raw": "20",
+   "out": "Enter a calorie target between 800 and 10,000 kcal."
+  },
+  {
+   "key": "dailyCalorieTarget",
+   "raw": "19.99",
+   "out": "Enter your calorie target as a whole number."
+  },
+  {
+   "key": "dailyCalorieTarget",
+   "raw": "1000",
+   "out": null
+  },
+  {
+   "key": "dailyCalorieTarget",
+   "raw": "1000.01",
+   "out": "Enter your calorie target as a whole number."
+  },
+  {
+   "key": "dailyCalorieTarget",
+   "raw": "200000",
+   "out": "Enter a calorie target between 800 and 10,000 kcal."
+  },
+  {
+   "key": "dailyCalorieTarget",
+   "raw": "1440",
+   "out": null
+  },
+  {
+   "key": "dailyCalorieTarget",
+   "raw": "1441",
+   "out": null
+  },
+  {
+   "key": "dailyCalorieTarget",
+   "raw": "50",
+   "out": "Enter a calorie target between 800 and 10,000 kcal."
+  },
+  {
+   "key": "dailyCalorieTarget",
+   "raw": "51",
+   "out": "Enter a calorie target between 800 and 10,000 kcal."
+  },
+  {
+   "key": "dailyCalorieTarget",
+   "raw": "1",
+   "out": "Enter a calorie target between 800 and 10,000 kcal."
+  },
+  {
+   "key": "dailyStepTarget",
+   "raw": "",
+   "out": null
+  },
+  {
+   "key": "dailyStepTarget",
+   "raw": "   ",
+   "out": null
+  },
+  {
+   "key": "dailyStepTarget",
+   "raw": "abc",
+   "out": "Enter a valid step target."
+  },
+  {
+   "key": "dailyStepTarget",
+   "raw": "50",
+   "out": null
+  },
+  {
+   "key": "dailyStepTarget",
+   "raw": "13",
+   "out": null
+  },
+  {
+   "key": "dailyStepTarget",
+   "raw": "12",
+   "out": null
+  },
+  {
+   "key": "dailyStepTarget",
+   "raw": "120",
+   "out": null
+  },
+  {
+   "key": "dailyStepTarget",
+   "raw": "121",
+   "out": null
+  },
+  {
+   "key": "dailyStepTarget",
+   "raw": "12.5",
+   "out": "Enter your step target as a whole number."
+  },
+  {
+   "key": "dailyStepTarget",
+   "raw": "80.5",
+   "out": "Enter your step target as a whole number."
+  },
+  {
+   "key": "dailyStepTarget",
+   "raw": "1e3",
+   "out": null
+  },
+  {
+   "key": "dailyStepTarget",
+   "raw": "0x10",
+   "out": null
+  },
+  {
+   "key": "dailyStepTarget",
+   "raw": "-5",
+   "out": "Enter a step target between 0 and 100,000 steps."
+  },
+  {
+   "key": "dailyStepTarget",
+   "raw": "1,000",
+   "out": "Enter a valid step target."
+  },
+  {
+   "key": "dailyStepTarget",
+   "raw": "Infinity",
+   "out": "Enter a valid step target."
+  },
+  {
+   "key": "dailyStepTarget",
+   "raw": "10000",
+   "out": null
+  },
+  {
+   "key": "dailyStepTarget",
+   "raw": "10001",
+   "out": null
+  },
+  {
+   "key": "dailyStepTarget",
+   "raw": "799",
+   "out": null
+  },
+  {
+   "key": "dailyStepTarget",
+   "raw": "800",
+   "out": null
+  },
+  {
+   "key": "dailyStepTarget",
+   "raw": " 900 ",
+   "out": null
+  },
+  {
+   "key": "dailyStepTarget",
+   "raw": "100000",
+   "out": null
+  },
+  {
+   "key": "dailyStepTarget",
+   "raw": "100001",
+   "out": "Enter a step target between 0 and 100,000 steps."
+  },
+  {
+   "key": "dailyStepTarget",
+   "raw": "0",
+   "out": null
+  },
+  {
+   "key": "dailyStepTarget",
+   "raw": "-0",
+   "out": null
+  },
+  {
+   "key": "dailyStepTarget",
+   "raw": ".5",
+   "out": "Enter your step target as a whole number."
+  },
+  {
+   "key": "dailyStepTarget",
+   "raw": "20",
+   "out": null
+  },
+  {
+   "key": "dailyStepTarget",
+   "raw": "19.99",
+   "out": "Enter your step target as a whole number."
+  },
+  {
+   "key": "dailyStepTarget",
+   "raw": "1000",
+   "out": null
+  },
+  {
+   "key": "dailyStepTarget",
+   "raw": "1000.01",
+   "out": "Enter your step target as a whole number."
+  },
+  {
+   "key": "dailyStepTarget",
+   "raw": "200000",
+   "out": "Enter a step target between 0 and 100,000 steps."
+  },
+  {
+   "key": "dailyStepTarget",
+   "raw": "1440",
+   "out": null
+  },
+  {
+   "key": "dailyStepTarget",
+   "raw": "1441",
+   "out": null
+  },
+  {
+   "key": "dailyStepTarget",
+   "raw": "50",
+   "out": null
+  },
+  {
+   "key": "dailyStepTarget",
+   "raw": "51",
+   "out": null
+  },
+  {
+   "key": "dailyStepTarget",
+   "raw": "1",
+   "out": null
+  },
+  {
+   "key": "cardioMinutes",
+   "raw": "",
+   "out": null
+  },
+  {
+   "key": "cardioMinutes",
+   "raw": "   ",
+   "out": null
+  },
+  {
+   "key": "cardioMinutes",
+   "raw": "abc",
+   "out": "Enter a valid cardio duration."
+  },
+  {
+   "key": "cardioMinutes",
+   "raw": "50",
+   "out": null
+  },
+  {
+   "key": "cardioMinutes",
+   "raw": "13",
+   "out": null
+  },
+  {
+   "key": "cardioMinutes",
+   "raw": "12",
+   "out": null
+  },
+  {
+   "key": "cardioMinutes",
+   "raw": "120",
+   "out": null
+  },
+  {
+   "key": "cardioMinutes",
+   "raw": "121",
+   "out": null
+  },
+  {
+   "key": "cardioMinutes",
+   "raw": "12.5",
+   "out": "Enter your cardio duration as a whole number."
+  },
+  {
+   "key": "cardioMinutes",
+   "raw": "80.5",
+   "out": "Enter your cardio duration as a whole number."
+  },
+  {
+   "key": "cardioMinutes",
+   "raw": "1e3",
+   "out": null
+  },
+  {
+   "key": "cardioMinutes",
+   "raw": "0x10",
+   "out": null
+  },
+  {
+   "key": "cardioMinutes",
+   "raw": "-5",
+   "out": "Enter a cardio duration between 0 and 1,440 minutes."
+  },
+  {
+   "key": "cardioMinutes",
+   "raw": "1,000",
+   "out": "Enter a valid cardio duration."
+  },
+  {
+   "key": "cardioMinutes",
+   "raw": "Infinity",
+   "out": "Enter a valid cardio duration."
+  },
+  {
+   "key": "cardioMinutes",
+   "raw": "10000",
+   "out": "Enter a cardio duration between 0 and 1,440 minutes."
+  },
+  {
+   "key": "cardioMinutes",
+   "raw": "10001",
+   "out": "Enter a cardio duration between 0 and 1,440 minutes."
+  },
+  {
+   "key": "cardioMinutes",
+   "raw": "799",
+   "out": null
+  },
+  {
+   "key": "cardioMinutes",
+   "raw": "800",
+   "out": null
+  },
+  {
+   "key": "cardioMinutes",
+   "raw": " 900 ",
+   "out": null
+  },
+  {
+   "key": "cardioMinutes",
+   "raw": "100000",
+   "out": "Enter a cardio duration between 0 and 1,440 minutes."
+  },
+  {
+   "key": "cardioMinutes",
+   "raw": "100001",
+   "out": "Enter a cardio duration between 0 and 1,440 minutes."
+  },
+  {
+   "key": "cardioMinutes",
+   "raw": "0",
+   "out": null
+  },
+  {
+   "key": "cardioMinutes",
+   "raw": "-0",
+   "out": null
+  },
+  {
+   "key": "cardioMinutes",
+   "raw": ".5",
+   "out": "Enter your cardio duration as a whole number."
+  },
+  {
+   "key": "cardioMinutes",
+   "raw": "20",
+   "out": null
+  },
+  {
+   "key": "cardioMinutes",
+   "raw": "19.99",
+   "out": "Enter your cardio duration as a whole number."
+  },
+  {
+   "key": "cardioMinutes",
+   "raw": "1000",
+   "out": null
+  },
+  {
+   "key": "cardioMinutes",
+   "raw": "1000.01",
+   "out": "Enter your cardio duration as a whole number."
+  },
+  {
+   "key": "cardioMinutes",
+   "raw": "200000",
+   "out": "Enter a cardio duration between 0 and 1,440 minutes."
+  },
+  {
+   "key": "cardioMinutes",
+   "raw": "1440",
+   "out": null
+  },
+  {
+   "key": "cardioMinutes",
+   "raw": "1441",
+   "out": "Enter a cardio duration between 0 and 1,440 minutes."
+  },
+  {
+   "key": "cardioMinutes",
+   "raw": "50",
+   "out": null
+  },
+  {
+   "key": "cardioMinutes",
+   "raw": "51",
+   "out": null
+  },
+  {
+   "key": "cardioMinutes",
+   "raw": "1",
+   "out": null
+  },
+  {
+   "key": "calories",
+   "raw": "",
+   "out": null
+  },
+  {
+   "key": "calories",
+   "raw": "   ",
+   "out": null
+  },
+  {
+   "key": "calories",
+   "raw": "abc",
+   "out": "Enter a valid calorie count."
+  },
+  {
+   "key": "calories",
+   "raw": "50",
+   "out": null
+  },
+  {
+   "key": "calories",
+   "raw": "13",
+   "out": null
+  },
+  {
+   "key": "calories",
+   "raw": "12",
+   "out": null
+  },
+  {
+   "key": "calories",
+   "raw": "120",
+   "out": null
+  },
+  {
+   "key": "calories",
+   "raw": "121",
+   "out": null
+  },
+  {
+   "key": "calories",
+   "raw": "12.5",
+   "out": "Enter your calorie count as a whole number."
+  },
+  {
+   "key": "calories",
+   "raw": "80.5",
+   "out": "Enter your calorie count as a whole number."
+  },
+  {
+   "key": "calories",
+   "raw": "1e3",
+   "out": null
+  },
+  {
+   "key": "calories",
+   "raw": "0x10",
+   "out": null
+  },
+  {
+   "key": "calories",
+   "raw": "-5",
+   "out": "Enter a calorie count between 0 and 20,000 kcal."
+  },
+  {
+   "key": "calories",
+   "raw": "1,000",
+   "out": "Enter a valid calorie count."
+  },
+  {
+   "key": "calories",
+   "raw": "Infinity",
+   "out": "Enter a valid calorie count."
+  },
+  {
+   "key": "calories",
+   "raw": "10000",
+   "out": null
+  },
+  {
+   "key": "calories",
+   "raw": "10001",
+   "out": null
+  },
+  {
+   "key": "calories",
+   "raw": "799",
+   "out": null
+  },
+  {
+   "key": "calories",
+   "raw": "800",
+   "out": null
+  },
+  {
+   "key": "calories",
+   "raw": " 900 ",
+   "out": null
+  },
+  {
+   "key": "calories",
+   "raw": "100000",
+   "out": "Enter a calorie count between 0 and 20,000 kcal."
+  },
+  {
+   "key": "calories",
+   "raw": "100001",
+   "out": "Enter a calorie count between 0 and 20,000 kcal."
+  },
+  {
+   "key": "calories",
+   "raw": "0",
+   "out": null
+  },
+  {
+   "key": "calories",
+   "raw": "-0",
+   "out": null
+  },
+  {
+   "key": "calories",
+   "raw": ".5",
+   "out": "Enter your calorie count as a whole number."
+  },
+  {
+   "key": "calories",
+   "raw": "20",
+   "out": null
+  },
+  {
+   "key": "calories",
+   "raw": "19.99",
+   "out": "Enter your calorie count as a whole number."
+  },
+  {
+   "key": "calories",
+   "raw": "1000",
+   "out": null
+  },
+  {
+   "key": "calories",
+   "raw": "1000.01",
+   "out": "Enter your calorie count as a whole number."
+  },
+  {
+   "key": "calories",
+   "raw": "200000",
+   "out": "Enter a calorie count between 0 and 20,000 kcal."
+  },
+  {
+   "key": "calories",
+   "raw": "1440",
+   "out": null
+  },
+  {
+   "key": "calories",
+   "raw": "1441",
+   "out": null
+  },
+  {
+   "key": "calories",
+   "raw": "50",
+   "out": null
+  },
+  {
+   "key": "calories",
+   "raw": "51",
+   "out": null
+  },
+  {
+   "key": "calories",
+   "raw": "1",
+   "out": null
+  },
+  {
+   "key": "steps",
+   "raw": "",
+   "out": null
+  },
+  {
+   "key": "steps",
+   "raw": "   ",
+   "out": null
+  },
+  {
+   "key": "steps",
+   "raw": "abc",
+   "out": "Enter a valid step count."
+  },
+  {
+   "key": "steps",
+   "raw": "50",
+   "out": null
+  },
+  {
+   "key": "steps",
+   "raw": "13",
+   "out": null
+  },
+  {
+   "key": "steps",
+   "raw": "12",
+   "out": null
+  },
+  {
+   "key": "steps",
+   "raw": "120",
+   "out": null
+  },
+  {
+   "key": "steps",
+   "raw": "121",
+   "out": null
+  },
+  {
+   "key": "steps",
+   "raw": "12.5",
+   "out": "Enter your step count as a whole number."
+  },
+  {
+   "key": "steps",
+   "raw": "80.5",
+   "out": "Enter your step count as a whole number."
+  },
+  {
+   "key": "steps",
+   "raw": "1e3",
+   "out": null
+  },
+  {
+   "key": "steps",
+   "raw": "0x10",
+   "out": null
+  },
+  {
+   "key": "steps",
+   "raw": "-5",
+   "out": "Enter a step count between 0 and 200,000 steps."
+  },
+  {
+   "key": "steps",
+   "raw": "1,000",
+   "out": "Enter a valid step count."
+  },
+  {
+   "key": "steps",
+   "raw": "Infinity",
+   "out": "Enter a valid step count."
+  },
+  {
+   "key": "steps",
+   "raw": "10000",
+   "out": null
+  },
+  {
+   "key": "steps",
+   "raw": "10001",
+   "out": null
+  },
+  {
+   "key": "steps",
+   "raw": "799",
+   "out": null
+  },
+  {
+   "key": "steps",
+   "raw": "800",
+   "out": null
+  },
+  {
+   "key": "steps",
+   "raw": " 900 ",
+   "out": null
+  },
+  {
+   "key": "steps",
+   "raw": "100000",
+   "out": null
+  },
+  {
+   "key": "steps",
+   "raw": "100001",
+   "out": null
+  },
+  {
+   "key": "steps",
+   "raw": "0",
+   "out": null
+  },
+  {
+   "key": "steps",
+   "raw": "-0",
+   "out": null
+  },
+  {
+   "key": "steps",
+   "raw": ".5",
+   "out": "Enter your step count as a whole number."
+  },
+  {
+   "key": "steps",
+   "raw": "20",
+   "out": null
+  },
+  {
+   "key": "steps",
+   "raw": "19.99",
+   "out": "Enter your step count as a whole number."
+  },
+  {
+   "key": "steps",
+   "raw": "1000",
+   "out": null
+  },
+  {
+   "key": "steps",
+   "raw": "1000.01",
+   "out": "Enter your step count as a whole number."
+  },
+  {
+   "key": "steps",
+   "raw": "200000",
+   "out": null
+  },
+  {
+   "key": "steps",
+   "raw": "1440",
+   "out": null
+  },
+  {
+   "key": "steps",
+   "raw": "1441",
+   "out": null
+  },
+  {
+   "key": "steps",
+   "raw": "50",
+   "out": null
+  },
+  {
+   "key": "steps",
+   "raw": "51",
+   "out": null
+  },
+  {
+   "key": "steps",
+   "raw": "1",
+   "out": null
+  },
+  {
+   "key": "sets",
+   "raw": "",
+   "out": null
+  },
+  {
+   "key": "sets",
+   "raw": "   ",
+   "out": null
+  },
+  {
+   "key": "sets",
+   "raw": "abc",
+   "out": "Enter a valid set count."
+  },
+  {
+   "key": "sets",
+   "raw": "50",
+   "out": null
+  },
+  {
+   "key": "sets",
+   "raw": "13",
+   "out": null
+  },
+  {
+   "key": "sets",
+   "raw": "12",
+   "out": null
+  },
+  {
+   "key": "sets",
+   "raw": "120",
+   "out": "Enter a set count between 1 and 50."
+  },
+  {
+   "key": "sets",
+   "raw": "121",
+   "out": "Enter a set count between 1 and 50."
+  },
+  {
+   "key": "sets",
+   "raw": "12.5",
+   "out": "Enter your set count as a whole number."
+  },
+  {
+   "key": "sets",
+   "raw": "80.5",
+   "out": "Enter your set count as a whole number."
+  },
+  {
+   "key": "sets",
+   "raw": "1e3",
+   "out": "Enter a set count between 1 and 50."
+  },
+  {
+   "key": "sets",
+   "raw": "0x10",
+   "out": null
+  },
+  {
+   "key": "sets",
+   "raw": "-5",
+   "out": "Enter a set count between 1 and 50."
+  },
+  {
+   "key": "sets",
+   "raw": "1,000",
+   "out": "Enter a valid set count."
+  },
+  {
+   "key": "sets",
+   "raw": "Infinity",
+   "out": "Enter a valid set count."
+  },
+  {
+   "key": "sets",
+   "raw": "10000",
+   "out": "Enter a set count between 1 and 50."
+  },
+  {
+   "key": "sets",
+   "raw": "10001",
+   "out": "Enter a set count between 1 and 50."
+  },
+  {
+   "key": "sets",
+   "raw": "799",
+   "out": "Enter a set count between 1 and 50."
+  },
+  {
+   "key": "sets",
+   "raw": "800",
+   "out": "Enter a set count between 1 and 50."
+  },
+  {
+   "key": "sets",
+   "raw": " 900 ",
+   "out": "Enter a set count between 1 and 50."
+  },
+  {
+   "key": "sets",
+   "raw": "100000",
+   "out": "Enter a set count between 1 and 50."
+  },
+  {
+   "key": "sets",
+   "raw": "100001",
+   "out": "Enter a set count between 1 and 50."
+  },
+  {
+   "key": "sets",
+   "raw": "0",
+   "out": "Enter a set count between 1 and 50."
+  },
+  {
+   "key": "sets",
+   "raw": "-0",
+   "out": "Enter a set count between 1 and 50."
+  },
+  {
+   "key": "sets",
+   "raw": ".5",
+   "out": "Enter your set count as a whole number."
+  },
+  {
+   "key": "sets",
+   "raw": "20",
+   "out": null
+  },
+  {
+   "key": "sets",
+   "raw": "19.99",
+   "out": "Enter your set count as a whole number."
+  },
+  {
+   "key": "sets",
+   "raw": "1000",
+   "out": "Enter a set count between 1 and 50."
+  },
+  {
+   "key": "sets",
+   "raw": "1000.01",
+   "out": "Enter your set count as a whole number."
+  },
+  {
+   "key": "sets",
+   "raw": "200000",
+   "out": "Enter a set count between 1 and 50."
+  },
+  {
+   "key": "sets",
+   "raw": "1440",
+   "out": "Enter a set count between 1 and 50."
+  },
+  {
+   "key": "sets",
+   "raw": "1441",
+   "out": "Enter a set count between 1 and 50."
+  },
+  {
+   "key": "sets",
+   "raw": "50",
+   "out": null
+  },
+  {
+   "key": "sets",
+   "raw": "51",
+   "out": "Enter a set count between 1 and 50."
+  },
+  {
+   "key": "sets",
+   "raw": "1",
+   "out": null
+  }
+ ],
+ "clampToBounds": [
+  {
+   "in": [
+    -1,
+    0,
+    10
+   ],
+   "out": 0
+  },
+  {
+   "in": [
+    5,
+    0,
+    10
+   ],
+   "out": 5
+  },
+  {
+   "in": [
+    11,
+    0,
+    10
+   ],
+   "out": 10
+  },
+  {
+   "in": [
+    "NaN",
+    3,
+    10
+   ],
+   "out": 3
+  },
+  {
+   "in": [
+    "Infinity",
+    0,
+    10
+   ],
+   "out": 0
+  },
+  {
+   "in": [
+    "-Infinity",
+    2,
+    10
+   ],
+   "out": 2
+  },
+  {
+   "in": [
+    2000.5,
+    0,
+    2000
+   ],
+   "out": 2000
+  }
+ ],
+ "allInRange": [
+  {
+   "in": [
+    [
+     "",
+     "age"
+    ],
+    [
+     "30",
+     "age"
+    ]
+   ],
+   "out": true
+  },
+  {
+   "in": [
+    [
+     "30",
+     "age"
+    ],
+    [
+     "5",
+     "weight"
+    ]
+   ],
+   "out": false
+  },
+  {
+   "in": [],
+   "out": true
+  }
+ ]
+}

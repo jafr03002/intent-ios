@@ -1,0 +1,19 @@
+{
+  "status": 200,
+  "body": {
+    "stats": [
+      {
+        "dayLabel": "Push",
+        "dayNumber": 1,
+        "averageSeconds": 3480,
+        "sampleCount": 4
+      },
+      {
+        "dayLabel": "Pull",
+        "dayNumber": 2,
+        "averageSeconds": 3300,
+        "sampleCount": 2
+      }
+    ]
+  }
+}

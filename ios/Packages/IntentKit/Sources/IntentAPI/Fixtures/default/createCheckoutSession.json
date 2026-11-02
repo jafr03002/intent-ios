@@ -1,0 +1,6 @@
+{
+  "status": 200,
+  "body": {
+    "url": "https://checkout.stripe.com/c/pay/cs_test_mock"
+  }
+}

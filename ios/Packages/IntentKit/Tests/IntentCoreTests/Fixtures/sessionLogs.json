@@ -1,0 +1,2787 @@
+{
+ "isEmptySet": [
+  {
+   "in": null,
+   "out": true
+  },
+  {
+   "in": {
+    "setNumber": 1,
+    "weight": 0,
+    "reps": 0,
+    "completed": true
+   },
+   "out": true
+  },
+  {
+   "in": {
+    "setNumber": 1,
+    "weight": 80,
+    "reps": 8,
+    "completed": true
+   },
+   "out": false
+  },
+  {
+   "in": {
+    "setNumber": 1,
+    "weight": 82.5,
+    "reps": null,
+    "completed": true
+   },
+   "out": false
+  },
+  {
+   "in": {
+    "setNumber": 1,
+    "weight": 20,
+    "reps": null,
+    "completed": true,
+    "repsLeft": 10,
+    "repsRight": null
+   },
+   "out": false
+  },
+  {
+   "in": {
+    "setNumber": 1,
+    "weight": 0,
+    "reps": 12,
+    "completed": true
+   },
+   "out": false
+  },
+  {
+   "in": {
+    "setNumber": 1,
+    "weight": 0,
+    "reps": null,
+    "completed": true,
+    "repsLeft": 0,
+    "repsRight": 3
+   },
+   "out": false
+  },
+  {
+   "in": {
+    "setNumber": 1,
+    "weight": 0.30000000000000004,
+    "reps": 3,
+    "completed": true
+   },
+   "out": false
+  }
+ ],
+ "formatShortDate": [
+  {
+   "tz": "Europe/Stockholm",
+   "in": null,
+   "out": null
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": "",
+   "out": null
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": "2026-08-12",
+   "out": "12 Aug"
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": "2026-09-03T23:30:00Z",
+   "out": "4 Sept"
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": "2026-12-31T23:59:59.999Z",
+   "out": "1 Jan"
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": "2026-01-01T00:00:00",
+   "out": "1 Jan"
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": "garbage",
+   "out": null
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": "2026-10-25T00:30:00+02:00",
+   "out": "25 Oct"
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": null,
+   "out": null
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": "",
+   "out": null
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": "2026-08-12",
+   "out": "11 Aug"
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": "2026-09-03T23:30:00Z",
+   "out": "3 Sept"
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": "2026-12-31T23:59:59.999Z",
+   "out": "31 Dec"
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": "2026-01-01T00:00:00",
+   "out": "1 Jan"
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": "garbage",
+   "out": null
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": "2026-10-25T00:30:00+02:00",
+   "out": "24 Oct"
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": null,
+   "out": null
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": "",
+   "out": null
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": "2026-08-12",
+   "out": "12 Aug"
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": "2026-09-03T23:30:00Z",
+   "out": "4 Sept"
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": "2026-12-31T23:59:59.999Z",
+   "out": "1 Jan"
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": "2026-01-01T00:00:00",
+   "out": "1 Jan"
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": "garbage",
+   "out": null
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": "2026-10-25T00:30:00+02:00",
+   "out": "25 Oct"
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": null,
+   "out": null
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": "",
+   "out": null
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": "2026-08-12",
+   "out": "12 Aug"
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": "2026-09-03T23:30:00Z",
+   "out": "4 Sept"
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": "2026-12-31T23:59:59.999Z",
+   "out": "1 Jan"
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": "2026-01-01T00:00:00",
+   "out": "1 Jan"
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": "garbage",
+   "out": null
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": "2026-10-25T00:30:00+02:00",
+   "out": "25 Oct"
+  },
+  {
+   "tz": "UTC",
+   "in": null,
+   "out": null
+  },
+  {
+   "tz": "UTC",
+   "in": "",
+   "out": null
+  },
+  {
+   "tz": "UTC",
+   "in": "2026-08-12",
+   "out": "12 Aug"
+  },
+  {
+   "tz": "UTC",
+   "in": "2026-09-03T23:30:00Z",
+   "out": "3 Sept"
+  },
+  {
+   "tz": "UTC",
+   "in": "2026-12-31T23:59:59.999Z",
+   "out": "31 Dec"
+  },
+  {
+   "tz": "UTC",
+   "in": "2026-01-01T00:00:00",
+   "out": "1 Jan"
+  },
+  {
+   "tz": "UTC",
+   "in": "garbage",
+   "out": null
+  },
+  {
+   "tz": "UTC",
+   "in": "2026-10-25T00:30:00+02:00",
+   "out": "24 Oct"
+  }
+ ],
+ "dayStructureKey": [
+  {
+   "in": {
+    "dayNumber": 1,
+    "label": "Push",
+    "focus": "Chest",
+    "exercises": [
+     {
+      "name": "Hip mobility",
+      "sets": 2,
+      "reps": "",
+      "muscle": "",
+      "kind": "checklist",
+      "targetType": "duration",
+      "targetSeconds": 150,
+      "category": "mobility"
+     },
+     {
+      "name": "Bench Press",
+      "sets": 3,
+      "reps": "6-8",
+      "muscle": "Chest"
+     },
+     {
+      "name": "Single-arm Row",
+      "sets": 2,
+      "reps": "10-12",
+      "muscle": "Upper Back",
+      "isUnilateral": true
+     },
+     {
+      "name": "Plank",
+      "sets": 1,
+      "reps": "",
+      "muscle": "",
+      "kind": "checklist",
+      "targetType": "count",
+      "targetValue": 20,
+      "category": "nonsense"
+     },
+     {
+      "name": "Lateral Raise",
+      "sets": 0,
+      "reps": "12-15",
+      "muscle": "Chest"
+     }
+    ]
+   },
+   "out": "checklist:Hip mobility:2::150|lift:Bench Press:3:6-8:|lift:Single-arm Row:2:10-12:|checklist:Plank:1::|lift:Lateral Raise:0:12-15:"
+  },
+  {
+   "in": null,
+   "out": ""
+  },
+  {
+   "in": {
+    "dayNumber": 2,
+    "label": "",
+    "focus": "",
+    "exercises": []
+   },
+   "out": ""
+  }
+ ],
+ "buildFreshLogs": [
+  {
+   "in": {
+    "dayNumber": 1,
+    "label": "Push",
+    "focus": "Chest",
+    "exercises": [
+     {
+      "name": "Hip mobility",
+      "sets": 2,
+      "reps": "",
+      "muscle": "",
+      "kind": "checklist",
+      "targetType": "duration",
+      "targetSeconds": 150,
+      "category": "mobility"
+     },
+     {
+      "name": "Bench Press",
+      "sets": 3,
+      "reps": "6-8",
+      "muscle": "Chest"
+     },
+     {
+      "name": "Single-arm Row",
+      "sets": 2,
+      "reps": "10-12",
+      "muscle": "Upper Back",
+      "isUnilateral": true
+     },
+     {
+      "name": "Plank",
+      "sets": 1,
+      "reps": "",
+      "muscle": "",
+      "kind": "checklist",
+      "targetType": "count",
+      "targetValue": 20,
+      "category": "nonsense"
+     },
+     {
+      "name": "Lateral Raise",
+      "sets": 0,
+      "reps": "12-15",
+      "muscle": "Chest"
+     }
+    ]
+   },
+   "out": [
+    {
+     "name": "Hip mobility",
+     "muscle": "",
+     "isUnilateral": false,
+     "targetSets": 2,
+     "targetReps": "",
+     "notes": "",
+     "showNotes": false,
+     "kind": "checklist",
+     "targetType": "duration",
+     "targetSeconds": 150,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": "mobility",
+     "completedRounds": 0,
+     "targetRounds": 2,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": []
+    },
+    {
+     "name": "Bench Press",
+     "muscle": "Chest",
+     "isUnilateral": false,
+     "targetSets": 3,
+     "targetReps": "6-8",
+     "notes": "",
+     "showNotes": false,
+     "kind": "lift",
+     "targetType": null,
+     "targetSeconds": null,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": null,
+     "completedRounds": 0,
+     "targetRounds": 3,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": [
+      {
+       "setNumber": 1,
+       "weight": 0,
+       "reps": 0,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": false,
+       "isNewPr": false
+      },
+      {
+       "setNumber": 2,
+       "weight": 0,
+       "reps": 0,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": false,
+       "isNewPr": false
+      },
+      {
+       "setNumber": 3,
+       "weight": 0,
+       "reps": 0,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": false,
+       "isNewPr": false
+      }
+     ]
+    },
+    {
+     "name": "Single-arm Row",
+     "muscle": "Upper Back",
+     "isUnilateral": true,
+     "targetSets": 2,
+     "targetReps": "10-12",
+     "notes": "",
+     "showNotes": false,
+     "kind": "lift",
+     "targetType": null,
+     "targetSeconds": null,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": null,
+     "completedRounds": 0,
+     "targetRounds": 2,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": [
+      {
+       "setNumber": 1,
+       "weight": 0,
+       "reps": 0,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": false,
+       "isNewPr": false
+      },
+      {
+       "setNumber": 2,
+       "weight": 0,
+       "reps": 0,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": false,
+       "isNewPr": false
+      }
+     ]
+    },
+    {
+     "name": "Plank",
+     "muscle": "",
+     "isUnilateral": false,
+     "targetSets": 1,
+     "targetReps": "",
+     "notes": "",
+     "showNotes": false,
+     "kind": "checklist",
+     "targetType": "count",
+     "targetSeconds": null,
+     "targetValue": 20,
+     "targetUnit": null,
+     "category": null,
+     "completedRounds": 0,
+     "targetRounds": 1,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": []
+    },
+    {
+     "name": "Lateral Raise",
+     "muscle": "Chest",
+     "isUnilateral": false,
+     "targetSets": 0,
+     "targetReps": "12-15",
+     "notes": "",
+     "showNotes": false,
+     "kind": "lift",
+     "targetType": null,
+     "targetSeconds": null,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": null,
+     "completedRounds": 0,
+     "targetRounds": 1,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": []
+    }
+   ]
+  }
+ ],
+ "reconcileDraftLogs": [
+  {
+   "name": "full",
+   "now": 1792924200000,
+   "draft": [
+    {
+     "name": "Hip mobility",
+     "muscle": "",
+     "isUnilateral": false,
+     "targetSets": 2,
+     "targetReps": "",
+     "notes": "tight hips",
+     "showNotes": true,
+     "kind": "checklist",
+     "targetType": "duration",
+     "targetSeconds": 150,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": "mobility",
+     "completedRounds": 5,
+     "targetRounds": 2,
+     "timerEndsAt": 1792924260000,
+     "timerPausedRemaining": 12,
+     "sets": []
+    },
+    {
+     "name": "BENCH PRESS",
+     "muscle": "Chest",
+     "isUnilateral": false,
+     "targetSets": 3,
+     "targetReps": "6-8",
+     "notes": "felt strong",
+     "showNotes": false,
+     "kind": "lift",
+     "targetType": null,
+     "targetSeconds": null,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": null,
+     "completedRounds": 0,
+     "targetRounds": 3,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": [
+      {
+       "setNumber": 9,
+       "weight": 100,
+       "reps": 6,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": true,
+       "isNewPr": true
+      },
+      {
+       "setNumber": 9,
+       "weight": 102.5,
+       "reps": 5,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": true,
+       "isNewPr": false
+      },
+      {
+       "setNumber": 9,
+       "weight": 0,
+       "reps": 0,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": false,
+       "isNewPr": false
+      },
+      {
+       "setNumber": 9,
+       "weight": 1,
+       "reps": 1,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": true,
+       "isNewPr": false
+      }
+     ]
+    },
+    {
+     "name": "Single-arm Row",
+     "muscle": "Upper Back",
+     "isUnilateral": true,
+     "targetSets": 2,
+     "targetReps": "10-12",
+     "notes": "",
+     "showNotes": false,
+     "kind": "lift",
+     "targetType": null,
+     "targetSeconds": null,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": null,
+     "completedRounds": 0,
+     "targetRounds": 2,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": [
+      {
+       "setNumber": 1,
+       "weight": 20,
+       "reps": 0,
+       "repsLeft": 10,
+       "repsRight": 9,
+       "completed": true,
+       "isNewPr": false
+      }
+     ]
+    },
+    {
+     "name": "Plank",
+     "muscle": "",
+     "isUnilateral": false,
+     "targetSets": 1,
+     "targetReps": "",
+     "notes": "",
+     "showNotes": false,
+     "kind": "checklist",
+     "targetType": "count",
+     "targetSeconds": null,
+     "targetValue": 20,
+     "targetUnit": null,
+     "category": null,
+     "completedRounds": 0,
+     "targetRounds": 1,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": []
+    },
+    {
+     "name": "Lateral Raise",
+     "muscle": "Chest",
+     "isUnilateral": false,
+     "targetSets": 0,
+     "targetReps": "12-15",
+     "notes": "",
+     "showNotes": false,
+     "kind": "lift",
+     "targetType": null,
+     "targetSeconds": null,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": null,
+     "completedRounds": 0,
+     "targetRounds": 1,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": []
+    }
+   ],
+   "day": {
+    "dayNumber": 1,
+    "label": "Push",
+    "focus": "Chest",
+    "exercises": [
+     {
+      "name": "Hip mobility",
+      "sets": 2,
+      "reps": "",
+      "muscle": "",
+      "kind": "checklist",
+      "targetType": "duration",
+      "targetSeconds": 150,
+      "category": "mobility"
+     },
+     {
+      "name": "Bench Press",
+      "sets": 3,
+      "reps": "6-8",
+      "muscle": "Chest"
+     },
+     {
+      "name": "Single-arm Row",
+      "sets": 2,
+      "reps": "10-12",
+      "muscle": "Upper Back",
+      "isUnilateral": true
+     },
+     {
+      "name": "Plank",
+      "sets": 1,
+      "reps": "",
+      "muscle": "",
+      "kind": "checklist",
+      "targetType": "count",
+      "targetValue": 20,
+      "category": "nonsense"
+     },
+     {
+      "name": "Lateral Raise",
+      "sets": 0,
+      "reps": "12-15",
+      "muscle": "Chest"
+     }
+    ]
+   },
+   "out": [
+    {
+     "name": "Hip mobility",
+     "muscle": "",
+     "isUnilateral": false,
+     "targetSets": 2,
+     "targetReps": "",
+     "notes": "tight hips",
+     "showNotes": true,
+     "kind": "checklist",
+     "targetType": "duration",
+     "targetSeconds": 150,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": "mobility",
+     "completedRounds": 2,
+     "targetRounds": 2,
+     "timerEndsAt": 1792924260000,
+     "timerPausedRemaining": 12,
+     "sets": []
+    },
+    {
+     "name": "Bench Press",
+     "muscle": "Chest",
+     "isUnilateral": false,
+     "targetSets": 3,
+     "targetReps": "6-8",
+     "notes": "felt strong",
+     "showNotes": false,
+     "kind": "lift",
+     "targetType": null,
+     "targetSeconds": null,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": null,
+     "completedRounds": 0,
+     "targetRounds": 3,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": [
+      {
+       "setNumber": 1,
+       "weight": 100,
+       "reps": 6,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": true,
+       "isNewPr": true
+      },
+      {
+       "setNumber": 2,
+       "weight": 102.5,
+       "reps": 5,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": true,
+       "isNewPr": false
+      },
+      {
+       "setNumber": 3,
+       "weight": 0,
+       "reps": 0,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": false,
+       "isNewPr": false
+      }
+     ]
+    },
+    {
+     "name": "Single-arm Row",
+     "muscle": "Upper Back",
+     "isUnilateral": true,
+     "targetSets": 2,
+     "targetReps": "10-12",
+     "notes": "",
+     "showNotes": false,
+     "kind": "lift",
+     "targetType": null,
+     "targetSeconds": null,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": null,
+     "completedRounds": 0,
+     "targetRounds": 2,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": [
+      {
+       "setNumber": 1,
+       "weight": 20,
+       "reps": 0,
+       "repsLeft": 10,
+       "repsRight": 9,
+       "completed": true,
+       "isNewPr": false
+      },
+      {
+       "setNumber": 2,
+       "weight": 0,
+       "reps": 0,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": false,
+       "isNewPr": false
+      }
+     ]
+    },
+    {
+     "name": "Plank",
+     "muscle": "",
+     "isUnilateral": false,
+     "targetSets": 1,
+     "targetReps": "",
+     "notes": "",
+     "showNotes": false,
+     "kind": "checklist",
+     "targetType": "count",
+     "targetSeconds": null,
+     "targetValue": 20,
+     "targetUnit": null,
+     "category": null,
+     "completedRounds": 0,
+     "targetRounds": 1,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": []
+    },
+    {
+     "name": "Lateral Raise",
+     "muscle": "Chest",
+     "isUnilateral": false,
+     "targetSets": 0,
+     "targetReps": "12-15",
+     "notes": "",
+     "showNotes": false,
+     "kind": "lift",
+     "targetType": null,
+     "targetSeconds": null,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": null,
+     "completedRounds": 0,
+     "targetRounds": 1,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": []
+    }
+   ]
+  },
+  {
+   "name": "expired timer",
+   "now": 1792924200000,
+   "draft": [
+    {
+     "name": "Hip mobility",
+     "muscle": "",
+     "isUnilateral": false,
+     "targetSets": 2,
+     "targetReps": "",
+     "notes": "tight hips",
+     "showNotes": true,
+     "kind": "checklist",
+     "targetType": "duration",
+     "targetSeconds": 150,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": "mobility",
+     "completedRounds": 5,
+     "targetRounds": 2,
+     "timerEndsAt": 1792924200000,
+     "timerPausedRemaining": 12,
+     "sets": []
+    },
+    {
+     "name": "BENCH PRESS",
+     "muscle": "Chest",
+     "isUnilateral": false,
+     "targetSets": 3,
+     "targetReps": "6-8",
+     "notes": "felt strong",
+     "showNotes": false,
+     "kind": "lift",
+     "targetType": null,
+     "targetSeconds": null,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": null,
+     "completedRounds": 0,
+     "targetRounds": 3,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": [
+      {
+       "setNumber": 9,
+       "weight": 100,
+       "reps": 6,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": true,
+       "isNewPr": true
+      },
+      {
+       "setNumber": 9,
+       "weight": 102.5,
+       "reps": 5,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": true,
+       "isNewPr": false
+      },
+      {
+       "setNumber": 9,
+       "weight": 0,
+       "reps": 0,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": false,
+       "isNewPr": false
+      },
+      {
+       "setNumber": 9,
+       "weight": 1,
+       "reps": 1,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": true,
+       "isNewPr": false
+      }
+     ]
+    },
+    {
+     "name": "Single-arm Row",
+     "muscle": "Upper Back",
+     "isUnilateral": true,
+     "targetSets": 2,
+     "targetReps": "10-12",
+     "notes": "",
+     "showNotes": false,
+     "kind": "lift",
+     "targetType": null,
+     "targetSeconds": null,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": null,
+     "completedRounds": 0,
+     "targetRounds": 2,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": [
+      {
+       "setNumber": 1,
+       "weight": 20,
+       "reps": 0,
+       "repsLeft": 10,
+       "repsRight": 9,
+       "completed": true,
+       "isNewPr": false
+      }
+     ]
+    },
+    {
+     "name": "Plank",
+     "muscle": "",
+     "isUnilateral": false,
+     "targetSets": 1,
+     "targetReps": "",
+     "notes": "",
+     "showNotes": false,
+     "kind": "checklist",
+     "targetType": "count",
+     "targetSeconds": null,
+     "targetValue": 20,
+     "targetUnit": null,
+     "category": null,
+     "completedRounds": 0,
+     "targetRounds": 1,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": []
+    },
+    {
+     "name": "Lateral Raise",
+     "muscle": "Chest",
+     "isUnilateral": false,
+     "targetSets": 0,
+     "targetReps": "12-15",
+     "notes": "",
+     "showNotes": false,
+     "kind": "lift",
+     "targetType": null,
+     "targetSeconds": null,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": null,
+     "completedRounds": 0,
+     "targetRounds": 1,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": []
+    }
+   ],
+   "day": {
+    "dayNumber": 1,
+    "label": "Push",
+    "focus": "Chest",
+    "exercises": [
+     {
+      "name": "Hip mobility",
+      "sets": 2,
+      "reps": "",
+      "muscle": "",
+      "kind": "checklist",
+      "targetType": "duration",
+      "targetSeconds": 150,
+      "category": "mobility"
+     },
+     {
+      "name": "Bench Press",
+      "sets": 3,
+      "reps": "6-8",
+      "muscle": "Chest"
+     },
+     {
+      "name": "Single-arm Row",
+      "sets": 2,
+      "reps": "10-12",
+      "muscle": "Upper Back",
+      "isUnilateral": true
+     },
+     {
+      "name": "Plank",
+      "sets": 1,
+      "reps": "",
+      "muscle": "",
+      "kind": "checklist",
+      "targetType": "count",
+      "targetValue": 20,
+      "category": "nonsense"
+     },
+     {
+      "name": "Lateral Raise",
+      "sets": 0,
+      "reps": "12-15",
+      "muscle": "Chest"
+     }
+    ]
+   },
+   "out": [
+    {
+     "name": "Hip mobility",
+     "muscle": "",
+     "isUnilateral": false,
+     "targetSets": 2,
+     "targetReps": "",
+     "notes": "tight hips",
+     "showNotes": true,
+     "kind": "checklist",
+     "targetType": "duration",
+     "targetSeconds": 150,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": "mobility",
+     "completedRounds": 2,
+     "targetRounds": 2,
+     "timerEndsAt": null,
+     "timerPausedRemaining": 12,
+     "sets": []
+    },
+    {
+     "name": "Bench Press",
+     "muscle": "Chest",
+     "isUnilateral": false,
+     "targetSets": 3,
+     "targetReps": "6-8",
+     "notes": "felt strong",
+     "showNotes": false,
+     "kind": "lift",
+     "targetType": null,
+     "targetSeconds": null,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": null,
+     "completedRounds": 0,
+     "targetRounds": 3,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": [
+      {
+       "setNumber": 1,
+       "weight": 100,
+       "reps": 6,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": true,
+       "isNewPr": true
+      },
+      {
+       "setNumber": 2,
+       "weight": 102.5,
+       "reps": 5,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": true,
+       "isNewPr": false
+      },
+      {
+       "setNumber": 3,
+       "weight": 0,
+       "reps": 0,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": false,
+       "isNewPr": false
+      }
+     ]
+    },
+    {
+     "name": "Single-arm Row",
+     "muscle": "Upper Back",
+     "isUnilateral": true,
+     "targetSets": 2,
+     "targetReps": "10-12",
+     "notes": "",
+     "showNotes": false,
+     "kind": "lift",
+     "targetType": null,
+     "targetSeconds": null,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": null,
+     "completedRounds": 0,
+     "targetRounds": 2,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": [
+      {
+       "setNumber": 1,
+       "weight": 20,
+       "reps": 0,
+       "repsLeft": 10,
+       "repsRight": 9,
+       "completed": true,
+       "isNewPr": false
+      },
+      {
+       "setNumber": 2,
+       "weight": 0,
+       "reps": 0,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": false,
+       "isNewPr": false
+      }
+     ]
+    },
+    {
+     "name": "Plank",
+     "muscle": "",
+     "isUnilateral": false,
+     "targetSets": 1,
+     "targetReps": "",
+     "notes": "",
+     "showNotes": false,
+     "kind": "checklist",
+     "targetType": "count",
+     "targetSeconds": null,
+     "targetValue": 20,
+     "targetUnit": null,
+     "category": null,
+     "completedRounds": 0,
+     "targetRounds": 1,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": []
+    },
+    {
+     "name": "Lateral Raise",
+     "muscle": "Chest",
+     "isUnilateral": false,
+     "targetSets": 0,
+     "targetReps": "12-15",
+     "notes": "",
+     "showNotes": false,
+     "kind": "lift",
+     "targetType": null,
+     "targetSeconds": null,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": null,
+     "completedRounds": 0,
+     "targetRounds": 1,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": []
+    }
+   ]
+  },
+  {
+   "name": "stray entries",
+   "now": 1792924200000,
+   "draft": [
+    {
+     "name": "Deadlift",
+     "muscle": "Chest",
+     "isUnilateral": false,
+     "targetSets": 3,
+     "targetReps": "6-8",
+     "notes": "felt strong",
+     "showNotes": false,
+     "kind": "lift",
+     "targetType": null,
+     "targetSeconds": null,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": null,
+     "completedRounds": 0,
+     "targetRounds": 3,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": [
+      {
+       "setNumber": 9,
+       "weight": 100,
+       "reps": 6,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": true,
+       "isNewPr": true
+      },
+      {
+       "setNumber": 9,
+       "weight": 102.5,
+       "reps": 5,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": true,
+       "isNewPr": false
+      },
+      {
+       "setNumber": 9,
+       "weight": 0,
+       "reps": 0,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": false,
+       "isNewPr": false
+      },
+      {
+       "setNumber": 9,
+       "weight": 1,
+       "reps": 1,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": true,
+       "isNewPr": false
+      }
+     ]
+    },
+    {
+     "name": "",
+     "muscle": "Chest",
+     "isUnilateral": false,
+     "targetSets": 3,
+     "targetReps": "6-8",
+     "notes": "felt strong",
+     "showNotes": false,
+     "kind": "lift",
+     "targetType": null,
+     "targetSeconds": null,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": null,
+     "completedRounds": 0,
+     "targetRounds": 3,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": [
+      {
+       "setNumber": 9,
+       "weight": 100,
+       "reps": 6,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": true,
+       "isNewPr": true
+      },
+      {
+       "setNumber": 9,
+       "weight": 102.5,
+       "reps": 5,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": true,
+       "isNewPr": false
+      },
+      {
+       "setNumber": 9,
+       "weight": 0,
+       "reps": 0,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": false,
+       "isNewPr": false
+      },
+      {
+       "setNumber": 9,
+       "weight": 1,
+       "reps": 1,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": true,
+       "isNewPr": false
+      }
+     ]
+    }
+   ],
+   "day": {
+    "dayNumber": 1,
+    "label": "Push",
+    "focus": "Chest",
+    "exercises": [
+     {
+      "name": "Hip mobility",
+      "sets": 2,
+      "reps": "",
+      "muscle": "",
+      "kind": "checklist",
+      "targetType": "duration",
+      "targetSeconds": 150,
+      "category": "mobility"
+     },
+     {
+      "name": "Bench Press",
+      "sets": 3,
+      "reps": "6-8",
+      "muscle": "Chest"
+     },
+     {
+      "name": "Single-arm Row",
+      "sets": 2,
+      "reps": "10-12",
+      "muscle": "Upper Back",
+      "isUnilateral": true
+     },
+     {
+      "name": "Plank",
+      "sets": 1,
+      "reps": "",
+      "muscle": "",
+      "kind": "checklist",
+      "targetType": "count",
+      "targetValue": 20,
+      "category": "nonsense"
+     },
+     {
+      "name": "Lateral Raise",
+      "sets": 0,
+      "reps": "12-15",
+      "muscle": "Chest"
+     }
+    ]
+   },
+   "out": [
+    {
+     "name": "Hip mobility",
+     "muscle": "",
+     "isUnilateral": false,
+     "targetSets": 2,
+     "targetReps": "",
+     "notes": "",
+     "showNotes": false,
+     "kind": "checklist",
+     "targetType": "duration",
+     "targetSeconds": 150,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": "mobility",
+     "completedRounds": 0,
+     "targetRounds": 2,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": []
+    },
+    {
+     "name": "Bench Press",
+     "muscle": "Chest",
+     "isUnilateral": false,
+     "targetSets": 3,
+     "targetReps": "6-8",
+     "notes": "",
+     "showNotes": false,
+     "kind": "lift",
+     "targetType": null,
+     "targetSeconds": null,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": null,
+     "completedRounds": 0,
+     "targetRounds": 3,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": [
+      {
+       "setNumber": 1,
+       "weight": 0,
+       "reps": 0,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": false,
+       "isNewPr": false
+      },
+      {
+       "setNumber": 2,
+       "weight": 0,
+       "reps": 0,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": false,
+       "isNewPr": false
+      },
+      {
+       "setNumber": 3,
+       "weight": 0,
+       "reps": 0,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": false,
+       "isNewPr": false
+      }
+     ]
+    },
+    {
+     "name": "Single-arm Row",
+     "muscle": "Upper Back",
+     "isUnilateral": true,
+     "targetSets": 2,
+     "targetReps": "10-12",
+     "notes": "",
+     "showNotes": false,
+     "kind": "lift",
+     "targetType": null,
+     "targetSeconds": null,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": null,
+     "completedRounds": 0,
+     "targetRounds": 2,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": [
+      {
+       "setNumber": 1,
+       "weight": 0,
+       "reps": 0,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": false,
+       "isNewPr": false
+      },
+      {
+       "setNumber": 2,
+       "weight": 0,
+       "reps": 0,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": false,
+       "isNewPr": false
+      }
+     ]
+    },
+    {
+     "name": "Plank",
+     "muscle": "",
+     "isUnilateral": false,
+     "targetSets": 1,
+     "targetReps": "",
+     "notes": "",
+     "showNotes": false,
+     "kind": "checklist",
+     "targetType": "count",
+     "targetSeconds": null,
+     "targetValue": 20,
+     "targetUnit": null,
+     "category": null,
+     "completedRounds": 0,
+     "targetRounds": 1,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": []
+    },
+    {
+     "name": "Lateral Raise",
+     "muscle": "Chest",
+     "isUnilateral": false,
+     "targetSets": 0,
+     "targetReps": "12-15",
+     "notes": "",
+     "showNotes": false,
+     "kind": "lift",
+     "targetType": null,
+     "targetSeconds": null,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": null,
+     "completedRounds": 0,
+     "targetRounds": 1,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": []
+    }
+   ]
+  },
+  {
+   "name": "kind swap",
+   "now": 1792924200000,
+   "draft": [
+    {
+     "name": "Hip mobility",
+     "muscle": "",
+     "isUnilateral": false,
+     "targetSets": 2,
+     "targetReps": "",
+     "notes": "tight hips",
+     "showNotes": true,
+     "kind": "checklist",
+     "targetType": "duration",
+     "targetSeconds": 150,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": "mobility",
+     "completedRounds": 5,
+     "targetRounds": 2,
+     "timerEndsAt": 1792924260000,
+     "timerPausedRemaining": 12,
+     "sets": []
+    },
+    {
+     "name": "BENCH PRESS",
+     "muscle": "Chest",
+     "isUnilateral": false,
+     "targetSets": 3,
+     "targetReps": "6-8",
+     "notes": "felt strong",
+     "showNotes": false,
+     "kind": "checklist",
+     "targetType": null,
+     "targetSeconds": null,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": null,
+     "completedRounds": 0,
+     "targetRounds": 3,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": [
+      {
+       "setNumber": 9,
+       "weight": 100,
+       "reps": 6,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": true,
+       "isNewPr": true
+      },
+      {
+       "setNumber": 9,
+       "weight": 102.5,
+       "reps": 5,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": true,
+       "isNewPr": false
+      },
+      {
+       "setNumber": 9,
+       "weight": 0,
+       "reps": 0,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": false,
+       "isNewPr": false
+      },
+      {
+       "setNumber": 9,
+       "weight": 1,
+       "reps": 1,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": true,
+       "isNewPr": false
+      }
+     ]
+    },
+    {
+     "name": "Single-arm Row",
+     "muscle": "Upper Back",
+     "isUnilateral": true,
+     "targetSets": 2,
+     "targetReps": "10-12",
+     "notes": "",
+     "showNotes": false,
+     "kind": "lift",
+     "targetType": null,
+     "targetSeconds": null,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": null,
+     "completedRounds": 0,
+     "targetRounds": 2,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": [
+      {
+       "setNumber": 1,
+       "weight": 20,
+       "reps": 0,
+       "repsLeft": 10,
+       "repsRight": 9,
+       "completed": true,
+       "isNewPr": false
+      }
+     ]
+    },
+    {
+     "name": "Plank",
+     "muscle": "",
+     "isUnilateral": false,
+     "targetSets": 1,
+     "targetReps": "",
+     "notes": "",
+     "showNotes": false,
+     "kind": "lift",
+     "targetType": "count",
+     "targetSeconds": null,
+     "targetValue": 20,
+     "targetUnit": null,
+     "category": null,
+     "completedRounds": 0,
+     "targetRounds": 1,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": [
+      {
+       "setNumber": 1,
+       "weight": 5,
+       "reps": 5,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": true,
+       "isNewPr": false
+      }
+     ]
+    },
+    {
+     "name": "Lateral Raise",
+     "muscle": "Chest",
+     "isUnilateral": false,
+     "targetSets": 0,
+     "targetReps": "12-15",
+     "notes": "",
+     "showNotes": false,
+     "kind": "lift",
+     "targetType": null,
+     "targetSeconds": null,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": null,
+     "completedRounds": 0,
+     "targetRounds": 1,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": []
+    }
+   ],
+   "day": {
+    "dayNumber": 1,
+    "label": "Push",
+    "focus": "Chest",
+    "exercises": [
+     {
+      "name": "Hip mobility",
+      "sets": 2,
+      "reps": "",
+      "muscle": "",
+      "kind": "checklist",
+      "targetType": "duration",
+      "targetSeconds": 150,
+      "category": "mobility"
+     },
+     {
+      "name": "Bench Press",
+      "sets": 3,
+      "reps": "6-8",
+      "muscle": "Chest"
+     },
+     {
+      "name": "Single-arm Row",
+      "sets": 2,
+      "reps": "10-12",
+      "muscle": "Upper Back",
+      "isUnilateral": true
+     },
+     {
+      "name": "Plank",
+      "sets": 1,
+      "reps": "",
+      "muscle": "",
+      "kind": "checklist",
+      "targetType": "count",
+      "targetValue": 20,
+      "category": "nonsense"
+     },
+     {
+      "name": "Lateral Raise",
+      "sets": 0,
+      "reps": "12-15",
+      "muscle": "Chest"
+     }
+    ]
+   },
+   "out": [
+    {
+     "name": "Hip mobility",
+     "muscle": "",
+     "isUnilateral": false,
+     "targetSets": 2,
+     "targetReps": "",
+     "notes": "tight hips",
+     "showNotes": true,
+     "kind": "checklist",
+     "targetType": "duration",
+     "targetSeconds": 150,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": "mobility",
+     "completedRounds": 2,
+     "targetRounds": 2,
+     "timerEndsAt": 1792924260000,
+     "timerPausedRemaining": 12,
+     "sets": []
+    },
+    {
+     "name": "Bench Press",
+     "muscle": "Chest",
+     "isUnilateral": false,
+     "targetSets": 3,
+     "targetReps": "6-8",
+     "notes": "felt strong",
+     "showNotes": false,
+     "kind": "lift",
+     "targetType": null,
+     "targetSeconds": null,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": null,
+     "completedRounds": 0,
+     "targetRounds": 3,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": [
+      {
+       "setNumber": 1,
+       "weight": 100,
+       "reps": 6,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": true,
+       "isNewPr": true
+      },
+      {
+       "setNumber": 2,
+       "weight": 102.5,
+       "reps": 5,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": true,
+       "isNewPr": false
+      },
+      {
+       "setNumber": 3,
+       "weight": 0,
+       "reps": 0,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": false,
+       "isNewPr": false
+      }
+     ]
+    },
+    {
+     "name": "Single-arm Row",
+     "muscle": "Upper Back",
+     "isUnilateral": true,
+     "targetSets": 2,
+     "targetReps": "10-12",
+     "notes": "",
+     "showNotes": false,
+     "kind": "lift",
+     "targetType": null,
+     "targetSeconds": null,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": null,
+     "completedRounds": 0,
+     "targetRounds": 2,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": [
+      {
+       "setNumber": 1,
+       "weight": 20,
+       "reps": 0,
+       "repsLeft": 10,
+       "repsRight": 9,
+       "completed": true,
+       "isNewPr": false
+      },
+      {
+       "setNumber": 2,
+       "weight": 0,
+       "reps": 0,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": false,
+       "isNewPr": false
+      }
+     ]
+    },
+    {
+     "name": "Plank",
+     "muscle": "",
+     "isUnilateral": false,
+     "targetSets": 1,
+     "targetReps": "",
+     "notes": "",
+     "showNotes": false,
+     "kind": "checklist",
+     "targetType": "count",
+     "targetSeconds": null,
+     "targetValue": 20,
+     "targetUnit": null,
+     "category": null,
+     "completedRounds": 0,
+     "targetRounds": 1,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": []
+    },
+    {
+     "name": "Lateral Raise",
+     "muscle": "Chest",
+     "isUnilateral": false,
+     "targetSets": 0,
+     "targetReps": "12-15",
+     "notes": "",
+     "showNotes": false,
+     "kind": "lift",
+     "targetType": null,
+     "targetSeconds": null,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": null,
+     "completedRounds": 0,
+     "targetRounds": 1,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": []
+    }
+   ]
+  },
+  {
+   "name": "empty draft",
+   "now": 1792924200000,
+   "draft": [],
+   "day": {
+    "dayNumber": 1,
+    "label": "Push",
+    "focus": "Chest",
+    "exercises": [
+     {
+      "name": "Hip mobility",
+      "sets": 2,
+      "reps": "",
+      "muscle": "",
+      "kind": "checklist",
+      "targetType": "duration",
+      "targetSeconds": 150,
+      "category": "mobility"
+     },
+     {
+      "name": "Bench Press",
+      "sets": 3,
+      "reps": "6-8",
+      "muscle": "Chest"
+     },
+     {
+      "name": "Single-arm Row",
+      "sets": 2,
+      "reps": "10-12",
+      "muscle": "Upper Back",
+      "isUnilateral": true
+     },
+     {
+      "name": "Plank",
+      "sets": 1,
+      "reps": "",
+      "muscle": "",
+      "kind": "checklist",
+      "targetType": "count",
+      "targetValue": 20,
+      "category": "nonsense"
+     },
+     {
+      "name": "Lateral Raise",
+      "sets": 0,
+      "reps": "12-15",
+      "muscle": "Chest"
+     }
+    ]
+   },
+   "out": [
+    {
+     "name": "Hip mobility",
+     "muscle": "",
+     "isUnilateral": false,
+     "targetSets": 2,
+     "targetReps": "",
+     "notes": "",
+     "showNotes": false,
+     "kind": "checklist",
+     "targetType": "duration",
+     "targetSeconds": 150,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": "mobility",
+     "completedRounds": 0,
+     "targetRounds": 2,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": []
+    },
+    {
+     "name": "Bench Press",
+     "muscle": "Chest",
+     "isUnilateral": false,
+     "targetSets": 3,
+     "targetReps": "6-8",
+     "notes": "",
+     "showNotes": false,
+     "kind": "lift",
+     "targetType": null,
+     "targetSeconds": null,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": null,
+     "completedRounds": 0,
+     "targetRounds": 3,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": [
+      {
+       "setNumber": 1,
+       "weight": 0,
+       "reps": 0,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": false,
+       "isNewPr": false
+      },
+      {
+       "setNumber": 2,
+       "weight": 0,
+       "reps": 0,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": false,
+       "isNewPr": false
+      },
+      {
+       "setNumber": 3,
+       "weight": 0,
+       "reps": 0,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": false,
+       "isNewPr": false
+      }
+     ]
+    },
+    {
+     "name": "Single-arm Row",
+     "muscle": "Upper Back",
+     "isUnilateral": true,
+     "targetSets": 2,
+     "targetReps": "10-12",
+     "notes": "",
+     "showNotes": false,
+     "kind": "lift",
+     "targetType": null,
+     "targetSeconds": null,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": null,
+     "completedRounds": 0,
+     "targetRounds": 2,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": [
+      {
+       "setNumber": 1,
+       "weight": 0,
+       "reps": 0,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": false,
+       "isNewPr": false
+      },
+      {
+       "setNumber": 2,
+       "weight": 0,
+       "reps": 0,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": false,
+       "isNewPr": false
+      }
+     ]
+    },
+    {
+     "name": "Plank",
+     "muscle": "",
+     "isUnilateral": false,
+     "targetSets": 1,
+     "targetReps": "",
+     "notes": "",
+     "showNotes": false,
+     "kind": "checklist",
+     "targetType": "count",
+     "targetSeconds": null,
+     "targetValue": 20,
+     "targetUnit": null,
+     "category": null,
+     "completedRounds": 0,
+     "targetRounds": 1,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": []
+    },
+    {
+     "name": "Lateral Raise",
+     "muscle": "Chest",
+     "isUnilateral": false,
+     "targetSets": 0,
+     "targetReps": "12-15",
+     "notes": "",
+     "showNotes": false,
+     "kind": "lift",
+     "targetType": null,
+     "targetSeconds": null,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": null,
+     "completedRounds": 0,
+     "targetRounds": 1,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": []
+    }
+   ]
+  }
+ ],
+ "estimatedOneRepMax": [
+  {
+   "in": [
+    100,
+    5
+   ],
+   "out": 116.66666666666667
+  },
+  {
+   "in": [
+    80,
+    0
+   ],
+   "out": 80
+  },
+  {
+   "in": [
+    0,
+    10
+   ],
+   "out": 0
+  },
+  {
+   "in": [
+    62.5,
+    12
+   ],
+   "out": 87.5
+  },
+  {
+   "in": [
+    1,
+    30
+   ],
+   "out": 2
+  }
+ ],
+ "formatPrevSet": [
+  {
+   "in": {
+    "set": null,
+    "unit": "kg",
+    "isUnilateral": false
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "set": null,
+    "unit": "kg",
+    "isUnilateral": true
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "set": null,
+    "unit": "lbs",
+    "isUnilateral": false
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "set": null,
+    "unit": "lbs",
+    "isUnilateral": true
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "set": {
+     "setNumber": 1,
+     "weight": 0,
+     "reps": 0,
+     "completed": true
+    },
+    "unit": "kg",
+    "isUnilateral": false
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "set": {
+     "setNumber": 1,
+     "weight": 0,
+     "reps": 0,
+     "completed": true
+    },
+    "unit": "kg",
+    "isUnilateral": true
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "set": {
+     "setNumber": 1,
+     "weight": 0,
+     "reps": 0,
+     "completed": true
+    },
+    "unit": "lbs",
+    "isUnilateral": false
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "set": {
+     "setNumber": 1,
+     "weight": 0,
+     "reps": 0,
+     "completed": true
+    },
+    "unit": "lbs",
+    "isUnilateral": true
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "set": {
+     "setNumber": 1,
+     "weight": 80,
+     "reps": 8,
+     "completed": true
+    },
+    "unit": "kg",
+    "isUnilateral": false
+   },
+   "out": "80 kg × 8"
+  },
+  {
+   "in": {
+    "set": {
+     "setNumber": 1,
+     "weight": 80,
+     "reps": 8,
+     "completed": true
+    },
+    "unit": "kg",
+    "isUnilateral": true
+   },
+   "out": "80 kg × 8 (both sides)"
+  },
+  {
+   "in": {
+    "set": {
+     "setNumber": 1,
+     "weight": 80,
+     "reps": 8,
+     "completed": true
+    },
+    "unit": "lbs",
+    "isUnilateral": false
+   },
+   "out": "80 lbs × 8"
+  },
+  {
+   "in": {
+    "set": {
+     "setNumber": 1,
+     "weight": 80,
+     "reps": 8,
+     "completed": true
+    },
+    "unit": "lbs",
+    "isUnilateral": true
+   },
+   "out": "80 lbs × 8 (both sides)"
+  },
+  {
+   "in": {
+    "set": {
+     "setNumber": 1,
+     "weight": 82.5,
+     "reps": null,
+     "completed": true
+    },
+    "unit": "kg",
+    "isUnilateral": false
+   },
+   "out": "82.5 kg × 0"
+  },
+  {
+   "in": {
+    "set": {
+     "setNumber": 1,
+     "weight": 82.5,
+     "reps": null,
+     "completed": true
+    },
+    "unit": "kg",
+    "isUnilateral": true
+   },
+   "out": "82.5 kg × 0 (both sides)"
+  },
+  {
+   "in": {
+    "set": {
+     "setNumber": 1,
+     "weight": 82.5,
+     "reps": null,
+     "completed": true
+    },
+    "unit": "lbs",
+    "isUnilateral": false
+   },
+   "out": "82.5 lbs × 0"
+  },
+  {
+   "in": {
+    "set": {
+     "setNumber": 1,
+     "weight": 82.5,
+     "reps": null,
+     "completed": true
+    },
+    "unit": "lbs",
+    "isUnilateral": true
+   },
+   "out": "82.5 lbs × 0 (both sides)"
+  },
+  {
+   "in": {
+    "set": {
+     "setNumber": 1,
+     "weight": 20,
+     "reps": null,
+     "completed": true,
+     "repsLeft": 10,
+     "repsRight": null
+    },
+    "unit": "kg",
+    "isUnilateral": false
+   },
+   "out": "20 kg × 10L / 0R"
+  },
+  {
+   "in": {
+    "set": {
+     "setNumber": 1,
+     "weight": 20,
+     "reps": null,
+     "completed": true,
+     "repsLeft": 10,
+     "repsRight": null
+    },
+    "unit": "kg",
+    "isUnilateral": true
+   },
+   "out": "20 kg × 10L / 0R"
+  },
+  {
+   "in": {
+    "set": {
+     "setNumber": 1,
+     "weight": 20,
+     "reps": null,
+     "completed": true,
+     "repsLeft": 10,
+     "repsRight": null
+    },
+    "unit": "lbs",
+    "isUnilateral": false
+   },
+   "out": "20 lbs × 10L / 0R"
+  },
+  {
+   "in": {
+    "set": {
+     "setNumber": 1,
+     "weight": 20,
+     "reps": null,
+     "completed": true,
+     "repsLeft": 10,
+     "repsRight": null
+    },
+    "unit": "lbs",
+    "isUnilateral": true
+   },
+   "out": "20 lbs × 10L / 0R"
+  },
+  {
+   "in": {
+    "set": {
+     "setNumber": 1,
+     "weight": 0,
+     "reps": 12,
+     "completed": true
+    },
+    "unit": "kg",
+    "isUnilateral": false
+   },
+   "out": "0 kg × 12"
+  },
+  {
+   "in": {
+    "set": {
+     "setNumber": 1,
+     "weight": 0,
+     "reps": 12,
+     "completed": true
+    },
+    "unit": "kg",
+    "isUnilateral": true
+   },
+   "out": "0 kg × 12 (both sides)"
+  },
+  {
+   "in": {
+    "set": {
+     "setNumber": 1,
+     "weight": 0,
+     "reps": 12,
+     "completed": true
+    },
+    "unit": "lbs",
+    "isUnilateral": false
+   },
+   "out": "0 lbs × 12"
+  },
+  {
+   "in": {
+    "set": {
+     "setNumber": 1,
+     "weight": 0,
+     "reps": 12,
+     "completed": true
+    },
+    "unit": "lbs",
+    "isUnilateral": true
+   },
+   "out": "0 lbs × 12 (both sides)"
+  },
+  {
+   "in": {
+    "set": {
+     "setNumber": 1,
+     "weight": 0,
+     "reps": null,
+     "completed": true,
+     "repsLeft": 0,
+     "repsRight": 3
+    },
+    "unit": "kg",
+    "isUnilateral": false
+   },
+   "out": "0 kg × 0L / 3R"
+  },
+  {
+   "in": {
+    "set": {
+     "setNumber": 1,
+     "weight": 0,
+     "reps": null,
+     "completed": true,
+     "repsLeft": 0,
+     "repsRight": 3
+    },
+    "unit": "kg",
+    "isUnilateral": true
+   },
+   "out": "0 kg × 0L / 3R"
+  },
+  {
+   "in": {
+    "set": {
+     "setNumber": 1,
+     "weight": 0,
+     "reps": null,
+     "completed": true,
+     "repsLeft": 0,
+     "repsRight": 3
+    },
+    "unit": "lbs",
+    "isUnilateral": false
+   },
+   "out": "0 lbs × 0L / 3R"
+  },
+  {
+   "in": {
+    "set": {
+     "setNumber": 1,
+     "weight": 0,
+     "reps": null,
+     "completed": true,
+     "repsLeft": 0,
+     "repsRight": 3
+    },
+    "unit": "lbs",
+    "isUnilateral": true
+   },
+   "out": "0 lbs × 0L / 3R"
+  },
+  {
+   "in": {
+    "set": {
+     "setNumber": 1,
+     "weight": 0.30000000000000004,
+     "reps": 3,
+     "completed": true
+    },
+    "unit": "kg",
+    "isUnilateral": false
+   },
+   "out": "0.30000000000000004 kg × 3"
+  },
+  {
+   "in": {
+    "set": {
+     "setNumber": 1,
+     "weight": 0.30000000000000004,
+     "reps": 3,
+     "completed": true
+    },
+    "unit": "kg",
+    "isUnilateral": true
+   },
+   "out": "0.30000000000000004 kg × 3 (both sides)"
+  },
+  {
+   "in": {
+    "set": {
+     "setNumber": 1,
+     "weight": 0.30000000000000004,
+     "reps": 3,
+     "completed": true
+    },
+    "unit": "lbs",
+    "isUnilateral": false
+   },
+   "out": "0.30000000000000004 lbs × 3"
+  },
+  {
+   "in": {
+    "set": {
+     "setNumber": 1,
+     "weight": 0.30000000000000004,
+     "reps": 3,
+     "completed": true
+    },
+    "unit": "lbs",
+    "isUnilateral": true
+   },
+   "out": "0.30000000000000004 lbs × 3 (both sides)"
+  }
+ ],
+ "buildLastSessionLookup": [
+  {
+   "in": [
+    {
+     "id": 3,
+     "userId": "u",
+     "date": "2026-10-20",
+     "dayNumber": 1,
+     "weekNumber": 3,
+     "mode": "ai",
+     "loggingMode": "full",
+     "createdAt": "x",
+     "exercisesLogged": [
+      {
+       "name": "Bench Press",
+       "muscle": "Chest",
+       "sets": [
+        {
+         "setNumber": 1,
+         "weight": 0,
+         "reps": 0,
+         "completed": true
+        },
+        {
+         "setNumber": 2,
+         "weight": 0,
+         "reps": null,
+         "completed": true
+        }
+       ],
+       "notes": "empty session"
+      },
+      {
+       "name": "Squat",
+       "muscle": "Quads",
+       "sets": [
+        {
+         "setNumber": 1,
+         "weight": 120,
+         "reps": 5,
+         "completed": true
+        },
+        {
+         "setNumber": 2,
+         "weight": 120,
+         "reps": 4,
+         "completed": true
+        }
+       ],
+       "notes": "  depth ok  "
+      },
+      {
+       "name": "Row",
+       "muscle": "Upper Back",
+       "sets": [
+        {
+         "setNumber": 1,
+         "weight": 30,
+         "reps": null,
+         "completed": true,
+         "repsLeft": 10,
+         "repsRight": 8
+        }
+       ],
+       "notes": "   "
+      },
+      {
+       "name": "Plank",
+       "muscle": "",
+       "sets": [],
+       "kind": "checklist",
+       "completedRounds": 1
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "userId": "u",
+     "date": "2026-10-13T18:00:00.000Z",
+     "dayNumber": 1,
+     "weekNumber": 2,
+     "mode": "ai",
+     "loggingMode": "full",
+     "createdAt": "x",
+     "exercisesLogged": [
+      {
+       "name": "bench press",
+       "muscle": "Chest",
+       "sets": [
+        {
+         "setNumber": 1,
+         "weight": 80,
+         "reps": 8,
+         "completed": true
+        },
+        {
+         "setNumber": 2,
+         "weight": 80,
+         "reps": 7,
+         "completed": true
+        }
+       ],
+       "notes": "pause reps"
+      },
+      {
+       "name": "Squat",
+       "muscle": "Quads",
+       "sets": [
+        {
+         "setNumber": 1,
+         "weight": 200,
+         "reps": 1,
+         "completed": true
+        }
+       ],
+       "notes": "older"
+      },
+      {
+       "name": "",
+       "muscle": "",
+       "sets": [
+        {
+         "setNumber": 1,
+         "weight": 1,
+         "reps": 1,
+         "completed": true
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": 1,
+     "userId": "u",
+     "date": "2026-10-06",
+     "dayNumber": 1,
+     "weekNumber": 1,
+     "mode": "ai",
+     "loggingMode": "full",
+     "createdAt": "x",
+     "exercisesLogged": [
+      {
+       "name": "Curl",
+       "muscle": "Biceps",
+       "sets": [
+        {
+         "setNumber": 1,
+         "weight": 12.5,
+         "reps": 12,
+         "completed": true
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "out": {
+    "lastSetsByExercise": {
+     "squat": [
+      {
+       "setNumber": 1,
+       "weight": 120,
+       "reps": 5,
+       "completed": true
+      },
+      {
+       "setNumber": 2,
+       "weight": 120,
+       "reps": 4,
+       "completed": true
+      }
+     ],
+     "row": [
+      {
+       "setNumber": 1,
+       "weight": 30,
+       "reps": null,
+       "completed": true,
+       "repsLeft": 10,
+       "repsRight": 8
+      }
+     ],
+     "bench press": [
+      {
+       "setNumber": 1,
+       "weight": 80,
+       "reps": 8,
+       "completed": true
+      },
+      {
+       "setNumber": 2,
+       "weight": 80,
+       "reps": 7,
+       "completed": true
+      }
+     ],
+     "curl": [
+      {
+       "setNumber": 1,
+       "weight": 12.5,
+       "reps": 12,
+       "completed": true
+      }
+     ]
+    },
+    "lastNoteByExercise": {
+     "squat": {
+      "text": "depth ok",
+      "date": "2026-10-20"
+     },
+     "bench press": {
+      "text": "pause reps",
+      "date": "2026-10-13T18:00:00.000Z"
+     }
+    }
+   }
+  },
+  {
+   "in": [],
+   "out": {
+    "lastSetsByExercise": {},
+    "lastNoteByExercise": {}
+   }
+  }
+ ]
+}

@@ -1,0 +1,614 @@
+{
+  "status": 200,
+  "body": [
+    {
+      "id": 309,
+      "userId": "user_mock_alex",
+      "date": "{{dow:mon:0}}",
+      "dayNumber": 1,
+      "weekNumber": 3,
+      "dayLabel": "Upper A",
+      "mode": "ai",
+      "loggingMode": "full",
+      "calibrationFeedback": null,
+      "exercisesLogged": [
+        {
+          "name": "Barbell Bench Press",
+          "muscle": "Chest",
+          "sets": [
+            {
+              "setNumber": 1,
+              "weight": 85.0,
+              "reps": 7,
+              "rpe": 8,
+              "completed": true,
+              "isNewPr": true
+            },
+            {
+              "setNumber": 2,
+              "weight": 85.0,
+              "reps": 6,
+              "rpe": 8,
+              "completed": true,
+              "isNewPr": false
+            },
+            {
+              "setNumber": 3,
+              "weight": 85.0,
+              "reps": 5,
+              "rpe": 9,
+              "completed": true,
+              "isNewPr": false
+            }
+          ],
+          "kind": "lift",
+          "notes": "Felt strong, add 2.5 next time"
+        },
+        {
+          "name": "Chest-Supported Row",
+          "muscle": "Upper Back",
+          "sets": [
+            {
+              "setNumber": 1,
+              "weight": 32,
+              "reps": 9,
+              "rpe": 8,
+              "completed": true,
+              "isNewPr": false
+            },
+            {
+              "setNumber": 2,
+              "weight": 32,
+              "reps": 8,
+              "rpe": 8,
+              "completed": true,
+              "isNewPr": false
+            },
+            {
+              "setNumber": 3,
+              "weight": 32,
+              "reps": 7,
+              "rpe": 9,
+              "completed": true,
+              "isNewPr": false
+            }
+          ],
+          "kind": "lift",
+          "notes": null
+        },
+        {
+          "name": "Seated Dumbbell Shoulder Press",
+          "muscle": "Shoulders",
+          "sets": [
+            {
+              "setNumber": 1,
+              "weight": 26,
+              "reps": 9,
+              "rpe": 8,
+              "completed": true,
+              "isNewPr": false
+            },
+            {
+              "setNumber": 2,
+              "weight": 26,
+              "reps": 8,
+              "rpe": 8,
+              "completed": true,
+              "isNewPr": false
+            },
+            {
+              "setNumber": 3,
+              "weight": 26,
+              "reps": 7,
+              "rpe": 9,
+              "completed": true,
+              "isNewPr": false
+            }
+          ],
+          "kind": "lift",
+          "notes": null
+        },
+        {
+          "name": "Lat Pulldown",
+          "muscle": "Lats",
+          "sets": [
+            {
+              "setNumber": 1,
+              "weight": 70.0,
+              "reps": 11,
+              "rpe": 8,
+              "completed": true,
+              "isNewPr": true
+            },
+            {
+              "setNumber": 2,
+              "weight": 70.0,
+              "reps": 10,
+              "rpe": 8,
+              "completed": true,
+              "isNewPr": false
+            },
+            {
+              "setNumber": 3,
+              "weight": 70.0,
+              "reps": 9,
+              "rpe": 9,
+              "completed": true,
+              "isNewPr": false
+            }
+          ],
+          "kind": "lift",
+          "notes": null
+        },
+        {
+          "name": "Incline Dumbbell Curl",
+          "muscle": "Biceps",
+          "sets": [
+            {
+              "setNumber": 1,
+              "weight": 14,
+              "reps": 11,
+              "rpe": 9,
+              "completed": true,
+              "isNewPr": false
+            },
+            {
+              "setNumber": 2,
+              "weight": 14,
+              "reps": 10,
+              "rpe": 9,
+              "completed": true,
+              "isNewPr": false
+            }
+          ],
+          "kind": "lift",
+          "notes": null
+        },
+        {
+          "name": "Cable Triceps Pushdown",
+          "muscle": "Triceps",
+          "sets": [
+            {
+              "setNumber": 1,
+              "weight": 32,
+              "reps": 11,
+              "rpe": 9,
+              "completed": true,
+              "isNewPr": false
+            },
+            {
+              "setNumber": 2,
+              "weight": 32,
+              "reps": 10,
+              "rpe": 9,
+              "completed": true,
+              "isNewPr": false
+            }
+          ],
+          "kind": "lift",
+          "notes": null
+        },
+        {
+          "name": "Thoracic Mobility",
+          "muscle": "",
+          "sets": [],
+          "kind": "checklist",
+          "completedRounds": 1,
+          "targetSeconds": 150,
+          "category": "mobility",
+          "notes": null
+        }
+      ],
+      "notes": null,
+      "startedAt": "{{dowtime:mon:0}}",
+      "durationSeconds": 3714,
+      "createdAt": "{{dowtime:mon:0}}"
+    },
+    {
+      "id": 305,
+      "userId": "user_mock_alex",
+      "date": "{{dow:mon:-1}}",
+      "dayNumber": 1,
+      "weekNumber": 2,
+      "dayLabel": "Upper A",
+      "mode": "ai",
+      "loggingMode": "full",
+      "calibrationFeedback": null,
+      "exercisesLogged": [
+        {
+          "name": "Barbell Bench Press",
+          "muscle": "Chest",
+          "sets": [
+            {
+              "setNumber": 1,
+              "weight": 82.5,
+              "reps": 7,
+              "rpe": 8,
+              "completed": true,
+              "isNewPr": false
+            },
+            {
+              "setNumber": 2,
+              "weight": 82.5,
+              "reps": 6,
+              "rpe": 8,
+              "completed": true,
+              "isNewPr": false
+            },
+            {
+              "setNumber": 3,
+              "weight": 82.5,
+              "reps": 5,
+              "rpe": 9,
+              "completed": true,
+              "isNewPr": false
+            }
+          ],
+          "kind": "lift",
+          "notes": null
+        },
+        {
+          "name": "Chest-Supported Row",
+          "muscle": "Upper Back",
+          "sets": [
+            {
+              "setNumber": 1,
+              "weight": 31,
+              "reps": 9,
+              "rpe": 8,
+              "completed": true,
+              "isNewPr": false
+            },
+            {
+              "setNumber": 2,
+              "weight": 31,
+              "reps": 8,
+              "rpe": 8,
+              "completed": true,
+              "isNewPr": false
+            },
+            {
+              "setNumber": 3,
+              "weight": 31,
+              "reps": 7,
+              "rpe": 9,
+              "completed": true,
+              "isNewPr": false
+            }
+          ],
+          "kind": "lift",
+          "notes": null
+        },
+        {
+          "name": "Seated Dumbbell Shoulder Press",
+          "muscle": "Shoulders",
+          "sets": [
+            {
+              "setNumber": 1,
+              "weight": 25,
+              "reps": 9,
+              "rpe": 8,
+              "completed": true,
+              "isNewPr": false
+            },
+            {
+              "setNumber": 2,
+              "weight": 25,
+              "reps": 8,
+              "rpe": 8,
+              "completed": true,
+              "isNewPr": false
+            },
+            {
+              "setNumber": 3,
+              "weight": 25,
+              "reps": 7,
+              "rpe": 9,
+              "completed": true,
+              "isNewPr": false
+            }
+          ],
+          "kind": "lift",
+          "notes": null
+        },
+        {
+          "name": "Lat Pulldown",
+          "muscle": "Lats",
+          "sets": [
+            {
+              "setNumber": 1,
+              "weight": 67.5,
+              "reps": 11,
+              "rpe": 8,
+              "completed": true,
+              "isNewPr": false
+            },
+            {
+              "setNumber": 2,
+              "weight": 67.5,
+              "reps": 10,
+              "rpe": 8,
+              "completed": true,
+              "isNewPr": false
+            },
+            {
+              "setNumber": 3,
+              "weight": 67.5,
+              "reps": 9,
+              "rpe": 9,
+              "completed": true,
+              "isNewPr": false
+            }
+          ],
+          "kind": "lift",
+          "notes": null
+        },
+        {
+          "name": "Incline Dumbbell Curl",
+          "muscle": "Biceps",
+          "sets": [
+            {
+              "setNumber": 1,
+              "weight": 13,
+              "reps": 11,
+              "rpe": 9,
+              "completed": true,
+              "isNewPr": false
+            },
+            {
+              "setNumber": 2,
+              "weight": 13,
+              "reps": 10,
+              "rpe": 9,
+              "completed": true,
+              "isNewPr": false
+            }
+          ],
+          "kind": "lift",
+          "notes": null
+        },
+        {
+          "name": "Cable Triceps Pushdown",
+          "muscle": "Triceps",
+          "sets": [
+            {
+              "setNumber": 1,
+              "weight": 31,
+              "reps": 11,
+              "rpe": 9,
+              "completed": true,
+              "isNewPr": false
+            },
+            {
+              "setNumber": 2,
+              "weight": 31,
+              "reps": 10,
+              "rpe": 9,
+              "completed": true,
+              "isNewPr": false
+            }
+          ],
+          "kind": "lift",
+          "notes": null
+        },
+        {
+          "name": "Thoracic Mobility",
+          "muscle": "",
+          "sets": [],
+          "kind": "checklist",
+          "completedRounds": 1,
+          "targetSeconds": 150,
+          "category": "mobility",
+          "notes": null
+        }
+      ],
+      "notes": null,
+      "startedAt": "{{dowtime:mon:-1}}",
+      "durationSeconds": 3617,
+      "createdAt": "{{dowtime:mon:-1}}"
+    },
+    {
+      "id": 301,
+      "userId": "user_mock_alex",
+      "date": "{{dow:mon:-2}}",
+      "dayNumber": 1,
+      "weekNumber": 1,
+      "dayLabel": "Upper A",
+      "mode": "ai",
+      "loggingMode": "full",
+      "calibrationFeedback": null,
+      "exercisesLogged": [
+        {
+          "name": "Barbell Bench Press",
+          "muscle": "Chest",
+          "sets": [
+            {
+              "setNumber": 1,
+              "weight": 80.0,
+              "reps": 7,
+              "rpe": 8,
+              "completed": true,
+              "isNewPr": false
+            },
+            {
+              "setNumber": 2,
+              "weight": 80.0,
+              "reps": 6,
+              "rpe": 8,
+              "completed": true,
+              "isNewPr": false
+            },
+            {
+              "setNumber": 3,
+              "weight": 80.0,
+              "reps": 5,
+              "rpe": 9,
+              "completed": true,
+              "isNewPr": false
+            }
+          ],
+          "kind": "lift",
+          "notes": null
+        },
+        {
+          "name": "Chest-Supported Row",
+          "muscle": "Upper Back",
+          "sets": [
+            {
+              "setNumber": 1,
+              "weight": 30,
+              "reps": 9,
+              "rpe": 8,
+              "completed": true,
+              "isNewPr": false
+            },
+            {
+              "setNumber": 2,
+              "weight": 30,
+              "reps": 8,
+              "rpe": 8,
+              "completed": true,
+              "isNewPr": false
+            },
+            {
+              "setNumber": 3,
+              "weight": 30,
+              "reps": 7,
+              "rpe": 9,
+              "completed": true,
+              "isNewPr": false
+            }
+          ],
+          "kind": "lift",
+          "notes": null
+        },
+        {
+          "name": "Seated Dumbbell Shoulder Press",
+          "muscle": "Shoulders",
+          "sets": [
+            {
+              "setNumber": 1,
+              "weight": 24,
+              "reps": 9,
+              "rpe": 8,
+              "completed": true,
+              "isNewPr": false
+            },
+            {
+              "setNumber": 2,
+              "weight": 24,
+              "reps": 8,
+              "rpe": 8,
+              "completed": true,
+              "isNewPr": false
+            },
+            {
+              "setNumber": 3,
+              "weight": 24,
+              "reps": 7,
+              "rpe": 9,
+              "completed": true,
+              "isNewPr": false
+            }
+          ],
+          "kind": "lift",
+          "notes": null
+        },
+        {
+          "name": "Lat Pulldown",
+          "muscle": "Lats",
+          "sets": [
+            {
+              "setNumber": 1,
+              "weight": 65.0,
+              "reps": 11,
+              "rpe": 8,
+              "completed": true,
+              "isNewPr": false
+            },
+            {
+              "setNumber": 2,
+              "weight": 65.0,
+              "reps": 10,
+              "rpe": 8,
+              "completed": true,
+              "isNewPr": false
+            },
+            {
+              "setNumber": 3,
+              "weight": 65.0,
+              "reps": 9,
+              "rpe": 9,
+              "completed": true,
+              "isNewPr": false
+            }
+          ],
+          "kind": "lift",
+          "notes": null
+        },
+        {
+          "name": "Incline Dumbbell Curl",
+          "muscle": "Biceps",
+          "sets": [
+            {
+              "setNumber": 1,
+              "weight": 12,
+              "reps": 11,
+              "rpe": 9,
+              "completed": true,
+              "isNewPr": false
+            },
+            {
+              "setNumber": 2,
+              "weight": 12,
+              "reps": 10,
+              "rpe": 9,
+              "completed": true,
+              "isNewPr": false
+            }
+          ],
+          "kind": "lift",
+          "notes": null
+        },
+        {
+          "name": "Cable Triceps Pushdown",
+          "muscle": "Triceps",
+          "sets": [
+            {
+              "setNumber": 1,
+              "weight": 30,
+              "reps": 11,
+              "rpe": 9,
+              "completed": true,
+              "isNewPr": false
+            },
+            {
+              "setNumber": 2,
+              "weight": 30,
+              "reps": 10,
+              "rpe": 9,
+              "completed": true,
+              "isNewPr": false
+            }
+          ],
+          "kind": "lift",
+          "notes": null
+        },
+        {
+          "name": "Thoracic Mobility",
+          "muscle": "",
+          "sets": [],
+          "kind": "checklist",
+          "completedRounds": 1,
+          "targetSeconds": 150,
+          "category": "mobility",
+          "notes": null
+        }
+      ],
+      "notes": null,
+      "startedAt": "{{dowtime:mon:-2}}",
+      "durationSeconds": 3520,
+      "createdAt": "{{dowtime:mon:-2}}"
+    }
+  ]
+}

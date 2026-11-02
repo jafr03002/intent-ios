@@ -1,0 +1,25 @@
+{
+  "status": 200,
+  "body": {
+    "dailyLog": {
+      "id": 140,
+      "userId": "user_mock_alex",
+      "date": "{{date:0}}",
+      "calories": 1420,
+      "steps": null,
+      "cardioType": null,
+      "cardioMinutes": null,
+      "createdAt": "{{datetime:0}}",
+      "updatedAt": "{{datetime:0}}"
+    },
+    "bodyweightLog": {
+      "id": 88,
+      "userId": "user_mock_alex",
+      "date": "{{date:0}}",
+      "weight": 78.6,
+      "weightUnit": "kg",
+      "createdAt": "{{datetime:0}}",
+      "updatedAt": "{{datetime:0}}"
+    }
+  }
+}

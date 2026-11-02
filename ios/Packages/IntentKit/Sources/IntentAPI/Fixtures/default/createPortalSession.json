@@ -1,0 +1,6 @@
+{
+  "status": 200,
+  "body": {
+    "url": "https://billing.stripe.com/p/session/test_mock"
+  }
+}

@@ -1,0 +1,932 @@
+{
+ "categories": [
+  {
+   "value": "stretch",
+   "label": "Stretch",
+   "token": "hsl(var(--chart-4))"
+  },
+  {
+   "value": "mobility",
+   "label": "Mobility",
+   "token": "hsl(var(--chart-4))"
+  },
+  {
+   "value": "core",
+   "label": "Core",
+   "token": "hsl(var(--chart-2))"
+  },
+  {
+   "value": "breathing",
+   "label": "Breathing",
+   "token": "hsl(var(--chart-1))"
+  },
+  {
+   "value": "other",
+   "label": "Other",
+   "token": "hsl(var(--chart-4))"
+  }
+ ],
+ "accent": "hsl(var(--chart-4))",
+ "targetTypeOptions": [
+  {
+   "value": "none",
+   "label": "Just tick it"
+  },
+  {
+   "value": "duration",
+   "label": "Duration"
+  },
+  {
+   "value": "count",
+   "label": "Reps / count"
+  },
+  {
+   "value": "distance",
+   "label": "Distance"
+  }
+ ],
+ "distanceUnits": [
+  "m",
+  "km"
+ ],
+ "maxWheel": {
+  "minutes": 60,
+  "seconds": 3659
+ },
+ "parseCategory": [
+  {
+   "in": "stretch",
+   "out": "stretch"
+  },
+  {
+   "in": "mobility",
+   "out": "mobility"
+  },
+  {
+   "in": "core",
+   "out": "core"
+  },
+  {
+   "in": "breathing",
+   "out": "breathing"
+  },
+  {
+   "in": "other",
+   "out": "other"
+  },
+  {
+   "in": "cardio",
+   "out": null
+  },
+  {
+   "in": "",
+   "out": null
+  },
+  {
+   "in": null,
+   "out": null
+  },
+  {
+   "in": "Stretch",
+   "out": null
+  }
+ ],
+ "formatDuration": [
+  {
+   "in": 0,
+   "out": "0:00"
+  },
+  {
+   "in": 1,
+   "out": "0:01"
+  },
+  {
+   "in": 59,
+   "out": "0:59"
+  },
+  {
+   "in": 60,
+   "out": "1:00"
+  },
+  {
+   "in": 150,
+   "out": "2:30"
+  },
+  {
+   "in": 599,
+   "out": "9:59"
+  },
+  {
+   "in": 3599,
+   "out": "59:59"
+  },
+  {
+   "in": 3600,
+   "out": "1:00:00"
+  },
+  {
+   "in": 3725,
+   "out": "1:02:05"
+  },
+  {
+   "in": 86400,
+   "out": "24:00:00"
+  },
+  {
+   "in": -3,
+   "out": "0:00"
+  },
+  {
+   "in": 12.9,
+   "out": "0:12"
+  }
+ ],
+ "describeTarget": [
+  {
+   "in": {
+    "targetType": "duration",
+    "targetSeconds": 150
+   },
+   "out": "2:30"
+  },
+  {
+   "in": {
+    "targetType": "duration",
+    "targetSeconds": 0
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "targetType": "duration",
+    "targetSeconds": null
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "targetType": "duration",
+    "targetSeconds": 3725
+   },
+   "out": "1:02:05"
+  },
+  {
+   "in": {
+    "targetType": "count",
+    "targetValue": 20
+   },
+   "out": "× 20"
+  },
+  {
+   "in": {
+    "targetType": "count",
+    "targetValue": 0
+   },
+   "out": "× 0"
+  },
+  {
+   "in": {
+    "targetType": "count",
+    "targetValue": null
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "targetType": "count",
+    "targetValue": 2.5
+   },
+   "out": "× 2.5"
+  },
+  {
+   "in": {
+    "targetType": "distance",
+    "targetValue": 400
+   },
+   "out": "400 m"
+  },
+  {
+   "in": {
+    "targetType": "distance",
+    "targetValue": 1.5,
+    "targetUnit": "km"
+   },
+   "out": "1.5 km"
+  },
+  {
+   "in": {
+    "targetType": "distance",
+    "targetValue": null
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "targetType": "none"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "targetType": null
+   },
+   "out": null
+  },
+  {
+   "in": {},
+   "out": null
+  }
+ ],
+ "describeTargetWithRounds": [
+  {
+   "in": {
+    "targetType": "duration",
+    "targetSeconds": 150
+   },
+   "out": "2:30"
+  },
+  {
+   "in": {
+    "targetType": "duration",
+    "targetSeconds": 150,
+    "rounds": null
+   },
+   "out": "2:30"
+  },
+  {
+   "in": {
+    "targetType": "duration",
+    "targetSeconds": 150,
+    "rounds": 0
+   },
+   "out": "2:30"
+  },
+  {
+   "in": {
+    "targetType": "duration",
+    "targetSeconds": 150,
+    "rounds": 1
+   },
+   "out": "2:30"
+  },
+  {
+   "in": {
+    "targetType": "duration",
+    "targetSeconds": 150,
+    "rounds": 2
+   },
+   "out": "2 × 2:30"
+  },
+  {
+   "in": {
+    "targetType": "duration",
+    "targetSeconds": 150,
+    "rounds": 3
+   },
+   "out": "3 × 2:30"
+  },
+  {
+   "in": {
+    "targetType": "duration",
+    "targetSeconds": 0
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "targetType": "duration",
+    "targetSeconds": 0,
+    "rounds": null
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "targetType": "duration",
+    "targetSeconds": 0,
+    "rounds": 0
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "targetType": "duration",
+    "targetSeconds": 0,
+    "rounds": 1
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "targetType": "duration",
+    "targetSeconds": 0,
+    "rounds": 2
+   },
+   "out": "2 rounds"
+  },
+  {
+   "in": {
+    "targetType": "duration",
+    "targetSeconds": 0,
+    "rounds": 3
+   },
+   "out": "3 rounds"
+  },
+  {
+   "in": {
+    "targetType": "duration",
+    "targetSeconds": null
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "targetType": "duration",
+    "targetSeconds": null,
+    "rounds": null
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "targetType": "duration",
+    "targetSeconds": null,
+    "rounds": 0
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "targetType": "duration",
+    "targetSeconds": null,
+    "rounds": 1
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "targetType": "duration",
+    "targetSeconds": null,
+    "rounds": 2
+   },
+   "out": "2 rounds"
+  },
+  {
+   "in": {
+    "targetType": "duration",
+    "targetSeconds": null,
+    "rounds": 3
+   },
+   "out": "3 rounds"
+  },
+  {
+   "in": {
+    "targetType": "duration",
+    "targetSeconds": 3725
+   },
+   "out": "1:02:05"
+  },
+  {
+   "in": {
+    "targetType": "duration",
+    "targetSeconds": 3725,
+    "rounds": null
+   },
+   "out": "1:02:05"
+  },
+  {
+   "in": {
+    "targetType": "duration",
+    "targetSeconds": 3725,
+    "rounds": 0
+   },
+   "out": "1:02:05"
+  },
+  {
+   "in": {
+    "targetType": "duration",
+    "targetSeconds": 3725,
+    "rounds": 1
+   },
+   "out": "1:02:05"
+  },
+  {
+   "in": {
+    "targetType": "duration",
+    "targetSeconds": 3725,
+    "rounds": 2
+   },
+   "out": "2 × 1:02:05"
+  },
+  {
+   "in": {
+    "targetType": "duration",
+    "targetSeconds": 3725,
+    "rounds": 3
+   },
+   "out": "3 × 1:02:05"
+  },
+  {
+   "in": {
+    "targetType": "count",
+    "targetValue": 20
+   },
+   "out": "× 20"
+  },
+  {
+   "in": {
+    "targetType": "count",
+    "targetValue": 20,
+    "rounds": null
+   },
+   "out": "× 20"
+  },
+  {
+   "in": {
+    "targetType": "count",
+    "targetValue": 20,
+    "rounds": 0
+   },
+   "out": "× 20"
+  },
+  {
+   "in": {
+    "targetType": "count",
+    "targetValue": 20,
+    "rounds": 1
+   },
+   "out": "× 20"
+  },
+  {
+   "in": {
+    "targetType": "count",
+    "targetValue": 20,
+    "rounds": 2
+   },
+   "out": "2 × × 20"
+  },
+  {
+   "in": {
+    "targetType": "count",
+    "targetValue": 20,
+    "rounds": 3
+   },
+   "out": "3 × × 20"
+  },
+  {
+   "in": {
+    "targetType": "count",
+    "targetValue": 0
+   },
+   "out": "× 0"
+  },
+  {
+   "in": {
+    "targetType": "count",
+    "targetValue": 0,
+    "rounds": null
+   },
+   "out": "× 0"
+  },
+  {
+   "in": {
+    "targetType": "count",
+    "targetValue": 0,
+    "rounds": 0
+   },
+   "out": "× 0"
+  },
+  {
+   "in": {
+    "targetType": "count",
+    "targetValue": 0,
+    "rounds": 1
+   },
+   "out": "× 0"
+  },
+  {
+   "in": {
+    "targetType": "count",
+    "targetValue": 0,
+    "rounds": 2
+   },
+   "out": "2 × × 0"
+  },
+  {
+   "in": {
+    "targetType": "count",
+    "targetValue": 0,
+    "rounds": 3
+   },
+   "out": "3 × × 0"
+  },
+  {
+   "in": {
+    "targetType": "count",
+    "targetValue": null
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "targetType": "count",
+    "targetValue": null,
+    "rounds": null
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "targetType": "count",
+    "targetValue": null,
+    "rounds": 0
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "targetType": "count",
+    "targetValue": null,
+    "rounds": 1
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "targetType": "count",
+    "targetValue": null,
+    "rounds": 2
+   },
+   "out": "2 rounds"
+  },
+  {
+   "in": {
+    "targetType": "count",
+    "targetValue": null,
+    "rounds": 3
+   },
+   "out": "3 rounds"
+  },
+  {
+   "in": {
+    "targetType": "count",
+    "targetValue": 2.5
+   },
+   "out": "× 2.5"
+  },
+  {
+   "in": {
+    "targetType": "count",
+    "targetValue": 2.5,
+    "rounds": null
+   },
+   "out": "× 2.5"
+  },
+  {
+   "in": {
+    "targetType": "count",
+    "targetValue": 2.5,
+    "rounds": 0
+   },
+   "out": "× 2.5"
+  },
+  {
+   "in": {
+    "targetType": "count",
+    "targetValue": 2.5,
+    "rounds": 1
+   },
+   "out": "× 2.5"
+  },
+  {
+   "in": {
+    "targetType": "count",
+    "targetValue": 2.5,
+    "rounds": 2
+   },
+   "out": "2 × × 2.5"
+  },
+  {
+   "in": {
+    "targetType": "count",
+    "targetValue": 2.5,
+    "rounds": 3
+   },
+   "out": "3 × × 2.5"
+  },
+  {
+   "in": {
+    "targetType": "distance",
+    "targetValue": 400
+   },
+   "out": "400 m"
+  },
+  {
+   "in": {
+    "targetType": "distance",
+    "targetValue": 400,
+    "rounds": null
+   },
+   "out": "400 m"
+  },
+  {
+   "in": {
+    "targetType": "distance",
+    "targetValue": 400,
+    "rounds": 0
+   },
+   "out": "400 m"
+  },
+  {
+   "in": {
+    "targetType": "distance",
+    "targetValue": 400,
+    "rounds": 1
+   },
+   "out": "400 m"
+  },
+  {
+   "in": {
+    "targetType": "distance",
+    "targetValue": 400,
+    "rounds": 2
+   },
+   "out": "2 × 400 m"
+  },
+  {
+   "in": {
+    "targetType": "distance",
+    "targetValue": 400,
+    "rounds": 3
+   },
+   "out": "3 × 400 m"
+  },
+  {
+   "in": {
+    "targetType": "distance",
+    "targetValue": 1.5,
+    "targetUnit": "km"
+   },
+   "out": "1.5 km"
+  },
+  {
+   "in": {
+    "targetType": "distance",
+    "targetValue": 1.5,
+    "targetUnit": "km",
+    "rounds": null
+   },
+   "out": "1.5 km"
+  },
+  {
+   "in": {
+    "targetType": "distance",
+    "targetValue": 1.5,
+    "targetUnit": "km",
+    "rounds": 0
+   },
+   "out": "1.5 km"
+  },
+  {
+   "in": {
+    "targetType": "distance",
+    "targetValue": 1.5,
+    "targetUnit": "km",
+    "rounds": 1
+   },
+   "out": "1.5 km"
+  },
+  {
+   "in": {
+    "targetType": "distance",
+    "targetValue": 1.5,
+    "targetUnit": "km",
+    "rounds": 2
+   },
+   "out": "2 × 1.5 km"
+  },
+  {
+   "in": {
+    "targetType": "distance",
+    "targetValue": 1.5,
+    "targetUnit": "km",
+    "rounds": 3
+   },
+   "out": "3 × 1.5 km"
+  },
+  {
+   "in": {
+    "targetType": "distance",
+    "targetValue": null
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "targetType": "distance",
+    "targetValue": null,
+    "rounds": null
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "targetType": "distance",
+    "targetValue": null,
+    "rounds": 0
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "targetType": "distance",
+    "targetValue": null,
+    "rounds": 1
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "targetType": "distance",
+    "targetValue": null,
+    "rounds": 2
+   },
+   "out": "2 rounds"
+  },
+  {
+   "in": {
+    "targetType": "distance",
+    "targetValue": null,
+    "rounds": 3
+   },
+   "out": "3 rounds"
+  },
+  {
+   "in": {
+    "targetType": "none"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "targetType": "none",
+    "rounds": null
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "targetType": "none",
+    "rounds": 0
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "targetType": "none",
+    "rounds": 1
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "targetType": "none",
+    "rounds": 2
+   },
+   "out": "2 rounds"
+  },
+  {
+   "in": {
+    "targetType": "none",
+    "rounds": 3
+   },
+   "out": "3 rounds"
+  },
+  {
+   "in": {
+    "targetType": null
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "targetType": null,
+    "rounds": null
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "targetType": null,
+    "rounds": 0
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "targetType": null,
+    "rounds": 1
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "targetType": null,
+    "rounds": 2
+   },
+   "out": "2 rounds"
+  },
+  {
+   "in": {
+    "targetType": null,
+    "rounds": 3
+   },
+   "out": "3 rounds"
+  },
+  {
+   "in": {},
+   "out": null
+  },
+  {
+   "in": {
+    "rounds": null
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "rounds": 0
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "rounds": 1
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "rounds": 2
+   },
+   "out": "2 rounds"
+  },
+  {
+   "in": {
+    "rounds": 3
+   },
+   "out": "3 rounds"
+  }
+ ],
+ "clampTargetValue": [
+  {
+   "in": [
+    -1,
+    "count"
+   ],
+   "out": 0
+  },
+  {
+   "in": [
+    5,
+    "count"
+   ],
+   "out": 5
+  },
+  {
+   "in": [
+    1001,
+    "count"
+   ],
+   "out": 1000
+  },
+  {
+   "in": [
+    1001,
+    "distance"
+   ],
+   "out": 1001
+  },
+  {
+   "in": [
+    100001,
+    "distance"
+   ],
+   "out": 100000
+  },
+  {
+   "in": [
+    "NaN",
+    "count"
+   ],
+   "out": 0
+  },
+  {
+   "in": [
+    2.5,
+    "duration"
+   ],
+   "out": 2.5
+  }
+ ]
+}

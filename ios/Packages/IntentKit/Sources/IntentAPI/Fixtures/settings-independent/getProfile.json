@@ -1,0 +1,49 @@
+{
+  "status": 200,
+  "body": {
+    "userId": "user_mock_alex",
+    "name": "Alex",
+    "mode": "independent",
+    "goal": "gain_weight",
+    "experience": "intermediate",
+    "trainingDays": 4,
+    "equipment": [
+      "barbell",
+      "dumbbells",
+      "cables",
+      "machines"
+    ],
+    "age": 27,
+    "sex": "male",
+    "weight": 78.4,
+    "weightUnit": "kg",
+    "goalWeight": 84,
+    "activityLevel": "moderate",
+    "preferredRestDays": [
+      "wednesday",
+      "saturday",
+      "sunday"
+    ],
+    "injuries": null,
+    "injurySeverity": null,
+    "priorityMuscles": [
+      "Chest",
+      "Shoulders"
+    ],
+    "dailyCalorieTarget": 2600,
+    "dailyStepTarget": 8000,
+    "cardioDays": [
+      "wednesday"
+    ],
+    "cardioMinutes": 25,
+    "onboardingComplete": true,
+    "onboardingCompletedAt": "{{dowtime:mon:-5}}",
+    "calibrationWalkthroughSeenAt": "{{dowtime:mon:-5}}",
+    "calibrationBriefingSeenAt": "{{dowtime:mon:-5}}",
+    "programPageTourSeenAt": "{{dowtime:mon:-5}}",
+    "weightLoggingTourSeenAt": "{{dowtime:mon:-5}}",
+    "dashboardTourSeenAt": "{{dowtime:mon:-5}}",
+    "calendarTourSeenAt": "{{dowtime:mon:-5}}",
+    "createdAt": "{{dowtime:mon:-5}}"
+  }
+}
