@@ -150,7 +150,8 @@ struct SettingsScreen: View {
     private func fillFields() {
         guard !filled, let p = data.profile else { return }
         filled = true
-        name = p.name ?? ""
+        // As the web: an unnamed profile starts from the sign-in account's first name.
+        name = p.name.flatMap { $0.isEmpty ? nil : $0 } ?? services.auth.state.user?.firstName ?? ""
         weight = p.weight.map { SettingsFormat.js($0) } ?? ""
         weightUnit = p.weightUnit ?? "kg"
         age = p.age.map(String.init) ?? ""
@@ -164,7 +165,14 @@ struct SettingsScreen: View {
         do {
             try await data.saveProfile(SettingsLogic.profilePatch(name: name, age: age, weight: weight, weightUnit: weightUnit),
                                        client: services.api)
+        } catch SettingsSaveError.noProfile {
+            // Nothing to edit: onboarding never saved a profile for this account.
+            appLog.error("settings: profile save hit 404 - no profile row")
+            alert = SettingsAlert(title: "Couldn't save your profile",
+                                  message: "Your account has no profile yet. Finish onboarding, then try again.")
+            return
         } catch {
+            appLog.error("settings: profile save failed: \(String(describing: error), privacy: .public)")
             // A profile saved before the ranges existed can still hold an impossible
             // value, which the server now rejects on the way back in.
             alert = SettingsAlert(title: "Couldn't save your profile",

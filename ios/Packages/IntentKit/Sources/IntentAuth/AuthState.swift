@@ -4,10 +4,14 @@ public struct AuthUser: Equatable, Sendable {
     /// Clerk user id (`user_...`), the same id the API stores as `userId`.
     public let id: String
     public let email: String?
+    /// The Clerk profile's first name (set by Google sign-in, or nil). The web shows
+    /// it wherever the app profile has no name of its own.
+    public let firstName: String?
 
-    public init(id: String, email: String?) {
+    public init(id: String, email: String?, firstName: String? = nil) {
         self.id = id
         self.email = email
+        self.firstName = firstName
     }
 }
 

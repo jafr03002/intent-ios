@@ -26,7 +26,8 @@ final class ClerkAuthBackend: AuthBackend {
         guard clerk.isLoaded else { return .loading }
         guard let session = clerk.session, session.status == .active,
               let user = session.user ?? clerk.user else { return .signedOut }
-        return .signedIn(AuthUser(id: user.id, email: user.primaryEmailAddress?.emailAddress))
+        return .signedIn(AuthUser(id: user.id, email: user.primaryEmailAddress?.emailAddress,
+                                  firstName: user.firstName))
     }
 
     func sessionToken() async throws -> String? {

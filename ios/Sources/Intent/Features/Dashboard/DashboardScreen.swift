@@ -57,7 +57,15 @@ struct DashboardScreen: View {
         }
     }
 
-    private var displayName: String { (model.profile?.name).flatMap { $0.isEmpty ? nil : $0 } ?? "Coach" }
+    /// The profile's name, else the sign-in account's first name (the web's
+    /// `profile?.name || user?.firstName`). With neither, a neutral word rather than
+    /// the web's "Coach", which read as the user being called Coach.
+    private var displayName: String {
+        let candidates = [model.profile?.name, services.auth.state.user?.firstName]
+        return candidates.lazy
+            .compactMap { $0?.trimmingCharacters(in: .whitespacesAndNewlines) }
+            .first { !$0.isEmpty } ?? "Welcome"
+    }
 
     // MARK: Page frame
 
