@@ -15,7 +15,7 @@ struct LiveStartDiscOverlay: View {
 
     var body: some View {
         if let active = launcher.active {
-            HStack(spacing: 0) {
+            HStack(alignment: .bottom, spacing: 0) {
                 Color.clear.frame(maxWidth: .infinity)
                 Color.clear.frame(maxWidth: .infinity)
                 Button(action: onResume) {
@@ -23,14 +23,17 @@ struct LiveStartDiscOverlay: View {
                         SpinningArc()
                             .frame(width: IntentMetrics.startDisc + 14, height: IntentMetrics.startDisc + 14)
                             .frame(width: IntentMetrics.startDisc, height: IntentMetrics.startDisc)
-                            .padding(.top, -24)
+                            .padding(.top, -IntentMetrics.startDiscRise)
                         Text(label(active))
                             .intentText(.tabLabel)
                             .monospacedDigit()
                             .foregroundStyle(Color.intent.sessionsCyan)
                             .lineLimit(1)
                     }
-                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    .frame(maxWidth: .infinity)
+                    .frame(height: IntentMetrics.tabBarHeight)
+                    // Same column as IntentTabBar's Start: the rise is tappable too.
+                    .frame(height: IntentMetrics.tabBarHeight + IntentMetrics.startDiscRise, alignment: .bottom)
                     .contentShape(Rectangle())
                 }
                 .buttonStyle(.plain)
@@ -40,9 +43,8 @@ struct LiveStartDiscOverlay: View {
             }
             .padding(.horizontal, 4)
             .frame(maxWidth: 448)
-            .frame(height: IntentMetrics.tabBarHeight)
+            .frame(height: IntentMetrics.tabBarHeight + IntentMetrics.startDiscRise)
             .frame(maxWidth: .infinity)
-            .frame(maxHeight: .infinity, alignment: .top)
         }
     }
 

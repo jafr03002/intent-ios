@@ -226,5 +226,8 @@ public enum IntentMetrics {
     public static let tabBarHeight: CGFloat = 64
     /// `h-14 w-14`: the raised Start disc.
     public static let startDisc: CGFloat = 56
+    /// `-mt-6`: how far the Start disc's column reaches above the bar row. The tab
+    /// bar view is `tabBarHeight + startDiscRise` tall so the disc is inside it.
+    public static let startDiscRise: CGFloat = 24
 }
 #endif

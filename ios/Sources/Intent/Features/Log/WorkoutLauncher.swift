@@ -75,9 +75,14 @@ final class WorkoutLauncher {
     }
 
     /// Re-read the program (e.g. after the picker found none, or a start date moved).
+    /// A 404 clears it; a failed request keeps what we had.
     func reloadProgram() async {
         guard let client else { return }
-        if let p = try? await LogAPI.program(client) { program = p }
+        do {
+            program = try await LogAPI.program(client)
+        } catch {
+            appLog.error("start: program reload failed: \(String(describing: error), privacy: .public)")
+        }
     }
 
     func refreshActive() {
@@ -101,10 +106,22 @@ final class WorkoutLauncher {
             return
         }
         switch LogScreenRules.startPress(program: program, today: Date()) {
-        case .openPicker: pickerOpen.wrappedValue = true
+        case .openPicker:
+            pickerOpen.wrappedValue = true
+            // The web's query refetches; keep the picker's days fresh the same way.
+            Task { await reloadProgram() }
         case .goToProgram:
-            closeLog()
-            selectTab?(.program)
+            // The program is only read once at launch, so a user who onboarded or
+            // built one since would never get the picker. Re-read before deciding.
+            Task {
+                await reloadProgram()
+                if LogScreenRules.startPress(program: program, today: Date()) == .openPicker {
+                    pickerOpen.wrappedValue = true
+                } else {
+                    closeLog()
+                    selectTab?(.program)
+                }
+            }
         }
     }
 

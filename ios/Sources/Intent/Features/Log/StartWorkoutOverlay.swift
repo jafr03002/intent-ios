@@ -20,6 +20,9 @@ struct StartWorkoutOverlay: View {
         ZStack(alignment: .bottom) {
             Color.black.opacity(shown ? 0.6 : 0)
                 .ignoresSafeArea(edges: .top)
+                // The shell lays this out above the tab bar view, whose top strip is
+                // the Start disc's rise: reach down through it to the bar's hairline.
+                .padding(.bottom, -IntentMetrics.startDiscRise)
                 .onTapGesture { close() }
                 .accessibilityHidden(true)
             if let program {
@@ -60,8 +63,9 @@ struct StartWorkoutOverlay: View {
         .background(Color.intent.card)
         .clipShape(RoundedRectangle(cornerRadius: IntentRadius.groupedList, style: .continuous))
         .padding(.horizontal, 16)
-        // 6.25rem above the screen bottom on the web = 36pt above the bar's top edge.
-        .padding(.bottom, 36)
+        // 6.25rem above the screen bottom on the web = 36pt above the bar's top edge;
+        // this view already ends `startDiscRise` above that edge.
+        .padding(.bottom, 36 - IntentMetrics.startDiscRise)
         .accessibilityElement(children: .contain)
         .accessibilityLabel("Start a workout")
         .accessibilityAddTraits(.isModal)

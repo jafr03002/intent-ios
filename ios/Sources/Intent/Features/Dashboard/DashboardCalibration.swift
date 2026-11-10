@@ -218,7 +218,7 @@ struct DashboardCalibrationWalkthrough: View {
         }
         .padding(.horizontal, 24)
         .padding(.top, 40)
-        .padding(.bottom, 16 + IntentMetrics.tabBarHeight)
+        .padding(.bottom, 16) // the shell lays the tab bar out below this screen
         .background(
             LinearGradient(colors: [.clear, Color.black.opacity(0.9), .black], startPoint: .top, endPoint: .bottom)
                 .allowsHitTesting(false))

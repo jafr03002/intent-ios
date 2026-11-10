@@ -27,6 +27,10 @@ struct OnboardingScreen: View {
                 Color.intent.background.ignoresSafeArea()
             }
         }
+        // Full screen, as the web renders /onboarding without the bottom nav. It can
+        // be pushed inside the Program tab ("Set up AI coaching"), where the bar
+        // otherwise sat over its Continue / Back buttons.
+        .hidesIntentTabBar()
         .task {
             guard model == nil else { return }
             let model = OnboardingModel(api: client, onFinished: onFinished)
