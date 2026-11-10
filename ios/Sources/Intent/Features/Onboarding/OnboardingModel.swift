@@ -29,6 +29,8 @@ final class OnboardingModel {
     private(set) var finishAction: FinishAction?
     private(set) var createPending = false
     private(set) var createError = false
+    /// Why the save failed (status / server message), shown under the error banner.
+    private(set) var createErrorDetail: String?
     private(set) var updateError = false
     private(set) var commitPending = false
     var commitError: String?
@@ -164,6 +166,7 @@ final class OnboardingModel {
         finishAction = generateNow ? .generate : .later
         createPending = true
         createError = false
+        createErrorDetail = nil
         do {
             do {
                 switch try await api.createProfile(body: .json(profileInput)) {
@@ -171,8 +174,13 @@ final class OnboardingModel {
                 case .undocumented(let code, let payload):
                     throw await IntentAPIError.undocumented(statusCode: code, payload)
                 }
+            } catch where IntentAPIError.undecodableSuccessStatus(error) != nil {
+                // The server saved the profile; only its reply didn't match the spec.
+                // Retrying can't fix that, so carry on into the app.
+                appLog.error("createProfile saved but reply didn't decode: \(String(describing: error), privacy: .public)")
             } catch {
                 createError = true
+                createErrorDetail = IntentAPIError.from(error).localizedDescription
                 throw error
             }
             createPending = false

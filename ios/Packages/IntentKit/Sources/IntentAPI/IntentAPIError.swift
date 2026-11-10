@@ -35,6 +35,16 @@ public enum IntentAPIError: Error, Sendable, Equatable {
         return .transport(String(describing: error))
     }
 
+    /// The status of a 2xx response whose body failed to decode, else nil. The
+    /// generated client decodes eagerly, so a server reply that drifts from the spec
+    /// throws even though the request itself succeeded (the write is done).
+    public static func undecodableSuccessStatus(_ error: any Error) -> Int? {
+        guard let status = (error as? ClientError)?.response?.status.code, (200..<300).contains(status) else {
+            return nil
+        }
+        return status
+    }
+
     private struct ErrorBody: Decodable { let error: String }
 }
 
