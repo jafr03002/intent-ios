@@ -32,5 +32,5 @@ rm -rf "$DEST" && mkdir -p "$DEST"
 gh run download -R "$REPO" "$RUN_ID" --name ios-ipa --dir "$DEST"
 echo "ipa from run $RUN_ID (commit $(cat "$DEST/commit.txt" | cut -c1-7))"
 
-WSL_IPA=$(wsl -d Ubuntu -- wslpath -a "$(cygpath -w "$DEST/Intent.ipa")" | tr -d '\r')
+WSL_IPA=$(wsl -d Ubuntu -- wslpath -a "$(cygpath -m "$DEST/Intent.ipa")" | tr -d '\r')
 wsl -d Ubuntu -- bash -lc "~/.local/bin/xtool install --usb '$WSL_IPA'"
