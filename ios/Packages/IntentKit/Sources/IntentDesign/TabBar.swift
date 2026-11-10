@@ -5,9 +5,9 @@ import SwiftUI
 /// with a hairline on top, the active tab white and the rest muted, and Start as a
 /// raised white disc with a black play icon in the middle.
 ///
-/// Visuals only: it reports taps, the app owns navigation. Place it with
-/// `.safeAreaInset(edge: .bottom, spacing: 0) { IntentTabBar(selection: ...) }`
-/// so scrolling content passes under the blur.
+/// Visuals only: it reports taps, the app owns navigation. Lay it out below the
+/// content (MainTabView uses a VStack): it is `tabBarHeight + startDiscRise` tall, and
+/// its background runs on down through the home-indicator inset.
 public struct IntentTabBar: View {
     public enum Tab: String, CaseIterable, Sendable {
         case home, program, nutrition, you
@@ -57,7 +57,11 @@ public struct IntentTabBar: View {
     }
 
     public var body: some View {
-        HStack(spacing: 0) {
+        // The view is `tabBarHeight + startDiscRise` tall: the bar row at the bottom,
+        // and above it a clear strip the raised Start disc pokes into (the web's
+        // `pb-[5.5rem]` on <main> vs the 4rem bar). Only the disc's column is
+        // tappable up there; elsewhere the strip passes touches through.
+        HStack(alignment: .bottom, spacing: 0) {
             tab(.home)
             tab(.program)
             startButton
@@ -66,7 +70,7 @@ public struct IntentTabBar: View {
         }
         .padding(.horizontal, 4)
         .frame(maxWidth: 448)
-        .frame(height: IntentMetrics.tabBarHeight)
+        .frame(height: IntentMetrics.tabBarHeight + IntentMetrics.startDiscRise)
         .frame(maxWidth: .infinity)
         .background {
             // `bg-sidebar/80 backdrop-blur-xl`: black at 80% over a blur, down
@@ -79,6 +83,7 @@ public struct IntentTabBar: View {
                     .fill(Color.intent.sidebarBorder)
                     .frame(height: IntentMetrics.hairline)
             }
+            .padding(.top, IntentMetrics.startDiscRise)
             .ignoresSafeArea(edges: .bottom)
         }
         .environment(\.colorScheme, .dark)
@@ -95,7 +100,8 @@ public struct IntentTabBar: View {
                     .intentText(.tabLabel)
                     .lineLimit(1)
             }
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .frame(maxWidth: .infinity)
+            .frame(height: IntentMetrics.tabBarHeight)
             .foregroundStyle(active ? Color.intent.foreground : Color.intent.mutedForeground)
             .contentShape(Rectangle())
         }
@@ -114,13 +120,18 @@ public struct IntentTabBar: View {
                     .background(Circle().fill(Color.white))
                     // `ring-4 ring-black`: a black collar that cuts the disc out of the bar's hairline.
                     .background(Circle().fill(Color.black).padding(-4))
-                    .padding(.top, -24)
+                    .padding(.top, -IntentMetrics.startDiscRise)
                 Text(startTitle)
                     .intentText(.tabLabel)
                     .foregroundStyle(Color.intent.foreground)
                     .lineLimit(1)
             }
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .frame(maxWidth: .infinity)
+            .frame(height: IntentMetrics.tabBarHeight)
+            // The hit area is the whole column, rise included: the disc pokes above
+            // the bar row, and its top half used to sit outside the button and
+            // swallow taps (the "middle button does nothing" bug).
+            .frame(height: IntentMetrics.tabBarHeight + IntentMetrics.startDiscRise, alignment: .bottom)
             .contentShape(Rectangle())
         }
         .buttonStyle(StartPressStyle())

@@ -72,9 +72,6 @@ struct DashboardScreen: View {
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding(IntentSpacing.gutter)
-                // The shell's tab bar inset doesn't reach this scroll view on CI
-                // (content ended under the bar), so clear it here.
-                .padding(.bottom, IntentMetrics.tabBarHeight)
                 .background(alignment: .top) {
                     DashboardWash().frame(height: 420 + 120).offset(y: -120)
                 }
