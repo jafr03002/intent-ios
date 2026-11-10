@@ -29,30 +29,12 @@ func dashboardPhaseColor(_ phase: String, opacity: Double = 1) -> Color {
 
 // MARK: - Wash
 
-/// `.sessions-wash`: the grey-to-teal light behind the date arc and greeting,
-/// fading into black. (The web draws a live WebGL shader over this - DashboardWash.tsx -
-/// with this gradient as its fallback; the native port draws the fallback.)
+/// The grey-to-teal light behind the date arc and greeting, fading into black:
+/// the web's live shader (DashboardWash.tsx) over the `.sessions-wash` gradient,
+/// gathering over today's column. See LiveWash.
 struct DashboardWash: View {
     var body: some View {
-        ZStack {
-            LinearGradient(
-                stops: [
-                    .init(color: Color(red: 0x2f / 255, green: 0x35 / 255, blue: 0x38 / 255), location: 0),
-                    .init(color: Color(red: 0x1b / 255, green: 0x22 / 255, blue: 0x24 / 255), location: 0.38),
-                    .init(color: .black, location: 1),
-                ],
-                startPoint: .top, endPoint: .bottom)
-            // radial-gradient(75% 60% at 50% 18%, rgb(214 222 222 / 0.22), transparent 72%)
-            EllipticalGradient(
-                colors: [Color(red: 214 / 255, green: 222 / 255, blue: 222 / 255).opacity(0.22), .clear],
-                center: UnitPoint(x: 0.5, y: 0.18), startRadiusFraction: 0, endRadiusFraction: 0.5)
-            // radial-gradient(60% 55% at 50% 30%, cyan / 0.3, transparent 70%)
-            EllipticalGradient(
-                colors: [Color.intent.sessionsCyan.opacity(0.3), .clear],
-                center: UnitPoint(x: 0.5, y: 0.3), startRadiusFraction: 0, endRadiusFraction: 0.42)
-        }
-        .allowsHitTesting(false)
-        .accessibilityHidden(true)
+        LiveWash()
     }
 }
 

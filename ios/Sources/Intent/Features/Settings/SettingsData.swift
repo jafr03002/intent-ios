@@ -3,6 +3,11 @@ import IntentAPI
 import IntentCore
 import Observation
 
+enum SettingsSaveError: Error {
+    /// The account has no profile row yet (onboarding never finished saving).
+    case noProfile
+}
+
 /// What the "You" tab reads and writes (the web page's seven queries and five
 /// mutations, minus checkout: no purchase flow until StoreKit vs Stripe is decided).
 @MainActor
@@ -64,7 +69,10 @@ final class SettingsData {
 
     func saveProfile(_ patch: SettingsLogic.ProfilePatch, client: IntentAPIClient) async throws {
         let body = IntentSchemas.UserProfileUpdate(name: patch.name, age: patch.age, weight: patch.weight, weightUnit: patch.weightUnit)
-        profile = try await client.api.updateProfile(body: .json(body)).ok.body.json
+        let response = try await client.api.updateProfile(body: .json(body))
+        // PATCH only edits a profile that exists; onboarding creates it.
+        if case .undocumented(statusCode: 404, _) = response { throw SettingsSaveError.noProfile }
+        profile = try response.ok.body.json
     }
 
     func switchMode(to mode: String, client: IntentAPIClient) async throws {
