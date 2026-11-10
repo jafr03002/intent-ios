@@ -427,7 +427,8 @@ struct OnboardingFormView: View {
             .padding(.bottom, 24)
 
             if model.createError || model.job.isError {
-                Text("Something went wrong. Please try again.")
+                Text("Something went wrong. Please try again."
+                     + (model.createError ? model.createErrorDetail.map { "\n\($0)" } ?? "" : ""))
                     .font(.intent(12.5)).foregroundStyle(Color.intent.destructive)
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .padding(.horizontal, 16).padding(.vertical, 14)
