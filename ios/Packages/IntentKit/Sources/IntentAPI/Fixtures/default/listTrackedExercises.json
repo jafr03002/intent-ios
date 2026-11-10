@@ -1,0 +1,30 @@
+{
+  "status": 200,
+  "body": [
+    "Back Squat",
+    "Barbell Bench Press",
+    "Bulgarian Split Squat",
+    "Cable Lateral Raise",
+    "Cable Triceps Pushdown",
+    "Chest-Supported Row",
+    "EZ-Bar Curl",
+    "Hip Flexor Stretch",
+    "Hip Thrust",
+    "Incline Dumbbell Curl",
+    "Incline Dumbbell Press",
+    "Lat Pulldown",
+    "Leg Extension",
+    "Leg Press",
+    "Overhead Triceps Extension",
+    "Plank",
+    "Romanian Deadlift",
+    "Seated Cable Row",
+    "Seated Calf Raise",
+    "Seated Dumbbell Shoulder Press",
+    "Seated Leg Curl",
+    "Standing Calf Raise",
+    "Thoracic Mobility",
+    "Trap Bar Deadlift",
+    "Weighted Pull-Up"
+  ]
+}

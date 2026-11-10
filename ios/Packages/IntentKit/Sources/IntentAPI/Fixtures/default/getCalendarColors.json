@@ -1,0 +1,11 @@
+{
+  "status": 200,
+  "body": [
+    {
+      "id": 1,
+      "userId": "user_mock_alex",
+      "dayLabel": "Lower B",
+      "hexColor": "#f97316"
+    }
+  ]
+}

@@ -1,0 +1,651 @@
+{
+ "cases": [
+  {
+   "name": "expired completes a round",
+   "logs": [
+    {
+     "name": "Hip mobility",
+     "muscle": "",
+     "isUnilateral": false,
+     "targetSets": 2,
+     "targetReps": "",
+     "notes": "",
+     "showNotes": false,
+     "kind": "checklist",
+     "targetType": "duration",
+     "targetSeconds": 150,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": "mobility",
+     "completedRounds": 0,
+     "targetRounds": 2,
+     "timerEndsAt": 1792924199999,
+     "timerPausedRemaining": null,
+     "sets": []
+    },
+    {
+     "name": "Hip mobility",
+     "muscle": "",
+     "isUnilateral": false,
+     "targetSets": 2,
+     "targetReps": "",
+     "notes": "",
+     "showNotes": false,
+     "kind": "checklist",
+     "targetType": "duration",
+     "targetSeconds": 150,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": "mobility",
+     "completedRounds": 0,
+     "targetRounds": 2,
+     "timerEndsAt": 1792924205000,
+     "timerPausedRemaining": null,
+     "sets": []
+    }
+   ],
+   "now": 1792924200000,
+   "action": null,
+   "out": [
+    {
+     "name": "Hip mobility",
+     "muscle": "",
+     "isUnilateral": false,
+     "targetSets": 2,
+     "targetReps": "",
+     "notes": "",
+     "showNotes": false,
+     "kind": "checklist",
+     "targetType": "duration",
+     "targetSeconds": 150,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": "mobility",
+     "completedRounds": 1,
+     "targetRounds": 2,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": []
+    },
+    {
+     "name": "Hip mobility",
+     "muscle": "",
+     "isUnilateral": false,
+     "targetSets": 2,
+     "targetReps": "",
+     "notes": "",
+     "showNotes": false,
+     "kind": "checklist",
+     "targetType": "duration",
+     "targetSeconds": 150,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": "mobility",
+     "completedRounds": 0,
+     "targetRounds": 2,
+     "timerEndsAt": 1792924205000,
+     "timerPausedRemaining": null,
+     "sets": []
+    }
+   ]
+  },
+  {
+   "name": "expiry exactly now",
+   "logs": [
+    {
+     "name": "Hip mobility",
+     "muscle": "",
+     "isUnilateral": false,
+     "targetSets": 2,
+     "targetReps": "",
+     "notes": "",
+     "showNotes": false,
+     "kind": "checklist",
+     "targetType": "duration",
+     "targetSeconds": 150,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": "mobility",
+     "completedRounds": 2,
+     "targetRounds": 2,
+     "timerEndsAt": 1792924200000,
+     "timerPausedRemaining": null,
+     "sets": []
+    }
+   ],
+   "now": 1792924200000,
+   "action": null,
+   "out": [
+    {
+     "name": "Hip mobility",
+     "muscle": "",
+     "isUnilateral": false,
+     "targetSets": 2,
+     "targetReps": "",
+     "notes": "",
+     "showNotes": false,
+     "kind": "checklist",
+     "targetType": "duration",
+     "targetSeconds": 150,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": "mobility",
+     "completedRounds": 2,
+     "targetRounds": 2,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": []
+    }
+   ]
+  },
+  {
+   "name": "nothing running",
+   "logs": [
+    {
+     "name": "Hip mobility",
+     "muscle": "",
+     "isUnilateral": false,
+     "targetSets": 2,
+     "targetReps": "",
+     "notes": "",
+     "showNotes": false,
+     "kind": "checklist",
+     "targetType": "duration",
+     "targetSeconds": 150,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": "mobility",
+     "completedRounds": 0,
+     "targetRounds": 2,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": []
+    }
+   ],
+   "now": 1792924200000,
+   "action": null,
+   "out": [
+    {
+     "name": "Hip mobility",
+     "muscle": "",
+     "isUnilateral": false,
+     "targetSets": 2,
+     "targetReps": "",
+     "notes": "",
+     "showNotes": false,
+     "kind": "checklist",
+     "targetType": "duration",
+     "targetSeconds": 150,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": "mobility",
+     "completedRounds": 0,
+     "targetRounds": 2,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": []
+    }
+   ]
+  },
+  {
+   "name": "start fresh",
+   "logs": [
+    {
+     "name": "Hip mobility",
+     "muscle": "",
+     "isUnilateral": false,
+     "targetSets": 2,
+     "targetReps": "",
+     "notes": "",
+     "showNotes": false,
+     "kind": "checklist",
+     "targetType": "duration",
+     "targetSeconds": 150,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": "mobility",
+     "completedRounds": 0,
+     "targetRounds": 2,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": []
+    },
+    {
+     "name": "Bench Press",
+     "muscle": "Chest",
+     "isUnilateral": false,
+     "targetSets": 3,
+     "targetReps": "6-8",
+     "notes": "",
+     "showNotes": false,
+     "kind": "lift",
+     "targetType": null,
+     "targetSeconds": null,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": null,
+     "completedRounds": 0,
+     "targetRounds": 3,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": [
+      {
+       "setNumber": 1,
+       "weight": 0,
+       "reps": 0,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": false,
+       "isNewPr": false
+      },
+      {
+       "setNumber": 2,
+       "weight": 0,
+       "reps": 0,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": false,
+       "isNewPr": false
+      },
+      {
+       "setNumber": 3,
+       "weight": 0,
+       "reps": 0,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": false,
+       "isNewPr": false
+      }
+     ]
+    }
+   ],
+   "now": 1792924200000,
+   "action": [
+    "startTimer",
+    0
+   ],
+   "out": [
+    {
+     "name": "Hip mobility",
+     "muscle": "",
+     "isUnilateral": false,
+     "targetSets": 2,
+     "targetReps": "",
+     "notes": "",
+     "showNotes": false,
+     "kind": "checklist",
+     "targetType": "duration",
+     "targetSeconds": 150,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": "mobility",
+     "completedRounds": 0,
+     "targetRounds": 2,
+     "timerEndsAt": 1792924350000,
+     "timerPausedRemaining": null,
+     "sets": []
+    },
+    {
+     "name": "Bench Press",
+     "muscle": "Chest",
+     "isUnilateral": false,
+     "targetSets": 3,
+     "targetReps": "6-8",
+     "notes": "",
+     "showNotes": false,
+     "kind": "lift",
+     "targetType": null,
+     "targetSeconds": null,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": null,
+     "completedRounds": 0,
+     "targetRounds": 3,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": [
+      {
+       "setNumber": 1,
+       "weight": 0,
+       "reps": 0,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": false,
+       "isNewPr": false
+      },
+      {
+       "setNumber": 2,
+       "weight": 0,
+       "reps": 0,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": false,
+       "isNewPr": false
+      },
+      {
+       "setNumber": 3,
+       "weight": 0,
+       "reps": 0,
+       "repsLeft": 0,
+       "repsRight": 0,
+       "completed": false,
+       "isNewPr": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "start from paused",
+   "logs": [
+    {
+     "name": "Hip mobility",
+     "muscle": "",
+     "isUnilateral": false,
+     "targetSets": 2,
+     "targetReps": "",
+     "notes": "",
+     "showNotes": false,
+     "kind": "checklist",
+     "targetType": "duration",
+     "targetSeconds": 150,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": "mobility",
+     "completedRounds": 0,
+     "targetRounds": 2,
+     "timerEndsAt": null,
+     "timerPausedRemaining": 42,
+     "sets": []
+    }
+   ],
+   "now": 1792924200000,
+   "action": [
+    "startTimer",
+    0
+   ],
+   "out": [
+    {
+     "name": "Hip mobility",
+     "muscle": "",
+     "isUnilateral": false,
+     "targetSets": 2,
+     "targetReps": "",
+     "notes": "",
+     "showNotes": false,
+     "kind": "checklist",
+     "targetType": "duration",
+     "targetSeconds": 150,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": "mobility",
+     "completedRounds": 0,
+     "targetRounds": 2,
+     "timerEndsAt": 1792924242000,
+     "timerPausedRemaining": null,
+     "sets": []
+    }
+   ]
+  },
+  {
+   "name": "start with no target",
+   "logs": [
+    {
+     "name": "Hip mobility",
+     "muscle": "",
+     "isUnilateral": false,
+     "targetSets": 2,
+     "targetReps": "",
+     "notes": "",
+     "showNotes": false,
+     "kind": "checklist",
+     "targetType": "duration",
+     "targetSeconds": null,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": "mobility",
+     "completedRounds": 0,
+     "targetRounds": 2,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": []
+    }
+   ],
+   "now": 1792924200000,
+   "action": [
+    "startTimer",
+    0
+   ],
+   "out": [
+    {
+     "name": "Hip mobility",
+     "muscle": "",
+     "isUnilateral": false,
+     "targetSets": 2,
+     "targetReps": "",
+     "notes": "",
+     "showNotes": false,
+     "kind": "checklist",
+     "targetType": "duration",
+     "targetSeconds": null,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": "mobility",
+     "completedRounds": 0,
+     "targetRounds": 2,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": []
+    }
+   ]
+  },
+  {
+   "name": "start zero paused falls through",
+   "logs": [
+    {
+     "name": "Hip mobility",
+     "muscle": "",
+     "isUnilateral": false,
+     "targetSets": 2,
+     "targetReps": "",
+     "notes": "",
+     "showNotes": false,
+     "kind": "checklist",
+     "targetType": "duration",
+     "targetSeconds": 150,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": "mobility",
+     "completedRounds": 0,
+     "targetRounds": 2,
+     "timerEndsAt": null,
+     "timerPausedRemaining": 0,
+     "sets": []
+    }
+   ],
+   "now": 1792924200000,
+   "action": [
+    "startTimer",
+    0
+   ],
+   "out": [
+    {
+     "name": "Hip mobility",
+     "muscle": "",
+     "isUnilateral": false,
+     "targetSets": 2,
+     "targetReps": "",
+     "notes": "",
+     "showNotes": false,
+     "kind": "checklist",
+     "targetType": "duration",
+     "targetSeconds": 150,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": "mobility",
+     "completedRounds": 0,
+     "targetRounds": 2,
+     "timerEndsAt": null,
+     "timerPausedRemaining": 0,
+     "sets": []
+    }
+   ]
+  },
+  {
+   "name": "pause rounds up",
+   "logs": [
+    {
+     "name": "Hip mobility",
+     "muscle": "",
+     "isUnilateral": false,
+     "targetSets": 2,
+     "targetReps": "",
+     "notes": "",
+     "showNotes": false,
+     "kind": "checklist",
+     "targetType": "duration",
+     "targetSeconds": 150,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": "mobility",
+     "completedRounds": 0,
+     "targetRounds": 2,
+     "timerEndsAt": 1792924261001,
+     "timerPausedRemaining": null,
+     "sets": []
+    }
+   ],
+   "now": 1792924200000,
+   "action": [
+    "pauseTimer",
+    0
+   ],
+   "out": [
+    {
+     "name": "Hip mobility",
+     "muscle": "",
+     "isUnilateral": false,
+     "targetSets": 2,
+     "targetReps": "",
+     "notes": "",
+     "showNotes": false,
+     "kind": "checklist",
+     "targetType": "duration",
+     "targetSeconds": 150,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": "mobility",
+     "completedRounds": 0,
+     "targetRounds": 2,
+     "timerEndsAt": null,
+     "timerPausedRemaining": 62,
+     "sets": []
+    }
+   ]
+  },
+  {
+   "name": "pause idle is a no-op",
+   "logs": [
+    {
+     "name": "Hip mobility",
+     "muscle": "",
+     "isUnilateral": false,
+     "targetSets": 2,
+     "targetReps": "",
+     "notes": "",
+     "showNotes": false,
+     "kind": "checklist",
+     "targetType": "duration",
+     "targetSeconds": 150,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": "mobility",
+     "completedRounds": 0,
+     "targetRounds": 2,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": []
+    }
+   ],
+   "now": 1792924200000,
+   "action": [
+    "pauseTimer",
+    0
+   ],
+   "out": [
+    {
+     "name": "Hip mobility",
+     "muscle": "",
+     "isUnilateral": false,
+     "targetSets": 2,
+     "targetReps": "",
+     "notes": "",
+     "showNotes": false,
+     "kind": "checklist",
+     "targetType": "duration",
+     "targetSeconds": 150,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": "mobility",
+     "completedRounds": 0,
+     "targetRounds": 2,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": []
+    }
+   ]
+  },
+  {
+   "name": "reset",
+   "logs": [
+    {
+     "name": "Hip mobility",
+     "muscle": "",
+     "isUnilateral": false,
+     "targetSets": 2,
+     "targetReps": "",
+     "notes": "",
+     "showNotes": false,
+     "kind": "checklist",
+     "targetType": "duration",
+     "targetSeconds": 150,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": "mobility",
+     "completedRounds": 0,
+     "targetRounds": 2,
+     "timerEndsAt": 1792924201000,
+     "timerPausedRemaining": 3,
+     "sets": []
+    }
+   ],
+   "now": 1792924200000,
+   "action": [
+    "resetTimer",
+    0
+   ],
+   "out": [
+    {
+     "name": "Hip mobility",
+     "muscle": "",
+     "isUnilateral": false,
+     "targetSets": 2,
+     "targetReps": "",
+     "notes": "",
+     "showNotes": false,
+     "kind": "checklist",
+     "targetType": "duration",
+     "targetSeconds": 150,
+     "targetValue": null,
+     "targetUnit": null,
+     "category": "mobility",
+     "completedRounds": 0,
+     "targetRounds": 2,
+     "timerEndsAt": null,
+     "timerPausedRemaining": null,
+     "sets": []
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,687 @@
+{
+ "draftKey": [
+  {
+   "in": [
+    "u",
+    1,
+    1
+   ],
+   "out": "traintent:workout-draft:u:1:1"
+  },
+  {
+   "in": [
+    "user_2abc",
+    42,
+    7
+   ],
+   "out": "traintent:workout-draft:user_2abc:42:7"
+  },
+  {
+   "in": [
+    "",
+    0,
+    0
+   ],
+   "out": "traintent:workout-draft::0:0"
+  }
+ ],
+ "activeSessionKey": [
+  {
+   "in": "u",
+   "out": "traintent:workout-draft:active:u"
+  },
+  {
+   "in": "user_2abc",
+   "out": "traintent:workout-draft:active:user_2abc"
+  }
+ ],
+ "draftMaxAgeMs": 86400000,
+ "scenarios": [
+  {
+   "name": "start, resolve, expire",
+   "steps": [
+    {
+     "op": "startSession",
+     "args": [
+      "u1",
+      7,
+      2
+     ],
+     "now": 1792915200000,
+     "result": true,
+     "storage": {
+      "traintent:workout-draft:active:u1": {
+       "programId": 7,
+       "dayNumber": 2
+      },
+      "traintent:workout-draft:u1:7:2": {
+       "logs": [],
+       "savedAt": 1792915200000,
+       "startedAt": 1792915200000
+      }
+     }
+    },
+    {
+     "op": "resolveActiveSession",
+     "args": [
+      "u1"
+     ],
+     "now": 1792918800000,
+     "result": {
+      "pointer": {
+       "programId": 7,
+       "dayNumber": 2
+      },
+      "draft": {
+       "logs": [],
+       "savedAt": 1792915200000,
+       "startedAt": 1792915200000
+      }
+     },
+     "storage": {
+      "traintent:workout-draft:active:u1": {
+       "programId": 7,
+       "dayNumber": 2
+      },
+      "traintent:workout-draft:u1:7:2": {
+       "logs": [],
+       "savedAt": 1792915200000,
+       "startedAt": 1792915200000
+      }
+     }
+    },
+    {
+     "op": "saveDraft",
+     "args": [
+      "traintent:workout-draft:u1:7:2",
+      [
+       {
+        "name": "Bench",
+        "muscle": "Chest",
+        "isUnilateral": false,
+        "targetSets": 2,
+        "targetReps": "8-12",
+        "notes": "",
+        "showNotes": false,
+        "kind": "lift",
+        "targetType": null,
+        "targetSeconds": null,
+        "targetValue": null,
+        "targetUnit": null,
+        "category": null,
+        "completedRounds": 0,
+        "targetRounds": 2,
+        "timerEndsAt": null,
+        "timerPausedRemaining": null,
+        "sets": [
+         {
+          "setNumber": 1,
+          "weight": 80,
+          "reps": 8,
+          "repsLeft": 0,
+          "repsRight": 0,
+          "completed": true,
+          "isNewPr": false
+         },
+         {
+          "setNumber": 2,
+          "weight": 0,
+          "reps": 0,
+          "repsLeft": 0,
+          "repsRight": 0,
+          "completed": false,
+          "isNewPr": false
+         }
+        ]
+       }
+      ],
+      1792915200000
+     ],
+     "now": 1792922400000,
+     "result": null,
+     "storage": {
+      "traintent:workout-draft:active:u1": {
+       "programId": 7,
+       "dayNumber": 2
+      },
+      "traintent:workout-draft:u1:7:2": {
+       "logs": [
+        {
+         "name": "Bench",
+         "muscle": "Chest",
+         "isUnilateral": false,
+         "targetSets": 2,
+         "targetReps": "8-12",
+         "notes": "",
+         "showNotes": false,
+         "kind": "lift",
+         "targetType": null,
+         "targetSeconds": null,
+         "targetValue": null,
+         "targetUnit": null,
+         "category": null,
+         "completedRounds": 0,
+         "targetRounds": 2,
+         "timerEndsAt": null,
+         "timerPausedRemaining": null,
+         "sets": [
+          {
+           "setNumber": 1,
+           "weight": 80,
+           "reps": 8,
+           "repsLeft": 0,
+           "repsRight": 0,
+           "completed": true,
+           "isNewPr": false
+          },
+          {
+           "setNumber": 2,
+           "weight": 0,
+           "reps": 0,
+           "repsLeft": 0,
+           "repsRight": 0,
+           "completed": false,
+           "isNewPr": false
+          }
+         ]
+        }
+       ],
+       "savedAt": 1792922400000,
+       "startedAt": 1792915200000
+      }
+     }
+    },
+    {
+     "op": "resolveActiveSession",
+     "args": [
+      "u1"
+     ],
+     "now": 1793008800000,
+     "result": {
+      "pointer": {
+       "programId": 7,
+       "dayNumber": 2
+      },
+      "draft": {
+       "logs": [
+        {
+         "name": "Bench",
+         "muscle": "Chest",
+         "isUnilateral": false,
+         "targetSets": 2,
+         "targetReps": "8-12",
+         "notes": "",
+         "showNotes": false,
+         "kind": "lift",
+         "targetType": null,
+         "targetSeconds": null,
+         "targetValue": null,
+         "targetUnit": null,
+         "category": null,
+         "completedRounds": 0,
+         "targetRounds": 2,
+         "timerEndsAt": null,
+         "timerPausedRemaining": null,
+         "sets": [
+          {
+           "setNumber": 1,
+           "weight": 80,
+           "reps": 8,
+           "repsLeft": 0,
+           "repsRight": 0,
+           "completed": true,
+           "isNewPr": false
+          },
+          {
+           "setNumber": 2,
+           "weight": 0,
+           "reps": 0,
+           "repsLeft": 0,
+           "repsRight": 0,
+           "completed": false,
+           "isNewPr": false
+          }
+         ]
+        }
+       ],
+       "savedAt": 1792922400000,
+       "startedAt": 1792915200000
+      }
+     },
+     "storage": {
+      "traintent:workout-draft:active:u1": {
+       "programId": 7,
+       "dayNumber": 2
+      },
+      "traintent:workout-draft:u1:7:2": {
+       "logs": [
+        {
+         "name": "Bench",
+         "muscle": "Chest",
+         "isUnilateral": false,
+         "targetSets": 2,
+         "targetReps": "8-12",
+         "notes": "",
+         "showNotes": false,
+         "kind": "lift",
+         "targetType": null,
+         "targetSeconds": null,
+         "targetValue": null,
+         "targetUnit": null,
+         "category": null,
+         "completedRounds": 0,
+         "targetRounds": 2,
+         "timerEndsAt": null,
+         "timerPausedRemaining": null,
+         "sets": [
+          {
+           "setNumber": 1,
+           "weight": 80,
+           "reps": 8,
+           "repsLeft": 0,
+           "repsRight": 0,
+           "completed": true,
+           "isNewPr": false
+          },
+          {
+           "setNumber": 2,
+           "weight": 0,
+           "reps": 0,
+           "repsLeft": 0,
+           "repsRight": 0,
+           "completed": false,
+           "isNewPr": false
+          }
+         ]
+        }
+       ],
+       "savedAt": 1792922400000,
+       "startedAt": 1792915200000
+      }
+     }
+    },
+    {
+     "op": "resolveActiveSession",
+     "args": [
+      "u1"
+     ],
+     "now": 1793008800001,
+     "result": null,
+     "storage": {
+      "traintent:workout-draft:u1:7:2": {
+       "logs": [
+        {
+         "name": "Bench",
+         "muscle": "Chest",
+         "isUnilateral": false,
+         "targetSets": 2,
+         "targetReps": "8-12",
+         "notes": "",
+         "showNotes": false,
+         "kind": "lift",
+         "targetType": null,
+         "targetSeconds": null,
+         "targetValue": null,
+         "targetUnit": null,
+         "category": null,
+         "completedRounds": 0,
+         "targetRounds": 2,
+         "timerEndsAt": null,
+         "timerPausedRemaining": null,
+         "sets": [
+          {
+           "setNumber": 1,
+           "weight": 80,
+           "reps": 8,
+           "repsLeft": 0,
+           "repsRight": 0,
+           "completed": true,
+           "isNewPr": false
+          },
+          {
+           "setNumber": 2,
+           "weight": 0,
+           "reps": 0,
+           "repsLeft": 0,
+           "repsRight": 0,
+           "completed": false,
+           "isNewPr": false
+          }
+         ]
+        }
+       ],
+       "savedAt": 1792922400000,
+       "startedAt": 1792915200000
+      }
+     }
+    },
+    {
+     "op": "loadActiveSession",
+     "args": [
+      "u1"
+     ],
+     "now": 1793023200000,
+     "result": null,
+     "storage": {
+      "traintent:workout-draft:u1:7:2": {
+       "logs": [
+        {
+         "name": "Bench",
+         "muscle": "Chest",
+         "isUnilateral": false,
+         "targetSets": 2,
+         "targetReps": "8-12",
+         "notes": "",
+         "showNotes": false,
+         "kind": "lift",
+         "targetType": null,
+         "targetSeconds": null,
+         "targetValue": null,
+         "targetUnit": null,
+         "category": null,
+         "completedRounds": 0,
+         "targetRounds": 2,
+         "timerEndsAt": null,
+         "timerPausedRemaining": null,
+         "sets": [
+          {
+           "setNumber": 1,
+           "weight": 80,
+           "reps": 8,
+           "repsLeft": 0,
+           "repsRight": 0,
+           "completed": true,
+           "isNewPr": false
+          },
+          {
+           "setNumber": 2,
+           "weight": 0,
+           "reps": 0,
+           "repsLeft": 0,
+           "repsRight": 0,
+           "completed": false,
+           "isNewPr": false
+          }
+         ]
+        }
+       ],
+       "savedAt": 1792922400000,
+       "startedAt": 1792915200000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "discard and restart",
+   "steps": [
+    {
+     "op": "startSession",
+     "args": [
+      "u2",
+      3,
+      1
+     ],
+     "now": 1792915200000,
+     "result": true,
+     "storage": {
+      "traintent:workout-draft:active:u2": {
+       "programId": 3,
+       "dayNumber": 1
+      },
+      "traintent:workout-draft:u2:3:1": {
+       "logs": [],
+       "savedAt": 1792915200000,
+       "startedAt": 1792915200000
+      }
+     }
+    },
+    {
+     "op": "saveDraft",
+     "args": [
+      "traintent:workout-draft:u2:3:1",
+      [
+       {
+        "name": "Squat",
+        "muscle": "Chest",
+        "isUnilateral": false,
+        "targetSets": 2,
+        "targetReps": "8-12",
+        "notes": "",
+        "showNotes": false,
+        "kind": "lift",
+        "targetType": null,
+        "targetSeconds": null,
+        "targetValue": null,
+        "targetUnit": null,
+        "category": null,
+        "completedRounds": 0,
+        "targetRounds": 2,
+        "timerEndsAt": null,
+        "timerPausedRemaining": null,
+        "sets": [
+         {
+          "setNumber": 1,
+          "weight": 80,
+          "reps": 8,
+          "repsLeft": 0,
+          "repsRight": 0,
+          "completed": true,
+          "isNewPr": false
+         },
+         {
+          "setNumber": 2,
+          "weight": 0,
+          "reps": 0,
+          "repsLeft": 0,
+          "repsRight": 0,
+          "completed": false,
+          "isNewPr": false
+         }
+        ]
+       }
+      ],
+      1792915200000
+     ],
+     "now": 1792915201000,
+     "result": null,
+     "storage": {
+      "traintent:workout-draft:active:u2": {
+       "programId": 3,
+       "dayNumber": 1
+      },
+      "traintent:workout-draft:u2:3:1": {
+       "logs": [
+        {
+         "name": "Squat",
+         "muscle": "Chest",
+         "isUnilateral": false,
+         "targetSets": 2,
+         "targetReps": "8-12",
+         "notes": "",
+         "showNotes": false,
+         "kind": "lift",
+         "targetType": null,
+         "targetSeconds": null,
+         "targetValue": null,
+         "targetUnit": null,
+         "category": null,
+         "completedRounds": 0,
+         "targetRounds": 2,
+         "timerEndsAt": null,
+         "timerPausedRemaining": null,
+         "sets": [
+          {
+           "setNumber": 1,
+           "weight": 80,
+           "reps": 8,
+           "repsLeft": 0,
+           "repsRight": 0,
+           "completed": true,
+           "isNewPr": false
+          },
+          {
+           "setNumber": 2,
+           "weight": 0,
+           "reps": 0,
+           "repsLeft": 0,
+           "repsRight": 0,
+           "completed": false,
+           "isNewPr": false
+          }
+         ]
+        }
+       ],
+       "savedAt": 1792915201000,
+       "startedAt": 1792915200000
+      }
+     }
+    },
+    {
+     "op": "startSession",
+     "args": [
+      "u2",
+      3,
+      1
+     ],
+     "now": 1792915205000,
+     "result": true,
+     "storage": {
+      "traintent:workout-draft:active:u2": {
+       "programId": 3,
+       "dayNumber": 1
+      },
+      "traintent:workout-draft:u2:3:1": {
+       "logs": [],
+       "savedAt": 1792915205000,
+       "startedAt": 1792915205000
+      }
+     }
+    },
+    {
+     "op": "loadDraft",
+     "args": [
+      "traintent:workout-draft:u2:3:1"
+     ],
+     "now": 1792915206000,
+     "result": {
+      "logs": [],
+      "savedAt": 1792915205000,
+      "startedAt": 1792915205000
+     },
+     "storage": {
+      "traintent:workout-draft:active:u2": {
+       "programId": 3,
+       "dayNumber": 1
+      },
+      "traintent:workout-draft:u2:3:1": {
+       "logs": [],
+       "savedAt": 1792915205000,
+       "startedAt": 1792915205000
+      }
+     }
+    },
+    {
+     "op": "discardActiveSession",
+     "args": [
+      "u2"
+     ],
+     "now": 1792915207000,
+     "result": null,
+     "storage": {}
+    },
+    {
+     "op": "resolveActiveSession",
+     "args": [
+      "u2"
+     ],
+     "now": 1792915208000,
+     "result": null,
+     "storage": {}
+    },
+    {
+     "op": "discardActiveSession",
+     "args": [
+      "u2"
+     ],
+     "now": 1792915209000,
+     "result": null,
+     "storage": {}
+    }
+   ]
+  },
+  {
+   "name": "pointer without draft self-heals",
+   "steps": [
+    {
+     "op": "saveActiveSession",
+     "args": [
+      "u3",
+      {
+       "programId": 9,
+       "dayNumber": 4
+      }
+     ],
+     "now": 1792915200000,
+     "result": null,
+     "storage": {
+      "traintent:workout-draft:active:u3": {
+       "programId": 9,
+       "dayNumber": 4
+      }
+     }
+    },
+    {
+     "op": "resolveActiveSession",
+     "args": [
+      "u3"
+     ],
+     "now": 1792915200000,
+     "result": null,
+     "storage": {}
+    },
+    {
+     "op": "loadActiveSession",
+     "args": [
+      "u3"
+     ],
+     "now": 1792915200000,
+     "result": null,
+     "storage": {}
+    },
+    {
+     "op": "clearDraft",
+     "args": [
+      "nothing-here"
+     ],
+     "now": 1792915200000,
+     "result": null,
+     "storage": {}
+    }
+   ]
+  },
+  {
+   "name": "storage refuses writes",
+   "steps": [
+    {
+     "op": "refuse",
+     "args": [],
+     "now": 1792915200000,
+     "result": null,
+     "storage": {}
+    },
+    {
+     "op": "startSession",
+     "args": [
+      "u4",
+      1,
+      1
+     ],
+     "now": 1792915200000,
+     "result": false,
+     "storage": {}
+    }
+   ]
+  }
+ ]
+}

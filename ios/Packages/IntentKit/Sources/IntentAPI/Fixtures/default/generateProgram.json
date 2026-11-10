@@ -1,0 +1,388 @@
+{
+  "status": 201,
+  "body": {
+    "id": 13,
+    "userId": "user_mock_alex",
+    "weekNumber": 3,
+    "programName": "Upper Lower",
+    "splitType": "upper_lower",
+    "programHighlights": [
+      {
+        "title": "Built around your bench",
+        "detail": "Chest is a priority, so it gets two heavy exposures a week with the bench press leading Upper A."
+      },
+      {
+        "title": "Moderate volume, room to grow",
+        "detail": "About 14 hard sets per muscle each week. Volume climbs only once your logs show you are recovering."
+      },
+      {
+        "title": "Four days, two rest days between blocks",
+        "detail": "Mon/Tue and Thu/Fri keep each muscle on a 72-hour rhythm."
+      }
+    ],
+    "aiGenerated": true,
+    "days": [
+      {
+        "dayNumber": 1,
+        "label": "Upper A",
+        "focus": "Chest & back strength",
+        "estimatedDurationMinutes": 62,
+        "exercises": [
+          {
+            "name": "Barbell Bench Press",
+            "sets": 3,
+            "reps": "6-8",
+            "rpe": 8,
+            "restSeconds": 180,
+            "cue": "Pause briefly on the chest, drive feet into the floor",
+            "muscle": "Chest",
+            "secondaryMuscle": "Triceps",
+            "isUnilateral": false,
+            "kind": "lift"
+          },
+          {
+            "name": "Chest-Supported Row",
+            "sets": 3,
+            "reps": "8-10",
+            "rpe": 8,
+            "restSeconds": 120,
+            "cue": "Pull elbows to hips, squeeze 1s",
+            "muscle": "Upper Back",
+            "secondaryMuscle": "Lats",
+            "isUnilateral": false,
+            "kind": "lift"
+          },
+          {
+            "name": "Seated Dumbbell Shoulder Press",
+            "sets": 3,
+            "reps": "8-10",
+            "rpe": 8,
+            "restSeconds": 120,
+            "cue": null,
+            "muscle": "Shoulders",
+            "secondaryMuscle": "Triceps",
+            "isUnilateral": false,
+            "kind": "lift"
+          },
+          {
+            "name": "Lat Pulldown",
+            "sets": 3,
+            "reps": "10-12",
+            "rpe": 8,
+            "restSeconds": 90,
+            "cue": null,
+            "muscle": "Lats",
+            "secondaryMuscle": "Biceps",
+            "isUnilateral": false,
+            "kind": "lift"
+          },
+          {
+            "name": "Incline Dumbbell Curl",
+            "sets": 2,
+            "reps": "10-12",
+            "rpe": 9,
+            "restSeconds": 75,
+            "cue": null,
+            "muscle": "Biceps",
+            "secondaryMuscle": null,
+            "isUnilateral": false,
+            "kind": "lift"
+          },
+          {
+            "name": "Cable Triceps Pushdown",
+            "sets": 2,
+            "reps": "10-12",
+            "rpe": 9,
+            "restSeconds": 75,
+            "cue": null,
+            "muscle": "Triceps",
+            "secondaryMuscle": null,
+            "isUnilateral": false,
+            "kind": "lift"
+          },
+          {
+            "name": "Thoracic Mobility",
+            "sets": 1,
+            "reps": "2:30",
+            "muscle": "",
+            "kind": "checklist",
+            "targetType": "duration",
+            "targetSeconds": 150,
+            "category": "mobility",
+            "isUnilateral": false
+          }
+        ]
+      },
+      {
+        "dayNumber": 2,
+        "label": "Lower A",
+        "focus": "Squat pattern & quads",
+        "estimatedDurationMinutes": 58,
+        "exercises": [
+          {
+            "name": "Back Squat",
+            "sets": 3,
+            "reps": "5-7",
+            "rpe": 8,
+            "restSeconds": 180,
+            "cue": "Brace before each rep, knees track toes",
+            "muscle": "Quads",
+            "secondaryMuscle": "Glutes",
+            "isUnilateral": false,
+            "kind": "lift"
+          },
+          {
+            "name": "Romanian Deadlift",
+            "sets": 3,
+            "reps": "8-10",
+            "rpe": 8,
+            "restSeconds": 150,
+            "cue": null,
+            "muscle": "Hamstrings",
+            "secondaryMuscle": "Glutes",
+            "isUnilateral": false,
+            "kind": "lift"
+          },
+          {
+            "name": "Bulgarian Split Squat",
+            "sets": 2,
+            "reps": "8-10",
+            "rpe": 8,
+            "restSeconds": 90,
+            "cue": null,
+            "muscle": "Quads",
+            "secondaryMuscle": "Glutes",
+            "isUnilateral": true,
+            "kind": "lift"
+          },
+          {
+            "name": "Seated Leg Curl",
+            "sets": 3,
+            "reps": "10-12",
+            "rpe": 9,
+            "restSeconds": 75,
+            "cue": null,
+            "muscle": "Hamstrings",
+            "secondaryMuscle": null,
+            "isUnilateral": false,
+            "kind": "lift"
+          },
+          {
+            "name": "Standing Calf Raise",
+            "sets": 3,
+            "reps": "10-15",
+            "rpe": 9,
+            "restSeconds": 60,
+            "cue": null,
+            "muscle": "Calves",
+            "secondaryMuscle": null,
+            "isUnilateral": false,
+            "kind": "lift"
+          },
+          {
+            "name": "Plank",
+            "sets": 2,
+            "reps": "0:45",
+            "muscle": "",
+            "kind": "checklist",
+            "targetType": "duration",
+            "targetSeconds": 45,
+            "category": "core",
+            "isUnilateral": false
+          }
+        ]
+      },
+      {
+        "dayNumber": 3,
+        "label": "Upper B",
+        "focus": "Shoulders & arms volume",
+        "estimatedDurationMinutes": 60,
+        "exercises": [
+          {
+            "name": "Incline Dumbbell Press",
+            "sets": 3,
+            "reps": "8-10",
+            "rpe": 8,
+            "restSeconds": 150,
+            "cue": null,
+            "muscle": "Chest",
+            "secondaryMuscle": "Shoulders",
+            "isUnilateral": false,
+            "kind": "lift"
+          },
+          {
+            "name": "Weighted Pull-Up",
+            "sets": 3,
+            "reps": "6-8",
+            "rpe": 8,
+            "restSeconds": 150,
+            "cue": null,
+            "muscle": "Lats",
+            "secondaryMuscle": "Biceps",
+            "isUnilateral": false,
+            "kind": "lift"
+          },
+          {
+            "name": "Cable Lateral Raise",
+            "sets": 3,
+            "reps": "12-15",
+            "rpe": 9,
+            "restSeconds": 60,
+            "cue": null,
+            "muscle": "Shoulders",
+            "secondaryMuscle": null,
+            "isUnilateral": true,
+            "kind": "lift"
+          },
+          {
+            "name": "Seated Cable Row",
+            "sets": 3,
+            "reps": "10-12",
+            "rpe": 8,
+            "restSeconds": 90,
+            "cue": null,
+            "muscle": "Upper Back",
+            "secondaryMuscle": null,
+            "isUnilateral": false,
+            "kind": "lift"
+          },
+          {
+            "name": "EZ-Bar Curl",
+            "sets": 2,
+            "reps": "8-10",
+            "rpe": 9,
+            "restSeconds": 75,
+            "cue": null,
+            "muscle": "Biceps",
+            "secondaryMuscle": null,
+            "isUnilateral": false,
+            "kind": "lift"
+          },
+          {
+            "name": "Overhead Triceps Extension",
+            "sets": 2,
+            "reps": "10-12",
+            "rpe": 9,
+            "restSeconds": 75,
+            "cue": null,
+            "muscle": "Triceps",
+            "secondaryMuscle": null,
+            "isUnilateral": false,
+            "kind": "lift"
+          }
+        ]
+      },
+      {
+        "dayNumber": 4,
+        "label": "Lower B",
+        "focus": "Hinge & posterior chain",
+        "estimatedDurationMinutes": 55,
+        "exercises": [
+          {
+            "name": "Trap Bar Deadlift",
+            "sets": 3,
+            "reps": "5-6",
+            "rpe": 8,
+            "restSeconds": 180,
+            "cue": null,
+            "muscle": "Glutes",
+            "secondaryMuscle": "Hamstrings",
+            "isUnilateral": false,
+            "kind": "lift"
+          },
+          {
+            "name": "Leg Press",
+            "sets": 3,
+            "reps": "10-12",
+            "rpe": 8,
+            "restSeconds": 120,
+            "cue": null,
+            "muscle": "Quads",
+            "secondaryMuscle": null,
+            "isUnilateral": false,
+            "kind": "lift"
+          },
+          {
+            "name": "Hip Thrust",
+            "sets": 3,
+            "reps": "8-10",
+            "rpe": 8,
+            "restSeconds": 120,
+            "cue": null,
+            "muscle": "Glutes",
+            "secondaryMuscle": "Hamstrings",
+            "isUnilateral": false,
+            "kind": "lift"
+          },
+          {
+            "name": "Leg Extension",
+            "sets": 2,
+            "reps": "12-15",
+            "rpe": 9,
+            "restSeconds": 60,
+            "cue": null,
+            "muscle": "Quads",
+            "secondaryMuscle": null,
+            "isUnilateral": false,
+            "kind": "lift"
+          },
+          {
+            "name": "Seated Calf Raise",
+            "sets": 3,
+            "reps": "12-15",
+            "rpe": 9,
+            "restSeconds": 60,
+            "cue": null,
+            "muscle": "Calves",
+            "secondaryMuscle": null,
+            "isUnilateral": false,
+            "kind": "lift"
+          },
+          {
+            "name": "Hip Flexor Stretch",
+            "sets": 1,
+            "reps": "2:00",
+            "muscle": "",
+            "kind": "checklist",
+            "targetType": "duration",
+            "targetSeconds": 120,
+            "category": "stretch",
+            "isUnilateral": false
+          }
+        ]
+      }
+    ],
+    "generatedAt": "{{datetime:0}}",
+    "longTermPhase": "gain_weight",
+    "shortTermPhase": "bulk",
+    "energyBalance": "surplus",
+    "trainingWorkload": {
+      "daysTrained": 4,
+      "totalVolumeSets": 62
+    },
+    "longTermGoalWeight": 84,
+    "shortTermGoalWeight": 80.5,
+    "dailyStepTarget": 8000,
+    "dailyCalorieTarget": 3100,
+    "weekInPhase": 3,
+    "phaseTotalWeeks": 8,
+    "cardioIntensity": {
+      "bpmMin": 110,
+      "bpmMax": 130,
+      "level": "low"
+    },
+    "startDate": "{{dow:mon:-2}}",
+    "schedule": {
+      "mode": "fixed",
+      "slots": [
+        1,
+        2,
+        null,
+        3,
+        4,
+        null,
+        null
+      ]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "status": 200,
+  "body": {
+    "inCalibration": false,
+    "calibrationDay": null,
+    "startDate": "{{dow:mon:-5}}",
+    "reviewOpensOn": null,
+    "lastReviewDate": null,
+    "autoExitOn": null,
+    "reviewOpen": false,
+    "reviewBlockedReason": "not_in_calibration",
+    "nextReviewAvailableOn": null,
+    "paused": false,
+    "autoExitDue": false,
+    "checks": null,
+    "sessions": [],
+    "feedbackSummary": null,
+    "latestReview": null
+  }
+}

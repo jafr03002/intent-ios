@@ -1,0 +1,186 @@
+{
+  "status": 201,
+  "body": {
+    "id": 310,
+    "userId": "user_mock_alex",
+    "date": "{{date:0}}",
+    "dayNumber": 2,
+    "weekNumber": 2,
+    "dayLabel": "Lower A",
+    "mode": "ai",
+    "loggingMode": "full",
+    "calibrationFeedback": null,
+    "exercisesLogged": [
+      {
+        "name": "Back Squat",
+        "muscle": "Quads",
+        "sets": [
+          {
+            "setNumber": 1,
+            "weight": 102.5,
+            "reps": 6,
+            "rpe": 8,
+            "completed": true,
+            "isNewPr": false
+          },
+          {
+            "setNumber": 2,
+            "weight": 102.5,
+            "reps": 5,
+            "rpe": 8,
+            "completed": true,
+            "isNewPr": false
+          },
+          {
+            "setNumber": 3,
+            "weight": 102.5,
+            "reps": 4,
+            "rpe": 9,
+            "completed": true,
+            "isNewPr": false
+          }
+        ],
+        "kind": "lift",
+        "notes": null
+      },
+      {
+        "name": "Romanian Deadlift",
+        "muscle": "Hamstrings",
+        "sets": [
+          {
+            "setNumber": 1,
+            "weight": 92.5,
+            "reps": 9,
+            "rpe": 8,
+            "completed": true,
+            "isNewPr": false
+          },
+          {
+            "setNumber": 2,
+            "weight": 92.5,
+            "reps": 8,
+            "rpe": 8,
+            "completed": true,
+            "isNewPr": false
+          },
+          {
+            "setNumber": 3,
+            "weight": 92.5,
+            "reps": 7,
+            "rpe": 9,
+            "completed": true,
+            "isNewPr": false
+          }
+        ],
+        "kind": "lift",
+        "notes": null
+      },
+      {
+        "name": "Bulgarian Split Squat",
+        "muscle": "Quads",
+        "sets": [
+          {
+            "setNumber": 1,
+            "weight": 21,
+            "reps": null,
+            "rpe": 8,
+            "completed": true,
+            "isNewPr": false,
+            "repsLeft": 9,
+            "repsRight": 9
+          },
+          {
+            "setNumber": 2,
+            "weight": 21,
+            "reps": null,
+            "rpe": 8,
+            "completed": true,
+            "isNewPr": false,
+            "repsLeft": 8,
+            "repsRight": 8
+          }
+        ],
+        "kind": "lift",
+        "notes": null
+      },
+      {
+        "name": "Seated Leg Curl",
+        "muscle": "Hamstrings",
+        "sets": [
+          {
+            "setNumber": 1,
+            "weight": 46,
+            "reps": 11,
+            "rpe": 9,
+            "completed": true,
+            "isNewPr": false
+          },
+          {
+            "setNumber": 2,
+            "weight": 46,
+            "reps": 10,
+            "rpe": 9,
+            "completed": true,
+            "isNewPr": false
+          },
+          {
+            "setNumber": 3,
+            "weight": 46,
+            "reps": 9,
+            "rpe": 10,
+            "completed": true,
+            "isNewPr": false
+          }
+        ],
+        "kind": "lift",
+        "notes": null
+      },
+      {
+        "name": "Standing Calf Raise",
+        "muscle": "Calves",
+        "sets": [
+          {
+            "setNumber": 1,
+            "weight": 81,
+            "reps": 12,
+            "rpe": 9,
+            "completed": true,
+            "isNewPr": false
+          },
+          {
+            "setNumber": 2,
+            "weight": 81,
+            "reps": 11,
+            "rpe": 9,
+            "completed": true,
+            "isNewPr": false
+          },
+          {
+            "setNumber": 3,
+            "weight": 81,
+            "reps": 10,
+            "rpe": 10,
+            "completed": true,
+            "isNewPr": false
+          }
+        ],
+        "kind": "lift",
+        "notes": null
+      },
+      {
+        "name": "Plank",
+        "muscle": "",
+        "sets": [],
+        "kind": "checklist",
+        "completedRounds": 2,
+        "targetSeconds": 45,
+        "category": "core",
+        "notes": null
+      }
+    ],
+    "notes": null,
+    "startedAt": "{{datetime:0}}",
+    "durationSeconds": 3420,
+    "createdAt": "{{datetime:0}}"
+  }
+}

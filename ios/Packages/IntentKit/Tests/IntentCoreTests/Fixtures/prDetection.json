@@ -1,0 +1,932 @@
+{
+ "scenarios": [
+  {
+   "name": "history + prs",
+   "history": [
+    {
+     "id": 3,
+     "userId": "u",
+     "date": "2026-10-20",
+     "dayNumber": 1,
+     "weekNumber": 3,
+     "mode": "ai",
+     "loggingMode": "full",
+     "createdAt": "x",
+     "exercisesLogged": [
+      {
+       "name": "Bench Press",
+       "muscle": "Chest",
+       "sets": [
+        {
+         "setNumber": 1,
+         "weight": 0,
+         "reps": 0,
+         "completed": true
+        },
+        {
+         "setNumber": 2,
+         "weight": 0,
+         "reps": null,
+         "completed": true
+        }
+       ],
+       "notes": "empty session"
+      },
+      {
+       "name": "Squat",
+       "muscle": "Quads",
+       "sets": [
+        {
+         "setNumber": 1,
+         "weight": 120,
+         "reps": 5,
+         "completed": true
+        },
+        {
+         "setNumber": 2,
+         "weight": 120,
+         "reps": 4,
+         "completed": true
+        }
+       ],
+       "notes": "  depth ok  "
+      },
+      {
+       "name": "Row",
+       "muscle": "Upper Back",
+       "sets": [
+        {
+         "setNumber": 1,
+         "weight": 30,
+         "reps": null,
+         "completed": true,
+         "repsLeft": 10,
+         "repsRight": 8
+        }
+       ],
+       "notes": "   "
+      },
+      {
+       "name": "Plank",
+       "muscle": "",
+       "sets": [],
+       "kind": "checklist",
+       "completedRounds": 1
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "userId": "u",
+     "date": "2026-10-13T18:00:00.000Z",
+     "dayNumber": 1,
+     "weekNumber": 2,
+     "mode": "ai",
+     "loggingMode": "full",
+     "createdAt": "x",
+     "exercisesLogged": [
+      {
+       "name": "bench press",
+       "muscle": "Chest",
+       "sets": [
+        {
+         "setNumber": 1,
+         "weight": 80,
+         "reps": 8,
+         "completed": true
+        },
+        {
+         "setNumber": 2,
+         "weight": 80,
+         "reps": 7,
+         "completed": true
+        }
+       ],
+       "notes": "pause reps"
+      },
+      {
+       "name": "Squat",
+       "muscle": "Quads",
+       "sets": [
+        {
+         "setNumber": 1,
+         "weight": 200,
+         "reps": 1,
+         "completed": true
+        }
+       ],
+       "notes": "older"
+      },
+      {
+       "name": "",
+       "muscle": "",
+       "sets": [
+        {
+         "setNumber": 1,
+         "weight": 1,
+         "reps": 1,
+         "completed": true
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": 1,
+     "userId": "u",
+     "date": "2026-10-06",
+     "dayNumber": 1,
+     "weekNumber": 1,
+     "mode": "ai",
+     "loggingMode": "full",
+     "createdAt": "x",
+     "exercisesLogged": [
+      {
+       "name": "Curl",
+       "muscle": "Biceps",
+       "sets": [
+        {
+         "setNumber": 1,
+         "weight": 12.5,
+         "reps": 12,
+         "completed": true
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "personalRecords": [
+    {
+     "exercise": "Deadlift",
+     "maxWeight": 180,
+     "reps": 3,
+     "date": "2025-01-01"
+    },
+    {
+     "exercise": "Curl",
+     "maxWeight": 10,
+     "reps": null,
+     "date": "2025-01-01"
+    }
+   ],
+   "calls": [
+    {
+     "in": {
+      "name": "Bench Press",
+      "isUnilateral": false,
+      "set": {
+       "weight": 80,
+       "reps": 8,
+       "repsLeft": 0,
+       "repsRight": 0
+      },
+      "wasPr": false
+     },
+     "out": false
+    },
+    {
+     "in": {
+      "name": "Bench Press",
+      "isUnilateral": false,
+      "set": {
+       "weight": 80,
+       "reps": 9,
+       "repsLeft": 0,
+       "repsRight": 0
+      },
+      "wasPr": false
+     },
+     "out": true
+    },
+    {
+     "in": {
+      "name": "bench press",
+      "isUnilateral": false,
+      "set": {
+       "weight": 80,
+       "reps": 9,
+       "repsLeft": 0,
+       "repsRight": 0
+      },
+      "wasPr": false
+     },
+     "out": false
+    },
+    {
+     "in": {
+      "name": "Bench Press",
+      "isUnilateral": false,
+      "set": {
+       "weight": 80,
+       "reps": 10,
+       "repsLeft": 0,
+       "repsRight": 0
+      },
+      "wasPr": true
+     },
+     "out": true
+    },
+    {
+     "in": {
+      "name": "Bench Press",
+      "isUnilateral": false,
+      "set": {
+       "weight": 82,
+       "reps": 10,
+       "repsLeft": 0,
+       "repsRight": 0
+      },
+      "wasPr": false
+     },
+     "out": true
+    },
+    {
+     "in": {
+      "name": "Squat",
+      "isUnilateral": false,
+      "set": {
+       "weight": 300,
+       "reps": 1,
+       "repsLeft": 0,
+       "repsRight": 0
+      },
+      "wasPr": false
+     },
+     "out": true
+    },
+    {
+     "in": {
+      "name": "Row",
+      "isUnilateral": true,
+      "set": {
+       "weight": 30,
+       "reps": 0,
+       "repsLeft": 12,
+       "repsRight": 8
+      },
+      "wasPr": false
+     },
+     "out": false
+    },
+    {
+     "in": {
+      "name": "Row",
+      "isUnilateral": true,
+      "set": {
+       "weight": 30,
+       "reps": 0,
+       "repsLeft": 12,
+       "repsRight": 9
+      },
+      "wasPr": false
+     },
+     "out": true
+    },
+    {
+     "in": {
+      "name": "Row",
+      "isUnilateral": false,
+      "set": {
+       "weight": 30,
+       "reps": 9,
+       "repsLeft": 0,
+       "repsRight": 0
+      },
+      "wasPr": false
+     },
+     "out": false
+    },
+    {
+     "in": {
+      "name": "Never Logged",
+      "isUnilateral": false,
+      "set": {
+       "weight": 500,
+       "reps": 10,
+       "repsLeft": 0,
+       "repsRight": 0
+      },
+      "wasPr": false
+     },
+     "out": false
+    },
+    {
+     "in": {
+      "name": "Deadlift",
+      "isUnilateral": false,
+      "set": {
+       "weight": 185,
+       "reps": 1,
+       "repsLeft": 0,
+       "repsRight": 0
+      },
+      "wasPr": false
+     },
+     "out": false
+    },
+    {
+     "in": {
+      "name": "Deadlift",
+      "isUnilateral": false,
+      "set": {
+       "weight": 185,
+       "reps": 3,
+       "repsLeft": 0,
+       "repsRight": 0
+      },
+      "wasPr": false
+     },
+     "out": true
+    },
+    {
+     "in": {
+      "name": "Curl",
+      "isUnilateral": false,
+      "set": {
+       "weight": 12.5,
+       "reps": 13,
+       "repsLeft": 0,
+       "repsRight": 0
+      },
+      "wasPr": false
+     },
+     "out": true
+    },
+    {
+     "in": {
+      "name": "Plank",
+      "isUnilateral": false,
+      "set": {
+       "weight": 1,
+       "reps": 1,
+       "repsLeft": 0,
+       "repsRight": 0
+      },
+      "wasPr": false
+     },
+     "out": false
+    }
+   ]
+  },
+  {
+   "name": "history only",
+   "history": [
+    {
+     "id": 3,
+     "userId": "u",
+     "date": "2026-10-20",
+     "dayNumber": 1,
+     "weekNumber": 3,
+     "mode": "ai",
+     "loggingMode": "full",
+     "createdAt": "x",
+     "exercisesLogged": [
+      {
+       "name": "Bench Press",
+       "muscle": "Chest",
+       "sets": [
+        {
+         "setNumber": 1,
+         "weight": 0,
+         "reps": 0,
+         "completed": true
+        },
+        {
+         "setNumber": 2,
+         "weight": 0,
+         "reps": null,
+         "completed": true
+        }
+       ],
+       "notes": "empty session"
+      },
+      {
+       "name": "Squat",
+       "muscle": "Quads",
+       "sets": [
+        {
+         "setNumber": 1,
+         "weight": 120,
+         "reps": 5,
+         "completed": true
+        },
+        {
+         "setNumber": 2,
+         "weight": 120,
+         "reps": 4,
+         "completed": true
+        }
+       ],
+       "notes": "  depth ok  "
+      },
+      {
+       "name": "Row",
+       "muscle": "Upper Back",
+       "sets": [
+        {
+         "setNumber": 1,
+         "weight": 30,
+         "reps": null,
+         "completed": true,
+         "repsLeft": 10,
+         "repsRight": 8
+        }
+       ],
+       "notes": "   "
+      },
+      {
+       "name": "Plank",
+       "muscle": "",
+       "sets": [],
+       "kind": "checklist",
+       "completedRounds": 1
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "userId": "u",
+     "date": "2026-10-13T18:00:00.000Z",
+     "dayNumber": 1,
+     "weekNumber": 2,
+     "mode": "ai",
+     "loggingMode": "full",
+     "createdAt": "x",
+     "exercisesLogged": [
+      {
+       "name": "bench press",
+       "muscle": "Chest",
+       "sets": [
+        {
+         "setNumber": 1,
+         "weight": 80,
+         "reps": 8,
+         "completed": true
+        },
+        {
+         "setNumber": 2,
+         "weight": 80,
+         "reps": 7,
+         "completed": true
+        }
+       ],
+       "notes": "pause reps"
+      },
+      {
+       "name": "Squat",
+       "muscle": "Quads",
+       "sets": [
+        {
+         "setNumber": 1,
+         "weight": 200,
+         "reps": 1,
+         "completed": true
+        }
+       ],
+       "notes": "older"
+      },
+      {
+       "name": "",
+       "muscle": "",
+       "sets": [
+        {
+         "setNumber": 1,
+         "weight": 1,
+         "reps": 1,
+         "completed": true
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": 1,
+     "userId": "u",
+     "date": "2026-10-06",
+     "dayNumber": 1,
+     "weekNumber": 1,
+     "mode": "ai",
+     "loggingMode": "full",
+     "createdAt": "x",
+     "exercisesLogged": [
+      {
+       "name": "Curl",
+       "muscle": "Biceps",
+       "sets": [
+        {
+         "setNumber": 1,
+         "weight": 12.5,
+         "reps": 12,
+         "completed": true
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "personalRecords": [],
+   "calls": [
+    {
+     "in": {
+      "name": "Bench Press",
+      "isUnilateral": false,
+      "set": {
+       "weight": 80,
+       "reps": 8,
+       "repsLeft": 0,
+       "repsRight": 0
+      },
+      "wasPr": false
+     },
+     "out": false
+    },
+    {
+     "in": {
+      "name": "Bench Press",
+      "isUnilateral": false,
+      "set": {
+       "weight": 80,
+       "reps": 9,
+       "repsLeft": 0,
+       "repsRight": 0
+      },
+      "wasPr": false
+     },
+     "out": true
+    },
+    {
+     "in": {
+      "name": "bench press",
+      "isUnilateral": false,
+      "set": {
+       "weight": 80,
+       "reps": 9,
+       "repsLeft": 0,
+       "repsRight": 0
+      },
+      "wasPr": false
+     },
+     "out": false
+    },
+    {
+     "in": {
+      "name": "Bench Press",
+      "isUnilateral": false,
+      "set": {
+       "weight": 80,
+       "reps": 10,
+       "repsLeft": 0,
+       "repsRight": 0
+      },
+      "wasPr": true
+     },
+     "out": true
+    },
+    {
+     "in": {
+      "name": "Bench Press",
+      "isUnilateral": false,
+      "set": {
+       "weight": 82,
+       "reps": 10,
+       "repsLeft": 0,
+       "repsRight": 0
+      },
+      "wasPr": false
+     },
+     "out": true
+    },
+    {
+     "in": {
+      "name": "Squat",
+      "isUnilateral": false,
+      "set": {
+       "weight": 300,
+       "reps": 1,
+       "repsLeft": 0,
+       "repsRight": 0
+      },
+      "wasPr": false
+     },
+     "out": true
+    },
+    {
+     "in": {
+      "name": "Row",
+      "isUnilateral": true,
+      "set": {
+       "weight": 30,
+       "reps": 0,
+       "repsLeft": 12,
+       "repsRight": 8
+      },
+      "wasPr": false
+     },
+     "out": false
+    },
+    {
+     "in": {
+      "name": "Row",
+      "isUnilateral": true,
+      "set": {
+       "weight": 30,
+       "reps": 0,
+       "repsLeft": 12,
+       "repsRight": 9
+      },
+      "wasPr": false
+     },
+     "out": true
+    },
+    {
+     "in": {
+      "name": "Row",
+      "isUnilateral": false,
+      "set": {
+       "weight": 30,
+       "reps": 9,
+       "repsLeft": 0,
+       "repsRight": 0
+      },
+      "wasPr": false
+     },
+     "out": false
+    },
+    {
+     "in": {
+      "name": "Never Logged",
+      "isUnilateral": false,
+      "set": {
+       "weight": 500,
+       "reps": 10,
+       "repsLeft": 0,
+       "repsRight": 0
+      },
+      "wasPr": false
+     },
+     "out": false
+    },
+    {
+     "in": {
+      "name": "Deadlift",
+      "isUnilateral": false,
+      "set": {
+       "weight": 185,
+       "reps": 1,
+       "repsLeft": 0,
+       "repsRight": 0
+      },
+      "wasPr": false
+     },
+     "out": false
+    },
+    {
+     "in": {
+      "name": "Deadlift",
+      "isUnilateral": false,
+      "set": {
+       "weight": 185,
+       "reps": 3,
+       "repsLeft": 0,
+       "repsRight": 0
+      },
+      "wasPr": false
+     },
+     "out": false
+    },
+    {
+     "in": {
+      "name": "Curl",
+      "isUnilateral": false,
+      "set": {
+       "weight": 12.5,
+       "reps": 13,
+       "repsLeft": 0,
+       "repsRight": 0
+      },
+      "wasPr": false
+     },
+     "out": true
+    },
+    {
+     "in": {
+      "name": "Plank",
+      "isUnilateral": false,
+      "set": {
+       "weight": 1,
+       "reps": 1,
+       "repsLeft": 0,
+       "repsRight": 0
+      },
+      "wasPr": false
+     },
+     "out": false
+    }
+   ]
+  },
+  {
+   "name": "nothing",
+   "history": [],
+   "personalRecords": [],
+   "calls": [
+    {
+     "in": {
+      "name": "Bench Press",
+      "isUnilateral": false,
+      "set": {
+       "weight": 80,
+       "reps": 8,
+       "repsLeft": 0,
+       "repsRight": 0
+      },
+      "wasPr": false
+     },
+     "out": false
+    },
+    {
+     "in": {
+      "name": "Bench Press",
+      "isUnilateral": false,
+      "set": {
+       "weight": 80,
+       "reps": 9,
+       "repsLeft": 0,
+       "repsRight": 0
+      },
+      "wasPr": false
+     },
+     "out": false
+    },
+    {
+     "in": {
+      "name": "bench press",
+      "isUnilateral": false,
+      "set": {
+       "weight": 80,
+       "reps": 9,
+       "repsLeft": 0,
+       "repsRight": 0
+      },
+      "wasPr": false
+     },
+     "out": false
+    },
+    {
+     "in": {
+      "name": "Bench Press",
+      "isUnilateral": false,
+      "set": {
+       "weight": 80,
+       "reps": 10,
+       "repsLeft": 0,
+       "repsRight": 0
+      },
+      "wasPr": true
+     },
+     "out": false
+    },
+    {
+     "in": {
+      "name": "Bench Press",
+      "isUnilateral": false,
+      "set": {
+       "weight": 82,
+       "reps": 10,
+       "repsLeft": 0,
+       "repsRight": 0
+      },
+      "wasPr": false
+     },
+     "out": false
+    },
+    {
+     "in": {
+      "name": "Squat",
+      "isUnilateral": false,
+      "set": {
+       "weight": 300,
+       "reps": 1,
+       "repsLeft": 0,
+       "repsRight": 0
+      },
+      "wasPr": false
+     },
+     "out": false
+    },
+    {
+     "in": {
+      "name": "Row",
+      "isUnilateral": true,
+      "set": {
+       "weight": 30,
+       "reps": 0,
+       "repsLeft": 12,
+       "repsRight": 8
+      },
+      "wasPr": false
+     },
+     "out": false
+    },
+    {
+     "in": {
+      "name": "Row",
+      "isUnilateral": true,
+      "set": {
+       "weight": 30,
+       "reps": 0,
+       "repsLeft": 12,
+       "repsRight": 9
+      },
+      "wasPr": false
+     },
+     "out": false
+    },
+    {
+     "in": {
+      "name": "Row",
+      "isUnilateral": false,
+      "set": {
+       "weight": 30,
+       "reps": 9,
+       "repsLeft": 0,
+       "repsRight": 0
+      },
+      "wasPr": false
+     },
+     "out": false
+    },
+    {
+     "in": {
+      "name": "Never Logged",
+      "isUnilateral": false,
+      "set": {
+       "weight": 500,
+       "reps": 10,
+       "repsLeft": 0,
+       "repsRight": 0
+      },
+      "wasPr": false
+     },
+     "out": false
+    },
+    {
+     "in": {
+      "name": "Deadlift",
+      "isUnilateral": false,
+      "set": {
+       "weight": 185,
+       "reps": 1,
+       "repsLeft": 0,
+       "repsRight": 0
+      },
+      "wasPr": false
+     },
+     "out": false
+    },
+    {
+     "in": {
+      "name": "Deadlift",
+      "isUnilateral": false,
+      "set": {
+       "weight": 185,
+       "reps": 3,
+       "repsLeft": 0,
+       "repsRight": 0
+      },
+      "wasPr": false
+     },
+     "out": false
+    },
+    {
+     "in": {
+      "name": "Curl",
+      "isUnilateral": false,
+      "set": {
+       "weight": 12.5,
+       "reps": 13,
+       "repsLeft": 0,
+       "repsRight": 0
+      },
+      "wasPr": false
+     },
+     "out": false
+    },
+    {
+     "in": {
+      "name": "Plank",
+      "isUnilateral": false,
+      "set": {
+       "weight": 1,
+       "reps": 1,
+       "repsLeft": 0,
+       "repsRight": 0
+      },
+      "wasPr": false
+     },
+     "out": false
+    }
+   ]
+  }
+ ]
+}

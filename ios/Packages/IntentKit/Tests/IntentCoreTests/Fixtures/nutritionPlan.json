@@ -1,0 +1,1779 @@
+{
+ "samplePlan": {
+  "meals": [
+   {
+    "slot": "breakfast",
+    "label": "Breakfast",
+    "macros": {
+     "protein": 42,
+     "carbs": 68,
+     "fat": 14
+    },
+    "foods": [
+     {
+      "name": "Oats",
+      "amount": 80,
+      "unit": "g"
+     },
+     {
+      "name": "Whey protein",
+      "amount": 30,
+      "unit": "g"
+     },
+     {
+      "name": "Blueberries",
+      "amount": 100,
+      "unit": "g"
+     },
+     {
+      "name": "Peanut butter",
+      "amount": 15,
+      "unit": "g"
+     }
+    ]
+   },
+   {
+    "slot": "lunch",
+    "label": "Lunch",
+    "macros": {
+     "protein": 55,
+     "carbs": 78,
+     "fat": 18
+    },
+    "foods": [
+     {
+      "name": "Chicken breast",
+      "amount": 180,
+      "unit": "g"
+     },
+     {
+      "name": "Jasmine rice, dry",
+      "amount": 90,
+      "unit": "g"
+     },
+     {
+      "name": "Broccoli",
+      "amount": 150,
+      "unit": "g"
+     },
+     {
+      "name": "Olive oil",
+      "amount": 10,
+      "unit": "ml"
+     }
+    ]
+   },
+   {
+    "slot": "pre_workout",
+    "label": "Pre-workout",
+    "macros": {
+     "protein": 22,
+     "carbs": 56,
+     "fat": 2
+    },
+    "foods": [
+     {
+      "name": "Greek yogurt 0%",
+      "amount": 200,
+      "unit": "g"
+     },
+     {
+      "name": "Banana",
+      "amount": 1,
+      "unit": "medium"
+     },
+     {
+      "name": "Honey",
+      "amount": 15,
+      "unit": "g"
+     }
+    ]
+   },
+   {
+    "slot": "post_workout",
+    "label": "Post-workout",
+    "macros": {
+     "protein": 32,
+     "carbs": 48,
+     "fat": 3
+    },
+    "foods": [
+     {
+      "name": "Whey protein",
+      "amount": 35,
+      "unit": "g"
+     },
+     {
+      "name": "Rice cakes",
+      "amount": 3,
+      "unit": "pcs"
+     },
+     {
+      "name": "Jam",
+      "amount": 20,
+      "unit": "g"
+     }
+    ]
+   },
+   {
+    "slot": "dinner",
+    "label": "Dinner",
+    "macros": {
+     "protein": 29,
+     "carbs": 20,
+     "fat": 35
+    },
+    "foods": [
+     {
+      "name": "Salmon",
+      "amount": 150,
+      "unit": "g"
+     },
+     {
+      "name": "Potatoes",
+      "amount": 300,
+      "unit": "g"
+     },
+     {
+      "name": "Side salad",
+      "amount": 1,
+      "unit": "bowl"
+     },
+     {
+      "name": "Avocado",
+      "amount": 0.5,
+      "unit": "medium"
+     }
+    ]
+   }
+  ]
+ },
+ "planTotals": {
+  "protein": 180,
+  "carbs": 270,
+  "fat": 72,
+  "kcal": 2448
+ },
+ "kcalOf": [
+  {
+   "in": {
+    "protein": 42,
+    "carbs": 68,
+    "fat": 14
+   },
+   "out": 566
+  },
+  {
+   "in": {
+    "protein": 0.1,
+    "carbs": 0.1,
+    "fat": 0.1
+   },
+   "out": 2
+  },
+  {
+   "in": {
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0.05555555555555555
+   },
+   "out": 1
+  }
+ ],
+ "scalePlan": [
+  {
+   "in": null,
+   "out": {
+    "meals": [
+     {
+      "slot": "breakfast",
+      "label": "Breakfast",
+      "macros": {
+       "protein": 42,
+       "carbs": 68,
+       "fat": 14
+      },
+      "foods": [
+       {
+        "name": "Oats",
+        "amount": 80,
+        "unit": "g"
+       },
+       {
+        "name": "Whey protein",
+        "amount": 30,
+        "unit": "g"
+       },
+       {
+        "name": "Blueberries",
+        "amount": 100,
+        "unit": "g"
+       },
+       {
+        "name": "Peanut butter",
+        "amount": 15,
+        "unit": "g"
+       }
+      ]
+     },
+     {
+      "slot": "lunch",
+      "label": "Lunch",
+      "macros": {
+       "protein": 55,
+       "carbs": 78,
+       "fat": 18
+      },
+      "foods": [
+       {
+        "name": "Chicken breast",
+        "amount": 180,
+        "unit": "g"
+       },
+       {
+        "name": "Jasmine rice, dry",
+        "amount": 90,
+        "unit": "g"
+       },
+       {
+        "name": "Broccoli",
+        "amount": 150,
+        "unit": "g"
+       },
+       {
+        "name": "Olive oil",
+        "amount": 10,
+        "unit": "ml"
+       }
+      ]
+     },
+     {
+      "slot": "pre_workout",
+      "label": "Pre-workout",
+      "macros": {
+       "protein": 22,
+       "carbs": 56,
+       "fat": 2
+      },
+      "foods": [
+       {
+        "name": "Greek yogurt 0%",
+        "amount": 200,
+        "unit": "g"
+       },
+       {
+        "name": "Banana",
+        "amount": 1,
+        "unit": "medium"
+       },
+       {
+        "name": "Honey",
+        "amount": 15,
+        "unit": "g"
+       }
+      ]
+     },
+     {
+      "slot": "post_workout",
+      "label": "Post-workout",
+      "macros": {
+       "protein": 32,
+       "carbs": 48,
+       "fat": 3
+      },
+      "foods": [
+       {
+        "name": "Whey protein",
+        "amount": 35,
+        "unit": "g"
+       },
+       {
+        "name": "Rice cakes",
+        "amount": 3,
+        "unit": "pcs"
+       },
+       {
+        "name": "Jam",
+        "amount": 20,
+        "unit": "g"
+       }
+      ]
+     },
+     {
+      "slot": "dinner",
+      "label": "Dinner",
+      "macros": {
+       "protein": 29,
+       "carbs": 20,
+       "fat": 35
+      },
+      "foods": [
+       {
+        "name": "Salmon",
+        "amount": 150,
+        "unit": "g"
+       },
+       {
+        "name": "Potatoes",
+        "amount": 300,
+        "unit": "g"
+       },
+       {
+        "name": "Side salad",
+        "amount": 1,
+        "unit": "bowl"
+       },
+       {
+        "name": "Avocado",
+        "amount": 0.5,
+        "unit": "medium"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "in": 0,
+   "out": {
+    "meals": [
+     {
+      "slot": "breakfast",
+      "label": "Breakfast",
+      "macros": {
+       "protein": 42,
+       "carbs": 68,
+       "fat": 14
+      },
+      "foods": [
+       {
+        "name": "Oats",
+        "amount": 80,
+        "unit": "g"
+       },
+       {
+        "name": "Whey protein",
+        "amount": 30,
+        "unit": "g"
+       },
+       {
+        "name": "Blueberries",
+        "amount": 100,
+        "unit": "g"
+       },
+       {
+        "name": "Peanut butter",
+        "amount": 15,
+        "unit": "g"
+       }
+      ]
+     },
+     {
+      "slot": "lunch",
+      "label": "Lunch",
+      "macros": {
+       "protein": 55,
+       "carbs": 78,
+       "fat": 18
+      },
+      "foods": [
+       {
+        "name": "Chicken breast",
+        "amount": 180,
+        "unit": "g"
+       },
+       {
+        "name": "Jasmine rice, dry",
+        "amount": 90,
+        "unit": "g"
+       },
+       {
+        "name": "Broccoli",
+        "amount": 150,
+        "unit": "g"
+       },
+       {
+        "name": "Olive oil",
+        "amount": 10,
+        "unit": "ml"
+       }
+      ]
+     },
+     {
+      "slot": "pre_workout",
+      "label": "Pre-workout",
+      "macros": {
+       "protein": 22,
+       "carbs": 56,
+       "fat": 2
+      },
+      "foods": [
+       {
+        "name": "Greek yogurt 0%",
+        "amount": 200,
+        "unit": "g"
+       },
+       {
+        "name": "Banana",
+        "amount": 1,
+        "unit": "medium"
+       },
+       {
+        "name": "Honey",
+        "amount": 15,
+        "unit": "g"
+       }
+      ]
+     },
+     {
+      "slot": "post_workout",
+      "label": "Post-workout",
+      "macros": {
+       "protein": 32,
+       "carbs": 48,
+       "fat": 3
+      },
+      "foods": [
+       {
+        "name": "Whey protein",
+        "amount": 35,
+        "unit": "g"
+       },
+       {
+        "name": "Rice cakes",
+        "amount": 3,
+        "unit": "pcs"
+       },
+       {
+        "name": "Jam",
+        "amount": 20,
+        "unit": "g"
+       }
+      ]
+     },
+     {
+      "slot": "dinner",
+      "label": "Dinner",
+      "macros": {
+       "protein": 29,
+       "carbs": 20,
+       "fat": 35
+      },
+      "foods": [
+       {
+        "name": "Salmon",
+        "amount": 150,
+        "unit": "g"
+       },
+       {
+        "name": "Potatoes",
+        "amount": 300,
+        "unit": "g"
+       },
+       {
+        "name": "Side salad",
+        "amount": 1,
+        "unit": "bowl"
+       },
+       {
+        "name": "Avocado",
+        "amount": 0.5,
+        "unit": "medium"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "in": -5,
+   "out": {
+    "meals": [
+     {
+      "slot": "breakfast",
+      "label": "Breakfast",
+      "macros": {
+       "protein": 42,
+       "carbs": 68,
+       "fat": 14
+      },
+      "foods": [
+       {
+        "name": "Oats",
+        "amount": 80,
+        "unit": "g"
+       },
+       {
+        "name": "Whey protein",
+        "amount": 30,
+        "unit": "g"
+       },
+       {
+        "name": "Blueberries",
+        "amount": 100,
+        "unit": "g"
+       },
+       {
+        "name": "Peanut butter",
+        "amount": 15,
+        "unit": "g"
+       }
+      ]
+     },
+     {
+      "slot": "lunch",
+      "label": "Lunch",
+      "macros": {
+       "protein": 55,
+       "carbs": 78,
+       "fat": 18
+      },
+      "foods": [
+       {
+        "name": "Chicken breast",
+        "amount": 180,
+        "unit": "g"
+       },
+       {
+        "name": "Jasmine rice, dry",
+        "amount": 90,
+        "unit": "g"
+       },
+       {
+        "name": "Broccoli",
+        "amount": 150,
+        "unit": "g"
+       },
+       {
+        "name": "Olive oil",
+        "amount": 10,
+        "unit": "ml"
+       }
+      ]
+     },
+     {
+      "slot": "pre_workout",
+      "label": "Pre-workout",
+      "macros": {
+       "protein": 22,
+       "carbs": 56,
+       "fat": 2
+      },
+      "foods": [
+       {
+        "name": "Greek yogurt 0%",
+        "amount": 200,
+        "unit": "g"
+       },
+       {
+        "name": "Banana",
+        "amount": 1,
+        "unit": "medium"
+       },
+       {
+        "name": "Honey",
+        "amount": 15,
+        "unit": "g"
+       }
+      ]
+     },
+     {
+      "slot": "post_workout",
+      "label": "Post-workout",
+      "macros": {
+       "protein": 32,
+       "carbs": 48,
+       "fat": 3
+      },
+      "foods": [
+       {
+        "name": "Whey protein",
+        "amount": 35,
+        "unit": "g"
+       },
+       {
+        "name": "Rice cakes",
+        "amount": 3,
+        "unit": "pcs"
+       },
+       {
+        "name": "Jam",
+        "amount": 20,
+        "unit": "g"
+       }
+      ]
+     },
+     {
+      "slot": "dinner",
+      "label": "Dinner",
+      "macros": {
+       "protein": 29,
+       "carbs": 20,
+       "fat": 35
+      },
+      "foods": [
+       {
+        "name": "Salmon",
+        "amount": 150,
+        "unit": "g"
+       },
+       {
+        "name": "Potatoes",
+        "amount": 300,
+        "unit": "g"
+       },
+       {
+        "name": "Side salad",
+        "amount": 1,
+        "unit": "bowl"
+       },
+       {
+        "name": "Avocado",
+        "amount": 0.5,
+        "unit": "medium"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "in": 1,
+   "out": {
+    "meals": [
+     {
+      "slot": "breakfast",
+      "label": "Breakfast",
+      "macros": {
+       "protein": 0,
+       "carbs": 0,
+       "fat": 0
+      },
+      "foods": [
+       {
+        "name": "Oats",
+        "amount": 5,
+        "unit": "g"
+       },
+       {
+        "name": "Whey protein",
+        "amount": 5,
+        "unit": "g"
+       },
+       {
+        "name": "Blueberries",
+        "amount": 5,
+        "unit": "g"
+       },
+       {
+        "name": "Peanut butter",
+        "amount": 5,
+        "unit": "g"
+       }
+      ]
+     },
+     {
+      "slot": "lunch",
+      "label": "Lunch",
+      "macros": {
+       "protein": 0,
+       "carbs": 0,
+       "fat": 0
+      },
+      "foods": [
+       {
+        "name": "Chicken breast",
+        "amount": 5,
+        "unit": "g"
+       },
+       {
+        "name": "Jasmine rice, dry",
+        "amount": 5,
+        "unit": "g"
+       },
+       {
+        "name": "Broccoli",
+        "amount": 5,
+        "unit": "g"
+       },
+       {
+        "name": "Olive oil",
+        "amount": 5,
+        "unit": "ml"
+       }
+      ]
+     },
+     {
+      "slot": "pre_workout",
+      "label": "Pre-workout",
+      "macros": {
+       "protein": 0,
+       "carbs": 0,
+       "fat": 0
+      },
+      "foods": [
+       {
+        "name": "Greek yogurt 0%",
+        "amount": 5,
+        "unit": "g"
+       },
+       {
+        "name": "Banana",
+        "amount": 1,
+        "unit": "medium"
+       },
+       {
+        "name": "Honey",
+        "amount": 5,
+        "unit": "g"
+       }
+      ]
+     },
+     {
+      "slot": "post_workout",
+      "label": "Post-workout",
+      "macros": {
+       "protein": 0,
+       "carbs": 0,
+       "fat": 0
+      },
+      "foods": [
+       {
+        "name": "Whey protein",
+        "amount": 5,
+        "unit": "g"
+       },
+       {
+        "name": "Rice cakes",
+        "amount": 3,
+        "unit": "pcs"
+       },
+       {
+        "name": "Jam",
+        "amount": 5,
+        "unit": "g"
+       }
+      ]
+     },
+     {
+      "slot": "dinner",
+      "label": "Dinner",
+      "macros": {
+       "protein": 0,
+       "carbs": 0,
+       "fat": 0
+      },
+      "foods": [
+       {
+        "name": "Salmon",
+        "amount": 5,
+        "unit": "g"
+       },
+       {
+        "name": "Potatoes",
+        "amount": 5,
+        "unit": "g"
+       },
+       {
+        "name": "Side salad",
+        "amount": 1,
+        "unit": "bowl"
+       },
+       {
+        "name": "Avocado",
+        "amount": 0.5,
+        "unit": "medium"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "in": 1200,
+   "out": {
+    "meals": [
+     {
+      "slot": "breakfast",
+      "label": "Breakfast",
+      "macros": {
+       "protein": 21,
+       "carbs": 33,
+       "fat": 7
+      },
+      "foods": [
+       {
+        "name": "Oats",
+        "amount": 40,
+        "unit": "g"
+       },
+       {
+        "name": "Whey protein",
+        "amount": 15,
+        "unit": "g"
+       },
+       {
+        "name": "Blueberries",
+        "amount": 50,
+        "unit": "g"
+       },
+       {
+        "name": "Peanut butter",
+        "amount": 5,
+        "unit": "g"
+       }
+      ]
+     },
+     {
+      "slot": "lunch",
+      "label": "Lunch",
+      "macros": {
+       "protein": 27,
+       "carbs": 38,
+       "fat": 9
+      },
+      "foods": [
+       {
+        "name": "Chicken breast",
+        "amount": 90,
+        "unit": "g"
+       },
+       {
+        "name": "Jasmine rice, dry",
+        "amount": 45,
+        "unit": "g"
+       },
+       {
+        "name": "Broccoli",
+        "amount": 75,
+        "unit": "g"
+       },
+       {
+        "name": "Olive oil",
+        "amount": 5,
+        "unit": "ml"
+       }
+      ]
+     },
+     {
+      "slot": "pre_workout",
+      "label": "Pre-workout",
+      "macros": {
+       "protein": 11,
+       "carbs": 27,
+       "fat": 1
+      },
+      "foods": [
+       {
+        "name": "Greek yogurt 0%",
+        "amount": 100,
+        "unit": "g"
+       },
+       {
+        "name": "Banana",
+        "amount": 1,
+        "unit": "medium"
+       },
+       {
+        "name": "Honey",
+        "amount": 5,
+        "unit": "g"
+       }
+      ]
+     },
+     {
+      "slot": "post_workout",
+      "label": "Post-workout",
+      "macros": {
+       "protein": 16,
+       "carbs": 24,
+       "fat": 1
+      },
+      "foods": [
+       {
+        "name": "Whey protein",
+        "amount": 15,
+        "unit": "g"
+       },
+       {
+        "name": "Rice cakes",
+        "amount": 3,
+        "unit": "pcs"
+       },
+       {
+        "name": "Jam",
+        "amount": 10,
+        "unit": "g"
+       }
+      ]
+     },
+     {
+      "slot": "dinner",
+      "label": "Dinner",
+      "macros": {
+       "protein": 14,
+       "carbs": 10,
+       "fat": 17
+      },
+      "foods": [
+       {
+        "name": "Salmon",
+        "amount": 75,
+        "unit": "g"
+       },
+       {
+        "name": "Potatoes",
+        "amount": 145,
+        "unit": "g"
+       },
+       {
+        "name": "Side salad",
+        "amount": 1,
+        "unit": "bowl"
+       },
+       {
+        "name": "Avocado",
+        "amount": 0.5,
+        "unit": "medium"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "in": 2450,
+   "out": {
+    "meals": [
+     {
+      "slot": "breakfast",
+      "label": "Breakfast",
+      "macros": {
+       "protein": 42,
+       "carbs": 68,
+       "fat": 14
+      },
+      "foods": [
+       {
+        "name": "Oats",
+        "amount": 80,
+        "unit": "g"
+       },
+       {
+        "name": "Whey protein",
+        "amount": 30,
+        "unit": "g"
+       },
+       {
+        "name": "Blueberries",
+        "amount": 100,
+        "unit": "g"
+       },
+       {
+        "name": "Peanut butter",
+        "amount": 15,
+        "unit": "g"
+       }
+      ]
+     },
+     {
+      "slot": "lunch",
+      "label": "Lunch",
+      "macros": {
+       "protein": 55,
+       "carbs": 78,
+       "fat": 18
+      },
+      "foods": [
+       {
+        "name": "Chicken breast",
+        "amount": 180,
+        "unit": "g"
+       },
+       {
+        "name": "Jasmine rice, dry",
+        "amount": 90,
+        "unit": "g"
+       },
+       {
+        "name": "Broccoli",
+        "amount": 150,
+        "unit": "g"
+       },
+       {
+        "name": "Olive oil",
+        "amount": 10,
+        "unit": "ml"
+       }
+      ]
+     },
+     {
+      "slot": "pre_workout",
+      "label": "Pre-workout",
+      "macros": {
+       "protein": 22,
+       "carbs": 56,
+       "fat": 2
+      },
+      "foods": [
+       {
+        "name": "Greek yogurt 0%",
+        "amount": 200,
+        "unit": "g"
+       },
+       {
+        "name": "Banana",
+        "amount": 1,
+        "unit": "medium"
+       },
+       {
+        "name": "Honey",
+        "amount": 15,
+        "unit": "g"
+       }
+      ]
+     },
+     {
+      "slot": "post_workout",
+      "label": "Post-workout",
+      "macros": {
+       "protein": 32,
+       "carbs": 48,
+       "fat": 3
+      },
+      "foods": [
+       {
+        "name": "Whey protein",
+        "amount": 35,
+        "unit": "g"
+       },
+       {
+        "name": "Rice cakes",
+        "amount": 3,
+        "unit": "pcs"
+       },
+       {
+        "name": "Jam",
+        "amount": 20,
+        "unit": "g"
+       }
+      ]
+     },
+     {
+      "slot": "dinner",
+      "label": "Dinner",
+      "macros": {
+       "protein": 29,
+       "carbs": 20,
+       "fat": 35
+      },
+      "foods": [
+       {
+        "name": "Salmon",
+        "amount": 150,
+        "unit": "g"
+       },
+       {
+        "name": "Potatoes",
+        "amount": 300,
+        "unit": "g"
+       },
+       {
+        "name": "Side salad",
+        "amount": 1,
+        "unit": "bowl"
+       },
+       {
+        "name": "Avocado",
+        "amount": 0.5,
+        "unit": "medium"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "in": 2451,
+   "out": {
+    "meals": [
+     {
+      "slot": "breakfast",
+      "label": "Breakfast",
+      "macros": {
+       "protein": 42,
+       "carbs": 68,
+       "fat": 14
+      },
+      "foods": [
+       {
+        "name": "Oats",
+        "amount": 80,
+        "unit": "g"
+       },
+       {
+        "name": "Whey protein",
+        "amount": 30,
+        "unit": "g"
+       },
+       {
+        "name": "Blueberries",
+        "amount": 100,
+        "unit": "g"
+       },
+       {
+        "name": "Peanut butter",
+        "amount": 15,
+        "unit": "g"
+       }
+      ]
+     },
+     {
+      "slot": "lunch",
+      "label": "Lunch",
+      "macros": {
+       "protein": 55,
+       "carbs": 78,
+       "fat": 18
+      },
+      "foods": [
+       {
+        "name": "Chicken breast",
+        "amount": 180,
+        "unit": "g"
+       },
+       {
+        "name": "Jasmine rice, dry",
+        "amount": 90,
+        "unit": "g"
+       },
+       {
+        "name": "Broccoli",
+        "amount": 150,
+        "unit": "g"
+       },
+       {
+        "name": "Olive oil",
+        "amount": 10,
+        "unit": "ml"
+       }
+      ]
+     },
+     {
+      "slot": "pre_workout",
+      "label": "Pre-workout",
+      "macros": {
+       "protein": 22,
+       "carbs": 56,
+       "fat": 2
+      },
+      "foods": [
+       {
+        "name": "Greek yogurt 0%",
+        "amount": 200,
+        "unit": "g"
+       },
+       {
+        "name": "Banana",
+        "amount": 1,
+        "unit": "medium"
+       },
+       {
+        "name": "Honey",
+        "amount": 15,
+        "unit": "g"
+       }
+      ]
+     },
+     {
+      "slot": "post_workout",
+      "label": "Post-workout",
+      "macros": {
+       "protein": 32,
+       "carbs": 48,
+       "fat": 3
+      },
+      "foods": [
+       {
+        "name": "Whey protein",
+        "amount": 35,
+        "unit": "g"
+       },
+       {
+        "name": "Rice cakes",
+        "amount": 3,
+        "unit": "pcs"
+       },
+       {
+        "name": "Jam",
+        "amount": 20,
+        "unit": "g"
+       }
+      ]
+     },
+     {
+      "slot": "dinner",
+      "label": "Dinner",
+      "macros": {
+       "protein": 29,
+       "carbs": 20,
+       "fat": 35
+      },
+      "foods": [
+       {
+        "name": "Salmon",
+        "amount": 150,
+        "unit": "g"
+       },
+       {
+        "name": "Potatoes",
+        "amount": 300,
+        "unit": "g"
+       },
+       {
+        "name": "Side salad",
+        "amount": 1,
+        "unit": "bowl"
+       },
+       {
+        "name": "Avocado",
+        "amount": 0.5,
+        "unit": "medium"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "in": 3000,
+   "out": {
+    "meals": [
+     {
+      "slot": "breakfast",
+      "label": "Breakfast",
+      "macros": {
+       "protein": 51,
+       "carbs": 83,
+       "fat": 17
+      },
+      "foods": [
+       {
+        "name": "Oats",
+        "amount": 100,
+        "unit": "g"
+       },
+       {
+        "name": "Whey protein",
+        "amount": 35,
+        "unit": "g"
+       },
+       {
+        "name": "Blueberries",
+        "amount": 125,
+        "unit": "g"
+       },
+       {
+        "name": "Peanut butter",
+        "amount": 20,
+        "unit": "g"
+       }
+      ]
+     },
+     {
+      "slot": "lunch",
+      "label": "Lunch",
+      "macros": {
+       "protein": 67,
+       "carbs": 96,
+       "fat": 22
+      },
+      "foods": [
+       {
+        "name": "Chicken breast",
+        "amount": 220,
+        "unit": "g"
+       },
+       {
+        "name": "Jasmine rice, dry",
+        "amount": 110,
+        "unit": "g"
+       },
+       {
+        "name": "Broccoli",
+        "amount": 185,
+        "unit": "g"
+       },
+       {
+        "name": "Olive oil",
+        "amount": 10,
+        "unit": "ml"
+       }
+      ]
+     },
+     {
+      "slot": "pre_workout",
+      "label": "Pre-workout",
+      "macros": {
+       "protein": 27,
+       "carbs": 69,
+       "fat": 2
+      },
+      "foods": [
+       {
+        "name": "Greek yogurt 0%",
+        "amount": 245,
+        "unit": "g"
+       },
+       {
+        "name": "Banana",
+        "amount": 1,
+        "unit": "medium"
+       },
+       {
+        "name": "Honey",
+        "amount": 20,
+        "unit": "g"
+       }
+      ]
+     },
+     {
+      "slot": "post_workout",
+      "label": "Post-workout",
+      "macros": {
+       "protein": 39,
+       "carbs": 59,
+       "fat": 4
+      },
+      "foods": [
+       {
+        "name": "Whey protein",
+        "amount": 45,
+        "unit": "g"
+       },
+       {
+        "name": "Rice cakes",
+        "amount": 3,
+        "unit": "pcs"
+       },
+       {
+        "name": "Jam",
+        "amount": 25,
+        "unit": "g"
+       }
+      ]
+     },
+     {
+      "slot": "dinner",
+      "label": "Dinner",
+      "macros": {
+       "protein": 36,
+       "carbs": 25,
+       "fat": 43
+      },
+      "foods": [
+       {
+        "name": "Salmon",
+        "amount": 185,
+        "unit": "g"
+       },
+       {
+        "name": "Potatoes",
+        "amount": 370,
+        "unit": "g"
+       },
+       {
+        "name": "Side salad",
+        "amount": 1,
+        "unit": "bowl"
+       },
+       {
+        "name": "Avocado",
+        "amount": 0.5,
+        "unit": "medium"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "in": 5000,
+   "out": {
+    "meals": [
+     {
+      "slot": "breakfast",
+      "label": "Breakfast",
+      "macros": {
+       "protein": 86,
+       "carbs": 139,
+       "fat": 29
+      },
+      "foods": [
+       {
+        "name": "Oats",
+        "amount": 165,
+        "unit": "g"
+       },
+       {
+        "name": "Whey protein",
+        "amount": 60,
+        "unit": "g"
+       },
+       {
+        "name": "Blueberries",
+        "amount": 205,
+        "unit": "g"
+       },
+       {
+        "name": "Peanut butter",
+        "amount": 30,
+        "unit": "g"
+       }
+      ]
+     },
+     {
+      "slot": "lunch",
+      "label": "Lunch",
+      "macros": {
+       "protein": 112,
+       "carbs": 159,
+       "fat": 37
+      },
+      "foods": [
+       {
+        "name": "Chicken breast",
+        "amount": 370,
+        "unit": "g"
+       },
+       {
+        "name": "Jasmine rice, dry",
+        "amount": 185,
+        "unit": "g"
+       },
+       {
+        "name": "Broccoli",
+        "amount": 305,
+        "unit": "g"
+       },
+       {
+        "name": "Olive oil",
+        "amount": 20,
+        "unit": "ml"
+       }
+      ]
+     },
+     {
+      "slot": "pre_workout",
+      "label": "Pre-workout",
+      "macros": {
+       "protein": 45,
+       "carbs": 114,
+       "fat": 4
+      },
+      "foods": [
+       {
+        "name": "Greek yogurt 0%",
+        "amount": 410,
+        "unit": "g"
+       },
+       {
+        "name": "Banana",
+        "amount": 1,
+        "unit": "medium"
+       },
+       {
+        "name": "Honey",
+        "amount": 30,
+        "unit": "g"
+       }
+      ]
+     },
+     {
+      "slot": "post_workout",
+      "label": "Post-workout",
+      "macros": {
+       "protein": 65,
+       "carbs": 98,
+       "fat": 6
+      },
+      "foods": [
+       {
+        "name": "Whey protein",
+        "amount": 70,
+        "unit": "g"
+       },
+       {
+        "name": "Rice cakes",
+        "amount": 3,
+        "unit": "pcs"
+       },
+       {
+        "name": "Jam",
+        "amount": 40,
+        "unit": "g"
+       }
+      ]
+     },
+     {
+      "slot": "dinner",
+      "label": "Dinner",
+      "macros": {
+       "protein": 59,
+       "carbs": 41,
+       "fat": 71
+      },
+      "foods": [
+       {
+        "name": "Salmon",
+        "amount": 305,
+        "unit": "g"
+       },
+       {
+        "name": "Potatoes",
+        "amount": 615,
+        "unit": "g"
+       },
+       {
+        "name": "Side salad",
+        "amount": 1,
+        "unit": "bowl"
+       },
+       {
+        "name": "Avocado",
+        "amount": 0.5,
+        "unit": "medium"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "in": 1800.5,
+   "out": {
+    "meals": [
+     {
+      "slot": "breakfast",
+      "label": "Breakfast",
+      "macros": {
+       "protein": 31,
+       "carbs": 50,
+       "fat": 10
+      },
+      "foods": [
+       {
+        "name": "Oats",
+        "amount": 60,
+        "unit": "g"
+       },
+       {
+        "name": "Whey protein",
+        "amount": 20,
+        "unit": "g"
+       },
+       {
+        "name": "Blueberries",
+        "amount": 75,
+        "unit": "g"
+       },
+       {
+        "name": "Peanut butter",
+        "amount": 10,
+        "unit": "g"
+       }
+      ]
+     },
+     {
+      "slot": "lunch",
+      "label": "Lunch",
+      "macros": {
+       "protein": 40,
+       "carbs": 57,
+       "fat": 13
+      },
+      "foods": [
+       {
+        "name": "Chicken breast",
+        "amount": 130,
+        "unit": "g"
+       },
+       {
+        "name": "Jasmine rice, dry",
+        "amount": 65,
+        "unit": "g"
+       },
+       {
+        "name": "Broccoli",
+        "amount": 110,
+        "unit": "g"
+       },
+       {
+        "name": "Olive oil",
+        "amount": 5,
+        "unit": "ml"
+       }
+      ]
+     },
+     {
+      "slot": "pre_workout",
+      "label": "Pre-workout",
+      "macros": {
+       "protein": 16,
+       "carbs": 41,
+       "fat": 1
+      },
+      "foods": [
+       {
+        "name": "Greek yogurt 0%",
+        "amount": 145,
+        "unit": "g"
+       },
+       {
+        "name": "Banana",
+        "amount": 1,
+        "unit": "medium"
+       },
+       {
+        "name": "Honey",
+        "amount": 10,
+        "unit": "g"
+       }
+      ]
+     },
+     {
+      "slot": "post_workout",
+      "label": "Post-workout",
+      "macros": {
+       "protein": 24,
+       "carbs": 35,
+       "fat": 2
+      },
+      "foods": [
+       {
+        "name": "Whey protein",
+        "amount": 25,
+        "unit": "g"
+       },
+       {
+        "name": "Rice cakes",
+        "amount": 3,
+        "unit": "pcs"
+       },
+       {
+        "name": "Jam",
+        "amount": 15,
+        "unit": "g"
+       }
+      ]
+     },
+     {
+      "slot": "dinner",
+      "label": "Dinner",
+      "macros": {
+       "protein": 21,
+       "carbs": 15,
+       "fat": 26
+      },
+      "foods": [
+       {
+        "name": "Salmon",
+        "amount": 110,
+        "unit": "g"
+       },
+       {
+        "name": "Potatoes",
+        "amount": 220,
+        "unit": "g"
+       },
+       {
+        "name": "Side salad",
+        "amount": 1,
+        "unit": "bowl"
+       },
+       {
+        "name": "Avocado",
+        "amount": 0.5,
+        "unit": "medium"
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "formatAmount": [
+  {
+   "in": {
+    "name": "a",
+    "amount": 0.5,
+    "unit": "medium"
+   },
+   "out": "½"
+  },
+  {
+   "in": {
+    "name": "b",
+    "amount": 1,
+    "unit": "medium"
+   },
+   "out": "1 medium"
+  },
+  {
+   "in": {
+    "name": "c",
+    "amount": 2,
+    "unit": "medium"
+   },
+   "out": "2 medium"
+  },
+  {
+   "in": {
+    "name": "d",
+    "amount": 1,
+    "unit": "bowl"
+   },
+   "out": "1 bowl"
+  },
+  {
+   "in": {
+    "name": "e",
+    "amount": 2,
+    "unit": "bowl"
+   },
+   "out": "2 bowls"
+  },
+  {
+   "in": {
+    "name": "f",
+    "amount": 0.5,
+    "unit": "bowl"
+   },
+   "out": "0.5 bowls"
+  },
+  {
+   "in": {
+    "name": "g",
+    "amount": 85,
+    "unit": "g"
+   },
+   "out": "85 g"
+  },
+  {
+   "in": {
+    "name": "h",
+    "amount": 12.5,
+    "unit": "ml"
+   },
+   "out": "12.5 ml"
+  },
+  {
+   "in": {
+    "name": "i",
+    "amount": 3,
+    "unit": "pcs"
+   },
+   "out": "3 pcs"
+  }
+ ]
+}

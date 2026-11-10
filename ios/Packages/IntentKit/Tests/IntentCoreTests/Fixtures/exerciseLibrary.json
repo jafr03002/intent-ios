@@ -1,0 +1,2039 @@
+{
+ "muscleOptions": [
+  "Chest",
+  "Shoulders",
+  "Biceps",
+  "Triceps",
+  "Upper Back",
+  "Lats",
+  "Quads",
+  "Hamstrings",
+  "Glutes",
+  "Calves",
+  "Core"
+ ],
+ "muscleColors": {
+  "Chest": "hsl(217, 91%, 60%)",
+  "Shoulders": "hsl(280, 68%, 60%)",
+  "Biceps": "hsl(38, 92%, 50%)",
+  "Triceps": "hsl(24, 90%, 55%)",
+  "Upper Back": "hsl(142, 71%, 45%)",
+  "Lats": "hsl(160, 84%, 39%)",
+  "Quads": "hsl(0, 72%, 51%)",
+  "Hamstrings": "hsl(350, 75%, 55%)",
+  "Glutes": "hsl(316, 73%, 52%)",
+  "Calves": "hsl(199, 89%, 48%)",
+  "Core": "hsl(90, 60%, 45%)"
+ },
+ "library": {
+  "Chest": [
+   "Dumbbell Bench Press",
+   "Barbell Bench Press",
+   "Incline Dumbbell Press",
+   "Incline Barbell Press",
+   "Pec Fly Machine",
+   "Pec Fly Cable",
+   "Pec Fly Dumbbell",
+   "Dips",
+   "Machine Dips",
+   "Weighted Dips",
+   "Decline Dumbbell Press",
+   "Decline Barbell Press",
+   "Machine Flat Chest Press",
+   "Machine Incline Chest Press",
+   "Machine Decline Chest Press",
+   "Flat Smith Press",
+   "Incline Smith Press",
+   "Decline Smith Press"
+  ],
+  "Shoulders": [
+   "Shoulder Overhead Dumbbell Press",
+   "Shoulder Overhead Barbell Press",
+   "Shoulder Overhead Machine Press",
+   "Shoulder Overhead Smith Press",
+   "Dumbbell Lateral Raises",
+   "Machine Lateral Raises",
+   "Cable Lateral Raises",
+   "Y-Raise",
+   "Pec Dec Rear Delt Flies",
+   "Dumbbell Rear Delt Flies",
+   "Cable Rear Delt Flies"
+  ],
+  "Biceps": [
+   "Machine Preacher Curl",
+   "Standing Dumbbell Curl",
+   "Incline Bench Dumbbell Curl",
+   "Preacher Bench Curl",
+   "Barbell Curl",
+   "Cable EZ-Bar Curl",
+   "Cable D-Handle Curl",
+   "Cable Drag Curl",
+   "Dumbbell Hammer Curl",
+   "Rope Hammer Cable Curl",
+   "Hammer Machine Curl"
+  ],
+  "Triceps": [
+   "Dips",
+   "Machine Dips",
+   "Weighted Dips",
+   "Tricep Pushdown",
+   "Skullcrushers",
+   "Overhead Tricep Extension"
+  ],
+  "Upper Back": [
+   "Machine Row",
+   "Smith Machine Row",
+   "Barbell Row",
+   "T-Bar Row",
+   "Landmine Row",
+   "Dumbbell Row",
+   "Cable Row",
+   "High Machine Row",
+   "High Cable Row",
+   "Smith High Row"
+  ],
+  "Lats": [
+   "Cable Wide Pulldown",
+   "Cable Close-Grip Pulldown",
+   "Machine Wide Pulldown",
+   "Machine Close-Grip Pulldown",
+   "Cable Lat Row",
+   "Machine Lat Row",
+   "SA Bench Lat Pulldown",
+   "SA Machine Lat Pulldown"
+  ],
+  "Quads": [
+   "Leg Press",
+   "Barbell Squat",
+   "Smith Machine Squat",
+   "Hack Squat",
+   "Pendulum Squat",
+   "Hip Press",
+   "Leg Extension",
+   "Bulgarian Split Squat",
+   "Adductor Machine"
+  ],
+  "Hamstrings": [
+   "Seated Hamstring Curl",
+   "Lying Hamstring Curl",
+   "45 Degree Hinge",
+   "Romanian Deadlift",
+   "Stiff Leg Deadlift",
+   "Deadlift"
+  ],
+  "Glutes": [
+   "Hip Thrust",
+   "Banded 45 Degree Hinge",
+   "Abduction Machine",
+   "Glute Kickback",
+   "Glute Biased Bulgarian Split Squat Dumbbell",
+   "Glute Biased Bulgarian Split Squat Smith"
+  ],
+  "Calves": [
+   "Standing Calf Raise",
+   "Seated Calf Raise",
+   "Toe Press"
+  ],
+  "Core": [
+   "Plank",
+   "Cable Crunch",
+   "Machine Crunch",
+   "Hanging Leg Raises",
+   "Lying Leg Raises",
+   "Pallof Press"
+  ]
+ },
+ "all": [
+  {
+   "name": "Dumbbell Bench Press",
+   "muscle": "Chest"
+  },
+  {
+   "name": "Barbell Bench Press",
+   "muscle": "Chest"
+  },
+  {
+   "name": "Incline Dumbbell Press",
+   "muscle": "Chest"
+  },
+  {
+   "name": "Incline Barbell Press",
+   "muscle": "Chest"
+  },
+  {
+   "name": "Pec Fly Machine",
+   "muscle": "Chest"
+  },
+  {
+   "name": "Pec Fly Cable",
+   "muscle": "Chest"
+  },
+  {
+   "name": "Pec Fly Dumbbell",
+   "muscle": "Chest"
+  },
+  {
+   "name": "Dips",
+   "muscle": "Chest"
+  },
+  {
+   "name": "Machine Dips",
+   "muscle": "Chest"
+  },
+  {
+   "name": "Weighted Dips",
+   "muscle": "Chest"
+  },
+  {
+   "name": "Decline Dumbbell Press",
+   "muscle": "Chest"
+  },
+  {
+   "name": "Decline Barbell Press",
+   "muscle": "Chest"
+  },
+  {
+   "name": "Machine Flat Chest Press",
+   "muscle": "Chest"
+  },
+  {
+   "name": "Machine Incline Chest Press",
+   "muscle": "Chest"
+  },
+  {
+   "name": "Machine Decline Chest Press",
+   "muscle": "Chest"
+  },
+  {
+   "name": "Flat Smith Press",
+   "muscle": "Chest"
+  },
+  {
+   "name": "Incline Smith Press",
+   "muscle": "Chest"
+  },
+  {
+   "name": "Decline Smith Press",
+   "muscle": "Chest"
+  },
+  {
+   "name": "Shoulder Overhead Dumbbell Press",
+   "muscle": "Shoulders"
+  },
+  {
+   "name": "Shoulder Overhead Barbell Press",
+   "muscle": "Shoulders"
+  },
+  {
+   "name": "Shoulder Overhead Machine Press",
+   "muscle": "Shoulders"
+  },
+  {
+   "name": "Shoulder Overhead Smith Press",
+   "muscle": "Shoulders"
+  },
+  {
+   "name": "Dumbbell Lateral Raises",
+   "muscle": "Shoulders"
+  },
+  {
+   "name": "Machine Lateral Raises",
+   "muscle": "Shoulders"
+  },
+  {
+   "name": "Cable Lateral Raises",
+   "muscle": "Shoulders"
+  },
+  {
+   "name": "Y-Raise",
+   "muscle": "Shoulders"
+  },
+  {
+   "name": "Pec Dec Rear Delt Flies",
+   "muscle": "Shoulders"
+  },
+  {
+   "name": "Dumbbell Rear Delt Flies",
+   "muscle": "Shoulders"
+  },
+  {
+   "name": "Cable Rear Delt Flies",
+   "muscle": "Shoulders"
+  },
+  {
+   "name": "Machine Preacher Curl",
+   "muscle": "Biceps"
+  },
+  {
+   "name": "Standing Dumbbell Curl",
+   "muscle": "Biceps"
+  },
+  {
+   "name": "Incline Bench Dumbbell Curl",
+   "muscle": "Biceps"
+  },
+  {
+   "name": "Preacher Bench Curl",
+   "muscle": "Biceps"
+  },
+  {
+   "name": "Barbell Curl",
+   "muscle": "Biceps"
+  },
+  {
+   "name": "Cable EZ-Bar Curl",
+   "muscle": "Biceps"
+  },
+  {
+   "name": "Cable D-Handle Curl",
+   "muscle": "Biceps"
+  },
+  {
+   "name": "Cable Drag Curl",
+   "muscle": "Biceps"
+  },
+  {
+   "name": "Dumbbell Hammer Curl",
+   "muscle": "Biceps"
+  },
+  {
+   "name": "Rope Hammer Cable Curl",
+   "muscle": "Biceps"
+  },
+  {
+   "name": "Hammer Machine Curl",
+   "muscle": "Biceps"
+  },
+  {
+   "name": "Dips",
+   "muscle": "Triceps"
+  },
+  {
+   "name": "Machine Dips",
+   "muscle": "Triceps"
+  },
+  {
+   "name": "Weighted Dips",
+   "muscle": "Triceps"
+  },
+  {
+   "name": "Tricep Pushdown",
+   "muscle": "Triceps"
+  },
+  {
+   "name": "Skullcrushers",
+   "muscle": "Triceps"
+  },
+  {
+   "name": "Overhead Tricep Extension",
+   "muscle": "Triceps"
+  },
+  {
+   "name": "Machine Row",
+   "muscle": "Upper Back"
+  },
+  {
+   "name": "Smith Machine Row",
+   "muscle": "Upper Back"
+  },
+  {
+   "name": "Barbell Row",
+   "muscle": "Upper Back"
+  },
+  {
+   "name": "T-Bar Row",
+   "muscle": "Upper Back"
+  },
+  {
+   "name": "Landmine Row",
+   "muscle": "Upper Back"
+  },
+  {
+   "name": "Dumbbell Row",
+   "muscle": "Upper Back"
+  },
+  {
+   "name": "Cable Row",
+   "muscle": "Upper Back"
+  },
+  {
+   "name": "High Machine Row",
+   "muscle": "Upper Back"
+  },
+  {
+   "name": "High Cable Row",
+   "muscle": "Upper Back"
+  },
+  {
+   "name": "Smith High Row",
+   "muscle": "Upper Back"
+  },
+  {
+   "name": "Cable Wide Pulldown",
+   "muscle": "Lats"
+  },
+  {
+   "name": "Cable Close-Grip Pulldown",
+   "muscle": "Lats"
+  },
+  {
+   "name": "Machine Wide Pulldown",
+   "muscle": "Lats"
+  },
+  {
+   "name": "Machine Close-Grip Pulldown",
+   "muscle": "Lats"
+  },
+  {
+   "name": "Cable Lat Row",
+   "muscle": "Lats"
+  },
+  {
+   "name": "Machine Lat Row",
+   "muscle": "Lats"
+  },
+  {
+   "name": "SA Bench Lat Pulldown",
+   "muscle": "Lats"
+  },
+  {
+   "name": "SA Machine Lat Pulldown",
+   "muscle": "Lats"
+  },
+  {
+   "name": "Leg Press",
+   "muscle": "Quads"
+  },
+  {
+   "name": "Barbell Squat",
+   "muscle": "Quads"
+  },
+  {
+   "name": "Smith Machine Squat",
+   "muscle": "Quads"
+  },
+  {
+   "name": "Hack Squat",
+   "muscle": "Quads"
+  },
+  {
+   "name": "Pendulum Squat",
+   "muscle": "Quads"
+  },
+  {
+   "name": "Hip Press",
+   "muscle": "Quads"
+  },
+  {
+   "name": "Leg Extension",
+   "muscle": "Quads"
+  },
+  {
+   "name": "Bulgarian Split Squat",
+   "muscle": "Quads"
+  },
+  {
+   "name": "Adductor Machine",
+   "muscle": "Quads"
+  },
+  {
+   "name": "Seated Hamstring Curl",
+   "muscle": "Hamstrings"
+  },
+  {
+   "name": "Lying Hamstring Curl",
+   "muscle": "Hamstrings"
+  },
+  {
+   "name": "45 Degree Hinge",
+   "muscle": "Hamstrings"
+  },
+  {
+   "name": "Romanian Deadlift",
+   "muscle": "Hamstrings"
+  },
+  {
+   "name": "Stiff Leg Deadlift",
+   "muscle": "Hamstrings"
+  },
+  {
+   "name": "Deadlift",
+   "muscle": "Hamstrings"
+  },
+  {
+   "name": "Hip Thrust",
+   "muscle": "Glutes"
+  },
+  {
+   "name": "Banded 45 Degree Hinge",
+   "muscle": "Glutes"
+  },
+  {
+   "name": "Abduction Machine",
+   "muscle": "Glutes"
+  },
+  {
+   "name": "Glute Kickback",
+   "muscle": "Glutes"
+  },
+  {
+   "name": "Glute Biased Bulgarian Split Squat Dumbbell",
+   "muscle": "Glutes"
+  },
+  {
+   "name": "Glute Biased Bulgarian Split Squat Smith",
+   "muscle": "Glutes"
+  },
+  {
+   "name": "Standing Calf Raise",
+   "muscle": "Calves"
+  },
+  {
+   "name": "Seated Calf Raise",
+   "muscle": "Calves"
+  },
+  {
+   "name": "Toe Press",
+   "muscle": "Calves"
+  },
+  {
+   "name": "Plank",
+   "muscle": "Core"
+  },
+  {
+   "name": "Cable Crunch",
+   "muscle": "Core"
+  },
+  {
+   "name": "Machine Crunch",
+   "muscle": "Core"
+  },
+  {
+   "name": "Hanging Leg Raises",
+   "muscle": "Core"
+  },
+  {
+   "name": "Lying Leg Raises",
+   "muscle": "Core"
+  },
+  {
+   "name": "Pallof Press",
+   "muscle": "Core"
+  }
+ ],
+ "groups": [
+  {
+   "muscle": "Chest",
+   "names": [
+    "Dumbbell Bench Press",
+    "Barbell Bench Press",
+    "Incline Dumbbell Press",
+    "Incline Barbell Press",
+    "Pec Fly Machine",
+    "Pec Fly Cable",
+    "Pec Fly Dumbbell",
+    "Dips",
+    "Machine Dips",
+    "Weighted Dips",
+    "Decline Dumbbell Press",
+    "Decline Barbell Press",
+    "Machine Flat Chest Press",
+    "Machine Incline Chest Press",
+    "Machine Decline Chest Press",
+    "Flat Smith Press",
+    "Incline Smith Press",
+    "Decline Smith Press"
+   ]
+  },
+  {
+   "muscle": "Shoulders",
+   "names": [
+    "Shoulder Overhead Dumbbell Press",
+    "Shoulder Overhead Barbell Press",
+    "Shoulder Overhead Machine Press",
+    "Shoulder Overhead Smith Press",
+    "Dumbbell Lateral Raises",
+    "Machine Lateral Raises",
+    "Cable Lateral Raises",
+    "Y-Raise",
+    "Pec Dec Rear Delt Flies",
+    "Dumbbell Rear Delt Flies",
+    "Cable Rear Delt Flies"
+   ]
+  },
+  {
+   "muscle": "Biceps",
+   "names": [
+    "Machine Preacher Curl",
+    "Standing Dumbbell Curl",
+    "Incline Bench Dumbbell Curl",
+    "Preacher Bench Curl",
+    "Barbell Curl",
+    "Cable EZ-Bar Curl",
+    "Cable D-Handle Curl",
+    "Cable Drag Curl",
+    "Dumbbell Hammer Curl",
+    "Rope Hammer Cable Curl",
+    "Hammer Machine Curl"
+   ]
+  },
+  {
+   "muscle": "Triceps",
+   "names": [
+    "Dips",
+    "Machine Dips",
+    "Weighted Dips",
+    "Tricep Pushdown",
+    "Skullcrushers",
+    "Overhead Tricep Extension"
+   ]
+  },
+  {
+   "muscle": "Upper Back",
+   "names": [
+    "Machine Row",
+    "Smith Machine Row",
+    "Barbell Row",
+    "T-Bar Row",
+    "Landmine Row",
+    "Dumbbell Row",
+    "Cable Row",
+    "High Machine Row",
+    "High Cable Row",
+    "Smith High Row"
+   ]
+  },
+  {
+   "muscle": "Lats",
+   "names": [
+    "Cable Wide Pulldown",
+    "Cable Close-Grip Pulldown",
+    "Machine Wide Pulldown",
+    "Machine Close-Grip Pulldown",
+    "Cable Lat Row",
+    "Machine Lat Row",
+    "SA Bench Lat Pulldown",
+    "SA Machine Lat Pulldown"
+   ]
+  },
+  {
+   "muscle": "Quads",
+   "names": [
+    "Leg Press",
+    "Barbell Squat",
+    "Smith Machine Squat",
+    "Hack Squat",
+    "Pendulum Squat",
+    "Hip Press",
+    "Leg Extension",
+    "Bulgarian Split Squat",
+    "Adductor Machine"
+   ]
+  },
+  {
+   "muscle": "Hamstrings",
+   "names": [
+    "Seated Hamstring Curl",
+    "Lying Hamstring Curl",
+    "45 Degree Hinge",
+    "Romanian Deadlift",
+    "Stiff Leg Deadlift",
+    "Deadlift"
+   ]
+  },
+  {
+   "muscle": "Glutes",
+   "names": [
+    "Hip Thrust",
+    "Banded 45 Degree Hinge",
+    "Abduction Machine",
+    "Glute Kickback",
+    "Glute Biased Bulgarian Split Squat Dumbbell",
+    "Glute Biased Bulgarian Split Squat Smith"
+   ]
+  },
+  {
+   "muscle": "Calves",
+   "names": [
+    "Standing Calf Raise",
+    "Seated Calf Raise",
+    "Toe Press"
+   ]
+  },
+  {
+   "muscle": "Core",
+   "names": [
+    "Plank",
+    "Cable Crunch",
+    "Machine Crunch",
+    "Hanging Leg Raises",
+    "Lying Leg Raises",
+    "Pallof Press"
+   ]
+  }
+ ],
+ "search": [
+  {
+   "query": "",
+   "limit": null,
+   "out": []
+  },
+  {
+   "query": "  ",
+   "limit": null,
+   "out": []
+  },
+  {
+   "query": "chest",
+   "limit": null,
+   "out": [
+    {
+     "name": "Machine Decline Chest Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Machine Flat Chest Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Machine Incline Chest Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Barbell Bench Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Decline Barbell Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Decline Dumbbell Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Decline Smith Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Dips",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Dumbbell Bench Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Flat Smith Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Incline Barbell Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Incline Dumbbell Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Incline Smith Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Machine Dips",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Pec Fly Cable",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Pec Fly Dumbbell",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Pec Fly Machine",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Weighted Dips",
+     "muscle": "Chest"
+    }
+   ]
+  },
+  {
+   "query": "Chest pre",
+   "limit": null,
+   "out": [
+    {
+     "name": "Machine Decline Chest Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Machine Flat Chest Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Machine Incline Chest Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Barbell Bench Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Decline Barbell Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Decline Dumbbell Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Decline Smith Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Dumbbell Bench Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Flat Smith Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Incline Barbell Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Incline Dumbbell Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Incline Smith Press",
+     "muscle": "Chest"
+    }
+   ]
+  },
+  {
+   "query": "bell",
+   "limit": null,
+   "out": [
+    {
+     "name": "Barbell Bench Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Barbell Curl",
+     "muscle": "Biceps"
+    },
+    {
+     "name": "Barbell Row",
+     "muscle": "Upper Back"
+    },
+    {
+     "name": "Barbell Squat",
+     "muscle": "Quads"
+    },
+    {
+     "name": "Decline Barbell Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Decline Dumbbell Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Dumbbell Bench Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Dumbbell Hammer Curl",
+     "muscle": "Biceps"
+    },
+    {
+     "name": "Dumbbell Lateral Raises",
+     "muscle": "Shoulders"
+    },
+    {
+     "name": "Dumbbell Rear Delt Flies",
+     "muscle": "Shoulders"
+    },
+    {
+     "name": "Dumbbell Row",
+     "muscle": "Upper Back"
+    },
+    {
+     "name": "Glute Biased Bulgarian Split Squat Dumbbell",
+     "muscle": "Glutes"
+    },
+    {
+     "name": "Incline Barbell Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Incline Bench Dumbbell Curl",
+     "muscle": "Biceps"
+    },
+    {
+     "name": "Incline Dumbbell Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Pec Fly Dumbbell",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Shoulder Overhead Barbell Press",
+     "muscle": "Shoulders"
+    },
+    {
+     "name": "Shoulder Overhead Dumbbell Press",
+     "muscle": "Shoulders"
+    },
+    {
+     "name": "Standing Dumbbell Curl",
+     "muscle": "Biceps"
+    }
+   ]
+  },
+  {
+   "query": "dumbbell press",
+   "limit": null,
+   "out": [
+    {
+     "name": "Decline Dumbbell Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Dumbbell Bench Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Incline Dumbbell Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Shoulder Overhead Dumbbell Press",
+     "muscle": "Shoulders"
+    }
+   ]
+  },
+  {
+   "query": "d",
+   "limit": null,
+   "out": [
+    {
+     "name": "Deadlift",
+     "muscle": "Hamstrings"
+    },
+    {
+     "name": "Decline Barbell Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Decline Dumbbell Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Decline Smith Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Dips",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Dips",
+     "muscle": "Triceps"
+    },
+    {
+     "name": "Dumbbell Bench Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Dumbbell Hammer Curl",
+     "muscle": "Biceps"
+    },
+    {
+     "name": "Dumbbell Lateral Raises",
+     "muscle": "Shoulders"
+    },
+    {
+     "name": "Dumbbell Rear Delt Flies",
+     "muscle": "Shoulders"
+    },
+    {
+     "name": "Dumbbell Row",
+     "muscle": "Upper Back"
+    },
+    {
+     "name": "45 Degree Hinge",
+     "muscle": "Hamstrings"
+    },
+    {
+     "name": "Banded 45 Degree Hinge",
+     "muscle": "Glutes"
+    },
+    {
+     "name": "Cable D-Handle Curl",
+     "muscle": "Biceps"
+    },
+    {
+     "name": "Cable Drag Curl",
+     "muscle": "Biceps"
+    },
+    {
+     "name": "Cable Rear Delt Flies",
+     "muscle": "Shoulders"
+    },
+    {
+     "name": "Glute Biased Bulgarian Split Squat Dumbbell",
+     "muscle": "Glutes"
+    },
+    {
+     "name": "Incline Bench Dumbbell Curl",
+     "muscle": "Biceps"
+    },
+    {
+     "name": "Incline Dumbbell Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Machine Decline Chest Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Machine Dips",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Machine Dips",
+     "muscle": "Triceps"
+    },
+    {
+     "name": "Pec Dec Rear Delt Flies",
+     "muscle": "Shoulders"
+    },
+    {
+     "name": "Pec Fly Dumbbell",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Romanian Deadlift",
+     "muscle": "Hamstrings"
+    },
+    {
+     "name": "Shoulder Overhead Dumbbell Press",
+     "muscle": "Shoulders"
+    },
+    {
+     "name": "Standing Dumbbell Curl",
+     "muscle": "Biceps"
+    },
+    {
+     "name": "Stiff Leg Deadlift",
+     "muscle": "Hamstrings"
+    },
+    {
+     "name": "Weighted Dips",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Weighted Dips",
+     "muscle": "Triceps"
+    },
+    {
+     "name": "Abduction Machine",
+     "muscle": "Glutes"
+    },
+    {
+     "name": "Adductor Machine",
+     "muscle": "Quads"
+    },
+    {
+     "name": "Barbell Squat",
+     "muscle": "Quads"
+    },
+    {
+     "name": "Bulgarian Split Squat",
+     "muscle": "Quads"
+    },
+    {
+     "name": "Cable Close-Grip Pulldown",
+     "muscle": "Lats"
+    },
+    {
+     "name": "Cable Lateral Raises",
+     "muscle": "Shoulders"
+    },
+    {
+     "name": "Cable Wide Pulldown",
+     "muscle": "Lats"
+    },
+    {
+     "name": "Glute Biased Bulgarian Split Squat Smith",
+     "muscle": "Glutes"
+    },
+    {
+     "name": "Hack Squat",
+     "muscle": "Quads"
+    },
+    {
+     "name": "Hip Press",
+     "muscle": "Quads"
+    }
+   ]
+  },
+  {
+   "query": "dips",
+   "limit": null,
+   "out": [
+    {
+     "name": "Dips",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Dips",
+     "muscle": "Triceps"
+    },
+    {
+     "name": "Machine Dips",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Machine Dips",
+     "muscle": "Triceps"
+    },
+    {
+     "name": "Weighted Dips",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Weighted Dips",
+     "muscle": "Triceps"
+    }
+   ]
+  },
+  {
+   "query": "curl",
+   "limit": null,
+   "out": [
+    {
+     "name": "Barbell Curl",
+     "muscle": "Biceps"
+    },
+    {
+     "name": "Cable D-Handle Curl",
+     "muscle": "Biceps"
+    },
+    {
+     "name": "Cable Drag Curl",
+     "muscle": "Biceps"
+    },
+    {
+     "name": "Cable EZ-Bar Curl",
+     "muscle": "Biceps"
+    },
+    {
+     "name": "Dumbbell Hammer Curl",
+     "muscle": "Biceps"
+    },
+    {
+     "name": "Hammer Machine Curl",
+     "muscle": "Biceps"
+    },
+    {
+     "name": "Incline Bench Dumbbell Curl",
+     "muscle": "Biceps"
+    },
+    {
+     "name": "Lying Hamstring Curl",
+     "muscle": "Hamstrings"
+    },
+    {
+     "name": "Machine Preacher Curl",
+     "muscle": "Biceps"
+    },
+    {
+     "name": "Preacher Bench Curl",
+     "muscle": "Biceps"
+    },
+    {
+     "name": "Rope Hammer Cable Curl",
+     "muscle": "Biceps"
+    },
+    {
+     "name": "Seated Hamstring Curl",
+     "muscle": "Hamstrings"
+    },
+    {
+     "name": "Standing Dumbbell Curl",
+     "muscle": "Biceps"
+    }
+   ]
+  },
+  {
+   "query": "row",
+   "limit": null,
+   "out": [
+    {
+     "name": "Barbell Row",
+     "muscle": "Upper Back"
+    },
+    {
+     "name": "Cable Lat Row",
+     "muscle": "Lats"
+    },
+    {
+     "name": "Cable Row",
+     "muscle": "Upper Back"
+    },
+    {
+     "name": "Dumbbell Row",
+     "muscle": "Upper Back"
+    },
+    {
+     "name": "High Cable Row",
+     "muscle": "Upper Back"
+    },
+    {
+     "name": "High Machine Row",
+     "muscle": "Upper Back"
+    },
+    {
+     "name": "Landmine Row",
+     "muscle": "Upper Back"
+    },
+    {
+     "name": "Machine Lat Row",
+     "muscle": "Lats"
+    },
+    {
+     "name": "Machine Row",
+     "muscle": "Upper Back"
+    },
+    {
+     "name": "Smith High Row",
+     "muscle": "Upper Back"
+    },
+    {
+     "name": "Smith Machine Row",
+     "muscle": "Upper Back"
+    },
+    {
+     "name": "T-Bar Row",
+     "muscle": "Upper Back"
+    }
+   ]
+  },
+  {
+   "query": "45",
+   "limit": null,
+   "out": [
+    {
+     "name": "45 Degree Hinge",
+     "muscle": "Hamstrings"
+    },
+    {
+     "name": "Banded 45 Degree Hinge",
+     "muscle": "Glutes"
+    }
+   ]
+  },
+  {
+   "query": "ez",
+   "limit": null,
+   "out": [
+    {
+     "name": "Cable EZ-Bar Curl",
+     "muscle": "Biceps"
+    }
+   ]
+  },
+  {
+   "query": "lat pull",
+   "limit": null,
+   "out": [
+    {
+     "name": "SA Bench Lat Pulldown",
+     "muscle": "Lats"
+    },
+    {
+     "name": "SA Machine Lat Pulldown",
+     "muscle": "Lats"
+    },
+    {
+     "name": "Cable Close-Grip Pulldown",
+     "muscle": "Lats"
+    },
+    {
+     "name": "Cable Wide Pulldown",
+     "muscle": "Lats"
+    },
+    {
+     "name": "Machine Close-Grip Pulldown",
+     "muscle": "Lats"
+    },
+    {
+     "name": "Machine Wide Pulldown",
+     "muscle": "Lats"
+    }
+   ]
+  },
+  {
+   "query": "zzz",
+   "limit": null,
+   "out": []
+  },
+  {
+   "query": "smith",
+   "limit": null,
+   "out": [
+    {
+     "name": "Smith High Row",
+     "muscle": "Upper Back"
+    },
+    {
+     "name": "Smith Machine Row",
+     "muscle": "Upper Back"
+    },
+    {
+     "name": "Smith Machine Squat",
+     "muscle": "Quads"
+    },
+    {
+     "name": "Decline Smith Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Flat Smith Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Glute Biased Bulgarian Split Squat Smith",
+     "muscle": "Glutes"
+    },
+    {
+     "name": "Incline Smith Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Shoulder Overhead Smith Press",
+     "muscle": "Shoulders"
+    }
+   ]
+  },
+  {
+   "query": "s",
+   "limit": null,
+   "out": [
+    {
+     "name": "SA Bench Lat Pulldown",
+     "muscle": "Lats"
+    },
+    {
+     "name": "SA Machine Lat Pulldown",
+     "muscle": "Lats"
+    },
+    {
+     "name": "Seated Calf Raise",
+     "muscle": "Calves"
+    },
+    {
+     "name": "Seated Hamstring Curl",
+     "muscle": "Hamstrings"
+    },
+    {
+     "name": "Shoulder Overhead Barbell Press",
+     "muscle": "Shoulders"
+    },
+    {
+     "name": "Shoulder Overhead Dumbbell Press",
+     "muscle": "Shoulders"
+    },
+    {
+     "name": "Shoulder Overhead Machine Press",
+     "muscle": "Shoulders"
+    },
+    {
+     "name": "Shoulder Overhead Smith Press",
+     "muscle": "Shoulders"
+    },
+    {
+     "name": "Skullcrushers",
+     "muscle": "Triceps"
+    },
+    {
+     "name": "Smith High Row",
+     "muscle": "Upper Back"
+    },
+    {
+     "name": "Smith Machine Row",
+     "muscle": "Upper Back"
+    },
+    {
+     "name": "Smith Machine Squat",
+     "muscle": "Quads"
+    },
+    {
+     "name": "Standing Calf Raise",
+     "muscle": "Calves"
+    },
+    {
+     "name": "Standing Dumbbell Curl",
+     "muscle": "Biceps"
+    },
+    {
+     "name": "Stiff Leg Deadlift",
+     "muscle": "Hamstrings"
+    },
+    {
+     "name": "Barbell Squat",
+     "muscle": "Quads"
+    },
+    {
+     "name": "Bulgarian Split Squat",
+     "muscle": "Quads"
+    },
+    {
+     "name": "Decline Smith Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Flat Smith Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Glute Biased Bulgarian Split Squat Dumbbell",
+     "muscle": "Glutes"
+    },
+    {
+     "name": "Glute Biased Bulgarian Split Squat Smith",
+     "muscle": "Glutes"
+    },
+    {
+     "name": "Hack Squat",
+     "muscle": "Quads"
+    },
+    {
+     "name": "Incline Smith Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Pendulum Squat",
+     "muscle": "Quads"
+    },
+    {
+     "name": "45 Degree Hinge",
+     "muscle": "Hamstrings"
+    },
+    {
+     "name": "Abduction Machine",
+     "muscle": "Glutes"
+    },
+    {
+     "name": "Adductor Machine",
+     "muscle": "Quads"
+    },
+    {
+     "name": "Banded 45 Degree Hinge",
+     "muscle": "Glutes"
+    },
+    {
+     "name": "Barbell Bench Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Barbell Curl",
+     "muscle": "Biceps"
+    },
+    {
+     "name": "Cable Close-Grip Pulldown",
+     "muscle": "Lats"
+    },
+    {
+     "name": "Cable D-Handle Curl",
+     "muscle": "Biceps"
+    },
+    {
+     "name": "Cable Drag Curl",
+     "muscle": "Biceps"
+    },
+    {
+     "name": "Cable EZ-Bar Curl",
+     "muscle": "Biceps"
+    },
+    {
+     "name": "Cable Lat Row",
+     "muscle": "Lats"
+    },
+    {
+     "name": "Cable Lateral Raises",
+     "muscle": "Shoulders"
+    },
+    {
+     "name": "Cable Rear Delt Flies",
+     "muscle": "Shoulders"
+    },
+    {
+     "name": "Cable Wide Pulldown",
+     "muscle": "Lats"
+    },
+    {
+     "name": "Deadlift",
+     "muscle": "Hamstrings"
+    },
+    {
+     "name": "Decline Barbell Press",
+     "muscle": "Chest"
+    }
+   ]
+  },
+  {
+   "query": "e",
+   "limit": null,
+   "out": [
+    {
+     "name": "Cable EZ-Bar Curl",
+     "muscle": "Biceps"
+    },
+    {
+     "name": "Leg Extension",
+     "muscle": "Quads"
+    },
+    {
+     "name": "Overhead Tricep Extension",
+     "muscle": "Triceps"
+    },
+    {
+     "name": "45 Degree Hinge",
+     "muscle": "Hamstrings"
+    },
+    {
+     "name": "Abduction Machine",
+     "muscle": "Glutes"
+    },
+    {
+     "name": "Adductor Machine",
+     "muscle": "Quads"
+    },
+    {
+     "name": "Banded 45 Degree Hinge",
+     "muscle": "Glutes"
+    },
+    {
+     "name": "Barbell Bench Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Barbell Curl",
+     "muscle": "Biceps"
+    },
+    {
+     "name": "Barbell Row",
+     "muscle": "Upper Back"
+    },
+    {
+     "name": "Barbell Squat",
+     "muscle": "Quads"
+    },
+    {
+     "name": "Cable Close-Grip Pulldown",
+     "muscle": "Lats"
+    },
+    {
+     "name": "Cable Crunch",
+     "muscle": "Core"
+    },
+    {
+     "name": "Cable D-Handle Curl",
+     "muscle": "Biceps"
+    },
+    {
+     "name": "Cable Drag Curl",
+     "muscle": "Biceps"
+    },
+    {
+     "name": "Cable Lat Row",
+     "muscle": "Lats"
+    },
+    {
+     "name": "Cable Lateral Raises",
+     "muscle": "Shoulders"
+    },
+    {
+     "name": "Cable Rear Delt Flies",
+     "muscle": "Shoulders"
+    },
+    {
+     "name": "Cable Row",
+     "muscle": "Upper Back"
+    },
+    {
+     "name": "Cable Wide Pulldown",
+     "muscle": "Lats"
+    },
+    {
+     "name": "Deadlift",
+     "muscle": "Hamstrings"
+    },
+    {
+     "name": "Decline Barbell Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Decline Dumbbell Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Decline Smith Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Dips",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Dips",
+     "muscle": "Triceps"
+    },
+    {
+     "name": "Dumbbell Bench Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Dumbbell Hammer Curl",
+     "muscle": "Biceps"
+    },
+    {
+     "name": "Dumbbell Lateral Raises",
+     "muscle": "Shoulders"
+    },
+    {
+     "name": "Dumbbell Rear Delt Flies",
+     "muscle": "Shoulders"
+    },
+    {
+     "name": "Dumbbell Row",
+     "muscle": "Upper Back"
+    },
+    {
+     "name": "Flat Smith Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Glute Biased Bulgarian Split Squat Dumbbell",
+     "muscle": "Glutes"
+    },
+    {
+     "name": "Glute Biased Bulgarian Split Squat Smith",
+     "muscle": "Glutes"
+    },
+    {
+     "name": "Glute Kickback",
+     "muscle": "Glutes"
+    },
+    {
+     "name": "Hammer Machine Curl",
+     "muscle": "Biceps"
+    },
+    {
+     "name": "Hanging Leg Raises",
+     "muscle": "Core"
+    },
+    {
+     "name": "High Cable Row",
+     "muscle": "Upper Back"
+    },
+    {
+     "name": "High Machine Row",
+     "muscle": "Upper Back"
+    },
+    {
+     "name": "Hip Press",
+     "muscle": "Quads"
+    }
+   ]
+  },
+  {
+   "query": "a b",
+   "limit": null,
+   "out": [
+    {
+     "name": "Abduction Machine",
+     "muscle": "Glutes"
+    },
+    {
+     "name": "Banded 45 Degree Hinge",
+     "muscle": "Glutes"
+    },
+    {
+     "name": "Barbell Bench Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Barbell Curl",
+     "muscle": "Biceps"
+    },
+    {
+     "name": "Barbell Row",
+     "muscle": "Upper Back"
+    },
+    {
+     "name": "Barbell Squat",
+     "muscle": "Quads"
+    },
+    {
+     "name": "Bulgarian Split Squat",
+     "muscle": "Quads"
+    },
+    {
+     "name": "Cable Close-Grip Pulldown",
+     "muscle": "Lats"
+    },
+    {
+     "name": "Cable Crunch",
+     "muscle": "Core"
+    },
+    {
+     "name": "Cable D-Handle Curl",
+     "muscle": "Biceps"
+    },
+    {
+     "name": "Cable Drag Curl",
+     "muscle": "Biceps"
+    },
+    {
+     "name": "Cable EZ-Bar Curl",
+     "muscle": "Biceps"
+    },
+    {
+     "name": "Cable Lat Row",
+     "muscle": "Lats"
+    },
+    {
+     "name": "Cable Lateral Raises",
+     "muscle": "Shoulders"
+    },
+    {
+     "name": "Cable Rear Delt Flies",
+     "muscle": "Shoulders"
+    },
+    {
+     "name": "Cable Row",
+     "muscle": "Upper Back"
+    },
+    {
+     "name": "Cable Wide Pulldown",
+     "muscle": "Lats"
+    },
+    {
+     "name": "Decline Barbell Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Dumbbell Hammer Curl",
+     "muscle": "Biceps"
+    },
+    {
+     "name": "Dumbbell Lateral Raises",
+     "muscle": "Shoulders"
+    },
+    {
+     "name": "Dumbbell Rear Delt Flies",
+     "muscle": "Shoulders"
+    },
+    {
+     "name": "Dumbbell Row",
+     "muscle": "Upper Back"
+    },
+    {
+     "name": "Glute Biased Bulgarian Split Squat Dumbbell",
+     "muscle": "Glutes"
+    },
+    {
+     "name": "Glute Biased Bulgarian Split Squat Smith",
+     "muscle": "Glutes"
+    },
+    {
+     "name": "Glute Kickback",
+     "muscle": "Glutes"
+    },
+    {
+     "name": "Hammer Machine Curl",
+     "muscle": "Biceps"
+    },
+    {
+     "name": "High Cable Row",
+     "muscle": "Upper Back"
+    },
+    {
+     "name": "High Machine Row",
+     "muscle": "Upper Back"
+    },
+    {
+     "name": "Incline Barbell Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Landmine Row",
+     "muscle": "Upper Back"
+    },
+    {
+     "name": "Machine Preacher Curl",
+     "muscle": "Biceps"
+    },
+    {
+     "name": "Machine Row",
+     "muscle": "Upper Back"
+    },
+    {
+     "name": "Pec Fly Cable",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Preacher Bench Curl",
+     "muscle": "Biceps"
+    },
+    {
+     "name": "Rope Hammer Cable Curl",
+     "muscle": "Biceps"
+    },
+    {
+     "name": "SA Bench Lat Pulldown",
+     "muscle": "Lats"
+    },
+    {
+     "name": "Shoulder Overhead Barbell Press",
+     "muscle": "Shoulders"
+    },
+    {
+     "name": "Shoulder Overhead Dumbbell Press",
+     "muscle": "Shoulders"
+    },
+    {
+     "name": "Smith High Row",
+     "muscle": "Upper Back"
+    },
+    {
+     "name": "Smith Machine Row",
+     "muscle": "Upper Back"
+    }
+   ]
+  },
+  {
+   "query": "hamstring curl",
+   "limit": null,
+   "out": [
+    {
+     "name": "Lying Hamstring Curl",
+     "muscle": "Hamstrings"
+    },
+    {
+     "name": "Seated Hamstring Curl",
+     "muscle": "Hamstrings"
+    }
+   ]
+  },
+  {
+   "query": "CABLE",
+   "limit": null,
+   "out": [
+    {
+     "name": "Cable Close-Grip Pulldown",
+     "muscle": "Lats"
+    },
+    {
+     "name": "Cable Crunch",
+     "muscle": "Core"
+    },
+    {
+     "name": "Cable D-Handle Curl",
+     "muscle": "Biceps"
+    },
+    {
+     "name": "Cable Drag Curl",
+     "muscle": "Biceps"
+    },
+    {
+     "name": "Cable EZ-Bar Curl",
+     "muscle": "Biceps"
+    },
+    {
+     "name": "Cable Lat Row",
+     "muscle": "Lats"
+    },
+    {
+     "name": "Cable Lateral Raises",
+     "muscle": "Shoulders"
+    },
+    {
+     "name": "Cable Rear Delt Flies",
+     "muscle": "Shoulders"
+    },
+    {
+     "name": "Cable Row",
+     "muscle": "Upper Back"
+    },
+    {
+     "name": "Cable Wide Pulldown",
+     "muscle": "Lats"
+    },
+    {
+     "name": "High Cable Row",
+     "muscle": "Upper Back"
+    },
+    {
+     "name": "Pec Fly Cable",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Rope Hammer Cable Curl",
+     "muscle": "Biceps"
+    }
+   ]
+  },
+  {
+   "query": "press machine",
+   "limit": null,
+   "out": [
+    {
+     "name": "Machine Decline Chest Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Machine Flat Chest Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Machine Incline Chest Press",
+     "muscle": "Chest"
+    },
+    {
+     "name": "Shoulder Overhead Machine Press",
+     "muscle": "Shoulders"
+    }
+   ]
+  },
+  {
+   "query": "-",
+   "limit": null,
+   "out": [
+    {
+     "name": "Cable Close-Grip Pulldown",
+     "muscle": "Lats"
+    },
+    {
+     "name": "Cable D-Handle Curl",
+     "muscle": "Biceps"
+    },
+    {
+     "name": "Cable EZ-Bar Curl",
+     "muscle": "Biceps"
+    },
+    {
+     "name": "Machine Close-Grip Pulldown",
+     "muscle": "Lats"
+    },
+    {
+     "name": "T-Bar Row",
+     "muscle": "Upper Back"
+    },
+    {
+     "name": "Y-Raise",
+     "muscle": "Shoulders"
+    }
+   ]
+  },
+  {
+   "query": "y-r",
+   "limit": null,
+   "out": [
+    {
+     "name": "Y-Raise",
+     "muscle": "Shoulders"
+    }
+   ]
+  },
+  {
+   "query": "raise",
+   "limit": null,
+   "out": [
+    {
+     "name": "Cable Lateral Raises",
+     "muscle": "Shoulders"
+    },
+    {
+     "name": "Dumbbell Lateral Raises",
+     "muscle": "Shoulders"
+    },
+    {
+     "name": "Hanging Leg Raises",
+     "muscle": "Core"
+    },
+    {
+     "name": "Lying Leg Raises",
+     "muscle": "Core"
+    },
+    {
+     "name": "Machine Lateral Raises",
+     "muscle": "Shoulders"
+    },
+    {
+     "name": "Seated Calf Raise",
+     "muscle": "Calves"
+    },
+    {
+     "name": "Standing Calf Raise",
+     "muscle": "Calves"
+    },
+    {
+     "name": "Y-Raise",
+     "muscle": "Shoulders"
+    }
+   ]
+  },
+  {
+   "query": "\tleg press ",
+   "limit": null,
+   "out": [
+    {
+     "name": "Leg Press",
+     "muscle": "Quads"
+    }
+   ]
+  },
+  {
+   "query": "e",
+   "limit": 5,
+   "out": [
+    {
+     "name": "Cable EZ-Bar Curl",
+     "muscle": "Biceps"
+    },
+    {
+     "name": "Leg Extension",
+     "muscle": "Quads"
+    },
+    {
+     "name": "Overhead Tricep Extension",
+     "muscle": "Triceps"
+    },
+    {
+     "name": "45 Degree Hinge",
+     "muscle": "Hamstrings"
+    },
+    {
+     "name": "Abduction Machine",
+     "muscle": "Glutes"
+    }
+   ]
+  },
+  {
+   "query": "e",
+   "limit": 0,
+   "out": []
+  }
+ ]
+}

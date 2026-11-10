@@ -1,0 +1,41 @@
+# XcodeGen spec, used only on the GitHub macOS runner (.github/workflows/ios-simulator.yml).
+# The generated Intent.xcodeproj is not committed.
+name: Intent
+options:
+  bundleIdPrefix: com.jakobfreij
+  deploymentTarget:
+    iOS: "17.0"
+packages:
+  IntentKit:
+    path: Packages/IntentKit
+targets:
+  Intent:
+    type: application
+    platform: iOS
+    sources:
+      - Sources/Intent
+    dependencies:
+      - package: IntentKit
+        product: IntentCore
+      - package: IntentKit
+        product: IntentDesign
+      - package: IntentKit
+        product: IntentAPI
+      - package: IntentKit
+        product: IntentAuth
+    scheme: {}
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.jakobfreij.Intent
+        PRODUCT_NAME: Intent
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: Intent
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+        INFOPLIST_KEY_UIUserInterfaceStyle: Dark
+        TARGETED_DEVICE_FAMILY: "1"
+        MARKETING_VERSION: 0.1.0
+        CURRENT_PROJECT_VERSION: 1
+        SWIFT_VERSION: "6.0"
+        CODE_SIGN_IDENTITY: "-"
+        CODE_SIGNING_REQUIRED: NO

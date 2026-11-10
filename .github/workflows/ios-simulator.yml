@@ -1,0 +1,83 @@
+name: iOS Simulator
+
+# The Mac connector: builds the native app on a macOS runner, runs it on an iPhone
+# simulator and uploads screenshots + logs as the "ios-sim" artifact, plus an unsigned
+# device build as "ios-ipa" (signed + installed on the iPhone by ios/scripts/phone.sh).
+# Driven from Windows with ios/scripts/sim.sh (gh CLI).
+#
+# This file lives at ios/ci/ in the private jafr03002/Intent repo, where it never runs (macOS
+# minutes cost 10x on private repos). .github/workflows/ios-mirror.yml copies ios/ into
+# the public jafr03002/intent-ios repo and installs this file there as
+# .github/workflows/ios-simulator.yml, where macOS runners are free.
+on:
+  push:
+    paths:
+      - "ios/**"
+      - ".github/workflows/ios-simulator.yml"
+  workflow_dispatch:
+    inputs:
+      screens:
+        description: "Comma-separated DebugScreen names to capture"
+        default: "home"
+      device:
+        description: "Simulator name, e.g. 'iPhone 16 Pro' (blank = newest iPhone)"
+        default: ""
+      scenario:
+        description: "Mock fixture scenario folder (IntentAPI/Fixtures/<scenario>)"
+        default: "default"
+      mock:
+        description: "1 = fixture backend (no sign-in), 0 = real API"
+        default: "1"
+
+concurrency:
+  group: ios-sim-${{ github.event_name }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  simulator:
+    if: github.repository == 'jafr03002/intent-ios'
+    runs-on: macos-latest
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: ios
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install XcodeGen
+        run: brew install xcodegen
+
+      - name: IntentKit tests
+        run: set -o pipefail; swift test --package-path Packages/IntentKit --filter 'IntentCoreTests|IntentAPITests|IntentAuthTests' 2>&1 | tail -40
+
+      - name: Build, run, capture
+        env:
+          SCREENS: ${{ inputs.screens || 'home,dashboard,program,start,log,calendar,progress,checkin,nutrition,settings,onboarding' }}
+          DEVICE: ${{ inputs.device || '' }}
+          SCENARIO: ${{ inputs.scenario || 'default' }}
+          MOCK: ${{ inputs.mock || '1' }}
+        run: bash scripts/ci/simulator-run.sh
+
+      - name: Build device ipa (unsigned)
+        if: always() && github.event_name == 'push' && hashFiles('ios/Intent.xcodeproj/project.pbxproj') != ''
+        run: bash scripts/ci/build-ipa.sh
+
+      - name: Upload ipa
+        if: always() && hashFiles('ios/out-ipa/Intent.ipa') != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: ios-ipa
+          path: ios/out-ipa
+          retention-days: 14
+
+      - name: Job summary
+        if: always()
+        run: cat out/summary.md >> "$GITHUB_STEP_SUMMARY" 2>/dev/null || true
+
+      - name: Upload artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ios-sim
+          path: ios/out
+          retention-days: 14

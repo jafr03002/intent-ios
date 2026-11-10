@@ -1,0 +1,74 @@
+{
+  "status": 200,
+  "body": {
+    "inCalibration": true,
+    "calibrationDay": 4,
+    "startDate": "{{date:-3}}",
+    "reviewOpensOn": "{{date:4}}",
+    "lastReviewDate": "{{date:17}}",
+    "autoExitOn": "{{date:18}}",
+    "reviewOpen": false,
+    "reviewBlockedReason": "too_early",
+    "nextReviewAvailableOn": "{{date:4}}",
+    "paused": false,
+    "autoExitDue": false,
+    "checks": {
+      "allMet": false,
+      "windowStart": "{{date:-6}}",
+      "windowEnd": "{{date:0}}",
+      "fullRotation": {
+        "met": false,
+        "logged": 1,
+        "planned": 4,
+        "missingDays": [
+          "Lower A",
+          "Upper B",
+          "Lower B"
+        ]
+      },
+      "weighIns": {
+        "met": false,
+        "count": 2,
+        "required": 3
+      },
+      "nutritionLogs": {
+        "met": false,
+        "count": 3,
+        "required": 5
+      }
+    },
+    "sessions": [
+      {
+        "workoutLogId": 401,
+        "date": "{{date:-2}}",
+        "dayNumber": 1,
+        "dayLabel": "Upper A",
+        "note": "Gym was busy, took me a while to find the cable station.",
+        "exerciseNotes": [
+          {
+            "exercise": "Barbell Bench Press",
+            "note": "Left shoulder felt a bit tight on the last set"
+          },
+          {
+            "exercise": "Chest-Supported Row",
+            "note": "Bench was taken, did a seated cable row instead"
+          }
+        ],
+        "feedback": null
+      }
+    ],
+    "feedbackSummary": {
+      "sessionsLogged": 1,
+      "sessionsWithFeedback": 0,
+      "averageFormConfidence": null,
+      "averageOverallFeel": null,
+      "equipment": {
+        "yes": 0,
+        "some_missing": 0,
+        "no": 0
+      },
+      "painReports": []
+    },
+    "latestReview": null
+  }
+}

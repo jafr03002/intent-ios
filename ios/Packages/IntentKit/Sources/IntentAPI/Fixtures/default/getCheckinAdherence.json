@@ -1,0 +1,34 @@
+{
+  "status": 200,
+  "body": {
+    "windowStart": "{{date:-6}}",
+    "windowEnd": "{{date:0}}",
+    "plannedSessions": 4,
+    "loggedSessions": 3,
+    "loggedDays": [
+      {
+        "dayNumber": 1,
+        "label": "Upper A",
+        "date": "{{dow:mon:0}}"
+      },
+      {
+        "dayNumber": 3,
+        "label": "Upper B",
+        "date": "{{dow:thu:-1}}"
+      },
+      {
+        "dayNumber": 4,
+        "label": "Lower B",
+        "date": "{{dow:fri:-1}}"
+      }
+    ],
+    "missingDays": [
+      {
+        "dayNumber": 2,
+        "label": "Lower A",
+        "date": null
+      }
+    ],
+    "extraSessions": 0
+  }
+}

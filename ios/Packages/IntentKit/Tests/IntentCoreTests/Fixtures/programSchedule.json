@@ -1,0 +1,2880 @@
+{
+ "weekdayLabels": [
+  "Mon",
+  "Tue",
+  "Wed",
+  "Thu",
+  "Fri",
+  "Sat",
+  "Sun"
+ ],
+ "mondayIndexOf": [
+  {
+   "tz": "Europe/Stockholm",
+   "in": "2026-08-03",
+   "out": 0
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": "2026-08-09",
+   "out": 6
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": "2026-10-25",
+   "out": 6
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": "2026-03-29",
+   "out": 6
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": "2026-02-29",
+   "out": 6
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": "2026-02-30",
+   "out": 0
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": "2026-13-45",
+   "out": 6
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": "0026-01-01",
+   "out": 4
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": "2026-8-3",
+   "out": null
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": "",
+   "out": null
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": "garbage",
+   "out": null
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": "2026-00-00",
+   "out": 6
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": "1969-12-31",
+   "out": 2
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": "2026-12-31",
+   "out": 3
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": "2026-08-03",
+   "out": 0
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": "2026-08-09",
+   "out": 6
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": "2026-10-25",
+   "out": 6
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": "2026-03-29",
+   "out": 6
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": "2026-02-29",
+   "out": 6
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": "2026-02-30",
+   "out": 0
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": "2026-13-45",
+   "out": 6
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": "0026-01-01",
+   "out": 4
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": "2026-8-3",
+   "out": null
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": "",
+   "out": null
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": "garbage",
+   "out": null
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": "2026-00-00",
+   "out": 6
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": "1969-12-31",
+   "out": 2
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": "2026-12-31",
+   "out": 3
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": "2026-08-03",
+   "out": 0
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": "2026-08-09",
+   "out": 6
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": "2026-10-25",
+   "out": 6
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": "2026-03-29",
+   "out": 6
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": "2026-02-29",
+   "out": 6
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": "2026-02-30",
+   "out": 0
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": "2026-13-45",
+   "out": 6
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": "0026-01-01",
+   "out": 4
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": "2026-8-3",
+   "out": null
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": "",
+   "out": null
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": "garbage",
+   "out": null
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": "2026-00-00",
+   "out": 6
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": "1969-12-31",
+   "out": 2
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": "2026-12-31",
+   "out": 3
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": "2026-08-03",
+   "out": 0
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": "2026-08-09",
+   "out": 6
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": "2026-10-25",
+   "out": 6
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": "2026-03-29",
+   "out": 6
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": "2026-02-29",
+   "out": 6
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": "2026-02-30",
+   "out": 0
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": "2026-13-45",
+   "out": 6
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": "0026-01-01",
+   "out": 4
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": "2026-8-3",
+   "out": null
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": "",
+   "out": null
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": "garbage",
+   "out": null
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": "2026-00-00",
+   "out": 6
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": "1969-12-31",
+   "out": 2
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": "2026-12-31",
+   "out": 3
+  },
+  {
+   "tz": "UTC",
+   "in": "2026-08-03",
+   "out": 0
+  },
+  {
+   "tz": "UTC",
+   "in": "2026-08-09",
+   "out": 6
+  },
+  {
+   "tz": "UTC",
+   "in": "2026-10-25",
+   "out": 6
+  },
+  {
+   "tz": "UTC",
+   "in": "2026-03-29",
+   "out": 6
+  },
+  {
+   "tz": "UTC",
+   "in": "2026-02-29",
+   "out": 6
+  },
+  {
+   "tz": "UTC",
+   "in": "2026-02-30",
+   "out": 0
+  },
+  {
+   "tz": "UTC",
+   "in": "2026-13-45",
+   "out": 6
+  },
+  {
+   "tz": "UTC",
+   "in": "0026-01-01",
+   "out": 4
+  },
+  {
+   "tz": "UTC",
+   "in": "2026-8-3",
+   "out": null
+  },
+  {
+   "tz": "UTC",
+   "in": "",
+   "out": null
+  },
+  {
+   "tz": "UTC",
+   "in": "garbage",
+   "out": null
+  },
+  {
+   "tz": "UTC",
+   "in": "2026-00-00",
+   "out": 6
+  },
+  {
+   "tz": "UTC",
+   "in": "1969-12-31",
+   "out": 2
+  },
+  {
+   "tz": "UTC",
+   "in": "2026-12-31",
+   "out": 3
+  }
+ ],
+ "daysBetween": [
+  {
+   "in": [
+    "2026-08-01",
+    "2026-08-03"
+   ],
+   "out": 2
+  },
+  {
+   "in": [
+    "2026-08-03",
+    "2026-08-01"
+   ],
+   "out": -2
+  },
+  {
+   "in": [
+    "2026-03-28",
+    "2026-03-30"
+   ],
+   "out": 2
+  },
+  {
+   "in": [
+    "2026-01-01",
+    "2027-01-01"
+   ],
+   "out": 365
+  },
+  {
+   "in": [
+    "bad",
+    "2026-01-01"
+   ],
+   "out": null
+  },
+  {
+   "in": [
+    "0026-01-01",
+    "2026-01-01"
+   ],
+   "out": 36525
+  },
+  {
+   "in": [
+    "2026-02-30",
+    "2026-03-02"
+   ],
+   "out": 0
+  }
+ ],
+ "todayDateString": [
+  {
+   "tz": "Europe/Stockholm",
+   "in": 1792881000000,
+   "out": "2026-10-25"
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": 1792924200000,
+   "out": "2026-10-25"
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": 1767225600000,
+   "out": "2026-01-01"
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": -32945054400000,
+   "out": "926-01-05"
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": 1792881000000,
+   "out": "2026-10-24"
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": 1792924200000,
+   "out": "2026-10-25"
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": 1767225600000,
+   "out": "2025-12-31"
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": -32945054400000,
+   "out": "926-01-05"
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": 1792881000000,
+   "out": "2026-10-25"
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": 1792924200000,
+   "out": "2026-10-25"
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": 1767225600000,
+   "out": "2026-01-01"
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": -32945054400000,
+   "out": "926-01-05"
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": 1792881000000,
+   "out": "2026-10-25"
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": 1792924200000,
+   "out": "2026-10-25"
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": 1767225600000,
+   "out": "2026-01-01"
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": -32945054400000,
+   "out": "926-01-05"
+  },
+  {
+   "tz": "UTC",
+   "in": 1792881000000,
+   "out": "2026-10-24"
+  },
+  {
+   "tz": "UTC",
+   "in": 1792924200000,
+   "out": "2026-10-25"
+  },
+  {
+   "tz": "UTC",
+   "in": 1767225600000,
+   "out": "2026-01-01"
+  },
+  {
+   "tz": "UTC",
+   "in": -32945054400000,
+   "out": "926-01-05"
+  }
+ ],
+ "resolveDayForDate": [
+  {
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      null,
+      2,
+      null,
+      3,
+      null,
+      null
+     ]
+    },
+    "startDate": "2026-08-01",
+    "date": "2026-08-01"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      null,
+      2,
+      null,
+      3,
+      null,
+      null
+     ]
+    },
+    "startDate": "2026-08-01",
+    "date": "2026-08-03"
+   },
+   "out": 1
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      null,
+      2,
+      null,
+      3,
+      null,
+      null
+     ]
+    },
+    "startDate": "2026-08-01",
+    "date": "2026-10-26"
+   },
+   "out": 1
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      null,
+      2,
+      null,
+      3,
+      null,
+      null
+     ]
+    },
+    "startDate": "2026-08-01",
+    "date": "2026-07-31"
+   },
+   "out": 3
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      null,
+      2,
+      null,
+      3,
+      null,
+      null
+     ]
+    },
+    "startDate": "2026-08-01",
+    "date": "bad"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      null,
+      2,
+      null,
+      3,
+      null,
+      null
+     ]
+    },
+    "startDate": null,
+    "date": "2026-08-01"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      null,
+      2,
+      null,
+      3,
+      null,
+      null
+     ]
+    },
+    "startDate": null,
+    "date": "2026-08-03"
+   },
+   "out": 1
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      null,
+      2,
+      null,
+      3,
+      null,
+      null
+     ]
+    },
+    "startDate": null,
+    "date": "2026-10-26"
+   },
+   "out": 1
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      null,
+      2,
+      null,
+      3,
+      null,
+      null
+     ]
+    },
+    "startDate": null,
+    "date": "2026-07-31"
+   },
+   "out": 3
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      null,
+      2,
+      null,
+      3,
+      null,
+      null
+     ]
+    },
+    "startDate": null,
+    "date": "bad"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      null,
+      2,
+      null,
+      3,
+      null,
+      null
+     ]
+    },
+    "startDate": "2026-10-30",
+    "date": "2026-08-01"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      null,
+      2,
+      null,
+      3,
+      null,
+      null
+     ]
+    },
+    "startDate": "2026-10-30",
+    "date": "2026-08-03"
+   },
+   "out": 1
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      null,
+      2,
+      null,
+      3,
+      null,
+      null
+     ]
+    },
+    "startDate": "2026-10-30",
+    "date": "2026-10-26"
+   },
+   "out": 1
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      null,
+      2,
+      null,
+      3,
+      null,
+      null
+     ]
+    },
+    "startDate": "2026-10-30",
+    "date": "2026-07-31"
+   },
+   "out": 3
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      null,
+      2,
+      null,
+      3,
+      null,
+      null
+     ]
+    },
+    "startDate": "2026-10-30",
+    "date": "bad"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      2
+     ]
+    },
+    "startDate": "2026-08-01",
+    "date": "2026-08-01"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      2
+     ]
+    },
+    "startDate": "2026-08-01",
+    "date": "2026-08-03"
+   },
+   "out": 1
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      2
+     ]
+    },
+    "startDate": "2026-08-01",
+    "date": "2026-10-26"
+   },
+   "out": 1
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      2
+     ]
+    },
+    "startDate": "2026-08-01",
+    "date": "2026-07-31"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      2
+     ]
+    },
+    "startDate": "2026-08-01",
+    "date": "bad"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      2
+     ]
+    },
+    "startDate": null,
+    "date": "2026-08-01"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      2
+     ]
+    },
+    "startDate": null,
+    "date": "2026-08-03"
+   },
+   "out": 1
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      2
+     ]
+    },
+    "startDate": null,
+    "date": "2026-10-26"
+   },
+   "out": 1
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      2
+     ]
+    },
+    "startDate": null,
+    "date": "2026-07-31"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      2
+     ]
+    },
+    "startDate": null,
+    "date": "bad"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      2
+     ]
+    },
+    "startDate": "2026-10-30",
+    "date": "2026-08-01"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      2
+     ]
+    },
+    "startDate": "2026-10-30",
+    "date": "2026-08-03"
+   },
+   "out": 1
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      2
+     ]
+    },
+    "startDate": "2026-10-30",
+    "date": "2026-10-26"
+   },
+   "out": 1
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      2
+     ]
+    },
+    "startDate": "2026-10-30",
+    "date": "2026-07-31"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      2
+     ]
+    },
+    "startDate": "2026-10-30",
+    "date": "bad"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "rotating",
+     "slots": [
+      1,
+      2,
+      null
+     ]
+    },
+    "startDate": "2026-08-01",
+    "date": "2026-08-01"
+   },
+   "out": 1
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "rotating",
+     "slots": [
+      1,
+      2,
+      null
+     ]
+    },
+    "startDate": "2026-08-01",
+    "date": "2026-08-03"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "rotating",
+     "slots": [
+      1,
+      2,
+      null
+     ]
+    },
+    "startDate": "2026-08-01",
+    "date": "2026-10-26"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "rotating",
+     "slots": [
+      1,
+      2,
+      null
+     ]
+    },
+    "startDate": "2026-08-01",
+    "date": "2026-07-31"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "rotating",
+     "slots": [
+      1,
+      2,
+      null
+     ]
+    },
+    "startDate": "2026-08-01",
+    "date": "bad"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "rotating",
+     "slots": [
+      1,
+      2,
+      null
+     ]
+    },
+    "startDate": null,
+    "date": "2026-08-01"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "rotating",
+     "slots": [
+      1,
+      2,
+      null
+     ]
+    },
+    "startDate": null,
+    "date": "2026-08-03"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "rotating",
+     "slots": [
+      1,
+      2,
+      null
+     ]
+    },
+    "startDate": null,
+    "date": "2026-10-26"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "rotating",
+     "slots": [
+      1,
+      2,
+      null
+     ]
+    },
+    "startDate": null,
+    "date": "2026-07-31"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "rotating",
+     "slots": [
+      1,
+      2,
+      null
+     ]
+    },
+    "startDate": null,
+    "date": "bad"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "rotating",
+     "slots": [
+      1,
+      2,
+      null
+     ]
+    },
+    "startDate": "2026-10-30",
+    "date": "2026-08-01"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "rotating",
+     "slots": [
+      1,
+      2,
+      null
+     ]
+    },
+    "startDate": "2026-10-30",
+    "date": "2026-08-03"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "rotating",
+     "slots": [
+      1,
+      2,
+      null
+     ]
+    },
+    "startDate": "2026-10-30",
+    "date": "2026-10-26"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "rotating",
+     "slots": [
+      1,
+      2,
+      null
+     ]
+    },
+    "startDate": "2026-10-30",
+    "date": "2026-07-31"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "rotating",
+     "slots": [
+      1,
+      2,
+      null
+     ]
+    },
+    "startDate": "2026-10-30",
+    "date": "bad"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "rotating",
+     "slots": []
+    },
+    "startDate": "2026-08-01",
+    "date": "2026-08-01"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "rotating",
+     "slots": []
+    },
+    "startDate": "2026-08-01",
+    "date": "2026-08-03"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "rotating",
+     "slots": []
+    },
+    "startDate": "2026-08-01",
+    "date": "2026-10-26"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "rotating",
+     "slots": []
+    },
+    "startDate": "2026-08-01",
+    "date": "2026-07-31"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "rotating",
+     "slots": []
+    },
+    "startDate": "2026-08-01",
+    "date": "bad"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "rotating",
+     "slots": []
+    },
+    "startDate": null,
+    "date": "2026-08-01"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "rotating",
+     "slots": []
+    },
+    "startDate": null,
+    "date": "2026-08-03"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "rotating",
+     "slots": []
+    },
+    "startDate": null,
+    "date": "2026-10-26"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "rotating",
+     "slots": []
+    },
+    "startDate": null,
+    "date": "2026-07-31"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "rotating",
+     "slots": []
+    },
+    "startDate": null,
+    "date": "bad"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "rotating",
+     "slots": []
+    },
+    "startDate": "2026-10-30",
+    "date": "2026-08-01"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "rotating",
+     "slots": []
+    },
+    "startDate": "2026-10-30",
+    "date": "2026-08-03"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "rotating",
+     "slots": []
+    },
+    "startDate": "2026-10-30",
+    "date": "2026-10-26"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "rotating",
+     "slots": []
+    },
+    "startDate": "2026-10-30",
+    "date": "2026-07-31"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": {
+     "mode": "rotating",
+     "slots": []
+    },
+    "startDate": "2026-10-30",
+    "date": "bad"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": null,
+    "startDate": "2026-08-01",
+    "date": "2026-08-01"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": null,
+    "startDate": "2026-08-01",
+    "date": "2026-08-03"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": null,
+    "startDate": "2026-08-01",
+    "date": "2026-10-26"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": null,
+    "startDate": "2026-08-01",
+    "date": "2026-07-31"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": null,
+    "startDate": "2026-08-01",
+    "date": "bad"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": null,
+    "startDate": null,
+    "date": "2026-08-01"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": null,
+    "startDate": null,
+    "date": "2026-08-03"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": null,
+    "startDate": null,
+    "date": "2026-10-26"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": null,
+    "startDate": null,
+    "date": "2026-07-31"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": null,
+    "startDate": null,
+    "date": "bad"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": null,
+    "startDate": "2026-10-30",
+    "date": "2026-08-01"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": null,
+    "startDate": "2026-10-30",
+    "date": "2026-08-03"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": null,
+    "startDate": "2026-10-30",
+    "date": "2026-10-26"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": null,
+    "startDate": "2026-10-30",
+    "date": "2026-07-31"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "schedule": null,
+    "startDate": "2026-10-30",
+    "date": "bad"
+   },
+   "out": null
+  }
+ ],
+ "upcomingSlots": [
+  {
+   "tz": "Europe/Stockholm",
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      null,
+      2,
+      null,
+      3,
+      null,
+      null
+     ]
+    },
+    "startDate": null,
+    "from": "2026-10-22",
+    "count": 10
+   },
+   "out": [
+    {
+     "date": "2026-10-22",
+     "dayId": null
+    },
+    {
+     "date": "2026-10-23",
+     "dayId": 3
+    },
+    {
+     "date": "2026-10-24",
+     "dayId": null
+    },
+    {
+     "date": "2026-10-25",
+     "dayId": null
+    },
+    {
+     "date": "2026-10-26",
+     "dayId": 1
+    },
+    {
+     "date": "2026-10-27",
+     "dayId": null
+    },
+    {
+     "date": "2026-10-28",
+     "dayId": 2
+    },
+    {
+     "date": "2026-10-29",
+     "dayId": null
+    },
+    {
+     "date": "2026-10-30",
+     "dayId": 3
+    },
+    {
+     "date": "2026-10-31",
+     "dayId": null
+    }
+   ]
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": {
+    "schedule": {
+     "mode": "rotating",
+     "slots": [
+      1,
+      2,
+      null
+     ]
+    },
+    "startDate": "2026-10-20",
+    "from": "2026-10-18",
+    "count": 7
+   },
+   "out": [
+    {
+     "date": "2026-10-18",
+     "dayId": null
+    },
+    {
+     "date": "2026-10-19",
+     "dayId": null
+    },
+    {
+     "date": "2026-10-20",
+     "dayId": 1
+    },
+    {
+     "date": "2026-10-21",
+     "dayId": 2
+    },
+    {
+     "date": "2026-10-22",
+     "dayId": null
+    },
+    {
+     "date": "2026-10-23",
+     "dayId": 1
+    },
+    {
+     "date": "2026-10-24",
+     "dayId": 2
+    }
+   ]
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": {
+    "schedule": {
+     "mode": "rotating",
+     "slots": [
+      1,
+      2,
+      null
+     ]
+    },
+    "startDate": null,
+    "from": "2026-03-27",
+    "count": 4
+   },
+   "out": [
+    {
+     "date": "2026-03-27",
+     "dayId": null
+    },
+    {
+     "date": "2026-03-28",
+     "dayId": null
+    },
+    {
+     "date": "2026-03-29",
+     "dayId": null
+    },
+    {
+     "date": "2026-03-30",
+     "dayId": null
+    }
+   ]
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      null,
+      2,
+      null,
+      3,
+      null,
+      null
+     ]
+    },
+    "startDate": null,
+    "from": "2026-12-30",
+    "count": 4
+   },
+   "out": [
+    {
+     "date": "2026-12-30",
+     "dayId": 2
+    },
+    {
+     "date": "2026-12-31",
+     "dayId": null
+    },
+    {
+     "date": "2027-01-01",
+     "dayId": 3
+    },
+    {
+     "date": "2027-01-02",
+     "dayId": null
+    }
+   ]
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      null,
+      2,
+      null,
+      3,
+      null,
+      null
+     ]
+    },
+    "startDate": null,
+    "from": "garbage",
+    "count": 2
+   },
+   "out": [
+    {
+     "date": "NaN-NaN-NaN",
+     "dayId": null
+    },
+    {
+     "date": "NaN-NaN-NaN",
+     "dayId": null
+    }
+   ]
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      null,
+      2,
+      null,
+      3,
+      null,
+      null
+     ]
+    },
+    "startDate": null,
+    "from": "2026-10",
+    "count": 2
+   },
+   "out": [
+    {
+     "date": "NaN-NaN-NaN",
+     "dayId": null
+    },
+    {
+     "date": "NaN-NaN-NaN",
+     "dayId": null
+    }
+   ]
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": {
+    "schedule": null,
+    "startDate": null,
+    "from": "2026-10-22",
+    "count": 3
+   },
+   "out": []
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      null,
+      2,
+      null,
+      3,
+      null,
+      null
+     ]
+    },
+    "startDate": null,
+    "from": "2026-10-22",
+    "count": 0
+   },
+   "out": []
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      null,
+      2,
+      null,
+      3,
+      null,
+      null
+     ]
+    },
+    "startDate": null,
+    "from": "2026-10-22",
+    "count": 10
+   },
+   "out": [
+    {
+     "date": "2026-10-22",
+     "dayId": null
+    },
+    {
+     "date": "2026-10-23",
+     "dayId": 3
+    },
+    {
+     "date": "2026-10-24",
+     "dayId": null
+    },
+    {
+     "date": "2026-10-25",
+     "dayId": null
+    },
+    {
+     "date": "2026-10-26",
+     "dayId": 1
+    },
+    {
+     "date": "2026-10-27",
+     "dayId": null
+    },
+    {
+     "date": "2026-10-28",
+     "dayId": 2
+    },
+    {
+     "date": "2026-10-29",
+     "dayId": null
+    },
+    {
+     "date": "2026-10-30",
+     "dayId": 3
+    },
+    {
+     "date": "2026-10-31",
+     "dayId": null
+    }
+   ]
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": {
+    "schedule": {
+     "mode": "rotating",
+     "slots": [
+      1,
+      2,
+      null
+     ]
+    },
+    "startDate": "2026-10-20",
+    "from": "2026-10-18",
+    "count": 7
+   },
+   "out": [
+    {
+     "date": "2026-10-18",
+     "dayId": null
+    },
+    {
+     "date": "2026-10-19",
+     "dayId": null
+    },
+    {
+     "date": "2026-10-20",
+     "dayId": 1
+    },
+    {
+     "date": "2026-10-21",
+     "dayId": 2
+    },
+    {
+     "date": "2026-10-22",
+     "dayId": null
+    },
+    {
+     "date": "2026-10-23",
+     "dayId": 1
+    },
+    {
+     "date": "2026-10-24",
+     "dayId": 2
+    }
+   ]
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": {
+    "schedule": {
+     "mode": "rotating",
+     "slots": [
+      1,
+      2,
+      null
+     ]
+    },
+    "startDate": null,
+    "from": "2026-03-27",
+    "count": 4
+   },
+   "out": [
+    {
+     "date": "2026-03-27",
+     "dayId": null
+    },
+    {
+     "date": "2026-03-28",
+     "dayId": null
+    },
+    {
+     "date": "2026-03-29",
+     "dayId": null
+    },
+    {
+     "date": "2026-03-30",
+     "dayId": null
+    }
+   ]
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      null,
+      2,
+      null,
+      3,
+      null,
+      null
+     ]
+    },
+    "startDate": null,
+    "from": "2026-12-30",
+    "count": 4
+   },
+   "out": [
+    {
+     "date": "2026-12-30",
+     "dayId": 2
+    },
+    {
+     "date": "2026-12-31",
+     "dayId": null
+    },
+    {
+     "date": "2027-01-01",
+     "dayId": 3
+    },
+    {
+     "date": "2027-01-02",
+     "dayId": null
+    }
+   ]
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      null,
+      2,
+      null,
+      3,
+      null,
+      null
+     ]
+    },
+    "startDate": null,
+    "from": "garbage",
+    "count": 2
+   },
+   "out": [
+    {
+     "date": "NaN-NaN-NaN",
+     "dayId": null
+    },
+    {
+     "date": "NaN-NaN-NaN",
+     "dayId": null
+    }
+   ]
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      null,
+      2,
+      null,
+      3,
+      null,
+      null
+     ]
+    },
+    "startDate": null,
+    "from": "2026-10",
+    "count": 2
+   },
+   "out": [
+    {
+     "date": "NaN-NaN-NaN",
+     "dayId": null
+    },
+    {
+     "date": "NaN-NaN-NaN",
+     "dayId": null
+    }
+   ]
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": {
+    "schedule": null,
+    "startDate": null,
+    "from": "2026-10-22",
+    "count": 3
+   },
+   "out": []
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      null,
+      2,
+      null,
+      3,
+      null,
+      null
+     ]
+    },
+    "startDate": null,
+    "from": "2026-10-22",
+    "count": 0
+   },
+   "out": []
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      null,
+      2,
+      null,
+      3,
+      null,
+      null
+     ]
+    },
+    "startDate": null,
+    "from": "2026-10-22",
+    "count": 10
+   },
+   "out": [
+    {
+     "date": "2026-10-22",
+     "dayId": null
+    },
+    {
+     "date": "2026-10-23",
+     "dayId": 3
+    },
+    {
+     "date": "2026-10-24",
+     "dayId": null
+    },
+    {
+     "date": "2026-10-25",
+     "dayId": null
+    },
+    {
+     "date": "2026-10-26",
+     "dayId": 1
+    },
+    {
+     "date": "2026-10-27",
+     "dayId": null
+    },
+    {
+     "date": "2026-10-28",
+     "dayId": 2
+    },
+    {
+     "date": "2026-10-29",
+     "dayId": null
+    },
+    {
+     "date": "2026-10-30",
+     "dayId": 3
+    },
+    {
+     "date": "2026-10-31",
+     "dayId": null
+    }
+   ]
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": {
+    "schedule": {
+     "mode": "rotating",
+     "slots": [
+      1,
+      2,
+      null
+     ]
+    },
+    "startDate": "2026-10-20",
+    "from": "2026-10-18",
+    "count": 7
+   },
+   "out": [
+    {
+     "date": "2026-10-18",
+     "dayId": null
+    },
+    {
+     "date": "2026-10-19",
+     "dayId": null
+    },
+    {
+     "date": "2026-10-20",
+     "dayId": 1
+    },
+    {
+     "date": "2026-10-21",
+     "dayId": 2
+    },
+    {
+     "date": "2026-10-22",
+     "dayId": null
+    },
+    {
+     "date": "2026-10-23",
+     "dayId": 1
+    },
+    {
+     "date": "2026-10-24",
+     "dayId": 2
+    }
+   ]
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": {
+    "schedule": {
+     "mode": "rotating",
+     "slots": [
+      1,
+      2,
+      null
+     ]
+    },
+    "startDate": null,
+    "from": "2026-03-27",
+    "count": 4
+   },
+   "out": [
+    {
+     "date": "2026-03-27",
+     "dayId": null
+    },
+    {
+     "date": "2026-03-28",
+     "dayId": null
+    },
+    {
+     "date": "2026-03-29",
+     "dayId": null
+    },
+    {
+     "date": "2026-03-30",
+     "dayId": null
+    }
+   ]
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      null,
+      2,
+      null,
+      3,
+      null,
+      null
+     ]
+    },
+    "startDate": null,
+    "from": "2026-12-30",
+    "count": 4
+   },
+   "out": [
+    {
+     "date": "2026-12-30",
+     "dayId": 2
+    },
+    {
+     "date": "2026-12-31",
+     "dayId": null
+    },
+    {
+     "date": "2027-01-01",
+     "dayId": 3
+    },
+    {
+     "date": "2027-01-02",
+     "dayId": null
+    }
+   ]
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      null,
+      2,
+      null,
+      3,
+      null,
+      null
+     ]
+    },
+    "startDate": null,
+    "from": "garbage",
+    "count": 2
+   },
+   "out": [
+    {
+     "date": "NaN-NaN-NaN",
+     "dayId": null
+    },
+    {
+     "date": "NaN-NaN-NaN",
+     "dayId": null
+    }
+   ]
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      null,
+      2,
+      null,
+      3,
+      null,
+      null
+     ]
+    },
+    "startDate": null,
+    "from": "2026-10",
+    "count": 2
+   },
+   "out": [
+    {
+     "date": "NaN-NaN-NaN",
+     "dayId": null
+    },
+    {
+     "date": "NaN-NaN-NaN",
+     "dayId": null
+    }
+   ]
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": {
+    "schedule": null,
+    "startDate": null,
+    "from": "2026-10-22",
+    "count": 3
+   },
+   "out": []
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      null,
+      2,
+      null,
+      3,
+      null,
+      null
+     ]
+    },
+    "startDate": null,
+    "from": "2026-10-22",
+    "count": 0
+   },
+   "out": []
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      null,
+      2,
+      null,
+      3,
+      null,
+      null
+     ]
+    },
+    "startDate": null,
+    "from": "2026-10-22",
+    "count": 10
+   },
+   "out": [
+    {
+     "date": "2026-10-22",
+     "dayId": null
+    },
+    {
+     "date": "2026-10-23",
+     "dayId": 3
+    },
+    {
+     "date": "2026-10-24",
+     "dayId": null
+    },
+    {
+     "date": "2026-10-25",
+     "dayId": null
+    },
+    {
+     "date": "2026-10-26",
+     "dayId": 1
+    },
+    {
+     "date": "2026-10-27",
+     "dayId": null
+    },
+    {
+     "date": "2026-10-28",
+     "dayId": 2
+    },
+    {
+     "date": "2026-10-29",
+     "dayId": null
+    },
+    {
+     "date": "2026-10-30",
+     "dayId": 3
+    },
+    {
+     "date": "2026-10-31",
+     "dayId": null
+    }
+   ]
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": {
+    "schedule": {
+     "mode": "rotating",
+     "slots": [
+      1,
+      2,
+      null
+     ]
+    },
+    "startDate": "2026-10-20",
+    "from": "2026-10-18",
+    "count": 7
+   },
+   "out": [
+    {
+     "date": "2026-10-18",
+     "dayId": null
+    },
+    {
+     "date": "2026-10-19",
+     "dayId": null
+    },
+    {
+     "date": "2026-10-20",
+     "dayId": 1
+    },
+    {
+     "date": "2026-10-21",
+     "dayId": 2
+    },
+    {
+     "date": "2026-10-22",
+     "dayId": null
+    },
+    {
+     "date": "2026-10-23",
+     "dayId": 1
+    },
+    {
+     "date": "2026-10-24",
+     "dayId": 2
+    }
+   ]
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": {
+    "schedule": {
+     "mode": "rotating",
+     "slots": [
+      1,
+      2,
+      null
+     ]
+    },
+    "startDate": null,
+    "from": "2026-03-27",
+    "count": 4
+   },
+   "out": [
+    {
+     "date": "2026-03-27",
+     "dayId": null
+    },
+    {
+     "date": "2026-03-28",
+     "dayId": null
+    },
+    {
+     "date": "2026-03-29",
+     "dayId": null
+    },
+    {
+     "date": "2026-03-30",
+     "dayId": null
+    }
+   ]
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      null,
+      2,
+      null,
+      3,
+      null,
+      null
+     ]
+    },
+    "startDate": null,
+    "from": "2026-12-30",
+    "count": 4
+   },
+   "out": [
+    {
+     "date": "2026-12-30",
+     "dayId": 2
+    },
+    {
+     "date": "2026-12-31",
+     "dayId": null
+    },
+    {
+     "date": "2027-01-01",
+     "dayId": 3
+    },
+    {
+     "date": "2027-01-02",
+     "dayId": null
+    }
+   ]
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      null,
+      2,
+      null,
+      3,
+      null,
+      null
+     ]
+    },
+    "startDate": null,
+    "from": "garbage",
+    "count": 2
+   },
+   "out": [
+    {
+     "date": "NaN-NaN-NaN",
+     "dayId": null
+    },
+    {
+     "date": "NaN-NaN-NaN",
+     "dayId": null
+    }
+   ]
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      null,
+      2,
+      null,
+      3,
+      null,
+      null
+     ]
+    },
+    "startDate": null,
+    "from": "2026-10",
+    "count": 2
+   },
+   "out": [
+    {
+     "date": "NaN-NaN-NaN",
+     "dayId": null
+    },
+    {
+     "date": "NaN-NaN-NaN",
+     "dayId": null
+    }
+   ]
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": {
+    "schedule": null,
+    "startDate": null,
+    "from": "2026-10-22",
+    "count": 3
+   },
+   "out": []
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      null,
+      2,
+      null,
+      3,
+      null,
+      null
+     ]
+    },
+    "startDate": null,
+    "from": "2026-10-22",
+    "count": 0
+   },
+   "out": []
+  },
+  {
+   "tz": "UTC",
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      null,
+      2,
+      null,
+      3,
+      null,
+      null
+     ]
+    },
+    "startDate": null,
+    "from": "2026-10-22",
+    "count": 10
+   },
+   "out": [
+    {
+     "date": "2026-10-22",
+     "dayId": null
+    },
+    {
+     "date": "2026-10-23",
+     "dayId": 3
+    },
+    {
+     "date": "2026-10-24",
+     "dayId": null
+    },
+    {
+     "date": "2026-10-25",
+     "dayId": null
+    },
+    {
+     "date": "2026-10-26",
+     "dayId": 1
+    },
+    {
+     "date": "2026-10-27",
+     "dayId": null
+    },
+    {
+     "date": "2026-10-28",
+     "dayId": 2
+    },
+    {
+     "date": "2026-10-29",
+     "dayId": null
+    },
+    {
+     "date": "2026-10-30",
+     "dayId": 3
+    },
+    {
+     "date": "2026-10-31",
+     "dayId": null
+    }
+   ]
+  },
+  {
+   "tz": "UTC",
+   "in": {
+    "schedule": {
+     "mode": "rotating",
+     "slots": [
+      1,
+      2,
+      null
+     ]
+    },
+    "startDate": "2026-10-20",
+    "from": "2026-10-18",
+    "count": 7
+   },
+   "out": [
+    {
+     "date": "2026-10-18",
+     "dayId": null
+    },
+    {
+     "date": "2026-10-19",
+     "dayId": null
+    },
+    {
+     "date": "2026-10-20",
+     "dayId": 1
+    },
+    {
+     "date": "2026-10-21",
+     "dayId": 2
+    },
+    {
+     "date": "2026-10-22",
+     "dayId": null
+    },
+    {
+     "date": "2026-10-23",
+     "dayId": 1
+    },
+    {
+     "date": "2026-10-24",
+     "dayId": 2
+    }
+   ]
+  },
+  {
+   "tz": "UTC",
+   "in": {
+    "schedule": {
+     "mode": "rotating",
+     "slots": [
+      1,
+      2,
+      null
+     ]
+    },
+    "startDate": null,
+    "from": "2026-03-27",
+    "count": 4
+   },
+   "out": [
+    {
+     "date": "2026-03-27",
+     "dayId": null
+    },
+    {
+     "date": "2026-03-28",
+     "dayId": null
+    },
+    {
+     "date": "2026-03-29",
+     "dayId": null
+    },
+    {
+     "date": "2026-03-30",
+     "dayId": null
+    }
+   ]
+  },
+  {
+   "tz": "UTC",
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      null,
+      2,
+      null,
+      3,
+      null,
+      null
+     ]
+    },
+    "startDate": null,
+    "from": "2026-12-30",
+    "count": 4
+   },
+   "out": [
+    {
+     "date": "2026-12-30",
+     "dayId": 2
+    },
+    {
+     "date": "2026-12-31",
+     "dayId": null
+    },
+    {
+     "date": "2027-01-01",
+     "dayId": 3
+    },
+    {
+     "date": "2027-01-02",
+     "dayId": null
+    }
+   ]
+  },
+  {
+   "tz": "UTC",
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      null,
+      2,
+      null,
+      3,
+      null,
+      null
+     ]
+    },
+    "startDate": null,
+    "from": "garbage",
+    "count": 2
+   },
+   "out": [
+    {
+     "date": "NaN-NaN-NaN",
+     "dayId": null
+    },
+    {
+     "date": "NaN-NaN-NaN",
+     "dayId": null
+    }
+   ]
+  },
+  {
+   "tz": "UTC",
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      null,
+      2,
+      null,
+      3,
+      null,
+      null
+     ]
+    },
+    "startDate": null,
+    "from": "2026-10",
+    "count": 2
+   },
+   "out": [
+    {
+     "date": "NaN-NaN-NaN",
+     "dayId": null
+    },
+    {
+     "date": "NaN-NaN-NaN",
+     "dayId": null
+    }
+   ]
+  },
+  {
+   "tz": "UTC",
+   "in": {
+    "schedule": null,
+    "startDate": null,
+    "from": "2026-10-22",
+    "count": 3
+   },
+   "out": []
+  },
+  {
+   "tz": "UTC",
+   "in": {
+    "schedule": {
+     "mode": "fixed",
+     "slots": [
+      1,
+      null,
+      2,
+      null,
+      3,
+      null,
+      null
+     ]
+    },
+    "startDate": null,
+    "from": "2026-10-22",
+    "count": 0
+   },
+   "out": []
+  }
+ ]
+}

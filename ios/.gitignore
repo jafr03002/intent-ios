@@ -1,0 +1,12 @@
+.build/
+.bsp/
+xtool/
+build/
+out/
+*.xcodeproj/
+DerivedData/
+.swiftpm/
+out-ci/
+out-ipa/
+build-device/
+Package.resolved

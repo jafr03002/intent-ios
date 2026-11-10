@@ -1,0 +1,69 @@
+{
+  "status": 200,
+  "body": [
+    {
+      "date": "{{date:-20}}",
+      "weight": 77.1
+    },
+    {
+      "date": "{{date:-19}}",
+      "weight": 77.3
+    },
+    {
+      "date": "{{date:-17}}",
+      "weight": 77.2
+    },
+    {
+      "date": "{{date:-16}}",
+      "weight": 77.5
+    },
+    {
+      "date": "{{date:-14}}",
+      "weight": 77.4
+    },
+    {
+      "date": "{{date:-13}}",
+      "weight": 77.6
+    },
+    {
+      "date": "{{date:-12}}",
+      "weight": 77.8
+    },
+    {
+      "date": "{{date:-10}}",
+      "weight": 77.7
+    },
+    {
+      "date": "{{date:-9}}",
+      "weight": 77.9
+    },
+    {
+      "date": "{{date:-7}}",
+      "weight": 78.0
+    },
+    {
+      "date": "{{date:-6}}",
+      "weight": 77.9
+    },
+    {
+      "date": "{{date:-5}}",
+      "weight": 78.1
+    },
+    {
+      "date": "{{date:-3}}",
+      "weight": 78.3
+    },
+    {
+      "date": "{{date:-2}}",
+      "weight": 78.2
+    },
+    {
+      "date": "{{date:-1}}",
+      "weight": 78.5
+    },
+    {
+      "date": "{{date:0}}",
+      "weight": 78.4
+    }
+  ]
+}

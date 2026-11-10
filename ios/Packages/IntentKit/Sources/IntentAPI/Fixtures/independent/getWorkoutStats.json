@@ -1,0 +1,9 @@
+{
+  "status": 200,
+  "body": {
+    "currentWeek": 3,
+    "totalLogged": 7,
+    "lastSessionDate": "{{dow:mon:0}}",
+    "streakDays": 1
+  }
+}

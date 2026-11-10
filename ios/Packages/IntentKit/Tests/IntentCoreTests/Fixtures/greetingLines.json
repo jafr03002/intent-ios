@@ -1,0 +1,1223 @@
+{
+ "greetingLine": [
+  {
+   "tz": "Europe/Stockholm",
+   "in": {
+    "label": null,
+    "at": 1767227400000
+   },
+   "out": "Let's get moving."
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": {
+    "label": "",
+    "at": 1767227400000
+   },
+   "out": "Let's get moving."
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": {
+    "label": "Push",
+    "at": 1767227400000
+   },
+   "out": "Push is up next - let's make it count."
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": {
+    "label": null,
+    "at": 1767268800000
+   },
+   "out": "Let's get moving."
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": {
+    "label": "",
+    "at": 1767268800000
+   },
+   "out": "Let's get moving."
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": {
+    "label": "Push",
+    "at": 1767268800000
+   },
+   "out": "Push is up next - let's make it count."
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": {
+    "label": null,
+    "at": 1767223800000
+   },
+   "out": "Let's get moving."
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": {
+    "label": "",
+    "at": 1767223800000
+   },
+   "out": "Let's get moving."
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": {
+    "label": "Push",
+    "at": 1767223800000
+   },
+   "out": "Push is up next - let's make it count."
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": {
+    "label": null,
+    "at": 1774744200000
+   },
+   "out": "Your workout is waiting."
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": {
+    "label": "",
+    "at": 1774744200000
+   },
+   "out": "Your workout is waiting."
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": {
+    "label": "Push",
+    "at": 1774744200000
+   },
+   "out": "Nothing logs Push for you. Show up and get stronger."
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": {
+    "label": null,
+    "at": 1774827000000
+   },
+   "out": "Show up. Get stronger."
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": {
+    "label": "",
+    "at": 1774827000000
+   },
+   "out": "Show up. Get stronger."
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": {
+    "label": "Push",
+    "at": 1774827000000
+   },
+   "out": "Push today - go and beat last time."
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": {
+    "label": null,
+    "at": 1792888200000
+   },
+   "out": "Your workout is waiting."
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": {
+    "label": "",
+    "at": 1792888200000
+   },
+   "out": "Your workout is waiting."
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": {
+    "label": "Push",
+    "at": 1792888200000
+   },
+   "out": "Nothing logs Push for you. Show up and get stronger."
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": {
+    "label": null,
+    "at": 1792971000000
+   },
+   "out": "Show up. Get stronger."
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": {
+    "label": "",
+    "at": 1792971000000
+   },
+   "out": "Show up. Get stronger."
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": {
+    "label": "Push",
+    "at": 1792971000000
+   },
+   "out": "Push today - go and beat last time."
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": {
+    "label": null,
+    "at": 1861876800000
+   },
+   "out": "Let's get moving."
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": {
+    "label": "",
+    "at": 1861876800000
+   },
+   "out": "Let's get moving."
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": {
+    "label": "Push",
+    "at": 1861876800000
+   },
+   "out": "Push is up next - let's make it count."
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": {
+    "label": null,
+    "at": 1781506800000
+   },
+   "out": "Let's get moving."
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": {
+    "label": "",
+    "at": 1781506800000
+   },
+   "out": "Let's get moving."
+  },
+  {
+   "tz": "Europe/Stockholm",
+   "in": {
+    "label": "Push",
+    "at": 1781506800000
+   },
+   "out": "Push is up next - let's make it count."
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": {
+    "label": null,
+    "at": 1767227400000
+   },
+   "out": "Ready to start your workout?"
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": {
+    "label": "",
+    "at": 1767227400000
+   },
+   "out": "Ready to start your workout?"
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": {
+    "label": "Push",
+    "at": 1767227400000
+   },
+   "out": "Ready for Push?"
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": {
+    "label": null,
+    "at": 1767268800000
+   },
+   "out": "Let's get moving."
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": {
+    "label": "",
+    "at": 1767268800000
+   },
+   "out": "Let's get moving."
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": {
+    "label": "Push",
+    "at": 1767268800000
+   },
+   "out": "Push is up next - let's make it count."
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": {
+    "label": null,
+    "at": 1767223800000
+   },
+   "out": "Ready to start your workout?"
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": {
+    "label": "",
+    "at": 1767223800000
+   },
+   "out": "Ready to start your workout?"
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": {
+    "label": "Push",
+    "at": 1767223800000
+   },
+   "out": "Ready for Push?"
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": {
+    "label": null,
+    "at": 1774744200000
+   },
+   "out": "Time to put in the work."
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": {
+    "label": "",
+    "at": 1774744200000
+   },
+   "out": "Time to put in the work."
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": {
+    "label": "Push",
+    "at": 1774744200000
+   },
+   "out": "Push is waiting. Time to put in the work."
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": {
+    "label": null,
+    "at": 1774827000000
+   },
+   "out": "Your workout is waiting."
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": {
+    "label": "",
+    "at": 1774827000000
+   },
+   "out": "Your workout is waiting."
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": {
+    "label": "Push",
+    "at": 1774827000000
+   },
+   "out": "Nothing logs Push for you. Show up and get stronger."
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": {
+    "label": null,
+    "at": 1792888200000
+   },
+   "out": "Time to put in the work."
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": {
+    "label": "",
+    "at": 1792888200000
+   },
+   "out": "Time to put in the work."
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": {
+    "label": "Push",
+    "at": 1792888200000
+   },
+   "out": "Push is waiting. Time to put in the work."
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": {
+    "label": null,
+    "at": 1792971000000
+   },
+   "out": "Your workout is waiting."
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": {
+    "label": "",
+    "at": 1792971000000
+   },
+   "out": "Your workout is waiting."
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": {
+    "label": "Push",
+    "at": 1792971000000
+   },
+   "out": "Nothing logs Push for you. Show up and get stronger."
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": {
+    "label": null,
+    "at": 1861876800000
+   },
+   "out": "Let's get moving."
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": {
+    "label": "",
+    "at": 1861876800000
+   },
+   "out": "Let's get moving."
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": {
+    "label": "Push",
+    "at": 1861876800000
+   },
+   "out": "Push is up next - let's make it count."
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": {
+    "label": null,
+    "at": 1781506800000
+   },
+   "out": "Ready to start your workout?"
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": {
+    "label": "",
+    "at": 1781506800000
+   },
+   "out": "Ready to start your workout?"
+  },
+  {
+   "tz": "America/Los_Angeles",
+   "in": {
+    "label": "Push",
+    "at": 1781506800000
+   },
+   "out": "Ready for Push?"
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": {
+    "label": null,
+    "at": 1767227400000
+   },
+   "out": "Let's get moving."
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": {
+    "label": "",
+    "at": 1767227400000
+   },
+   "out": "Let's get moving."
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": {
+    "label": "Push",
+    "at": 1767227400000
+   },
+   "out": "Push is up next - let's make it count."
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": {
+    "label": null,
+    "at": 1767268800000
+   },
+   "out": "Time to put in the work."
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": {
+    "label": "",
+    "at": 1767268800000
+   },
+   "out": "Time to put in the work."
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": {
+    "label": "Push",
+    "at": 1767268800000
+   },
+   "out": "Push is waiting. Time to put in the work."
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": {
+    "label": null,
+    "at": 1767223800000
+   },
+   "out": "Let's get moving."
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": {
+    "label": "",
+    "at": 1767223800000
+   },
+   "out": "Let's get moving."
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": {
+    "label": "Push",
+    "at": 1767223800000
+   },
+   "out": "Push is up next - let's make it count."
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": {
+    "label": null,
+    "at": 1774744200000
+   },
+   "out": "Your workout is waiting."
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": {
+    "label": "",
+    "at": 1774744200000
+   },
+   "out": "Your workout is waiting."
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": {
+    "label": "Push",
+    "at": 1774744200000
+   },
+   "out": "Nothing logs Push for you. Show up and get stronger."
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": {
+    "label": null,
+    "at": 1774827000000
+   },
+   "out": "Show up. Get stronger."
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": {
+    "label": "",
+    "at": 1774827000000
+   },
+   "out": "Show up. Get stronger."
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": {
+    "label": "Push",
+    "at": 1774827000000
+   },
+   "out": "Push today - go and beat last time."
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": {
+    "label": null,
+    "at": 1792888200000
+   },
+   "out": "Your workout is waiting."
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": {
+    "label": "",
+    "at": 1792888200000
+   },
+   "out": "Your workout is waiting."
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": {
+    "label": "Push",
+    "at": 1792888200000
+   },
+   "out": "Nothing logs Push for you. Show up and get stronger."
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": {
+    "label": null,
+    "at": 1792971000000
+   },
+   "out": "Show up. Get stronger."
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": {
+    "label": "",
+    "at": 1792971000000
+   },
+   "out": "Show up. Get stronger."
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": {
+    "label": "Push",
+    "at": 1792971000000
+   },
+   "out": "Push today - go and beat last time."
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": {
+    "label": null,
+    "at": 1861876800000
+   },
+   "out": "Let's get moving."
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": {
+    "label": "",
+    "at": 1861876800000
+   },
+   "out": "Let's get moving."
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": {
+    "label": "Push",
+    "at": 1861876800000
+   },
+   "out": "Push is up next - let's make it count."
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": {
+    "label": null,
+    "at": 1781506800000
+   },
+   "out": "Let's get moving."
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": {
+    "label": "",
+    "at": 1781506800000
+   },
+   "out": "Let's get moving."
+  },
+  {
+   "tz": "Pacific/Auckland",
+   "in": {
+    "label": "Push",
+    "at": 1781506800000
+   },
+   "out": "Push is up next - let's make it count."
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": {
+    "label": null,
+    "at": 1767227400000
+   },
+   "out": "Let's get moving."
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": {
+    "label": "",
+    "at": 1767227400000
+   },
+   "out": "Let's get moving."
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": {
+    "label": "Push",
+    "at": 1767227400000
+   },
+   "out": "Push is up next - let's make it count."
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": {
+    "label": null,
+    "at": 1767268800000
+   },
+   "out": "Let's get moving."
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": {
+    "label": "",
+    "at": 1767268800000
+   },
+   "out": "Let's get moving."
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": {
+    "label": "Push",
+    "at": 1767268800000
+   },
+   "out": "Push is up next - let's make it count."
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": {
+    "label": null,
+    "at": 1767223800000
+   },
+   "out": "Let's get moving."
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": {
+    "label": "",
+    "at": 1767223800000
+   },
+   "out": "Let's get moving."
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": {
+    "label": "Push",
+    "at": 1767223800000
+   },
+   "out": "Push is up next - let's make it count."
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": {
+    "label": null,
+    "at": 1774744200000
+   },
+   "out": "Your workout is waiting."
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": {
+    "label": "",
+    "at": 1774744200000
+   },
+   "out": "Your workout is waiting."
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": {
+    "label": "Push",
+    "at": 1774744200000
+   },
+   "out": "Nothing logs Push for you. Show up and get stronger."
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": {
+    "label": null,
+    "at": 1774827000000
+   },
+   "out": "Show up. Get stronger."
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": {
+    "label": "",
+    "at": 1774827000000
+   },
+   "out": "Show up. Get stronger."
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": {
+    "label": "Push",
+    "at": 1774827000000
+   },
+   "out": "Push today - go and beat last time."
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": {
+    "label": null,
+    "at": 1792888200000
+   },
+   "out": "Your workout is waiting."
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": {
+    "label": "",
+    "at": 1792888200000
+   },
+   "out": "Your workout is waiting."
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": {
+    "label": "Push",
+    "at": 1792888200000
+   },
+   "out": "Nothing logs Push for you. Show up and get stronger."
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": {
+    "label": null,
+    "at": 1792971000000
+   },
+   "out": "Show up. Get stronger."
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": {
+    "label": "",
+    "at": 1792971000000
+   },
+   "out": "Show up. Get stronger."
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": {
+    "label": "Push",
+    "at": 1792971000000
+   },
+   "out": "Push today - go and beat last time."
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": {
+    "label": null,
+    "at": 1861876800000
+   },
+   "out": "Let's get moving."
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": {
+    "label": "",
+    "at": 1861876800000
+   },
+   "out": "Let's get moving."
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": {
+    "label": "Push",
+    "at": 1861876800000
+   },
+   "out": "Push is up next - let's make it count."
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": {
+    "label": null,
+    "at": 1781506800000
+   },
+   "out": "Let's get moving."
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": {
+    "label": "",
+    "at": 1781506800000
+   },
+   "out": "Let's get moving."
+  },
+  {
+   "tz": "Asia/Kolkata",
+   "in": {
+    "label": "Push",
+    "at": 1781506800000
+   },
+   "out": "Push is up next - let's make it count."
+  },
+  {
+   "tz": "UTC",
+   "in": {
+    "label": null,
+    "at": 1767227400000
+   },
+   "out": "Let's get moving."
+  },
+  {
+   "tz": "UTC",
+   "in": {
+    "label": "",
+    "at": 1767227400000
+   },
+   "out": "Let's get moving."
+  },
+  {
+   "tz": "UTC",
+   "in": {
+    "label": "Push",
+    "at": 1767227400000
+   },
+   "out": "Push is up next - let's make it count."
+  },
+  {
+   "tz": "UTC",
+   "in": {
+    "label": null,
+    "at": 1767268800000
+   },
+   "out": "Let's get moving."
+  },
+  {
+   "tz": "UTC",
+   "in": {
+    "label": "",
+    "at": 1767268800000
+   },
+   "out": "Let's get moving."
+  },
+  {
+   "tz": "UTC",
+   "in": {
+    "label": "Push",
+    "at": 1767268800000
+   },
+   "out": "Push is up next - let's make it count."
+  },
+  {
+   "tz": "UTC",
+   "in": {
+    "label": null,
+    "at": 1767223800000
+   },
+   "out": "Ready to start your workout?"
+  },
+  {
+   "tz": "UTC",
+   "in": {
+    "label": "",
+    "at": 1767223800000
+   },
+   "out": "Ready to start your workout?"
+  },
+  {
+   "tz": "UTC",
+   "in": {
+    "label": "Push",
+    "at": 1767223800000
+   },
+   "out": "Ready for Push?"
+  },
+  {
+   "tz": "UTC",
+   "in": {
+    "label": null,
+    "at": 1774744200000
+   },
+   "out": "Your workout is waiting."
+  },
+  {
+   "tz": "UTC",
+   "in": {
+    "label": "",
+    "at": 1774744200000
+   },
+   "out": "Your workout is waiting."
+  },
+  {
+   "tz": "UTC",
+   "in": {
+    "label": "Push",
+    "at": 1774744200000
+   },
+   "out": "Nothing logs Push for you. Show up and get stronger."
+  },
+  {
+   "tz": "UTC",
+   "in": {
+    "label": null,
+    "at": 1774827000000
+   },
+   "out": "Your workout is waiting."
+  },
+  {
+   "tz": "UTC",
+   "in": {
+    "label": "",
+    "at": 1774827000000
+   },
+   "out": "Your workout is waiting."
+  },
+  {
+   "tz": "UTC",
+   "in": {
+    "label": "Push",
+    "at": 1774827000000
+   },
+   "out": "Nothing logs Push for you. Show up and get stronger."
+  },
+  {
+   "tz": "UTC",
+   "in": {
+    "label": null,
+    "at": 1792888200000
+   },
+   "out": "Your workout is waiting."
+  },
+  {
+   "tz": "UTC",
+   "in": {
+    "label": "",
+    "at": 1792888200000
+   },
+   "out": "Your workout is waiting."
+  },
+  {
+   "tz": "UTC",
+   "in": {
+    "label": "Push",
+    "at": 1792888200000
+   },
+   "out": "Nothing logs Push for you. Show up and get stronger."
+  },
+  {
+   "tz": "UTC",
+   "in": {
+    "label": null,
+    "at": 1792971000000
+   },
+   "out": "Your workout is waiting."
+  },
+  {
+   "tz": "UTC",
+   "in": {
+    "label": "",
+    "at": 1792971000000
+   },
+   "out": "Your workout is waiting."
+  },
+  {
+   "tz": "UTC",
+   "in": {
+    "label": "Push",
+    "at": 1792971000000
+   },
+   "out": "Nothing logs Push for you. Show up and get stronger."
+  },
+  {
+   "tz": "UTC",
+   "in": {
+    "label": null,
+    "at": 1861876800000
+   },
+   "out": "Let's get moving."
+  },
+  {
+   "tz": "UTC",
+   "in": {
+    "label": "",
+    "at": 1861876800000
+   },
+   "out": "Let's get moving."
+  },
+  {
+   "tz": "UTC",
+   "in": {
+    "label": "Push",
+    "at": 1861876800000
+   },
+   "out": "Push is up next - let's make it count."
+  },
+  {
+   "tz": "UTC",
+   "in": {
+    "label": null,
+    "at": 1781506800000
+   },
+   "out": "Let's get moving."
+  },
+  {
+   "tz": "UTC",
+   "in": {
+    "label": "",
+    "at": 1781506800000
+   },
+   "out": "Let's get moving."
+  },
+  {
+   "tz": "UTC",
+   "in": {
+    "label": "Push",
+    "at": 1781506800000
+   },
+   "out": "Push is up next - let's make it count."
+  }
+ ],
+ "nextSessionDay": [
+  {
+   "in": {
+    "days": [
+     {
+      "dayNumber": 1,
+      "label": "Push"
+     },
+     {
+      "dayNumber": 2,
+      "label": "Pull"
+     },
+     {
+      "dayNumber": 4,
+      "label": "Legs"
+     }
+    ],
+    "last": null
+   },
+   "out": {
+    "dayNumber": 1,
+    "label": "Push"
+   }
+  },
+  {
+   "in": {
+    "days": [
+     {
+      "dayNumber": 1,
+      "label": "Push"
+     },
+     {
+      "dayNumber": 2,
+      "label": "Pull"
+     },
+     {
+      "dayNumber": 4,
+      "label": "Legs"
+     }
+    ],
+    "last": 1
+   },
+   "out": {
+    "dayNumber": 2,
+    "label": "Pull"
+   }
+  },
+  {
+   "in": {
+    "days": [
+     {
+      "dayNumber": 1,
+      "label": "Push"
+     },
+     {
+      "dayNumber": 2,
+      "label": "Pull"
+     },
+     {
+      "dayNumber": 4,
+      "label": "Legs"
+     }
+    ],
+    "last": 2
+   },
+   "out": {
+    "dayNumber": 4,
+    "label": "Legs"
+   }
+  },
+  {
+   "in": {
+    "days": [
+     {
+      "dayNumber": 1,
+      "label": "Push"
+     },
+     {
+      "dayNumber": 2,
+      "label": "Pull"
+     },
+     {
+      "dayNumber": 4,
+      "label": "Legs"
+     }
+    ],
+    "last": 4
+   },
+   "out": {
+    "dayNumber": 1,
+    "label": "Push"
+   }
+  },
+  {
+   "in": {
+    "days": [
+     {
+      "dayNumber": 1,
+      "label": "Push"
+     },
+     {
+      "dayNumber": 2,
+      "label": "Pull"
+     },
+     {
+      "dayNumber": 4,
+      "label": "Legs"
+     }
+    ],
+    "last": 3
+   },
+   "out": {
+    "dayNumber": 1,
+    "label": "Push"
+   }
+  },
+  {
+   "in": {
+    "days": [],
+    "last": 1
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "days": [
+     {
+      "dayNumber": 1,
+      "label": "Push"
+     }
+    ],
+    "last": 1
+   },
+   "out": {
+    "dayNumber": 1,
+    "label": "Push"
+   }
+  }
+ ]
+}

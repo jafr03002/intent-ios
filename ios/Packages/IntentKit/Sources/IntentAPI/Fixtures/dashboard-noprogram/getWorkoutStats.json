@@ -1,0 +1,9 @@
+{
+  "status": 200,
+  "body": {
+    "currentWeek": 1,
+    "totalLogged": 0,
+    "lastSessionDate": null,
+    "streakDays": 0
+  }
+}

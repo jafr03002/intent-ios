@@ -1,0 +1,6167 @@
+{
+ "asciiOrder": "\t _-,;:!?.'\"()[]{}@*/\\&#%`^+<=>|~$0123456789aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ",
+ "pairs": [
+  {
+   "a": "a-b",
+   "b": "a-b",
+   "out": 0
+  },
+  {
+   "a": "a-b",
+   "b": "ab",
+   "out": -1
+  },
+  {
+   "a": "a-b",
+   "b": "a b",
+   "out": 1
+  },
+  {
+   "a": "a-b",
+   "b": "aB",
+   "out": -1
+  },
+  {
+   "a": "a-b",
+   "b": "Ab",
+   "out": -1
+  },
+  {
+   "a": "a-b",
+   "b": "a_b",
+   "out": 1
+  },
+  {
+   "a": "a-b",
+   "b": "A-b",
+   "out": -1
+  },
+  {
+   "a": "a-b",
+   "b": "",
+   "out": 1
+  },
+  {
+   "a": "a-b",
+   "b": "a",
+   "out": 1
+  },
+  {
+   "a": "a-b",
+   "b": "A",
+   "out": 1
+  },
+  {
+   "a": "a-b",
+   "b": "b",
+   "out": -1
+  },
+  {
+   "a": "a-b",
+   "b": "Cable EZ-Bar Curl",
+   "out": -1
+  },
+  {
+   "a": "a-b",
+   "b": "Cable D-Handle Curl",
+   "out": -1
+  },
+  {
+   "a": "a-b",
+   "b": "45 Degree Hinge",
+   "out": 1
+  },
+  {
+   "a": "a-b",
+   "b": "Y-Raise",
+   "out": -1
+  },
+  {
+   "a": "a-b",
+   "b": "T-Bar Row",
+   "out": -1
+  },
+  {
+   "a": "a-b",
+   "b": "Tricep Pushdown",
+   "out": -1
+  },
+  {
+   "a": "a-b",
+   "b": "SA Bench Lat Pulldown",
+   "out": -1
+  },
+  {
+   "a": "a-b",
+   "b": "Smith High Row",
+   "out": -1
+  },
+  {
+   "a": "a-b",
+   "b": "2026-10-24T10:00:00.000Z",
+   "out": 1
+  },
+  {
+   "a": "a-b",
+   "b": "2026-10-24T10:00:00Z",
+   "out": 1
+  },
+  {
+   "a": "a-b",
+   "b": "2026-10-24T09:59:59.999Z",
+   "out": 1
+  },
+  {
+   "a": "a-b",
+   "b": "2026-10-24",
+   "out": 1
+  },
+  {
+   "a": "a-b",
+   "b": "abc1",
+   "out": -1
+  },
+  {
+   "a": "a-b",
+   "b": "abc10",
+   "out": -1
+  },
+  {
+   "a": "a-b",
+   "b": "abc2",
+   "out": -1
+  },
+  {
+   "a": "a-b",
+   "b": "x.y",
+   "out": -1
+  },
+  {
+   "a": "a-b",
+   "b": "x,y",
+   "out": -1
+  },
+  {
+   "a": "a-b",
+   "b": "x(y",
+   "out": -1
+  },
+  {
+   "a": "a-b",
+   "b": "x$y",
+   "out": -1
+  },
+  {
+   "a": "a-b",
+   "b": "x~y",
+   "out": -1
+  },
+  {
+   "a": "a-b",
+   "b": "Dips",
+   "out": -1
+  },
+  {
+   "a": "a-b",
+   "b": "dips",
+   "out": -1
+  },
+  {
+   "a": "a-b",
+   "b": "DIPS",
+   "out": -1
+  },
+  {
+   "a": "a-b",
+   "b": "Dip s",
+   "out": -1
+  },
+  {
+   "a": "ab",
+   "b": "a-b",
+   "out": 1
+  },
+  {
+   "a": "ab",
+   "b": "ab",
+   "out": 0
+  },
+  {
+   "a": "ab",
+   "b": "a b",
+   "out": 1
+  },
+  {
+   "a": "ab",
+   "b": "aB",
+   "out": -1
+  },
+  {
+   "a": "ab",
+   "b": "Ab",
+   "out": -1
+  },
+  {
+   "a": "ab",
+   "b": "a_b",
+   "out": 1
+  },
+  {
+   "a": "ab",
+   "b": "A-b",
+   "out": 1
+  },
+  {
+   "a": "ab",
+   "b": "",
+   "out": 1
+  },
+  {
+   "a": "ab",
+   "b": "a",
+   "out": 1
+  },
+  {
+   "a": "ab",
+   "b": "A",
+   "out": 1
+  },
+  {
+   "a": "ab",
+   "b": "b",
+   "out": -1
+  },
+  {
+   "a": "ab",
+   "b": "Cable EZ-Bar Curl",
+   "out": -1
+  },
+  {
+   "a": "ab",
+   "b": "Cable D-Handle Curl",
+   "out": -1
+  },
+  {
+   "a": "ab",
+   "b": "45 Degree Hinge",
+   "out": 1
+  },
+  {
+   "a": "ab",
+   "b": "Y-Raise",
+   "out": -1
+  },
+  {
+   "a": "ab",
+   "b": "T-Bar Row",
+   "out": -1
+  },
+  {
+   "a": "ab",
+   "b": "Tricep Pushdown",
+   "out": -1
+  },
+  {
+   "a": "ab",
+   "b": "SA Bench Lat Pulldown",
+   "out": -1
+  },
+  {
+   "a": "ab",
+   "b": "Smith High Row",
+   "out": -1
+  },
+  {
+   "a": "ab",
+   "b": "2026-10-24T10:00:00.000Z",
+   "out": 1
+  },
+  {
+   "a": "ab",
+   "b": "2026-10-24T10:00:00Z",
+   "out": 1
+  },
+  {
+   "a": "ab",
+   "b": "2026-10-24T09:59:59.999Z",
+   "out": 1
+  },
+  {
+   "a": "ab",
+   "b": "2026-10-24",
+   "out": 1
+  },
+  {
+   "a": "ab",
+   "b": "abc1",
+   "out": -1
+  },
+  {
+   "a": "ab",
+   "b": "abc10",
+   "out": -1
+  },
+  {
+   "a": "ab",
+   "b": "abc2",
+   "out": -1
+  },
+  {
+   "a": "ab",
+   "b": "x.y",
+   "out": -1
+  },
+  {
+   "a": "ab",
+   "b": "x,y",
+   "out": -1
+  },
+  {
+   "a": "ab",
+   "b": "x(y",
+   "out": -1
+  },
+  {
+   "a": "ab",
+   "b": "x$y",
+   "out": -1
+  },
+  {
+   "a": "ab",
+   "b": "x~y",
+   "out": -1
+  },
+  {
+   "a": "ab",
+   "b": "Dips",
+   "out": -1
+  },
+  {
+   "a": "ab",
+   "b": "dips",
+   "out": -1
+  },
+  {
+   "a": "ab",
+   "b": "DIPS",
+   "out": -1
+  },
+  {
+   "a": "ab",
+   "b": "Dip s",
+   "out": -1
+  },
+  {
+   "a": "a b",
+   "b": "a-b",
+   "out": -1
+  },
+  {
+   "a": "a b",
+   "b": "ab",
+   "out": -1
+  },
+  {
+   "a": "a b",
+   "b": "a b",
+   "out": 0
+  },
+  {
+   "a": "a b",
+   "b": "aB",
+   "out": -1
+  },
+  {
+   "a": "a b",
+   "b": "Ab",
+   "out": -1
+  },
+  {
+   "a": "a b",
+   "b": "a_b",
+   "out": -1
+  },
+  {
+   "a": "a b",
+   "b": "A-b",
+   "out": -1
+  },
+  {
+   "a": "a b",
+   "b": "",
+   "out": 1
+  },
+  {
+   "a": "a b",
+   "b": "a",
+   "out": 1
+  },
+  {
+   "a": "a b",
+   "b": "A",
+   "out": 1
+  },
+  {
+   "a": "a b",
+   "b": "b",
+   "out": -1
+  },
+  {
+   "a": "a b",
+   "b": "Cable EZ-Bar Curl",
+   "out": -1
+  },
+  {
+   "a": "a b",
+   "b": "Cable D-Handle Curl",
+   "out": -1
+  },
+  {
+   "a": "a b",
+   "b": "45 Degree Hinge",
+   "out": 1
+  },
+  {
+   "a": "a b",
+   "b": "Y-Raise",
+   "out": -1
+  },
+  {
+   "a": "a b",
+   "b": "T-Bar Row",
+   "out": -1
+  },
+  {
+   "a": "a b",
+   "b": "Tricep Pushdown",
+   "out": -1
+  },
+  {
+   "a": "a b",
+   "b": "SA Bench Lat Pulldown",
+   "out": -1
+  },
+  {
+   "a": "a b",
+   "b": "Smith High Row",
+   "out": -1
+  },
+  {
+   "a": "a b",
+   "b": "2026-10-24T10:00:00.000Z",
+   "out": 1
+  },
+  {
+   "a": "a b",
+   "b": "2026-10-24T10:00:00Z",
+   "out": 1
+  },
+  {
+   "a": "a b",
+   "b": "2026-10-24T09:59:59.999Z",
+   "out": 1
+  },
+  {
+   "a": "a b",
+   "b": "2026-10-24",
+   "out": 1
+  },
+  {
+   "a": "a b",
+   "b": "abc1",
+   "out": -1
+  },
+  {
+   "a": "a b",
+   "b": "abc10",
+   "out": -1
+  },
+  {
+   "a": "a b",
+   "b": "abc2",
+   "out": -1
+  },
+  {
+   "a": "a b",
+   "b": "x.y",
+   "out": -1
+  },
+  {
+   "a": "a b",
+   "b": "x,y",
+   "out": -1
+  },
+  {
+   "a": "a b",
+   "b": "x(y",
+   "out": -1
+  },
+  {
+   "a": "a b",
+   "b": "x$y",
+   "out": -1
+  },
+  {
+   "a": "a b",
+   "b": "x~y",
+   "out": -1
+  },
+  {
+   "a": "a b",
+   "b": "Dips",
+   "out": -1
+  },
+  {
+   "a": "a b",
+   "b": "dips",
+   "out": -1
+  },
+  {
+   "a": "a b",
+   "b": "DIPS",
+   "out": -1
+  },
+  {
+   "a": "a b",
+   "b": "Dip s",
+   "out": -1
+  },
+  {
+   "a": "aB",
+   "b": "a-b",
+   "out": 1
+  },
+  {
+   "a": "aB",
+   "b": "ab",
+   "out": 1
+  },
+  {
+   "a": "aB",
+   "b": "a b",
+   "out": 1
+  },
+  {
+   "a": "aB",
+   "b": "aB",
+   "out": 0
+  },
+  {
+   "a": "aB",
+   "b": "Ab",
+   "out": -1
+  },
+  {
+   "a": "aB",
+   "b": "a_b",
+   "out": 1
+  },
+  {
+   "a": "aB",
+   "b": "A-b",
+   "out": 1
+  },
+  {
+   "a": "aB",
+   "b": "",
+   "out": 1
+  },
+  {
+   "a": "aB",
+   "b": "a",
+   "out": 1
+  },
+  {
+   "a": "aB",
+   "b": "A",
+   "out": 1
+  },
+  {
+   "a": "aB",
+   "b": "b",
+   "out": -1
+  },
+  {
+   "a": "aB",
+   "b": "Cable EZ-Bar Curl",
+   "out": -1
+  },
+  {
+   "a": "aB",
+   "b": "Cable D-Handle Curl",
+   "out": -1
+  },
+  {
+   "a": "aB",
+   "b": "45 Degree Hinge",
+   "out": 1
+  },
+  {
+   "a": "aB",
+   "b": "Y-Raise",
+   "out": -1
+  },
+  {
+   "a": "aB",
+   "b": "T-Bar Row",
+   "out": -1
+  },
+  {
+   "a": "aB",
+   "b": "Tricep Pushdown",
+   "out": -1
+  },
+  {
+   "a": "aB",
+   "b": "SA Bench Lat Pulldown",
+   "out": -1
+  },
+  {
+   "a": "aB",
+   "b": "Smith High Row",
+   "out": -1
+  },
+  {
+   "a": "aB",
+   "b": "2026-10-24T10:00:00.000Z",
+   "out": 1
+  },
+  {
+   "a": "aB",
+   "b": "2026-10-24T10:00:00Z",
+   "out": 1
+  },
+  {
+   "a": "aB",
+   "b": "2026-10-24T09:59:59.999Z",
+   "out": 1
+  },
+  {
+   "a": "aB",
+   "b": "2026-10-24",
+   "out": 1
+  },
+  {
+   "a": "aB",
+   "b": "abc1",
+   "out": -1
+  },
+  {
+   "a": "aB",
+   "b": "abc10",
+   "out": -1
+  },
+  {
+   "a": "aB",
+   "b": "abc2",
+   "out": -1
+  },
+  {
+   "a": "aB",
+   "b": "x.y",
+   "out": -1
+  },
+  {
+   "a": "aB",
+   "b": "x,y",
+   "out": -1
+  },
+  {
+   "a": "aB",
+   "b": "x(y",
+   "out": -1
+  },
+  {
+   "a": "aB",
+   "b": "x$y",
+   "out": -1
+  },
+  {
+   "a": "aB",
+   "b": "x~y",
+   "out": -1
+  },
+  {
+   "a": "aB",
+   "b": "Dips",
+   "out": -1
+  },
+  {
+   "a": "aB",
+   "b": "dips",
+   "out": -1
+  },
+  {
+   "a": "aB",
+   "b": "DIPS",
+   "out": -1
+  },
+  {
+   "a": "aB",
+   "b": "Dip s",
+   "out": -1
+  },
+  {
+   "a": "Ab",
+   "b": "a-b",
+   "out": 1
+  },
+  {
+   "a": "Ab",
+   "b": "ab",
+   "out": 1
+  },
+  {
+   "a": "Ab",
+   "b": "a b",
+   "out": 1
+  },
+  {
+   "a": "Ab",
+   "b": "aB",
+   "out": 1
+  },
+  {
+   "a": "Ab",
+   "b": "Ab",
+   "out": 0
+  },
+  {
+   "a": "Ab",
+   "b": "a_b",
+   "out": 1
+  },
+  {
+   "a": "Ab",
+   "b": "A-b",
+   "out": 1
+  },
+  {
+   "a": "Ab",
+   "b": "",
+   "out": 1
+  },
+  {
+   "a": "Ab",
+   "b": "a",
+   "out": 1
+  },
+  {
+   "a": "Ab",
+   "b": "A",
+   "out": 1
+  },
+  {
+   "a": "Ab",
+   "b": "b",
+   "out": -1
+  },
+  {
+   "a": "Ab",
+   "b": "Cable EZ-Bar Curl",
+   "out": -1
+  },
+  {
+   "a": "Ab",
+   "b": "Cable D-Handle Curl",
+   "out": -1
+  },
+  {
+   "a": "Ab",
+   "b": "45 Degree Hinge",
+   "out": 1
+  },
+  {
+   "a": "Ab",
+   "b": "Y-Raise",
+   "out": -1
+  },
+  {
+   "a": "Ab",
+   "b": "T-Bar Row",
+   "out": -1
+  },
+  {
+   "a": "Ab",
+   "b": "Tricep Pushdown",
+   "out": -1
+  },
+  {
+   "a": "Ab",
+   "b": "SA Bench Lat Pulldown",
+   "out": -1
+  },
+  {
+   "a": "Ab",
+   "b": "Smith High Row",
+   "out": -1
+  },
+  {
+   "a": "Ab",
+   "b": "2026-10-24T10:00:00.000Z",
+   "out": 1
+  },
+  {
+   "a": "Ab",
+   "b": "2026-10-24T10:00:00Z",
+   "out": 1
+  },
+  {
+   "a": "Ab",
+   "b": "2026-10-24T09:59:59.999Z",
+   "out": 1
+  },
+  {
+   "a": "Ab",
+   "b": "2026-10-24",
+   "out": 1
+  },
+  {
+   "a": "Ab",
+   "b": "abc1",
+   "out": -1
+  },
+  {
+   "a": "Ab",
+   "b": "abc10",
+   "out": -1
+  },
+  {
+   "a": "Ab",
+   "b": "abc2",
+   "out": -1
+  },
+  {
+   "a": "Ab",
+   "b": "x.y",
+   "out": -1
+  },
+  {
+   "a": "Ab",
+   "b": "x,y",
+   "out": -1
+  },
+  {
+   "a": "Ab",
+   "b": "x(y",
+   "out": -1
+  },
+  {
+   "a": "Ab",
+   "b": "x$y",
+   "out": -1
+  },
+  {
+   "a": "Ab",
+   "b": "x~y",
+   "out": -1
+  },
+  {
+   "a": "Ab",
+   "b": "Dips",
+   "out": -1
+  },
+  {
+   "a": "Ab",
+   "b": "dips",
+   "out": -1
+  },
+  {
+   "a": "Ab",
+   "b": "DIPS",
+   "out": -1
+  },
+  {
+   "a": "Ab",
+   "b": "Dip s",
+   "out": -1
+  },
+  {
+   "a": "a_b",
+   "b": "a-b",
+   "out": -1
+  },
+  {
+   "a": "a_b",
+   "b": "ab",
+   "out": -1
+  },
+  {
+   "a": "a_b",
+   "b": "a b",
+   "out": 1
+  },
+  {
+   "a": "a_b",
+   "b": "aB",
+   "out": -1
+  },
+  {
+   "a": "a_b",
+   "b": "Ab",
+   "out": -1
+  },
+  {
+   "a": "a_b",
+   "b": "a_b",
+   "out": 0
+  },
+  {
+   "a": "a_b",
+   "b": "A-b",
+   "out": -1
+  },
+  {
+   "a": "a_b",
+   "b": "",
+   "out": 1
+  },
+  {
+   "a": "a_b",
+   "b": "a",
+   "out": 1
+  },
+  {
+   "a": "a_b",
+   "b": "A",
+   "out": 1
+  },
+  {
+   "a": "a_b",
+   "b": "b",
+   "out": -1
+  },
+  {
+   "a": "a_b",
+   "b": "Cable EZ-Bar Curl",
+   "out": -1
+  },
+  {
+   "a": "a_b",
+   "b": "Cable D-Handle Curl",
+   "out": -1
+  },
+  {
+   "a": "a_b",
+   "b": "45 Degree Hinge",
+   "out": 1
+  },
+  {
+   "a": "a_b",
+   "b": "Y-Raise",
+   "out": -1
+  },
+  {
+   "a": "a_b",
+   "b": "T-Bar Row",
+   "out": -1
+  },
+  {
+   "a": "a_b",
+   "b": "Tricep Pushdown",
+   "out": -1
+  },
+  {
+   "a": "a_b",
+   "b": "SA Bench Lat Pulldown",
+   "out": -1
+  },
+  {
+   "a": "a_b",
+   "b": "Smith High Row",
+   "out": -1
+  },
+  {
+   "a": "a_b",
+   "b": "2026-10-24T10:00:00.000Z",
+   "out": 1
+  },
+  {
+   "a": "a_b",
+   "b": "2026-10-24T10:00:00Z",
+   "out": 1
+  },
+  {
+   "a": "a_b",
+   "b": "2026-10-24T09:59:59.999Z",
+   "out": 1
+  },
+  {
+   "a": "a_b",
+   "b": "2026-10-24",
+   "out": 1
+  },
+  {
+   "a": "a_b",
+   "b": "abc1",
+   "out": -1
+  },
+  {
+   "a": "a_b",
+   "b": "abc10",
+   "out": -1
+  },
+  {
+   "a": "a_b",
+   "b": "abc2",
+   "out": -1
+  },
+  {
+   "a": "a_b",
+   "b": "x.y",
+   "out": -1
+  },
+  {
+   "a": "a_b",
+   "b": "x,y",
+   "out": -1
+  },
+  {
+   "a": "a_b",
+   "b": "x(y",
+   "out": -1
+  },
+  {
+   "a": "a_b",
+   "b": "x$y",
+   "out": -1
+  },
+  {
+   "a": "a_b",
+   "b": "x~y",
+   "out": -1
+  },
+  {
+   "a": "a_b",
+   "b": "Dips",
+   "out": -1
+  },
+  {
+   "a": "a_b",
+   "b": "dips",
+   "out": -1
+  },
+  {
+   "a": "a_b",
+   "b": "DIPS",
+   "out": -1
+  },
+  {
+   "a": "a_b",
+   "b": "Dip s",
+   "out": -1
+  },
+  {
+   "a": "A-b",
+   "b": "a-b",
+   "out": 1
+  },
+  {
+   "a": "A-b",
+   "b": "ab",
+   "out": -1
+  },
+  {
+   "a": "A-b",
+   "b": "a b",
+   "out": 1
+  },
+  {
+   "a": "A-b",
+   "b": "aB",
+   "out": -1
+  },
+  {
+   "a": "A-b",
+   "b": "Ab",
+   "out": -1
+  },
+  {
+   "a": "A-b",
+   "b": "a_b",
+   "out": 1
+  },
+  {
+   "a": "A-b",
+   "b": "A-b",
+   "out": 0
+  },
+  {
+   "a": "A-b",
+   "b": "",
+   "out": 1
+  },
+  {
+   "a": "A-b",
+   "b": "a",
+   "out": 1
+  },
+  {
+   "a": "A-b",
+   "b": "A",
+   "out": 1
+  },
+  {
+   "a": "A-b",
+   "b": "b",
+   "out": -1
+  },
+  {
+   "a": "A-b",
+   "b": "Cable EZ-Bar Curl",
+   "out": -1
+  },
+  {
+   "a": "A-b",
+   "b": "Cable D-Handle Curl",
+   "out": -1
+  },
+  {
+   "a": "A-b",
+   "b": "45 Degree Hinge",
+   "out": 1
+  },
+  {
+   "a": "A-b",
+   "b": "Y-Raise",
+   "out": -1
+  },
+  {
+   "a": "A-b",
+   "b": "T-Bar Row",
+   "out": -1
+  },
+  {
+   "a": "A-b",
+   "b": "Tricep Pushdown",
+   "out": -1
+  },
+  {
+   "a": "A-b",
+   "b": "SA Bench Lat Pulldown",
+   "out": -1
+  },
+  {
+   "a": "A-b",
+   "b": "Smith High Row",
+   "out": -1
+  },
+  {
+   "a": "A-b",
+   "b": "2026-10-24T10:00:00.000Z",
+   "out": 1
+  },
+  {
+   "a": "A-b",
+   "b": "2026-10-24T10:00:00Z",
+   "out": 1
+  },
+  {
+   "a": "A-b",
+   "b": "2026-10-24T09:59:59.999Z",
+   "out": 1
+  },
+  {
+   "a": "A-b",
+   "b": "2026-10-24",
+   "out": 1
+  },
+  {
+   "a": "A-b",
+   "b": "abc1",
+   "out": -1
+  },
+  {
+   "a": "A-b",
+   "b": "abc10",
+   "out": -1
+  },
+  {
+   "a": "A-b",
+   "b": "abc2",
+   "out": -1
+  },
+  {
+   "a": "A-b",
+   "b": "x.y",
+   "out": -1
+  },
+  {
+   "a": "A-b",
+   "b": "x,y",
+   "out": -1
+  },
+  {
+   "a": "A-b",
+   "b": "x(y",
+   "out": -1
+  },
+  {
+   "a": "A-b",
+   "b": "x$y",
+   "out": -1
+  },
+  {
+   "a": "A-b",
+   "b": "x~y",
+   "out": -1
+  },
+  {
+   "a": "A-b",
+   "b": "Dips",
+   "out": -1
+  },
+  {
+   "a": "A-b",
+   "b": "dips",
+   "out": -1
+  },
+  {
+   "a": "A-b",
+   "b": "DIPS",
+   "out": -1
+  },
+  {
+   "a": "A-b",
+   "b": "Dip s",
+   "out": -1
+  },
+  {
+   "a": "",
+   "b": "a-b",
+   "out": -1
+  },
+  {
+   "a": "",
+   "b": "ab",
+   "out": -1
+  },
+  {
+   "a": "",
+   "b": "a b",
+   "out": -1
+  },
+  {
+   "a": "",
+   "b": "aB",
+   "out": -1
+  },
+  {
+   "a": "",
+   "b": "Ab",
+   "out": -1
+  },
+  {
+   "a": "",
+   "b": "a_b",
+   "out": -1
+  },
+  {
+   "a": "",
+   "b": "A-b",
+   "out": -1
+  },
+  {
+   "a": "",
+   "b": "",
+   "out": 0
+  },
+  {
+   "a": "",
+   "b": "a",
+   "out": -1
+  },
+  {
+   "a": "",
+   "b": "A",
+   "out": -1
+  },
+  {
+   "a": "",
+   "b": "b",
+   "out": -1
+  },
+  {
+   "a": "",
+   "b": "Cable EZ-Bar Curl",
+   "out": -1
+  },
+  {
+   "a": "",
+   "b": "Cable D-Handle Curl",
+   "out": -1
+  },
+  {
+   "a": "",
+   "b": "45 Degree Hinge",
+   "out": -1
+  },
+  {
+   "a": "",
+   "b": "Y-Raise",
+   "out": -1
+  },
+  {
+   "a": "",
+   "b": "T-Bar Row",
+   "out": -1
+  },
+  {
+   "a": "",
+   "b": "Tricep Pushdown",
+   "out": -1
+  },
+  {
+   "a": "",
+   "b": "SA Bench Lat Pulldown",
+   "out": -1
+  },
+  {
+   "a": "",
+   "b": "Smith High Row",
+   "out": -1
+  },
+  {
+   "a": "",
+   "b": "2026-10-24T10:00:00.000Z",
+   "out": -1
+  },
+  {
+   "a": "",
+   "b": "2026-10-24T10:00:00Z",
+   "out": -1
+  },
+  {
+   "a": "",
+   "b": "2026-10-24T09:59:59.999Z",
+   "out": -1
+  },
+  {
+   "a": "",
+   "b": "2026-10-24",
+   "out": -1
+  },
+  {
+   "a": "",
+   "b": "abc1",
+   "out": -1
+  },
+  {
+   "a": "",
+   "b": "abc10",
+   "out": -1
+  },
+  {
+   "a": "",
+   "b": "abc2",
+   "out": -1
+  },
+  {
+   "a": "",
+   "b": "x.y",
+   "out": -1
+  },
+  {
+   "a": "",
+   "b": "x,y",
+   "out": -1
+  },
+  {
+   "a": "",
+   "b": "x(y",
+   "out": -1
+  },
+  {
+   "a": "",
+   "b": "x$y",
+   "out": -1
+  },
+  {
+   "a": "",
+   "b": "x~y",
+   "out": -1
+  },
+  {
+   "a": "",
+   "b": "Dips",
+   "out": -1
+  },
+  {
+   "a": "",
+   "b": "dips",
+   "out": -1
+  },
+  {
+   "a": "",
+   "b": "DIPS",
+   "out": -1
+  },
+  {
+   "a": "",
+   "b": "Dip s",
+   "out": -1
+  },
+  {
+   "a": "a",
+   "b": "a-b",
+   "out": -1
+  },
+  {
+   "a": "a",
+   "b": "ab",
+   "out": -1
+  },
+  {
+   "a": "a",
+   "b": "a b",
+   "out": -1
+  },
+  {
+   "a": "a",
+   "b": "aB",
+   "out": -1
+  },
+  {
+   "a": "a",
+   "b": "Ab",
+   "out": -1
+  },
+  {
+   "a": "a",
+   "b": "a_b",
+   "out": -1
+  },
+  {
+   "a": "a",
+   "b": "A-b",
+   "out": -1
+  },
+  {
+   "a": "a",
+   "b": "",
+   "out": 1
+  },
+  {
+   "a": "a",
+   "b": "a",
+   "out": 0
+  },
+  {
+   "a": "a",
+   "b": "A",
+   "out": -1
+  },
+  {
+   "a": "a",
+   "b": "b",
+   "out": -1
+  },
+  {
+   "a": "a",
+   "b": "Cable EZ-Bar Curl",
+   "out": -1
+  },
+  {
+   "a": "a",
+   "b": "Cable D-Handle Curl",
+   "out": -1
+  },
+  {
+   "a": "a",
+   "b": "45 Degree Hinge",
+   "out": 1
+  },
+  {
+   "a": "a",
+   "b": "Y-Raise",
+   "out": -1
+  },
+  {
+   "a": "a",
+   "b": "T-Bar Row",
+   "out": -1
+  },
+  {
+   "a": "a",
+   "b": "Tricep Pushdown",
+   "out": -1
+  },
+  {
+   "a": "a",
+   "b": "SA Bench Lat Pulldown",
+   "out": -1
+  },
+  {
+   "a": "a",
+   "b": "Smith High Row",
+   "out": -1
+  },
+  {
+   "a": "a",
+   "b": "2026-10-24T10:00:00.000Z",
+   "out": 1
+  },
+  {
+   "a": "a",
+   "b": "2026-10-24T10:00:00Z",
+   "out": 1
+  },
+  {
+   "a": "a",
+   "b": "2026-10-24T09:59:59.999Z",
+   "out": 1
+  },
+  {
+   "a": "a",
+   "b": "2026-10-24",
+   "out": 1
+  },
+  {
+   "a": "a",
+   "b": "abc1",
+   "out": -1
+  },
+  {
+   "a": "a",
+   "b": "abc10",
+   "out": -1
+  },
+  {
+   "a": "a",
+   "b": "abc2",
+   "out": -1
+  },
+  {
+   "a": "a",
+   "b": "x.y",
+   "out": -1
+  },
+  {
+   "a": "a",
+   "b": "x,y",
+   "out": -1
+  },
+  {
+   "a": "a",
+   "b": "x(y",
+   "out": -1
+  },
+  {
+   "a": "a",
+   "b": "x$y",
+   "out": -1
+  },
+  {
+   "a": "a",
+   "b": "x~y",
+   "out": -1
+  },
+  {
+   "a": "a",
+   "b": "Dips",
+   "out": -1
+  },
+  {
+   "a": "a",
+   "b": "dips",
+   "out": -1
+  },
+  {
+   "a": "a",
+   "b": "DIPS",
+   "out": -1
+  },
+  {
+   "a": "a",
+   "b": "Dip s",
+   "out": -1
+  },
+  {
+   "a": "A",
+   "b": "a-b",
+   "out": -1
+  },
+  {
+   "a": "A",
+   "b": "ab",
+   "out": -1
+  },
+  {
+   "a": "A",
+   "b": "a b",
+   "out": -1
+  },
+  {
+   "a": "A",
+   "b": "aB",
+   "out": -1
+  },
+  {
+   "a": "A",
+   "b": "Ab",
+   "out": -1
+  },
+  {
+   "a": "A",
+   "b": "a_b",
+   "out": -1
+  },
+  {
+   "a": "A",
+   "b": "A-b",
+   "out": -1
+  },
+  {
+   "a": "A",
+   "b": "",
+   "out": 1
+  },
+  {
+   "a": "A",
+   "b": "a",
+   "out": 1
+  },
+  {
+   "a": "A",
+   "b": "A",
+   "out": 0
+  },
+  {
+   "a": "A",
+   "b": "b",
+   "out": -1
+  },
+  {
+   "a": "A",
+   "b": "Cable EZ-Bar Curl",
+   "out": -1
+  },
+  {
+   "a": "A",
+   "b": "Cable D-Handle Curl",
+   "out": -1
+  },
+  {
+   "a": "A",
+   "b": "45 Degree Hinge",
+   "out": 1
+  },
+  {
+   "a": "A",
+   "b": "Y-Raise",
+   "out": -1
+  },
+  {
+   "a": "A",
+   "b": "T-Bar Row",
+   "out": -1
+  },
+  {
+   "a": "A",
+   "b": "Tricep Pushdown",
+   "out": -1
+  },
+  {
+   "a": "A",
+   "b": "SA Bench Lat Pulldown",
+   "out": -1
+  },
+  {
+   "a": "A",
+   "b": "Smith High Row",
+   "out": -1
+  },
+  {
+   "a": "A",
+   "b": "2026-10-24T10:00:00.000Z",
+   "out": 1
+  },
+  {
+   "a": "A",
+   "b": "2026-10-24T10:00:00Z",
+   "out": 1
+  },
+  {
+   "a": "A",
+   "b": "2026-10-24T09:59:59.999Z",
+   "out": 1
+  },
+  {
+   "a": "A",
+   "b": "2026-10-24",
+   "out": 1
+  },
+  {
+   "a": "A",
+   "b": "abc1",
+   "out": -1
+  },
+  {
+   "a": "A",
+   "b": "abc10",
+   "out": -1
+  },
+  {
+   "a": "A",
+   "b": "abc2",
+   "out": -1
+  },
+  {
+   "a": "A",
+   "b": "x.y",
+   "out": -1
+  },
+  {
+   "a": "A",
+   "b": "x,y",
+   "out": -1
+  },
+  {
+   "a": "A",
+   "b": "x(y",
+   "out": -1
+  },
+  {
+   "a": "A",
+   "b": "x$y",
+   "out": -1
+  },
+  {
+   "a": "A",
+   "b": "x~y",
+   "out": -1
+  },
+  {
+   "a": "A",
+   "b": "Dips",
+   "out": -1
+  },
+  {
+   "a": "A",
+   "b": "dips",
+   "out": -1
+  },
+  {
+   "a": "A",
+   "b": "DIPS",
+   "out": -1
+  },
+  {
+   "a": "A",
+   "b": "Dip s",
+   "out": -1
+  },
+  {
+   "a": "b",
+   "b": "a-b",
+   "out": 1
+  },
+  {
+   "a": "b",
+   "b": "ab",
+   "out": 1
+  },
+  {
+   "a": "b",
+   "b": "a b",
+   "out": 1
+  },
+  {
+   "a": "b",
+   "b": "aB",
+   "out": 1
+  },
+  {
+   "a": "b",
+   "b": "Ab",
+   "out": 1
+  },
+  {
+   "a": "b",
+   "b": "a_b",
+   "out": 1
+  },
+  {
+   "a": "b",
+   "b": "A-b",
+   "out": 1
+  },
+  {
+   "a": "b",
+   "b": "",
+   "out": 1
+  },
+  {
+   "a": "b",
+   "b": "a",
+   "out": 1
+  },
+  {
+   "a": "b",
+   "b": "A",
+   "out": 1
+  },
+  {
+   "a": "b",
+   "b": "b",
+   "out": 0
+  },
+  {
+   "a": "b",
+   "b": "Cable EZ-Bar Curl",
+   "out": -1
+  },
+  {
+   "a": "b",
+   "b": "Cable D-Handle Curl",
+   "out": -1
+  },
+  {
+   "a": "b",
+   "b": "45 Degree Hinge",
+   "out": 1
+  },
+  {
+   "a": "b",
+   "b": "Y-Raise",
+   "out": -1
+  },
+  {
+   "a": "b",
+   "b": "T-Bar Row",
+   "out": -1
+  },
+  {
+   "a": "b",
+   "b": "Tricep Pushdown",
+   "out": -1
+  },
+  {
+   "a": "b",
+   "b": "SA Bench Lat Pulldown",
+   "out": -1
+  },
+  {
+   "a": "b",
+   "b": "Smith High Row",
+   "out": -1
+  },
+  {
+   "a": "b",
+   "b": "2026-10-24T10:00:00.000Z",
+   "out": 1
+  },
+  {
+   "a": "b",
+   "b": "2026-10-24T10:00:00Z",
+   "out": 1
+  },
+  {
+   "a": "b",
+   "b": "2026-10-24T09:59:59.999Z",
+   "out": 1
+  },
+  {
+   "a": "b",
+   "b": "2026-10-24",
+   "out": 1
+  },
+  {
+   "a": "b",
+   "b": "abc1",
+   "out": 1
+  },
+  {
+   "a": "b",
+   "b": "abc10",
+   "out": 1
+  },
+  {
+   "a": "b",
+   "b": "abc2",
+   "out": 1
+  },
+  {
+   "a": "b",
+   "b": "x.y",
+   "out": -1
+  },
+  {
+   "a": "b",
+   "b": "x,y",
+   "out": -1
+  },
+  {
+   "a": "b",
+   "b": "x(y",
+   "out": -1
+  },
+  {
+   "a": "b",
+   "b": "x$y",
+   "out": -1
+  },
+  {
+   "a": "b",
+   "b": "x~y",
+   "out": -1
+  },
+  {
+   "a": "b",
+   "b": "Dips",
+   "out": -1
+  },
+  {
+   "a": "b",
+   "b": "dips",
+   "out": -1
+  },
+  {
+   "a": "b",
+   "b": "DIPS",
+   "out": -1
+  },
+  {
+   "a": "b",
+   "b": "Dip s",
+   "out": -1
+  },
+  {
+   "a": "Cable EZ-Bar Curl",
+   "b": "a-b",
+   "out": 1
+  },
+  {
+   "a": "Cable EZ-Bar Curl",
+   "b": "ab",
+   "out": 1
+  },
+  {
+   "a": "Cable EZ-Bar Curl",
+   "b": "a b",
+   "out": 1
+  },
+  {
+   "a": "Cable EZ-Bar Curl",
+   "b": "aB",
+   "out": 1
+  },
+  {
+   "a": "Cable EZ-Bar Curl",
+   "b": "Ab",
+   "out": 1
+  },
+  {
+   "a": "Cable EZ-Bar Curl",
+   "b": "a_b",
+   "out": 1
+  },
+  {
+   "a": "Cable EZ-Bar Curl",
+   "b": "A-b",
+   "out": 1
+  },
+  {
+   "a": "Cable EZ-Bar Curl",
+   "b": "",
+   "out": 1
+  },
+  {
+   "a": "Cable EZ-Bar Curl",
+   "b": "a",
+   "out": 1
+  },
+  {
+   "a": "Cable EZ-Bar Curl",
+   "b": "A",
+   "out": 1
+  },
+  {
+   "a": "Cable EZ-Bar Curl",
+   "b": "b",
+   "out": 1
+  },
+  {
+   "a": "Cable EZ-Bar Curl",
+   "b": "Cable EZ-Bar Curl",
+   "out": 0
+  },
+  {
+   "a": "Cable EZ-Bar Curl",
+   "b": "Cable D-Handle Curl",
+   "out": 1
+  },
+  {
+   "a": "Cable EZ-Bar Curl",
+   "b": "45 Degree Hinge",
+   "out": 1
+  },
+  {
+   "a": "Cable EZ-Bar Curl",
+   "b": "Y-Raise",
+   "out": -1
+  },
+  {
+   "a": "Cable EZ-Bar Curl",
+   "b": "T-Bar Row",
+   "out": -1
+  },
+  {
+   "a": "Cable EZ-Bar Curl",
+   "b": "Tricep Pushdown",
+   "out": -1
+  },
+  {
+   "a": "Cable EZ-Bar Curl",
+   "b": "SA Bench Lat Pulldown",
+   "out": -1
+  },
+  {
+   "a": "Cable EZ-Bar Curl",
+   "b": "Smith High Row",
+   "out": -1
+  },
+  {
+   "a": "Cable EZ-Bar Curl",
+   "b": "2026-10-24T10:00:00.000Z",
+   "out": 1
+  },
+  {
+   "a": "Cable EZ-Bar Curl",
+   "b": "2026-10-24T10:00:00Z",
+   "out": 1
+  },
+  {
+   "a": "Cable EZ-Bar Curl",
+   "b": "2026-10-24T09:59:59.999Z",
+   "out": 1
+  },
+  {
+   "a": "Cable EZ-Bar Curl",
+   "b": "2026-10-24",
+   "out": 1
+  },
+  {
+   "a": "Cable EZ-Bar Curl",
+   "b": "abc1",
+   "out": 1
+  },
+  {
+   "a": "Cable EZ-Bar Curl",
+   "b": "abc10",
+   "out": 1
+  },
+  {
+   "a": "Cable EZ-Bar Curl",
+   "b": "abc2",
+   "out": 1
+  },
+  {
+   "a": "Cable EZ-Bar Curl",
+   "b": "x.y",
+   "out": -1
+  },
+  {
+   "a": "Cable EZ-Bar Curl",
+   "b": "x,y",
+   "out": -1
+  },
+  {
+   "a": "Cable EZ-Bar Curl",
+   "b": "x(y",
+   "out": -1
+  },
+  {
+   "a": "Cable EZ-Bar Curl",
+   "b": "x$y",
+   "out": -1
+  },
+  {
+   "a": "Cable EZ-Bar Curl",
+   "b": "x~y",
+   "out": -1
+  },
+  {
+   "a": "Cable EZ-Bar Curl",
+   "b": "Dips",
+   "out": -1
+  },
+  {
+   "a": "Cable EZ-Bar Curl",
+   "b": "dips",
+   "out": -1
+  },
+  {
+   "a": "Cable EZ-Bar Curl",
+   "b": "DIPS",
+   "out": -1
+  },
+  {
+   "a": "Cable EZ-Bar Curl",
+   "b": "Dip s",
+   "out": -1
+  },
+  {
+   "a": "Cable D-Handle Curl",
+   "b": "a-b",
+   "out": 1
+  },
+  {
+   "a": "Cable D-Handle Curl",
+   "b": "ab",
+   "out": 1
+  },
+  {
+   "a": "Cable D-Handle Curl",
+   "b": "a b",
+   "out": 1
+  },
+  {
+   "a": "Cable D-Handle Curl",
+   "b": "aB",
+   "out": 1
+  },
+  {
+   "a": "Cable D-Handle Curl",
+   "b": "Ab",
+   "out": 1
+  },
+  {
+   "a": "Cable D-Handle Curl",
+   "b": "a_b",
+   "out": 1
+  },
+  {
+   "a": "Cable D-Handle Curl",
+   "b": "A-b",
+   "out": 1
+  },
+  {
+   "a": "Cable D-Handle Curl",
+   "b": "",
+   "out": 1
+  },
+  {
+   "a": "Cable D-Handle Curl",
+   "b": "a",
+   "out": 1
+  },
+  {
+   "a": "Cable D-Handle Curl",
+   "b": "A",
+   "out": 1
+  },
+  {
+   "a": "Cable D-Handle Curl",
+   "b": "b",
+   "out": 1
+  },
+  {
+   "a": "Cable D-Handle Curl",
+   "b": "Cable EZ-Bar Curl",
+   "out": -1
+  },
+  {
+   "a": "Cable D-Handle Curl",
+   "b": "Cable D-Handle Curl",
+   "out": 0
+  },
+  {
+   "a": "Cable D-Handle Curl",
+   "b": "45 Degree Hinge",
+   "out": 1
+  },
+  {
+   "a": "Cable D-Handle Curl",
+   "b": "Y-Raise",
+   "out": -1
+  },
+  {
+   "a": "Cable D-Handle Curl",
+   "b": "T-Bar Row",
+   "out": -1
+  },
+  {
+   "a": "Cable D-Handle Curl",
+   "b": "Tricep Pushdown",
+   "out": -1
+  },
+  {
+   "a": "Cable D-Handle Curl",
+   "b": "SA Bench Lat Pulldown",
+   "out": -1
+  },
+  {
+   "a": "Cable D-Handle Curl",
+   "b": "Smith High Row",
+   "out": -1
+  },
+  {
+   "a": "Cable D-Handle Curl",
+   "b": "2026-10-24T10:00:00.000Z",
+   "out": 1
+  },
+  {
+   "a": "Cable D-Handle Curl",
+   "b": "2026-10-24T10:00:00Z",
+   "out": 1
+  },
+  {
+   "a": "Cable D-Handle Curl",
+   "b": "2026-10-24T09:59:59.999Z",
+   "out": 1
+  },
+  {
+   "a": "Cable D-Handle Curl",
+   "b": "2026-10-24",
+   "out": 1
+  },
+  {
+   "a": "Cable D-Handle Curl",
+   "b": "abc1",
+   "out": 1
+  },
+  {
+   "a": "Cable D-Handle Curl",
+   "b": "abc10",
+   "out": 1
+  },
+  {
+   "a": "Cable D-Handle Curl",
+   "b": "abc2",
+   "out": 1
+  },
+  {
+   "a": "Cable D-Handle Curl",
+   "b": "x.y",
+   "out": -1
+  },
+  {
+   "a": "Cable D-Handle Curl",
+   "b": "x,y",
+   "out": -1
+  },
+  {
+   "a": "Cable D-Handle Curl",
+   "b": "x(y",
+   "out": -1
+  },
+  {
+   "a": "Cable D-Handle Curl",
+   "b": "x$y",
+   "out": -1
+  },
+  {
+   "a": "Cable D-Handle Curl",
+   "b": "x~y",
+   "out": -1
+  },
+  {
+   "a": "Cable D-Handle Curl",
+   "b": "Dips",
+   "out": -1
+  },
+  {
+   "a": "Cable D-Handle Curl",
+   "b": "dips",
+   "out": -1
+  },
+  {
+   "a": "Cable D-Handle Curl",
+   "b": "DIPS",
+   "out": -1
+  },
+  {
+   "a": "Cable D-Handle Curl",
+   "b": "Dip s",
+   "out": -1
+  },
+  {
+   "a": "45 Degree Hinge",
+   "b": "a-b",
+   "out": -1
+  },
+  {
+   "a": "45 Degree Hinge",
+   "b": "ab",
+   "out": -1
+  },
+  {
+   "a": "45 Degree Hinge",
+   "b": "a b",
+   "out": -1
+  },
+  {
+   "a": "45 Degree Hinge",
+   "b": "aB",
+   "out": -1
+  },
+  {
+   "a": "45 Degree Hinge",
+   "b": "Ab",
+   "out": -1
+  },
+  {
+   "a": "45 Degree Hinge",
+   "b": "a_b",
+   "out": -1
+  },
+  {
+   "a": "45 Degree Hinge",
+   "b": "A-b",
+   "out": -1
+  },
+  {
+   "a": "45 Degree Hinge",
+   "b": "",
+   "out": 1
+  },
+  {
+   "a": "45 Degree Hinge",
+   "b": "a",
+   "out": -1
+  },
+  {
+   "a": "45 Degree Hinge",
+   "b": "A",
+   "out": -1
+  },
+  {
+   "a": "45 Degree Hinge",
+   "b": "b",
+   "out": -1
+  },
+  {
+   "a": "45 Degree Hinge",
+   "b": "Cable EZ-Bar Curl",
+   "out": -1
+  },
+  {
+   "a": "45 Degree Hinge",
+   "b": "Cable D-Handle Curl",
+   "out": -1
+  },
+  {
+   "a": "45 Degree Hinge",
+   "b": "45 Degree Hinge",
+   "out": 0
+  },
+  {
+   "a": "45 Degree Hinge",
+   "b": "Y-Raise",
+   "out": -1
+  },
+  {
+   "a": "45 Degree Hinge",
+   "b": "T-Bar Row",
+   "out": -1
+  },
+  {
+   "a": "45 Degree Hinge",
+   "b": "Tricep Pushdown",
+   "out": -1
+  },
+  {
+   "a": "45 Degree Hinge",
+   "b": "SA Bench Lat Pulldown",
+   "out": -1
+  },
+  {
+   "a": "45 Degree Hinge",
+   "b": "Smith High Row",
+   "out": -1
+  },
+  {
+   "a": "45 Degree Hinge",
+   "b": "2026-10-24T10:00:00.000Z",
+   "out": 1
+  },
+  {
+   "a": "45 Degree Hinge",
+   "b": "2026-10-24T10:00:00Z",
+   "out": 1
+  },
+  {
+   "a": "45 Degree Hinge",
+   "b": "2026-10-24T09:59:59.999Z",
+   "out": 1
+  },
+  {
+   "a": "45 Degree Hinge",
+   "b": "2026-10-24",
+   "out": 1
+  },
+  {
+   "a": "45 Degree Hinge",
+   "b": "abc1",
+   "out": -1
+  },
+  {
+   "a": "45 Degree Hinge",
+   "b": "abc10",
+   "out": -1
+  },
+  {
+   "a": "45 Degree Hinge",
+   "b": "abc2",
+   "out": -1
+  },
+  {
+   "a": "45 Degree Hinge",
+   "b": "x.y",
+   "out": -1
+  },
+  {
+   "a": "45 Degree Hinge",
+   "b": "x,y",
+   "out": -1
+  },
+  {
+   "a": "45 Degree Hinge",
+   "b": "x(y",
+   "out": -1
+  },
+  {
+   "a": "45 Degree Hinge",
+   "b": "x$y",
+   "out": -1
+  },
+  {
+   "a": "45 Degree Hinge",
+   "b": "x~y",
+   "out": -1
+  },
+  {
+   "a": "45 Degree Hinge",
+   "b": "Dips",
+   "out": -1
+  },
+  {
+   "a": "45 Degree Hinge",
+   "b": "dips",
+   "out": -1
+  },
+  {
+   "a": "45 Degree Hinge",
+   "b": "DIPS",
+   "out": -1
+  },
+  {
+   "a": "45 Degree Hinge",
+   "b": "Dip s",
+   "out": -1
+  },
+  {
+   "a": "Y-Raise",
+   "b": "a-b",
+   "out": 1
+  },
+  {
+   "a": "Y-Raise",
+   "b": "ab",
+   "out": 1
+  },
+  {
+   "a": "Y-Raise",
+   "b": "a b",
+   "out": 1
+  },
+  {
+   "a": "Y-Raise",
+   "b": "aB",
+   "out": 1
+  },
+  {
+   "a": "Y-Raise",
+   "b": "Ab",
+   "out": 1
+  },
+  {
+   "a": "Y-Raise",
+   "b": "a_b",
+   "out": 1
+  },
+  {
+   "a": "Y-Raise",
+   "b": "A-b",
+   "out": 1
+  },
+  {
+   "a": "Y-Raise",
+   "b": "",
+   "out": 1
+  },
+  {
+   "a": "Y-Raise",
+   "b": "a",
+   "out": 1
+  },
+  {
+   "a": "Y-Raise",
+   "b": "A",
+   "out": 1
+  },
+  {
+   "a": "Y-Raise",
+   "b": "b",
+   "out": 1
+  },
+  {
+   "a": "Y-Raise",
+   "b": "Cable EZ-Bar Curl",
+   "out": 1
+  },
+  {
+   "a": "Y-Raise",
+   "b": "Cable D-Handle Curl",
+   "out": 1
+  },
+  {
+   "a": "Y-Raise",
+   "b": "45 Degree Hinge",
+   "out": 1
+  },
+  {
+   "a": "Y-Raise",
+   "b": "Y-Raise",
+   "out": 0
+  },
+  {
+   "a": "Y-Raise",
+   "b": "T-Bar Row",
+   "out": 1
+  },
+  {
+   "a": "Y-Raise",
+   "b": "Tricep Pushdown",
+   "out": 1
+  },
+  {
+   "a": "Y-Raise",
+   "b": "SA Bench Lat Pulldown",
+   "out": 1
+  },
+  {
+   "a": "Y-Raise",
+   "b": "Smith High Row",
+   "out": 1
+  },
+  {
+   "a": "Y-Raise",
+   "b": "2026-10-24T10:00:00.000Z",
+   "out": 1
+  },
+  {
+   "a": "Y-Raise",
+   "b": "2026-10-24T10:00:00Z",
+   "out": 1
+  },
+  {
+   "a": "Y-Raise",
+   "b": "2026-10-24T09:59:59.999Z",
+   "out": 1
+  },
+  {
+   "a": "Y-Raise",
+   "b": "2026-10-24",
+   "out": 1
+  },
+  {
+   "a": "Y-Raise",
+   "b": "abc1",
+   "out": 1
+  },
+  {
+   "a": "Y-Raise",
+   "b": "abc10",
+   "out": 1
+  },
+  {
+   "a": "Y-Raise",
+   "b": "abc2",
+   "out": 1
+  },
+  {
+   "a": "Y-Raise",
+   "b": "x.y",
+   "out": 1
+  },
+  {
+   "a": "Y-Raise",
+   "b": "x,y",
+   "out": 1
+  },
+  {
+   "a": "Y-Raise",
+   "b": "x(y",
+   "out": 1
+  },
+  {
+   "a": "Y-Raise",
+   "b": "x$y",
+   "out": 1
+  },
+  {
+   "a": "Y-Raise",
+   "b": "x~y",
+   "out": 1
+  },
+  {
+   "a": "Y-Raise",
+   "b": "Dips",
+   "out": 1
+  },
+  {
+   "a": "Y-Raise",
+   "b": "dips",
+   "out": 1
+  },
+  {
+   "a": "Y-Raise",
+   "b": "DIPS",
+   "out": 1
+  },
+  {
+   "a": "Y-Raise",
+   "b": "Dip s",
+   "out": 1
+  },
+  {
+   "a": "T-Bar Row",
+   "b": "a-b",
+   "out": 1
+  },
+  {
+   "a": "T-Bar Row",
+   "b": "ab",
+   "out": 1
+  },
+  {
+   "a": "T-Bar Row",
+   "b": "a b",
+   "out": 1
+  },
+  {
+   "a": "T-Bar Row",
+   "b": "aB",
+   "out": 1
+  },
+  {
+   "a": "T-Bar Row",
+   "b": "Ab",
+   "out": 1
+  },
+  {
+   "a": "T-Bar Row",
+   "b": "a_b",
+   "out": 1
+  },
+  {
+   "a": "T-Bar Row",
+   "b": "A-b",
+   "out": 1
+  },
+  {
+   "a": "T-Bar Row",
+   "b": "",
+   "out": 1
+  },
+  {
+   "a": "T-Bar Row",
+   "b": "a",
+   "out": 1
+  },
+  {
+   "a": "T-Bar Row",
+   "b": "A",
+   "out": 1
+  },
+  {
+   "a": "T-Bar Row",
+   "b": "b",
+   "out": 1
+  },
+  {
+   "a": "T-Bar Row",
+   "b": "Cable EZ-Bar Curl",
+   "out": 1
+  },
+  {
+   "a": "T-Bar Row",
+   "b": "Cable D-Handle Curl",
+   "out": 1
+  },
+  {
+   "a": "T-Bar Row",
+   "b": "45 Degree Hinge",
+   "out": 1
+  },
+  {
+   "a": "T-Bar Row",
+   "b": "Y-Raise",
+   "out": -1
+  },
+  {
+   "a": "T-Bar Row",
+   "b": "T-Bar Row",
+   "out": 0
+  },
+  {
+   "a": "T-Bar Row",
+   "b": "Tricep Pushdown",
+   "out": -1
+  },
+  {
+   "a": "T-Bar Row",
+   "b": "SA Bench Lat Pulldown",
+   "out": 1
+  },
+  {
+   "a": "T-Bar Row",
+   "b": "Smith High Row",
+   "out": 1
+  },
+  {
+   "a": "T-Bar Row",
+   "b": "2026-10-24T10:00:00.000Z",
+   "out": 1
+  },
+  {
+   "a": "T-Bar Row",
+   "b": "2026-10-24T10:00:00Z",
+   "out": 1
+  },
+  {
+   "a": "T-Bar Row",
+   "b": "2026-10-24T09:59:59.999Z",
+   "out": 1
+  },
+  {
+   "a": "T-Bar Row",
+   "b": "2026-10-24",
+   "out": 1
+  },
+  {
+   "a": "T-Bar Row",
+   "b": "abc1",
+   "out": 1
+  },
+  {
+   "a": "T-Bar Row",
+   "b": "abc10",
+   "out": 1
+  },
+  {
+   "a": "T-Bar Row",
+   "b": "abc2",
+   "out": 1
+  },
+  {
+   "a": "T-Bar Row",
+   "b": "x.y",
+   "out": -1
+  },
+  {
+   "a": "T-Bar Row",
+   "b": "x,y",
+   "out": -1
+  },
+  {
+   "a": "T-Bar Row",
+   "b": "x(y",
+   "out": -1
+  },
+  {
+   "a": "T-Bar Row",
+   "b": "x$y",
+   "out": -1
+  },
+  {
+   "a": "T-Bar Row",
+   "b": "x~y",
+   "out": -1
+  },
+  {
+   "a": "T-Bar Row",
+   "b": "Dips",
+   "out": 1
+  },
+  {
+   "a": "T-Bar Row",
+   "b": "dips",
+   "out": 1
+  },
+  {
+   "a": "T-Bar Row",
+   "b": "DIPS",
+   "out": 1
+  },
+  {
+   "a": "T-Bar Row",
+   "b": "Dip s",
+   "out": 1
+  },
+  {
+   "a": "Tricep Pushdown",
+   "b": "a-b",
+   "out": 1
+  },
+  {
+   "a": "Tricep Pushdown",
+   "b": "ab",
+   "out": 1
+  },
+  {
+   "a": "Tricep Pushdown",
+   "b": "a b",
+   "out": 1
+  },
+  {
+   "a": "Tricep Pushdown",
+   "b": "aB",
+   "out": 1
+  },
+  {
+   "a": "Tricep Pushdown",
+   "b": "Ab",
+   "out": 1
+  },
+  {
+   "a": "Tricep Pushdown",
+   "b": "a_b",
+   "out": 1
+  },
+  {
+   "a": "Tricep Pushdown",
+   "b": "A-b",
+   "out": 1
+  },
+  {
+   "a": "Tricep Pushdown",
+   "b": "",
+   "out": 1
+  },
+  {
+   "a": "Tricep Pushdown",
+   "b": "a",
+   "out": 1
+  },
+  {
+   "a": "Tricep Pushdown",
+   "b": "A",
+   "out": 1
+  },
+  {
+   "a": "Tricep Pushdown",
+   "b": "b",
+   "out": 1
+  },
+  {
+   "a": "Tricep Pushdown",
+   "b": "Cable EZ-Bar Curl",
+   "out": 1
+  },
+  {
+   "a": "Tricep Pushdown",
+   "b": "Cable D-Handle Curl",
+   "out": 1
+  },
+  {
+   "a": "Tricep Pushdown",
+   "b": "45 Degree Hinge",
+   "out": 1
+  },
+  {
+   "a": "Tricep Pushdown",
+   "b": "Y-Raise",
+   "out": -1
+  },
+  {
+   "a": "Tricep Pushdown",
+   "b": "T-Bar Row",
+   "out": 1
+  },
+  {
+   "a": "Tricep Pushdown",
+   "b": "Tricep Pushdown",
+   "out": 0
+  },
+  {
+   "a": "Tricep Pushdown",
+   "b": "SA Bench Lat Pulldown",
+   "out": 1
+  },
+  {
+   "a": "Tricep Pushdown",
+   "b": "Smith High Row",
+   "out": 1
+  },
+  {
+   "a": "Tricep Pushdown",
+   "b": "2026-10-24T10:00:00.000Z",
+   "out": 1
+  },
+  {
+   "a": "Tricep Pushdown",
+   "b": "2026-10-24T10:00:00Z",
+   "out": 1
+  },
+  {
+   "a": "Tricep Pushdown",
+   "b": "2026-10-24T09:59:59.999Z",
+   "out": 1
+  },
+  {
+   "a": "Tricep Pushdown",
+   "b": "2026-10-24",
+   "out": 1
+  },
+  {
+   "a": "Tricep Pushdown",
+   "b": "abc1",
+   "out": 1
+  },
+  {
+   "a": "Tricep Pushdown",
+   "b": "abc10",
+   "out": 1
+  },
+  {
+   "a": "Tricep Pushdown",
+   "b": "abc2",
+   "out": 1
+  },
+  {
+   "a": "Tricep Pushdown",
+   "b": "x.y",
+   "out": -1
+  },
+  {
+   "a": "Tricep Pushdown",
+   "b": "x,y",
+   "out": -1
+  },
+  {
+   "a": "Tricep Pushdown",
+   "b": "x(y",
+   "out": -1
+  },
+  {
+   "a": "Tricep Pushdown",
+   "b": "x$y",
+   "out": -1
+  },
+  {
+   "a": "Tricep Pushdown",
+   "b": "x~y",
+   "out": -1
+  },
+  {
+   "a": "Tricep Pushdown",
+   "b": "Dips",
+   "out": 1
+  },
+  {
+   "a": "Tricep Pushdown",
+   "b": "dips",
+   "out": 1
+  },
+  {
+   "a": "Tricep Pushdown",
+   "b": "DIPS",
+   "out": 1
+  },
+  {
+   "a": "Tricep Pushdown",
+   "b": "Dip s",
+   "out": 1
+  },
+  {
+   "a": "SA Bench Lat Pulldown",
+   "b": "a-b",
+   "out": 1
+  },
+  {
+   "a": "SA Bench Lat Pulldown",
+   "b": "ab",
+   "out": 1
+  },
+  {
+   "a": "SA Bench Lat Pulldown",
+   "b": "a b",
+   "out": 1
+  },
+  {
+   "a": "SA Bench Lat Pulldown",
+   "b": "aB",
+   "out": 1
+  },
+  {
+   "a": "SA Bench Lat Pulldown",
+   "b": "Ab",
+   "out": 1
+  },
+  {
+   "a": "SA Bench Lat Pulldown",
+   "b": "a_b",
+   "out": 1
+  },
+  {
+   "a": "SA Bench Lat Pulldown",
+   "b": "A-b",
+   "out": 1
+  },
+  {
+   "a": "SA Bench Lat Pulldown",
+   "b": "",
+   "out": 1
+  },
+  {
+   "a": "SA Bench Lat Pulldown",
+   "b": "a",
+   "out": 1
+  },
+  {
+   "a": "SA Bench Lat Pulldown",
+   "b": "A",
+   "out": 1
+  },
+  {
+   "a": "SA Bench Lat Pulldown",
+   "b": "b",
+   "out": 1
+  },
+  {
+   "a": "SA Bench Lat Pulldown",
+   "b": "Cable EZ-Bar Curl",
+   "out": 1
+  },
+  {
+   "a": "SA Bench Lat Pulldown",
+   "b": "Cable D-Handle Curl",
+   "out": 1
+  },
+  {
+   "a": "SA Bench Lat Pulldown",
+   "b": "45 Degree Hinge",
+   "out": 1
+  },
+  {
+   "a": "SA Bench Lat Pulldown",
+   "b": "Y-Raise",
+   "out": -1
+  },
+  {
+   "a": "SA Bench Lat Pulldown",
+   "b": "T-Bar Row",
+   "out": -1
+  },
+  {
+   "a": "SA Bench Lat Pulldown",
+   "b": "Tricep Pushdown",
+   "out": -1
+  },
+  {
+   "a": "SA Bench Lat Pulldown",
+   "b": "SA Bench Lat Pulldown",
+   "out": 0
+  },
+  {
+   "a": "SA Bench Lat Pulldown",
+   "b": "Smith High Row",
+   "out": -1
+  },
+  {
+   "a": "SA Bench Lat Pulldown",
+   "b": "2026-10-24T10:00:00.000Z",
+   "out": 1
+  },
+  {
+   "a": "SA Bench Lat Pulldown",
+   "b": "2026-10-24T10:00:00Z",
+   "out": 1
+  },
+  {
+   "a": "SA Bench Lat Pulldown",
+   "b": "2026-10-24T09:59:59.999Z",
+   "out": 1
+  },
+  {
+   "a": "SA Bench Lat Pulldown",
+   "b": "2026-10-24",
+   "out": 1
+  },
+  {
+   "a": "SA Bench Lat Pulldown",
+   "b": "abc1",
+   "out": 1
+  },
+  {
+   "a": "SA Bench Lat Pulldown",
+   "b": "abc10",
+   "out": 1
+  },
+  {
+   "a": "SA Bench Lat Pulldown",
+   "b": "abc2",
+   "out": 1
+  },
+  {
+   "a": "SA Bench Lat Pulldown",
+   "b": "x.y",
+   "out": -1
+  },
+  {
+   "a": "SA Bench Lat Pulldown",
+   "b": "x,y",
+   "out": -1
+  },
+  {
+   "a": "SA Bench Lat Pulldown",
+   "b": "x(y",
+   "out": -1
+  },
+  {
+   "a": "SA Bench Lat Pulldown",
+   "b": "x$y",
+   "out": -1
+  },
+  {
+   "a": "SA Bench Lat Pulldown",
+   "b": "x~y",
+   "out": -1
+  },
+  {
+   "a": "SA Bench Lat Pulldown",
+   "b": "Dips",
+   "out": 1
+  },
+  {
+   "a": "SA Bench Lat Pulldown",
+   "b": "dips",
+   "out": 1
+  },
+  {
+   "a": "SA Bench Lat Pulldown",
+   "b": "DIPS",
+   "out": 1
+  },
+  {
+   "a": "SA Bench Lat Pulldown",
+   "b": "Dip s",
+   "out": 1
+  },
+  {
+   "a": "Smith High Row",
+   "b": "a-b",
+   "out": 1
+  },
+  {
+   "a": "Smith High Row",
+   "b": "ab",
+   "out": 1
+  },
+  {
+   "a": "Smith High Row",
+   "b": "a b",
+   "out": 1
+  },
+  {
+   "a": "Smith High Row",
+   "b": "aB",
+   "out": 1
+  },
+  {
+   "a": "Smith High Row",
+   "b": "Ab",
+   "out": 1
+  },
+  {
+   "a": "Smith High Row",
+   "b": "a_b",
+   "out": 1
+  },
+  {
+   "a": "Smith High Row",
+   "b": "A-b",
+   "out": 1
+  },
+  {
+   "a": "Smith High Row",
+   "b": "",
+   "out": 1
+  },
+  {
+   "a": "Smith High Row",
+   "b": "a",
+   "out": 1
+  },
+  {
+   "a": "Smith High Row",
+   "b": "A",
+   "out": 1
+  },
+  {
+   "a": "Smith High Row",
+   "b": "b",
+   "out": 1
+  },
+  {
+   "a": "Smith High Row",
+   "b": "Cable EZ-Bar Curl",
+   "out": 1
+  },
+  {
+   "a": "Smith High Row",
+   "b": "Cable D-Handle Curl",
+   "out": 1
+  },
+  {
+   "a": "Smith High Row",
+   "b": "45 Degree Hinge",
+   "out": 1
+  },
+  {
+   "a": "Smith High Row",
+   "b": "Y-Raise",
+   "out": -1
+  },
+  {
+   "a": "Smith High Row",
+   "b": "T-Bar Row",
+   "out": -1
+  },
+  {
+   "a": "Smith High Row",
+   "b": "Tricep Pushdown",
+   "out": -1
+  },
+  {
+   "a": "Smith High Row",
+   "b": "SA Bench Lat Pulldown",
+   "out": 1
+  },
+  {
+   "a": "Smith High Row",
+   "b": "Smith High Row",
+   "out": 0
+  },
+  {
+   "a": "Smith High Row",
+   "b": "2026-10-24T10:00:00.000Z",
+   "out": 1
+  },
+  {
+   "a": "Smith High Row",
+   "b": "2026-10-24T10:00:00Z",
+   "out": 1
+  },
+  {
+   "a": "Smith High Row",
+   "b": "2026-10-24T09:59:59.999Z",
+   "out": 1
+  },
+  {
+   "a": "Smith High Row",
+   "b": "2026-10-24",
+   "out": 1
+  },
+  {
+   "a": "Smith High Row",
+   "b": "abc1",
+   "out": 1
+  },
+  {
+   "a": "Smith High Row",
+   "b": "abc10",
+   "out": 1
+  },
+  {
+   "a": "Smith High Row",
+   "b": "abc2",
+   "out": 1
+  },
+  {
+   "a": "Smith High Row",
+   "b": "x.y",
+   "out": -1
+  },
+  {
+   "a": "Smith High Row",
+   "b": "x,y",
+   "out": -1
+  },
+  {
+   "a": "Smith High Row",
+   "b": "x(y",
+   "out": -1
+  },
+  {
+   "a": "Smith High Row",
+   "b": "x$y",
+   "out": -1
+  },
+  {
+   "a": "Smith High Row",
+   "b": "x~y",
+   "out": -1
+  },
+  {
+   "a": "Smith High Row",
+   "b": "Dips",
+   "out": 1
+  },
+  {
+   "a": "Smith High Row",
+   "b": "dips",
+   "out": 1
+  },
+  {
+   "a": "Smith High Row",
+   "b": "DIPS",
+   "out": 1
+  },
+  {
+   "a": "Smith High Row",
+   "b": "Dip s",
+   "out": 1
+  },
+  {
+   "a": "2026-10-24T10:00:00.000Z",
+   "b": "a-b",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00.000Z",
+   "b": "ab",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00.000Z",
+   "b": "a b",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00.000Z",
+   "b": "aB",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00.000Z",
+   "b": "Ab",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00.000Z",
+   "b": "a_b",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00.000Z",
+   "b": "A-b",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00.000Z",
+   "b": "",
+   "out": 1
+  },
+  {
+   "a": "2026-10-24T10:00:00.000Z",
+   "b": "a",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00.000Z",
+   "b": "A",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00.000Z",
+   "b": "b",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00.000Z",
+   "b": "Cable EZ-Bar Curl",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00.000Z",
+   "b": "Cable D-Handle Curl",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00.000Z",
+   "b": "45 Degree Hinge",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00.000Z",
+   "b": "Y-Raise",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00.000Z",
+   "b": "T-Bar Row",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00.000Z",
+   "b": "Tricep Pushdown",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00.000Z",
+   "b": "SA Bench Lat Pulldown",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00.000Z",
+   "b": "Smith High Row",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00.000Z",
+   "b": "2026-10-24T10:00:00.000Z",
+   "out": 0
+  },
+  {
+   "a": "2026-10-24T10:00:00.000Z",
+   "b": "2026-10-24T10:00:00Z",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00.000Z",
+   "b": "2026-10-24T09:59:59.999Z",
+   "out": 1
+  },
+  {
+   "a": "2026-10-24T10:00:00.000Z",
+   "b": "2026-10-24",
+   "out": 1
+  },
+  {
+   "a": "2026-10-24T10:00:00.000Z",
+   "b": "abc1",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00.000Z",
+   "b": "abc10",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00.000Z",
+   "b": "abc2",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00.000Z",
+   "b": "x.y",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00.000Z",
+   "b": "x,y",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00.000Z",
+   "b": "x(y",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00.000Z",
+   "b": "x$y",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00.000Z",
+   "b": "x~y",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00.000Z",
+   "b": "Dips",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00.000Z",
+   "b": "dips",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00.000Z",
+   "b": "DIPS",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00.000Z",
+   "b": "Dip s",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00Z",
+   "b": "a-b",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00Z",
+   "b": "ab",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00Z",
+   "b": "a b",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00Z",
+   "b": "aB",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00Z",
+   "b": "Ab",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00Z",
+   "b": "a_b",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00Z",
+   "b": "A-b",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00Z",
+   "b": "",
+   "out": 1
+  },
+  {
+   "a": "2026-10-24T10:00:00Z",
+   "b": "a",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00Z",
+   "b": "A",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00Z",
+   "b": "b",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00Z",
+   "b": "Cable EZ-Bar Curl",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00Z",
+   "b": "Cable D-Handle Curl",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00Z",
+   "b": "45 Degree Hinge",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00Z",
+   "b": "Y-Raise",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00Z",
+   "b": "T-Bar Row",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00Z",
+   "b": "Tricep Pushdown",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00Z",
+   "b": "SA Bench Lat Pulldown",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00Z",
+   "b": "Smith High Row",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00Z",
+   "b": "2026-10-24T10:00:00.000Z",
+   "out": 1
+  },
+  {
+   "a": "2026-10-24T10:00:00Z",
+   "b": "2026-10-24T10:00:00Z",
+   "out": 0
+  },
+  {
+   "a": "2026-10-24T10:00:00Z",
+   "b": "2026-10-24T09:59:59.999Z",
+   "out": 1
+  },
+  {
+   "a": "2026-10-24T10:00:00Z",
+   "b": "2026-10-24",
+   "out": 1
+  },
+  {
+   "a": "2026-10-24T10:00:00Z",
+   "b": "abc1",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00Z",
+   "b": "abc10",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00Z",
+   "b": "abc2",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00Z",
+   "b": "x.y",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00Z",
+   "b": "x,y",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00Z",
+   "b": "x(y",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00Z",
+   "b": "x$y",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00Z",
+   "b": "x~y",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00Z",
+   "b": "Dips",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00Z",
+   "b": "dips",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00Z",
+   "b": "DIPS",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T10:00:00Z",
+   "b": "Dip s",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T09:59:59.999Z",
+   "b": "a-b",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T09:59:59.999Z",
+   "b": "ab",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T09:59:59.999Z",
+   "b": "a b",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T09:59:59.999Z",
+   "b": "aB",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T09:59:59.999Z",
+   "b": "Ab",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T09:59:59.999Z",
+   "b": "a_b",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T09:59:59.999Z",
+   "b": "A-b",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T09:59:59.999Z",
+   "b": "",
+   "out": 1
+  },
+  {
+   "a": "2026-10-24T09:59:59.999Z",
+   "b": "a",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T09:59:59.999Z",
+   "b": "A",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T09:59:59.999Z",
+   "b": "b",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T09:59:59.999Z",
+   "b": "Cable EZ-Bar Curl",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T09:59:59.999Z",
+   "b": "Cable D-Handle Curl",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T09:59:59.999Z",
+   "b": "45 Degree Hinge",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T09:59:59.999Z",
+   "b": "Y-Raise",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T09:59:59.999Z",
+   "b": "T-Bar Row",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T09:59:59.999Z",
+   "b": "Tricep Pushdown",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T09:59:59.999Z",
+   "b": "SA Bench Lat Pulldown",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T09:59:59.999Z",
+   "b": "Smith High Row",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T09:59:59.999Z",
+   "b": "2026-10-24T10:00:00.000Z",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T09:59:59.999Z",
+   "b": "2026-10-24T10:00:00Z",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T09:59:59.999Z",
+   "b": "2026-10-24T09:59:59.999Z",
+   "out": 0
+  },
+  {
+   "a": "2026-10-24T09:59:59.999Z",
+   "b": "2026-10-24",
+   "out": 1
+  },
+  {
+   "a": "2026-10-24T09:59:59.999Z",
+   "b": "abc1",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T09:59:59.999Z",
+   "b": "abc10",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T09:59:59.999Z",
+   "b": "abc2",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T09:59:59.999Z",
+   "b": "x.y",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T09:59:59.999Z",
+   "b": "x,y",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T09:59:59.999Z",
+   "b": "x(y",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T09:59:59.999Z",
+   "b": "x$y",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T09:59:59.999Z",
+   "b": "x~y",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T09:59:59.999Z",
+   "b": "Dips",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T09:59:59.999Z",
+   "b": "dips",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T09:59:59.999Z",
+   "b": "DIPS",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24T09:59:59.999Z",
+   "b": "Dip s",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24",
+   "b": "a-b",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24",
+   "b": "ab",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24",
+   "b": "a b",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24",
+   "b": "aB",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24",
+   "b": "Ab",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24",
+   "b": "a_b",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24",
+   "b": "A-b",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24",
+   "b": "",
+   "out": 1
+  },
+  {
+   "a": "2026-10-24",
+   "b": "a",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24",
+   "b": "A",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24",
+   "b": "b",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24",
+   "b": "Cable EZ-Bar Curl",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24",
+   "b": "Cable D-Handle Curl",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24",
+   "b": "45 Degree Hinge",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24",
+   "b": "Y-Raise",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24",
+   "b": "T-Bar Row",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24",
+   "b": "Tricep Pushdown",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24",
+   "b": "SA Bench Lat Pulldown",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24",
+   "b": "Smith High Row",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24",
+   "b": "2026-10-24T10:00:00.000Z",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24",
+   "b": "2026-10-24T10:00:00Z",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24",
+   "b": "2026-10-24T09:59:59.999Z",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24",
+   "b": "2026-10-24",
+   "out": 0
+  },
+  {
+   "a": "2026-10-24",
+   "b": "abc1",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24",
+   "b": "abc10",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24",
+   "b": "abc2",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24",
+   "b": "x.y",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24",
+   "b": "x,y",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24",
+   "b": "x(y",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24",
+   "b": "x$y",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24",
+   "b": "x~y",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24",
+   "b": "Dips",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24",
+   "b": "dips",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24",
+   "b": "DIPS",
+   "out": -1
+  },
+  {
+   "a": "2026-10-24",
+   "b": "Dip s",
+   "out": -1
+  },
+  {
+   "a": "abc1",
+   "b": "a-b",
+   "out": 1
+  },
+  {
+   "a": "abc1",
+   "b": "ab",
+   "out": 1
+  },
+  {
+   "a": "abc1",
+   "b": "a b",
+   "out": 1
+  },
+  {
+   "a": "abc1",
+   "b": "aB",
+   "out": 1
+  },
+  {
+   "a": "abc1",
+   "b": "Ab",
+   "out": 1
+  },
+  {
+   "a": "abc1",
+   "b": "a_b",
+   "out": 1
+  },
+  {
+   "a": "abc1",
+   "b": "A-b",
+   "out": 1
+  },
+  {
+   "a": "abc1",
+   "b": "",
+   "out": 1
+  },
+  {
+   "a": "abc1",
+   "b": "a",
+   "out": 1
+  },
+  {
+   "a": "abc1",
+   "b": "A",
+   "out": 1
+  },
+  {
+   "a": "abc1",
+   "b": "b",
+   "out": -1
+  },
+  {
+   "a": "abc1",
+   "b": "Cable EZ-Bar Curl",
+   "out": -1
+  },
+  {
+   "a": "abc1",
+   "b": "Cable D-Handle Curl",
+   "out": -1
+  },
+  {
+   "a": "abc1",
+   "b": "45 Degree Hinge",
+   "out": 1
+  },
+  {
+   "a": "abc1",
+   "b": "Y-Raise",
+   "out": -1
+  },
+  {
+   "a": "abc1",
+   "b": "T-Bar Row",
+   "out": -1
+  },
+  {
+   "a": "abc1",
+   "b": "Tricep Pushdown",
+   "out": -1
+  },
+  {
+   "a": "abc1",
+   "b": "SA Bench Lat Pulldown",
+   "out": -1
+  },
+  {
+   "a": "abc1",
+   "b": "Smith High Row",
+   "out": -1
+  },
+  {
+   "a": "abc1",
+   "b": "2026-10-24T10:00:00.000Z",
+   "out": 1
+  },
+  {
+   "a": "abc1",
+   "b": "2026-10-24T10:00:00Z",
+   "out": 1
+  },
+  {
+   "a": "abc1",
+   "b": "2026-10-24T09:59:59.999Z",
+   "out": 1
+  },
+  {
+   "a": "abc1",
+   "b": "2026-10-24",
+   "out": 1
+  },
+  {
+   "a": "abc1",
+   "b": "abc1",
+   "out": 0
+  },
+  {
+   "a": "abc1",
+   "b": "abc10",
+   "out": -1
+  },
+  {
+   "a": "abc1",
+   "b": "abc2",
+   "out": -1
+  },
+  {
+   "a": "abc1",
+   "b": "x.y",
+   "out": -1
+  },
+  {
+   "a": "abc1",
+   "b": "x,y",
+   "out": -1
+  },
+  {
+   "a": "abc1",
+   "b": "x(y",
+   "out": -1
+  },
+  {
+   "a": "abc1",
+   "b": "x$y",
+   "out": -1
+  },
+  {
+   "a": "abc1",
+   "b": "x~y",
+   "out": -1
+  },
+  {
+   "a": "abc1",
+   "b": "Dips",
+   "out": -1
+  },
+  {
+   "a": "abc1",
+   "b": "dips",
+   "out": -1
+  },
+  {
+   "a": "abc1",
+   "b": "DIPS",
+   "out": -1
+  },
+  {
+   "a": "abc1",
+   "b": "Dip s",
+   "out": -1
+  },
+  {
+   "a": "abc10",
+   "b": "a-b",
+   "out": 1
+  },
+  {
+   "a": "abc10",
+   "b": "ab",
+   "out": 1
+  },
+  {
+   "a": "abc10",
+   "b": "a b",
+   "out": 1
+  },
+  {
+   "a": "abc10",
+   "b": "aB",
+   "out": 1
+  },
+  {
+   "a": "abc10",
+   "b": "Ab",
+   "out": 1
+  },
+  {
+   "a": "abc10",
+   "b": "a_b",
+   "out": 1
+  },
+  {
+   "a": "abc10",
+   "b": "A-b",
+   "out": 1
+  },
+  {
+   "a": "abc10",
+   "b": "",
+   "out": 1
+  },
+  {
+   "a": "abc10",
+   "b": "a",
+   "out": 1
+  },
+  {
+   "a": "abc10",
+   "b": "A",
+   "out": 1
+  },
+  {
+   "a": "abc10",
+   "b": "b",
+   "out": -1
+  },
+  {
+   "a": "abc10",
+   "b": "Cable EZ-Bar Curl",
+   "out": -1
+  },
+  {
+   "a": "abc10",
+   "b": "Cable D-Handle Curl",
+   "out": -1
+  },
+  {
+   "a": "abc10",
+   "b": "45 Degree Hinge",
+   "out": 1
+  },
+  {
+   "a": "abc10",
+   "b": "Y-Raise",
+   "out": -1
+  },
+  {
+   "a": "abc10",
+   "b": "T-Bar Row",
+   "out": -1
+  },
+  {
+   "a": "abc10",
+   "b": "Tricep Pushdown",
+   "out": -1
+  },
+  {
+   "a": "abc10",
+   "b": "SA Bench Lat Pulldown",
+   "out": -1
+  },
+  {
+   "a": "abc10",
+   "b": "Smith High Row",
+   "out": -1
+  },
+  {
+   "a": "abc10",
+   "b": "2026-10-24T10:00:00.000Z",
+   "out": 1
+  },
+  {
+   "a": "abc10",
+   "b": "2026-10-24T10:00:00Z",
+   "out": 1
+  },
+  {
+   "a": "abc10",
+   "b": "2026-10-24T09:59:59.999Z",
+   "out": 1
+  },
+  {
+   "a": "abc10",
+   "b": "2026-10-24",
+   "out": 1
+  },
+  {
+   "a": "abc10",
+   "b": "abc1",
+   "out": 1
+  },
+  {
+   "a": "abc10",
+   "b": "abc10",
+   "out": 0
+  },
+  {
+   "a": "abc10",
+   "b": "abc2",
+   "out": -1
+  },
+  {
+   "a": "abc10",
+   "b": "x.y",
+   "out": -1
+  },
+  {
+   "a": "abc10",
+   "b": "x,y",
+   "out": -1
+  },
+  {
+   "a": "abc10",
+   "b": "x(y",
+   "out": -1
+  },
+  {
+   "a": "abc10",
+   "b": "x$y",
+   "out": -1
+  },
+  {
+   "a": "abc10",
+   "b": "x~y",
+   "out": -1
+  },
+  {
+   "a": "abc10",
+   "b": "Dips",
+   "out": -1
+  },
+  {
+   "a": "abc10",
+   "b": "dips",
+   "out": -1
+  },
+  {
+   "a": "abc10",
+   "b": "DIPS",
+   "out": -1
+  },
+  {
+   "a": "abc10",
+   "b": "Dip s",
+   "out": -1
+  },
+  {
+   "a": "abc2",
+   "b": "a-b",
+   "out": 1
+  },
+  {
+   "a": "abc2",
+   "b": "ab",
+   "out": 1
+  },
+  {
+   "a": "abc2",
+   "b": "a b",
+   "out": 1
+  },
+  {
+   "a": "abc2",
+   "b": "aB",
+   "out": 1
+  },
+  {
+   "a": "abc2",
+   "b": "Ab",
+   "out": 1
+  },
+  {
+   "a": "abc2",
+   "b": "a_b",
+   "out": 1
+  },
+  {
+   "a": "abc2",
+   "b": "A-b",
+   "out": 1
+  },
+  {
+   "a": "abc2",
+   "b": "",
+   "out": 1
+  },
+  {
+   "a": "abc2",
+   "b": "a",
+   "out": 1
+  },
+  {
+   "a": "abc2",
+   "b": "A",
+   "out": 1
+  },
+  {
+   "a": "abc2",
+   "b": "b",
+   "out": -1
+  },
+  {
+   "a": "abc2",
+   "b": "Cable EZ-Bar Curl",
+   "out": -1
+  },
+  {
+   "a": "abc2",
+   "b": "Cable D-Handle Curl",
+   "out": -1
+  },
+  {
+   "a": "abc2",
+   "b": "45 Degree Hinge",
+   "out": 1
+  },
+  {
+   "a": "abc2",
+   "b": "Y-Raise",
+   "out": -1
+  },
+  {
+   "a": "abc2",
+   "b": "T-Bar Row",
+   "out": -1
+  },
+  {
+   "a": "abc2",
+   "b": "Tricep Pushdown",
+   "out": -1
+  },
+  {
+   "a": "abc2",
+   "b": "SA Bench Lat Pulldown",
+   "out": -1
+  },
+  {
+   "a": "abc2",
+   "b": "Smith High Row",
+   "out": -1
+  },
+  {
+   "a": "abc2",
+   "b": "2026-10-24T10:00:00.000Z",
+   "out": 1
+  },
+  {
+   "a": "abc2",
+   "b": "2026-10-24T10:00:00Z",
+   "out": 1
+  },
+  {
+   "a": "abc2",
+   "b": "2026-10-24T09:59:59.999Z",
+   "out": 1
+  },
+  {
+   "a": "abc2",
+   "b": "2026-10-24",
+   "out": 1
+  },
+  {
+   "a": "abc2",
+   "b": "abc1",
+   "out": 1
+  },
+  {
+   "a": "abc2",
+   "b": "abc10",
+   "out": 1
+  },
+  {
+   "a": "abc2",
+   "b": "abc2",
+   "out": 0
+  },
+  {
+   "a": "abc2",
+   "b": "x.y",
+   "out": -1
+  },
+  {
+   "a": "abc2",
+   "b": "x,y",
+   "out": -1
+  },
+  {
+   "a": "abc2",
+   "b": "x(y",
+   "out": -1
+  },
+  {
+   "a": "abc2",
+   "b": "x$y",
+   "out": -1
+  },
+  {
+   "a": "abc2",
+   "b": "x~y",
+   "out": -1
+  },
+  {
+   "a": "abc2",
+   "b": "Dips",
+   "out": -1
+  },
+  {
+   "a": "abc2",
+   "b": "dips",
+   "out": -1
+  },
+  {
+   "a": "abc2",
+   "b": "DIPS",
+   "out": -1
+  },
+  {
+   "a": "abc2",
+   "b": "Dip s",
+   "out": -1
+  },
+  {
+   "a": "x.y",
+   "b": "a-b",
+   "out": 1
+  },
+  {
+   "a": "x.y",
+   "b": "ab",
+   "out": 1
+  },
+  {
+   "a": "x.y",
+   "b": "a b",
+   "out": 1
+  },
+  {
+   "a": "x.y",
+   "b": "aB",
+   "out": 1
+  },
+  {
+   "a": "x.y",
+   "b": "Ab",
+   "out": 1
+  },
+  {
+   "a": "x.y",
+   "b": "a_b",
+   "out": 1
+  },
+  {
+   "a": "x.y",
+   "b": "A-b",
+   "out": 1
+  },
+  {
+   "a": "x.y",
+   "b": "",
+   "out": 1
+  },
+  {
+   "a": "x.y",
+   "b": "a",
+   "out": 1
+  },
+  {
+   "a": "x.y",
+   "b": "A",
+   "out": 1
+  },
+  {
+   "a": "x.y",
+   "b": "b",
+   "out": 1
+  },
+  {
+   "a": "x.y",
+   "b": "Cable EZ-Bar Curl",
+   "out": 1
+  },
+  {
+   "a": "x.y",
+   "b": "Cable D-Handle Curl",
+   "out": 1
+  },
+  {
+   "a": "x.y",
+   "b": "45 Degree Hinge",
+   "out": 1
+  },
+  {
+   "a": "x.y",
+   "b": "Y-Raise",
+   "out": -1
+  },
+  {
+   "a": "x.y",
+   "b": "T-Bar Row",
+   "out": 1
+  },
+  {
+   "a": "x.y",
+   "b": "Tricep Pushdown",
+   "out": 1
+  },
+  {
+   "a": "x.y",
+   "b": "SA Bench Lat Pulldown",
+   "out": 1
+  },
+  {
+   "a": "x.y",
+   "b": "Smith High Row",
+   "out": 1
+  },
+  {
+   "a": "x.y",
+   "b": "2026-10-24T10:00:00.000Z",
+   "out": 1
+  },
+  {
+   "a": "x.y",
+   "b": "2026-10-24T10:00:00Z",
+   "out": 1
+  },
+  {
+   "a": "x.y",
+   "b": "2026-10-24T09:59:59.999Z",
+   "out": 1
+  },
+  {
+   "a": "x.y",
+   "b": "2026-10-24",
+   "out": 1
+  },
+  {
+   "a": "x.y",
+   "b": "abc1",
+   "out": 1
+  },
+  {
+   "a": "x.y",
+   "b": "abc10",
+   "out": 1
+  },
+  {
+   "a": "x.y",
+   "b": "abc2",
+   "out": 1
+  },
+  {
+   "a": "x.y",
+   "b": "x.y",
+   "out": 0
+  },
+  {
+   "a": "x.y",
+   "b": "x,y",
+   "out": 1
+  },
+  {
+   "a": "x.y",
+   "b": "x(y",
+   "out": -1
+  },
+  {
+   "a": "x.y",
+   "b": "x$y",
+   "out": -1
+  },
+  {
+   "a": "x.y",
+   "b": "x~y",
+   "out": -1
+  },
+  {
+   "a": "x.y",
+   "b": "Dips",
+   "out": 1
+  },
+  {
+   "a": "x.y",
+   "b": "dips",
+   "out": 1
+  },
+  {
+   "a": "x.y",
+   "b": "DIPS",
+   "out": 1
+  },
+  {
+   "a": "x.y",
+   "b": "Dip s",
+   "out": 1
+  },
+  {
+   "a": "x,y",
+   "b": "a-b",
+   "out": 1
+  },
+  {
+   "a": "x,y",
+   "b": "ab",
+   "out": 1
+  },
+  {
+   "a": "x,y",
+   "b": "a b",
+   "out": 1
+  },
+  {
+   "a": "x,y",
+   "b": "aB",
+   "out": 1
+  },
+  {
+   "a": "x,y",
+   "b": "Ab",
+   "out": 1
+  },
+  {
+   "a": "x,y",
+   "b": "a_b",
+   "out": 1
+  },
+  {
+   "a": "x,y",
+   "b": "A-b",
+   "out": 1
+  },
+  {
+   "a": "x,y",
+   "b": "",
+   "out": 1
+  },
+  {
+   "a": "x,y",
+   "b": "a",
+   "out": 1
+  },
+  {
+   "a": "x,y",
+   "b": "A",
+   "out": 1
+  },
+  {
+   "a": "x,y",
+   "b": "b",
+   "out": 1
+  },
+  {
+   "a": "x,y",
+   "b": "Cable EZ-Bar Curl",
+   "out": 1
+  },
+  {
+   "a": "x,y",
+   "b": "Cable D-Handle Curl",
+   "out": 1
+  },
+  {
+   "a": "x,y",
+   "b": "45 Degree Hinge",
+   "out": 1
+  },
+  {
+   "a": "x,y",
+   "b": "Y-Raise",
+   "out": -1
+  },
+  {
+   "a": "x,y",
+   "b": "T-Bar Row",
+   "out": 1
+  },
+  {
+   "a": "x,y",
+   "b": "Tricep Pushdown",
+   "out": 1
+  },
+  {
+   "a": "x,y",
+   "b": "SA Bench Lat Pulldown",
+   "out": 1
+  },
+  {
+   "a": "x,y",
+   "b": "Smith High Row",
+   "out": 1
+  },
+  {
+   "a": "x,y",
+   "b": "2026-10-24T10:00:00.000Z",
+   "out": 1
+  },
+  {
+   "a": "x,y",
+   "b": "2026-10-24T10:00:00Z",
+   "out": 1
+  },
+  {
+   "a": "x,y",
+   "b": "2026-10-24T09:59:59.999Z",
+   "out": 1
+  },
+  {
+   "a": "x,y",
+   "b": "2026-10-24",
+   "out": 1
+  },
+  {
+   "a": "x,y",
+   "b": "abc1",
+   "out": 1
+  },
+  {
+   "a": "x,y",
+   "b": "abc10",
+   "out": 1
+  },
+  {
+   "a": "x,y",
+   "b": "abc2",
+   "out": 1
+  },
+  {
+   "a": "x,y",
+   "b": "x.y",
+   "out": -1
+  },
+  {
+   "a": "x,y",
+   "b": "x,y",
+   "out": 0
+  },
+  {
+   "a": "x,y",
+   "b": "x(y",
+   "out": -1
+  },
+  {
+   "a": "x,y",
+   "b": "x$y",
+   "out": -1
+  },
+  {
+   "a": "x,y",
+   "b": "x~y",
+   "out": -1
+  },
+  {
+   "a": "x,y",
+   "b": "Dips",
+   "out": 1
+  },
+  {
+   "a": "x,y",
+   "b": "dips",
+   "out": 1
+  },
+  {
+   "a": "x,y",
+   "b": "DIPS",
+   "out": 1
+  },
+  {
+   "a": "x,y",
+   "b": "Dip s",
+   "out": 1
+  },
+  {
+   "a": "x(y",
+   "b": "a-b",
+   "out": 1
+  },
+  {
+   "a": "x(y",
+   "b": "ab",
+   "out": 1
+  },
+  {
+   "a": "x(y",
+   "b": "a b",
+   "out": 1
+  },
+  {
+   "a": "x(y",
+   "b": "aB",
+   "out": 1
+  },
+  {
+   "a": "x(y",
+   "b": "Ab",
+   "out": 1
+  },
+  {
+   "a": "x(y",
+   "b": "a_b",
+   "out": 1
+  },
+  {
+   "a": "x(y",
+   "b": "A-b",
+   "out": 1
+  },
+  {
+   "a": "x(y",
+   "b": "",
+   "out": 1
+  },
+  {
+   "a": "x(y",
+   "b": "a",
+   "out": 1
+  },
+  {
+   "a": "x(y",
+   "b": "A",
+   "out": 1
+  },
+  {
+   "a": "x(y",
+   "b": "b",
+   "out": 1
+  },
+  {
+   "a": "x(y",
+   "b": "Cable EZ-Bar Curl",
+   "out": 1
+  },
+  {
+   "a": "x(y",
+   "b": "Cable D-Handle Curl",
+   "out": 1
+  },
+  {
+   "a": "x(y",
+   "b": "45 Degree Hinge",
+   "out": 1
+  },
+  {
+   "a": "x(y",
+   "b": "Y-Raise",
+   "out": -1
+  },
+  {
+   "a": "x(y",
+   "b": "T-Bar Row",
+   "out": 1
+  },
+  {
+   "a": "x(y",
+   "b": "Tricep Pushdown",
+   "out": 1
+  },
+  {
+   "a": "x(y",
+   "b": "SA Bench Lat Pulldown",
+   "out": 1
+  },
+  {
+   "a": "x(y",
+   "b": "Smith High Row",
+   "out": 1
+  },
+  {
+   "a": "x(y",
+   "b": "2026-10-24T10:00:00.000Z",
+   "out": 1
+  },
+  {
+   "a": "x(y",
+   "b": "2026-10-24T10:00:00Z",
+   "out": 1
+  },
+  {
+   "a": "x(y",
+   "b": "2026-10-24T09:59:59.999Z",
+   "out": 1
+  },
+  {
+   "a": "x(y",
+   "b": "2026-10-24",
+   "out": 1
+  },
+  {
+   "a": "x(y",
+   "b": "abc1",
+   "out": 1
+  },
+  {
+   "a": "x(y",
+   "b": "abc10",
+   "out": 1
+  },
+  {
+   "a": "x(y",
+   "b": "abc2",
+   "out": 1
+  },
+  {
+   "a": "x(y",
+   "b": "x.y",
+   "out": 1
+  },
+  {
+   "a": "x(y",
+   "b": "x,y",
+   "out": 1
+  },
+  {
+   "a": "x(y",
+   "b": "x(y",
+   "out": 0
+  },
+  {
+   "a": "x(y",
+   "b": "x$y",
+   "out": -1
+  },
+  {
+   "a": "x(y",
+   "b": "x~y",
+   "out": -1
+  },
+  {
+   "a": "x(y",
+   "b": "Dips",
+   "out": 1
+  },
+  {
+   "a": "x(y",
+   "b": "dips",
+   "out": 1
+  },
+  {
+   "a": "x(y",
+   "b": "DIPS",
+   "out": 1
+  },
+  {
+   "a": "x(y",
+   "b": "Dip s",
+   "out": 1
+  },
+  {
+   "a": "x$y",
+   "b": "a-b",
+   "out": 1
+  },
+  {
+   "a": "x$y",
+   "b": "ab",
+   "out": 1
+  },
+  {
+   "a": "x$y",
+   "b": "a b",
+   "out": 1
+  },
+  {
+   "a": "x$y",
+   "b": "aB",
+   "out": 1
+  },
+  {
+   "a": "x$y",
+   "b": "Ab",
+   "out": 1
+  },
+  {
+   "a": "x$y",
+   "b": "a_b",
+   "out": 1
+  },
+  {
+   "a": "x$y",
+   "b": "A-b",
+   "out": 1
+  },
+  {
+   "a": "x$y",
+   "b": "",
+   "out": 1
+  },
+  {
+   "a": "x$y",
+   "b": "a",
+   "out": 1
+  },
+  {
+   "a": "x$y",
+   "b": "A",
+   "out": 1
+  },
+  {
+   "a": "x$y",
+   "b": "b",
+   "out": 1
+  },
+  {
+   "a": "x$y",
+   "b": "Cable EZ-Bar Curl",
+   "out": 1
+  },
+  {
+   "a": "x$y",
+   "b": "Cable D-Handle Curl",
+   "out": 1
+  },
+  {
+   "a": "x$y",
+   "b": "45 Degree Hinge",
+   "out": 1
+  },
+  {
+   "a": "x$y",
+   "b": "Y-Raise",
+   "out": -1
+  },
+  {
+   "a": "x$y",
+   "b": "T-Bar Row",
+   "out": 1
+  },
+  {
+   "a": "x$y",
+   "b": "Tricep Pushdown",
+   "out": 1
+  },
+  {
+   "a": "x$y",
+   "b": "SA Bench Lat Pulldown",
+   "out": 1
+  },
+  {
+   "a": "x$y",
+   "b": "Smith High Row",
+   "out": 1
+  },
+  {
+   "a": "x$y",
+   "b": "2026-10-24T10:00:00.000Z",
+   "out": 1
+  },
+  {
+   "a": "x$y",
+   "b": "2026-10-24T10:00:00Z",
+   "out": 1
+  },
+  {
+   "a": "x$y",
+   "b": "2026-10-24T09:59:59.999Z",
+   "out": 1
+  },
+  {
+   "a": "x$y",
+   "b": "2026-10-24",
+   "out": 1
+  },
+  {
+   "a": "x$y",
+   "b": "abc1",
+   "out": 1
+  },
+  {
+   "a": "x$y",
+   "b": "abc10",
+   "out": 1
+  },
+  {
+   "a": "x$y",
+   "b": "abc2",
+   "out": 1
+  },
+  {
+   "a": "x$y",
+   "b": "x.y",
+   "out": 1
+  },
+  {
+   "a": "x$y",
+   "b": "x,y",
+   "out": 1
+  },
+  {
+   "a": "x$y",
+   "b": "x(y",
+   "out": 1
+  },
+  {
+   "a": "x$y",
+   "b": "x$y",
+   "out": 0
+  },
+  {
+   "a": "x$y",
+   "b": "x~y",
+   "out": 1
+  },
+  {
+   "a": "x$y",
+   "b": "Dips",
+   "out": 1
+  },
+  {
+   "a": "x$y",
+   "b": "dips",
+   "out": 1
+  },
+  {
+   "a": "x$y",
+   "b": "DIPS",
+   "out": 1
+  },
+  {
+   "a": "x$y",
+   "b": "Dip s",
+   "out": 1
+  },
+  {
+   "a": "x~y",
+   "b": "a-b",
+   "out": 1
+  },
+  {
+   "a": "x~y",
+   "b": "ab",
+   "out": 1
+  },
+  {
+   "a": "x~y",
+   "b": "a b",
+   "out": 1
+  },
+  {
+   "a": "x~y",
+   "b": "aB",
+   "out": 1
+  },
+  {
+   "a": "x~y",
+   "b": "Ab",
+   "out": 1
+  },
+  {
+   "a": "x~y",
+   "b": "a_b",
+   "out": 1
+  },
+  {
+   "a": "x~y",
+   "b": "A-b",
+   "out": 1
+  },
+  {
+   "a": "x~y",
+   "b": "",
+   "out": 1
+  },
+  {
+   "a": "x~y",
+   "b": "a",
+   "out": 1
+  },
+  {
+   "a": "x~y",
+   "b": "A",
+   "out": 1
+  },
+  {
+   "a": "x~y",
+   "b": "b",
+   "out": 1
+  },
+  {
+   "a": "x~y",
+   "b": "Cable EZ-Bar Curl",
+   "out": 1
+  },
+  {
+   "a": "x~y",
+   "b": "Cable D-Handle Curl",
+   "out": 1
+  },
+  {
+   "a": "x~y",
+   "b": "45 Degree Hinge",
+   "out": 1
+  },
+  {
+   "a": "x~y",
+   "b": "Y-Raise",
+   "out": -1
+  },
+  {
+   "a": "x~y",
+   "b": "T-Bar Row",
+   "out": 1
+  },
+  {
+   "a": "x~y",
+   "b": "Tricep Pushdown",
+   "out": 1
+  },
+  {
+   "a": "x~y",
+   "b": "SA Bench Lat Pulldown",
+   "out": 1
+  },
+  {
+   "a": "x~y",
+   "b": "Smith High Row",
+   "out": 1
+  },
+  {
+   "a": "x~y",
+   "b": "2026-10-24T10:00:00.000Z",
+   "out": 1
+  },
+  {
+   "a": "x~y",
+   "b": "2026-10-24T10:00:00Z",
+   "out": 1
+  },
+  {
+   "a": "x~y",
+   "b": "2026-10-24T09:59:59.999Z",
+   "out": 1
+  },
+  {
+   "a": "x~y",
+   "b": "2026-10-24",
+   "out": 1
+  },
+  {
+   "a": "x~y",
+   "b": "abc1",
+   "out": 1
+  },
+  {
+   "a": "x~y",
+   "b": "abc10",
+   "out": 1
+  },
+  {
+   "a": "x~y",
+   "b": "abc2",
+   "out": 1
+  },
+  {
+   "a": "x~y",
+   "b": "x.y",
+   "out": 1
+  },
+  {
+   "a": "x~y",
+   "b": "x,y",
+   "out": 1
+  },
+  {
+   "a": "x~y",
+   "b": "x(y",
+   "out": 1
+  },
+  {
+   "a": "x~y",
+   "b": "x$y",
+   "out": -1
+  },
+  {
+   "a": "x~y",
+   "b": "x~y",
+   "out": 0
+  },
+  {
+   "a": "x~y",
+   "b": "Dips",
+   "out": 1
+  },
+  {
+   "a": "x~y",
+   "b": "dips",
+   "out": 1
+  },
+  {
+   "a": "x~y",
+   "b": "DIPS",
+   "out": 1
+  },
+  {
+   "a": "x~y",
+   "b": "Dip s",
+   "out": 1
+  },
+  {
+   "a": "Dips",
+   "b": "a-b",
+   "out": 1
+  },
+  {
+   "a": "Dips",
+   "b": "ab",
+   "out": 1
+  },
+  {
+   "a": "Dips",
+   "b": "a b",
+   "out": 1
+  },
+  {
+   "a": "Dips",
+   "b": "aB",
+   "out": 1
+  },
+  {
+   "a": "Dips",
+   "b": "Ab",
+   "out": 1
+  },
+  {
+   "a": "Dips",
+   "b": "a_b",
+   "out": 1
+  },
+  {
+   "a": "Dips",
+   "b": "A-b",
+   "out": 1
+  },
+  {
+   "a": "Dips",
+   "b": "",
+   "out": 1
+  },
+  {
+   "a": "Dips",
+   "b": "a",
+   "out": 1
+  },
+  {
+   "a": "Dips",
+   "b": "A",
+   "out": 1
+  },
+  {
+   "a": "Dips",
+   "b": "b",
+   "out": 1
+  },
+  {
+   "a": "Dips",
+   "b": "Cable EZ-Bar Curl",
+   "out": 1
+  },
+  {
+   "a": "Dips",
+   "b": "Cable D-Handle Curl",
+   "out": 1
+  },
+  {
+   "a": "Dips",
+   "b": "45 Degree Hinge",
+   "out": 1
+  },
+  {
+   "a": "Dips",
+   "b": "Y-Raise",
+   "out": -1
+  },
+  {
+   "a": "Dips",
+   "b": "T-Bar Row",
+   "out": -1
+  },
+  {
+   "a": "Dips",
+   "b": "Tricep Pushdown",
+   "out": -1
+  },
+  {
+   "a": "Dips",
+   "b": "SA Bench Lat Pulldown",
+   "out": -1
+  },
+  {
+   "a": "Dips",
+   "b": "Smith High Row",
+   "out": -1
+  },
+  {
+   "a": "Dips",
+   "b": "2026-10-24T10:00:00.000Z",
+   "out": 1
+  },
+  {
+   "a": "Dips",
+   "b": "2026-10-24T10:00:00Z",
+   "out": 1
+  },
+  {
+   "a": "Dips",
+   "b": "2026-10-24T09:59:59.999Z",
+   "out": 1
+  },
+  {
+   "a": "Dips",
+   "b": "2026-10-24",
+   "out": 1
+  },
+  {
+   "a": "Dips",
+   "b": "abc1",
+   "out": 1
+  },
+  {
+   "a": "Dips",
+   "b": "abc10",
+   "out": 1
+  },
+  {
+   "a": "Dips",
+   "b": "abc2",
+   "out": 1
+  },
+  {
+   "a": "Dips",
+   "b": "x.y",
+   "out": -1
+  },
+  {
+   "a": "Dips",
+   "b": "x,y",
+   "out": -1
+  },
+  {
+   "a": "Dips",
+   "b": "x(y",
+   "out": -1
+  },
+  {
+   "a": "Dips",
+   "b": "x$y",
+   "out": -1
+  },
+  {
+   "a": "Dips",
+   "b": "x~y",
+   "out": -1
+  },
+  {
+   "a": "Dips",
+   "b": "Dips",
+   "out": 0
+  },
+  {
+   "a": "Dips",
+   "b": "dips",
+   "out": 1
+  },
+  {
+   "a": "Dips",
+   "b": "DIPS",
+   "out": -1
+  },
+  {
+   "a": "Dips",
+   "b": "Dip s",
+   "out": 1
+  },
+  {
+   "a": "dips",
+   "b": "a-b",
+   "out": 1
+  },
+  {
+   "a": "dips",
+   "b": "ab",
+   "out": 1
+  },
+  {
+   "a": "dips",
+   "b": "a b",
+   "out": 1
+  },
+  {
+   "a": "dips",
+   "b": "aB",
+   "out": 1
+  },
+  {
+   "a": "dips",
+   "b": "Ab",
+   "out": 1
+  },
+  {
+   "a": "dips",
+   "b": "a_b",
+   "out": 1
+  },
+  {
+   "a": "dips",
+   "b": "A-b",
+   "out": 1
+  },
+  {
+   "a": "dips",
+   "b": "",
+   "out": 1
+  },
+  {
+   "a": "dips",
+   "b": "a",
+   "out": 1
+  },
+  {
+   "a": "dips",
+   "b": "A",
+   "out": 1
+  },
+  {
+   "a": "dips",
+   "b": "b",
+   "out": 1
+  },
+  {
+   "a": "dips",
+   "b": "Cable EZ-Bar Curl",
+   "out": 1
+  },
+  {
+   "a": "dips",
+   "b": "Cable D-Handle Curl",
+   "out": 1
+  },
+  {
+   "a": "dips",
+   "b": "45 Degree Hinge",
+   "out": 1
+  },
+  {
+   "a": "dips",
+   "b": "Y-Raise",
+   "out": -1
+  },
+  {
+   "a": "dips",
+   "b": "T-Bar Row",
+   "out": -1
+  },
+  {
+   "a": "dips",
+   "b": "Tricep Pushdown",
+   "out": -1
+  },
+  {
+   "a": "dips",
+   "b": "SA Bench Lat Pulldown",
+   "out": -1
+  },
+  {
+   "a": "dips",
+   "b": "Smith High Row",
+   "out": -1
+  },
+  {
+   "a": "dips",
+   "b": "2026-10-24T10:00:00.000Z",
+   "out": 1
+  },
+  {
+   "a": "dips",
+   "b": "2026-10-24T10:00:00Z",
+   "out": 1
+  },
+  {
+   "a": "dips",
+   "b": "2026-10-24T09:59:59.999Z",
+   "out": 1
+  },
+  {
+   "a": "dips",
+   "b": "2026-10-24",
+   "out": 1
+  },
+  {
+   "a": "dips",
+   "b": "abc1",
+   "out": 1
+  },
+  {
+   "a": "dips",
+   "b": "abc10",
+   "out": 1
+  },
+  {
+   "a": "dips",
+   "b": "abc2",
+   "out": 1
+  },
+  {
+   "a": "dips",
+   "b": "x.y",
+   "out": -1
+  },
+  {
+   "a": "dips",
+   "b": "x,y",
+   "out": -1
+  },
+  {
+   "a": "dips",
+   "b": "x(y",
+   "out": -1
+  },
+  {
+   "a": "dips",
+   "b": "x$y",
+   "out": -1
+  },
+  {
+   "a": "dips",
+   "b": "x~y",
+   "out": -1
+  },
+  {
+   "a": "dips",
+   "b": "Dips",
+   "out": -1
+  },
+  {
+   "a": "dips",
+   "b": "dips",
+   "out": 0
+  },
+  {
+   "a": "dips",
+   "b": "DIPS",
+   "out": -1
+  },
+  {
+   "a": "dips",
+   "b": "Dip s",
+   "out": 1
+  },
+  {
+   "a": "DIPS",
+   "b": "a-b",
+   "out": 1
+  },
+  {
+   "a": "DIPS",
+   "b": "ab",
+   "out": 1
+  },
+  {
+   "a": "DIPS",
+   "b": "a b",
+   "out": 1
+  },
+  {
+   "a": "DIPS",
+   "b": "aB",
+   "out": 1
+  },
+  {
+   "a": "DIPS",
+   "b": "Ab",
+   "out": 1
+  },
+  {
+   "a": "DIPS",
+   "b": "a_b",
+   "out": 1
+  },
+  {
+   "a": "DIPS",
+   "b": "A-b",
+   "out": 1
+  },
+  {
+   "a": "DIPS",
+   "b": "",
+   "out": 1
+  },
+  {
+   "a": "DIPS",
+   "b": "a",
+   "out": 1
+  },
+  {
+   "a": "DIPS",
+   "b": "A",
+   "out": 1
+  },
+  {
+   "a": "DIPS",
+   "b": "b",
+   "out": 1
+  },
+  {
+   "a": "DIPS",
+   "b": "Cable EZ-Bar Curl",
+   "out": 1
+  },
+  {
+   "a": "DIPS",
+   "b": "Cable D-Handle Curl",
+   "out": 1
+  },
+  {
+   "a": "DIPS",
+   "b": "45 Degree Hinge",
+   "out": 1
+  },
+  {
+   "a": "DIPS",
+   "b": "Y-Raise",
+   "out": -1
+  },
+  {
+   "a": "DIPS",
+   "b": "T-Bar Row",
+   "out": -1
+  },
+  {
+   "a": "DIPS",
+   "b": "Tricep Pushdown",
+   "out": -1
+  },
+  {
+   "a": "DIPS",
+   "b": "SA Bench Lat Pulldown",
+   "out": -1
+  },
+  {
+   "a": "DIPS",
+   "b": "Smith High Row",
+   "out": -1
+  },
+  {
+   "a": "DIPS",
+   "b": "2026-10-24T10:00:00.000Z",
+   "out": 1
+  },
+  {
+   "a": "DIPS",
+   "b": "2026-10-24T10:00:00Z",
+   "out": 1
+  },
+  {
+   "a": "DIPS",
+   "b": "2026-10-24T09:59:59.999Z",
+   "out": 1
+  },
+  {
+   "a": "DIPS",
+   "b": "2026-10-24",
+   "out": 1
+  },
+  {
+   "a": "DIPS",
+   "b": "abc1",
+   "out": 1
+  },
+  {
+   "a": "DIPS",
+   "b": "abc10",
+   "out": 1
+  },
+  {
+   "a": "DIPS",
+   "b": "abc2",
+   "out": 1
+  },
+  {
+   "a": "DIPS",
+   "b": "x.y",
+   "out": -1
+  },
+  {
+   "a": "DIPS",
+   "b": "x,y",
+   "out": -1
+  },
+  {
+   "a": "DIPS",
+   "b": "x(y",
+   "out": -1
+  },
+  {
+   "a": "DIPS",
+   "b": "x$y",
+   "out": -1
+  },
+  {
+   "a": "DIPS",
+   "b": "x~y",
+   "out": -1
+  },
+  {
+   "a": "DIPS",
+   "b": "Dips",
+   "out": 1
+  },
+  {
+   "a": "DIPS",
+   "b": "dips",
+   "out": 1
+  },
+  {
+   "a": "DIPS",
+   "b": "DIPS",
+   "out": 0
+  },
+  {
+   "a": "DIPS",
+   "b": "Dip s",
+   "out": 1
+  },
+  {
+   "a": "Dip s",
+   "b": "a-b",
+   "out": 1
+  },
+  {
+   "a": "Dip s",
+   "b": "ab",
+   "out": 1
+  },
+  {
+   "a": "Dip s",
+   "b": "a b",
+   "out": 1
+  },
+  {
+   "a": "Dip s",
+   "b": "aB",
+   "out": 1
+  },
+  {
+   "a": "Dip s",
+   "b": "Ab",
+   "out": 1
+  },
+  {
+   "a": "Dip s",
+   "b": "a_b",
+   "out": 1
+  },
+  {
+   "a": "Dip s",
+   "b": "A-b",
+   "out": 1
+  },
+  {
+   "a": "Dip s",
+   "b": "",
+   "out": 1
+  },
+  {
+   "a": "Dip s",
+   "b": "a",
+   "out": 1
+  },
+  {
+   "a": "Dip s",
+   "b": "A",
+   "out": 1
+  },
+  {
+   "a": "Dip s",
+   "b": "b",
+   "out": 1
+  },
+  {
+   "a": "Dip s",
+   "b": "Cable EZ-Bar Curl",
+   "out": 1
+  },
+  {
+   "a": "Dip s",
+   "b": "Cable D-Handle Curl",
+   "out": 1
+  },
+  {
+   "a": "Dip s",
+   "b": "45 Degree Hinge",
+   "out": 1
+  },
+  {
+   "a": "Dip s",
+   "b": "Y-Raise",
+   "out": -1
+  },
+  {
+   "a": "Dip s",
+   "b": "T-Bar Row",
+   "out": -1
+  },
+  {
+   "a": "Dip s",
+   "b": "Tricep Pushdown",
+   "out": -1
+  },
+  {
+   "a": "Dip s",
+   "b": "SA Bench Lat Pulldown",
+   "out": -1
+  },
+  {
+   "a": "Dip s",
+   "b": "Smith High Row",
+   "out": -1
+  },
+  {
+   "a": "Dip s",
+   "b": "2026-10-24T10:00:00.000Z",
+   "out": 1
+  },
+  {
+   "a": "Dip s",
+   "b": "2026-10-24T10:00:00Z",
+   "out": 1
+  },
+  {
+   "a": "Dip s",
+   "b": "2026-10-24T09:59:59.999Z",
+   "out": 1
+  },
+  {
+   "a": "Dip s",
+   "b": "2026-10-24",
+   "out": 1
+  },
+  {
+   "a": "Dip s",
+   "b": "abc1",
+   "out": 1
+  },
+  {
+   "a": "Dip s",
+   "b": "abc10",
+   "out": 1
+  },
+  {
+   "a": "Dip s",
+   "b": "abc2",
+   "out": 1
+  },
+  {
+   "a": "Dip s",
+   "b": "x.y",
+   "out": -1
+  },
+  {
+   "a": "Dip s",
+   "b": "x,y",
+   "out": -1
+  },
+  {
+   "a": "Dip s",
+   "b": "x(y",
+   "out": -1
+  },
+  {
+   "a": "Dip s",
+   "b": "x$y",
+   "out": -1
+  },
+  {
+   "a": "Dip s",
+   "b": "x~y",
+   "out": -1
+  },
+  {
+   "a": "Dip s",
+   "b": "Dips",
+   "out": -1
+  },
+  {
+   "a": "Dip s",
+   "b": "dips",
+   "out": -1
+  },
+  {
+   "a": "Dip s",
+   "b": "DIPS",
+   "out": -1
+  },
+  {
+   "a": "Dip s",
+   "b": "Dip s",
+   "out": 0
+  }
+ ],
+ "sorted": [
+  "",
+  "2026-10-24",
+  "2026-10-24T09:59:59.999Z",
+  "2026-10-24T10:00:00.000Z",
+  "2026-10-24T10:00:00Z",
+  "45 Degree Hinge",
+  "a",
+  "A",
+  "a b",
+  "a_b",
+  "a-b",
+  "A-b",
+  "ab",
+  "aB",
+  "Ab",
+  "abc1",
+  "abc10",
+  "abc2",
+  "b",
+  "Cable D-Handle Curl",
+  "Cable EZ-Bar Curl",
+  "Dip s",
+  "dips",
+  "Dips",
+  "DIPS",
+  "SA Bench Lat Pulldown",
+  "Smith High Row",
+  "T-Bar Row",
+  "Tricep Pushdown",
+  "x,y",
+  "x.y",
+  "x(y",
+  "x~y",
+  "x$y",
+  "Y-Raise"
+ ]
+}

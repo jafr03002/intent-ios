@@ -1,0 +1,20 @@
+{
+  "status": 200,
+  "body": [
+    {
+      "date": "{{dow:mon:-2}}",
+      "maxWeight": 80.0,
+      "exercise": "Barbell Bench Press"
+    },
+    {
+      "date": "{{dow:mon:-1}}",
+      "maxWeight": 82.5,
+      "exercise": "Barbell Bench Press"
+    },
+    {
+      "date": "{{dow:mon:0}}",
+      "maxWeight": 85.0,
+      "exercise": "Barbell Bench Press"
+    }
+  ]
+}

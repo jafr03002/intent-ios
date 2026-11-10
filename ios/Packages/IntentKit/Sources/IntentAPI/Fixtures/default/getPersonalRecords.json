@@ -1,0 +1,137 @@
+{
+  "status": 200,
+  "body": [
+    {
+      "exercise": "Barbell Bench Press",
+      "maxWeight": 85.0,
+      "reps": 7,
+      "date": "{{dow:mon:0}}"
+    },
+    {
+      "exercise": "Chest-Supported Row",
+      "maxWeight": 32,
+      "reps": 9,
+      "date": "{{dow:mon:0}}"
+    },
+    {
+      "exercise": "Seated Dumbbell Shoulder Press",
+      "maxWeight": 26,
+      "reps": 9,
+      "date": "{{dow:mon:0}}"
+    },
+    {
+      "exercise": "Lat Pulldown",
+      "maxWeight": 70.0,
+      "reps": 11,
+      "date": "{{dow:mon:0}}"
+    },
+    {
+      "exercise": "Incline Dumbbell Curl",
+      "maxWeight": 14,
+      "reps": 11,
+      "date": "{{dow:mon:0}}"
+    },
+    {
+      "exercise": "Cable Triceps Pushdown",
+      "maxWeight": 32,
+      "reps": 11,
+      "date": "{{dow:mon:0}}"
+    },
+    {
+      "exercise": "Back Squat",
+      "maxWeight": 102.5,
+      "reps": 6,
+      "date": "{{dow:tue:-1}}"
+    },
+    {
+      "exercise": "Romanian Deadlift",
+      "maxWeight": 92.5,
+      "reps": 9,
+      "date": "{{dow:tue:-1}}"
+    },
+    {
+      "exercise": "Bulgarian Split Squat",
+      "maxWeight": 21,
+      "reps": 9,
+      "date": "{{dow:tue:-1}}"
+    },
+    {
+      "exercise": "Seated Leg Curl",
+      "maxWeight": 46,
+      "reps": 11,
+      "date": "{{dow:tue:-1}}"
+    },
+    {
+      "exercise": "Standing Calf Raise",
+      "maxWeight": 81,
+      "reps": 12,
+      "date": "{{dow:tue:-1}}"
+    },
+    {
+      "exercise": "Incline Dumbbell Press",
+      "maxWeight": 31,
+      "reps": 9,
+      "date": "{{dow:thu:-1}}"
+    },
+    {
+      "exercise": "Weighted Pull-Up",
+      "maxWeight": 11,
+      "reps": 7,
+      "date": "{{dow:thu:-1}}"
+    },
+    {
+      "exercise": "Cable Lateral Raise",
+      "maxWeight": 9,
+      "reps": 13,
+      "date": "{{dow:thu:-1}}"
+    },
+    {
+      "exercise": "Seated Cable Row",
+      "maxWeight": 62.5,
+      "reps": 11,
+      "date": "{{dow:thu:-1}}"
+    },
+    {
+      "exercise": "EZ-Bar Curl",
+      "maxWeight": 36,
+      "reps": 9,
+      "date": "{{dow:thu:-1}}"
+    },
+    {
+      "exercise": "Overhead Triceps Extension",
+      "maxWeight": 26,
+      "reps": 11,
+      "date": "{{dow:thu:-1}}"
+    },
+    {
+      "exercise": "Trap Bar Deadlift",
+      "maxWeight": 142.5,
+      "reps": 5,
+      "date": "{{dow:fri:-1}}"
+    },
+    {
+      "exercise": "Leg Press",
+      "maxWeight": 182.5,
+      "reps": 11,
+      "date": "{{dow:fri:-1}}"
+    },
+    {
+      "exercise": "Hip Thrust",
+      "maxWeight": 112.5,
+      "reps": 9,
+      "date": "{{dow:fri:-1}}"
+    },
+    {
+      "exercise": "Leg Extension",
+      "maxWeight": 56,
+      "reps": 13,
+      "date": "{{dow:fri:-1}}"
+    },
+    {
+      "exercise": "Seated Calf Raise",
+      "maxWeight": 51,
+      "reps": 13,
+      "date": "{{dow:fri:-1}}"
+    }
+  ]
+}

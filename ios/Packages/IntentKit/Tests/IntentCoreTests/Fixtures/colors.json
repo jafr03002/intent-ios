@@ -1,0 +1,511 @@
+{
+ "phaseHues": {
+  "calibration": {
+   "h": 199,
+   "s": 89,
+   "l": 48
+  },
+  "calibration_review": {
+   "h": 210,
+   "s": 70,
+   "l": 60
+  },
+  "bulk": {
+   "h": 142,
+   "s": 71,
+   "l": 45
+  },
+  "maintenance": {
+   "h": 38,
+   "s": 92,
+   "l": 50
+  },
+  "reverse_diet": {
+   "h": 160,
+   "s": 84,
+   "l": 39
+  },
+  "diet": {
+   "h": 350,
+   "s": 75,
+   "l": 55
+  },
+  "mini_cut": {
+   "h": 24,
+   "s": 90,
+   "l": 55
+  },
+  "deload": {
+   "h": 217,
+   "s": 91,
+   "l": 60
+  }
+ },
+ "phases": [
+  {
+   "in": "calibration",
+   "solid": "hsl(199, 89%, 48%)",
+   "soft": "hsla(199, 89%, 48%, 0.16)",
+   "label": "calibration"
+  },
+  {
+   "in": "calibration_review",
+   "solid": "hsl(210, 70%, 60%)",
+   "soft": "hsla(210, 70%, 60%, 0.16)",
+   "label": "calibration review"
+  },
+  {
+   "in": "bulk",
+   "solid": "hsl(142, 71%, 45%)",
+   "soft": "hsla(142, 71%, 45%, 0.16)",
+   "label": "bulk"
+  },
+  {
+   "in": "maintenance",
+   "solid": "hsl(38, 92%, 50%)",
+   "soft": "hsla(38, 92%, 50%, 0.16)",
+   "label": "maintenance"
+  },
+  {
+   "in": "reverse_diet",
+   "solid": "hsl(160, 84%, 39%)",
+   "soft": "hsla(160, 84%, 39%, 0.16)",
+   "label": "reverse diet"
+  },
+  {
+   "in": "diet",
+   "solid": "hsl(350, 75%, 55%)",
+   "soft": "hsla(350, 75%, 55%, 0.16)",
+   "label": "diet"
+  },
+  {
+   "in": "mini_cut",
+   "solid": "hsl(24, 90%, 55%)",
+   "soft": "hsla(24, 90%, 55%, 0.16)",
+   "label": "mini cut"
+  },
+  {
+   "in": "deload",
+   "solid": "hsl(217, 91%, 60%)",
+   "soft": "hsla(217, 91%, 60%, 0.16)",
+   "label": "deload"
+  },
+  {
+   "in": "unknown",
+   "solid": "#6b7280",
+   "soft": "rgba(107, 114, 128, 0.16)",
+   "label": "unknown"
+  },
+  {
+   "in": "",
+   "solid": "#6b7280",
+   "soft": "rgba(107, 114, 128, 0.16)",
+   "label": ""
+  }
+ ],
+ "dayPalette": [
+  "#3b82f6",
+  "#10b981",
+  "#f59e0b",
+  "#ef4444",
+  "#8b5cf6",
+  "#06b6d4",
+  "#ec4899",
+  "#84cc16",
+  "#f97316",
+  "#6366f1"
+ ],
+ "dayTones": [
+  {
+   "in": "#3b82f6",
+   "out": {
+    "solid": "#3b82f6",
+    "soft": "hsla(217, 91%, 60%, 0.14)",
+    "text": "hsl(217, 80%, 70%)",
+    "on": "hsl(210 40% 98%)",
+    "glow": "hsla(217, 91%, 60%, 0.35)",
+    "parts": "217 91% 60%"
+   }
+  },
+  {
+   "in": "#10b981",
+   "out": {
+    "solid": "#10b981",
+    "soft": "hsla(160, 84%, 39%, 0.14)",
+    "text": "hsl(160, 80%, 70%)",
+    "on": "hsl(224 47% 6%)",
+    "glow": "hsla(160, 84%, 39%, 0.35)",
+    "parts": "160 84% 39%"
+   }
+  },
+  {
+   "in": "#f59e0b",
+   "out": {
+    "solid": "#f59e0b",
+    "soft": "hsla(38, 92%, 50%, 0.14)",
+    "text": "hsl(38, 80%, 70%)",
+    "on": "hsl(224 47% 6%)",
+    "glow": "hsla(38, 92%, 50%, 0.35)",
+    "parts": "38 92% 50%"
+   }
+  },
+  {
+   "in": "#ef4444",
+   "out": {
+    "solid": "#ef4444",
+    "soft": "hsla(0, 84%, 60%, 0.14)",
+    "text": "hsl(0, 80%, 70%)",
+    "on": "hsl(210 40% 98%)",
+    "glow": "hsla(0, 84%, 60%, 0.35)",
+    "parts": "0 84% 60%"
+   }
+  },
+  {
+   "in": "#8b5cf6",
+   "out": {
+    "solid": "#8b5cf6",
+    "soft": "hsla(258, 90%, 66%, 0.14)",
+    "text": "hsl(258, 80%, 70%)",
+    "on": "hsl(210 40% 98%)",
+    "glow": "hsla(258, 90%, 66%, 0.35)",
+    "parts": "258 90% 66%"
+   }
+  },
+  {
+   "in": "#06b6d4",
+   "out": {
+    "solid": "#06b6d4",
+    "soft": "hsla(189, 94%, 43%, 0.14)",
+    "text": "hsl(189, 80%, 70%)",
+    "on": "hsl(224 47% 6%)",
+    "glow": "hsla(189, 94%, 43%, 0.35)",
+    "parts": "189 94% 43%"
+   }
+  },
+  {
+   "in": "#ec4899",
+   "out": {
+    "solid": "#ec4899",
+    "soft": "hsla(330, 81%, 60%, 0.14)",
+    "text": "hsl(330, 80%, 70%)",
+    "on": "hsl(210 40% 98%)",
+    "glow": "hsla(330, 81%, 60%, 0.35)",
+    "parts": "330 81% 60%"
+   }
+  },
+  {
+   "in": "#84cc16",
+   "out": {
+    "solid": "#84cc16",
+    "soft": "hsla(84, 81%, 44%, 0.14)",
+    "text": "hsl(84, 80%, 70%)",
+    "on": "hsl(224 47% 6%)",
+    "glow": "hsla(84, 81%, 44%, 0.35)",
+    "parts": "84 81% 44%"
+   }
+  },
+  {
+   "in": "#f97316",
+   "out": {
+    "solid": "#f97316",
+    "soft": "hsla(25, 95%, 53%, 0.14)",
+    "text": "hsl(25, 80%, 70%)",
+    "on": "hsl(224 47% 6%)",
+    "glow": "hsla(25, 95%, 53%, 0.35)",
+    "parts": "25 95% 53%"
+   }
+  },
+  {
+   "in": "#6366f1",
+   "out": {
+    "solid": "#6366f1",
+    "soft": "hsla(239, 84%, 67%, 0.14)",
+    "text": "hsl(239, 80%, 70%)",
+    "on": "hsl(210 40% 98%)",
+    "glow": "hsla(239, 84%, 67%, 0.35)",
+    "parts": "239 84% 67%"
+   }
+  },
+  {
+   "in": "#fff",
+   "out": {
+    "solid": "#fff",
+    "soft": "hsla(0, 0%, 100%, 0.14)",
+    "text": "hsl(0, 0%, 100%)",
+    "on": "hsl(224 47% 6%)",
+    "glow": "hsla(0, 0%, 100%, 0.35)",
+    "parts": "0 0% 100%"
+   }
+  },
+  {
+   "in": "#000",
+   "out": {
+    "solid": "#000",
+    "soft": "hsla(0, 0%, 0%, 0.14)",
+    "text": "hsl(0, 0%, 70%)",
+    "on": "hsl(210 40% 98%)",
+    "glow": "hsla(0, 0%, 0%, 0.35)",
+    "parts": "0 0% 0%"
+   }
+  },
+  {
+   "in": "abc",
+   "out": {
+    "solid": "abc",
+    "soft": "hsla(210, 25%, 73%, 0.14)",
+    "text": "hsl(210, 25%, 73%)",
+    "on": "hsl(224 47% 6%)",
+    "glow": "hsla(210, 25%, 73%, 0.35)",
+    "parts": "210 25% 73%"
+   }
+  },
+  {
+   "in": "#12345g",
+   "out": {
+    "solid": "#12345g",
+    "soft": "hsla(210, 97%, 14%, 0.14)",
+    "text": "hsl(210, 80%, 70%)",
+    "on": "hsl(210 40% 98%)",
+    "glow": "hsla(210, 97%, 14%, 0.35)",
+    "parts": "210 97% 14%"
+   }
+  },
+  {
+   "in": "#g12345",
+   "out": {
+    "solid": "#g12345",
+    "soft": "hsla(217, 91%, 60%, 0.14)",
+    "text": "hsl(217, 80%, 70%)",
+    "on": "hsl(210 40% 98%)",
+    "glow": "hsla(217, 91%, 60%, 0.35)",
+    "parts": "217 91% 60%"
+   }
+  },
+  {
+   "in": "nope",
+   "out": {
+    "solid": "nope",
+    "soft": "hsla(217, 91%, 60%, 0.14)",
+    "text": "hsl(217, 80%, 70%)",
+    "on": "hsl(210 40% 98%)",
+    "glow": "hsla(217, 91%, 60%, 0.35)",
+    "parts": "217 91% 60%"
+   }
+  },
+  {
+   "in": "",
+   "out": {
+    "solid": "",
+    "soft": "hsla(217, 91%, 60%, 0.14)",
+    "text": "hsl(217, 80%, 70%)",
+    "on": "hsl(210 40% 98%)",
+    "glow": "hsla(217, 91%, 60%, 0.35)",
+    "parts": "217 91% 60%"
+   }
+  },
+  {
+   "in": " #3B82F6 ",
+   "out": {
+    "solid": " #3B82F6 ",
+    "soft": "hsla(217, 91%, 60%, 0.14)",
+    "text": "hsl(217, 80%, 70%)",
+    "on": "hsl(210 40% 98%)",
+    "glow": "hsla(217, 91%, 60%, 0.35)",
+    "parts": "217 91% 60%"
+   }
+  },
+  {
+   "in": "#-12345",
+   "out": {
+    "solid": "#-12345",
+    "soft": "hsla(30, 97%, 86%, 0.14)",
+    "text": "hsl(30, 80%, 86%)",
+    "on": "hsl(224 47% 6%)",
+    "glow": "hsla(30, 97%, 86%, 0.35)",
+    "parts": "30 97% 86%"
+   }
+  },
+  {
+   "in": "#0x1234",
+   "out": {
+    "solid": "#0x1234",
+    "soft": "hsla(219, 100%, 10%, 0.14)",
+    "text": "hsl(219, 80%, 70%)",
+    "on": "hsl(210 40% 98%)",
+    "glow": "hsla(219, 100%, 10%, 0.35)",
+    "parts": "219 100% 10%"
+   }
+  },
+  {
+   "in": "#ffffffff",
+   "out": {
+    "solid": "#ffffffff",
+    "soft": "hsla(217, 91%, 60%, 0.14)",
+    "text": "hsl(217, 80%, 70%)",
+    "on": "hsl(210 40% 98%)",
+    "glow": "hsla(217, 91%, 60%, 0.35)",
+    "parts": "217 91% 60%"
+   }
+  },
+  {
+   "in": "#808080",
+   "out": {
+    "solid": "#808080",
+    "soft": "hsla(0, 0%, 50%, 0.14)",
+    "text": "hsl(0, 0%, 70%)",
+    "on": "hsl(210 40% 98%)",
+    "glow": "hsla(0, 0%, 50%, 0.35)",
+    "parts": "0 0% 50%"
+   }
+  },
+  {
+   "in": "##123456",
+   "out": {
+    "solid": "##123456",
+    "soft": "hsla(217, 91%, 60%, 0.14)",
+    "text": "hsl(217, 80%, 70%)",
+    "on": "hsl(210 40% 98%)",
+    "glow": "hsla(217, 91%, 60%, 0.35)",
+    "parts": "217 91% 60%"
+   }
+  }
+ ],
+ "buildDayColorOrder": [
+  {
+   "in": {
+    "program": [
+     "Push",
+     "Pull",
+     "Legs"
+    ],
+    "extra": []
+   },
+   "out": {
+    "Push": 0,
+    "Pull": 1,
+    "Legs": 2
+   }
+  },
+  {
+   "in": {
+    "program": [
+     "Push",
+     null,
+     "Push",
+     "",
+     "Legs"
+    ],
+    "extra": [
+     "Old Day",
+     "Pull",
+     null
+    ]
+   },
+   "out": {
+    "Push": 0,
+    "Legs": 1,
+    "Old Day": 2,
+    "Pull": 3
+   }
+  },
+  {
+   "in": {
+    "program": [],
+    "extra": [
+     "x"
+    ]
+   },
+   "out": {
+    "x": 0
+   }
+  }
+ ],
+ "dayColorHex": [
+  {
+   "in": {
+    "label": "Push",
+    "order": {
+     "Push": 0
+    },
+    "custom": {}
+   },
+   "out": "#3b82f6"
+  },
+  {
+   "in": {
+    "label": "Legs",
+    "order": {
+     "Legs": 12
+    },
+    "custom": {}
+   },
+   "out": "#f59e0b"
+  },
+  {
+   "in": {
+    "label": "Legs",
+    "order": {},
+    "custom": {
+     "Legs": "#123456"
+    }
+   },
+   "out": "#123456"
+  },
+  {
+   "in": {
+    "label": "Orphan Day",
+    "order": {},
+    "custom": {}
+   },
+   "out": "#8b5cf6"
+  },
+  {
+   "in": {
+    "label": "",
+    "order": {},
+    "custom": {}
+   },
+   "out": "#3b82f6"
+  },
+  {
+   "in": {
+    "label": "Ünïcode 💪",
+    "order": {},
+    "custom": {}
+   },
+   "out": "#6366f1"
+  },
+  {
+   "in": {
+    "label": "A very long label that wraps the hash around many times",
+    "order": {},
+    "custom": {
+     "Other": "#fff"
+    }
+   },
+   "out": "#ec4899"
+  }
+ ],
+ "dayColorAt": [
+  {
+   "in": 0,
+   "out": "#3b82f6"
+  },
+  {
+   "in": 1,
+   "out": "#10b981"
+  },
+  {
+   "in": 9,
+   "out": "#6366f1"
+  },
+  {
+   "in": 10,
+   "out": "#3b82f6"
+  },
+  {
+   "in": 23,
+   "out": "#ef4444"
+  }
+ ]
+}

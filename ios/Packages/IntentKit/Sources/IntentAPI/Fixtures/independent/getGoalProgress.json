@@ -1,0 +1,11 @@
+{
+  "status": 200,
+  "body": {
+    "startWeight": 81.0,
+    "startDate": "{{date:-24}}",
+    "currentTrendWeight": 78.4,
+    "goalWeight": 74,
+    "percentToGoal": 37.1,
+    "targetDate": "{{date:60}}"
+  }
+}

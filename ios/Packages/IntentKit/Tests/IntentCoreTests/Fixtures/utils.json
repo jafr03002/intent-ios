@@ -1,0 +1,44 @@
+{
+ "formatSplitType": [
+  {
+   "in": "push_pull_legs",
+   "out": "Push Pull Legs"
+  },
+  {
+   "in": "PPL",
+   "out": "PPL"
+  },
+  {
+   "in": "upper-lower",
+   "out": "Upper Lower"
+  },
+  {
+   "in": "U/L split",
+   "out": "U/L Split"
+  },
+  {
+   "in": "  full   body  ",
+   "out": "Full Body"
+  },
+  {
+   "in": "__",
+   "out": "undefined"
+  },
+  {
+   "in": "",
+   "out": "undefined"
+  },
+  {
+   "in": "Push pull",
+   "out": "Push Pull"
+  },
+  {
+   "in": "ßtrength",
+   "out": "SStrength"
+  },
+  {
+   "in": "a__B-c",
+   "out": "A B C"
+  }
+ ]
+}

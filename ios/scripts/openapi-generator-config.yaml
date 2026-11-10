@@ -1,0 +1,8 @@
+# swift-openapi-generator config for IntentAPI. Used by ios/scripts/generate-api.sh.
+# The spec (lib/api-spec/openapi.yaml) is shared with the backend and the web codegen:
+# never edit it to please this generator; work around problems here instead.
+generate:
+  - types
+  - client
+accessModifier: public
+namingStrategy: idiomatic

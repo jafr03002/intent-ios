@@ -1,0 +1,44 @@
+{
+  "status": 201,
+  "body": {
+    "userId": "user_mock_sam",
+    "name": "Sam",
+    "mode": "ai",
+    "goal": "gain_weight",
+    "experience": "intermediate",
+    "trainingDays": 4,
+    "equipment": [
+      "Full gym"
+    ],
+    "age": 26,
+    "sex": "male",
+    "weight": 74,
+    "weightUnit": "kg",
+    "goalWeight": 80,
+    "activityLevel": "moderate",
+    "preferredRestDays": [
+      "wed",
+      "sat",
+      "sun"
+    ],
+    "injuries": null,
+    "injurySeverity": null,
+    "priorityMuscles": [
+      "Chest",
+      "Shoulders"
+    ],
+    "dailyCalorieTarget": null,
+    "dailyStepTarget": null,
+    "cardioDays": [],
+    "cardioMinutes": null,
+    "onboardingComplete": true,
+    "onboardingCompletedAt": "{{datetime:0}}",
+    "calibrationWalkthroughSeenAt": null,
+    "calibrationBriefingSeenAt": null,
+    "programPageTourSeenAt": null,
+    "weightLoggingTourSeenAt": null,
+    "dashboardTourSeenAt": null,
+    "calendarTourSeenAt": null,
+    "createdAt": "{{datetime:0}}"
+  }
+}

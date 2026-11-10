@@ -1,0 +1,192 @@
+{
+  "status": 200,
+  "body": [
+    {
+      "id": 401,
+      "userId": "user_mock_alex",
+      "date": "{{date:-2}}",
+      "dayNumber": 1,
+      "weekNumber": 1,
+      "dayLabel": "Upper A",
+      "mode": "ai",
+      "loggingMode": "calibration",
+      "calibrationFeedback": null,
+      "exercisesLogged": [
+        {
+          "name": "Barbell Bench Press",
+          "muscle": "Chest",
+          "sets": [
+            {
+              "setNumber": 1,
+              "weight": 0,
+              "reps": null,
+              "completed": true,
+              "isNewPr": false
+            },
+            {
+              "setNumber": 2,
+              "weight": 0,
+              "reps": null,
+              "completed": true,
+              "isNewPr": false
+            },
+            {
+              "setNumber": 3,
+              "weight": 0,
+              "reps": null,
+              "completed": true,
+              "isNewPr": false
+            }
+          ],
+          "kind": "lift",
+          "notes": "Left shoulder felt a bit tight on the last set"
+        },
+        {
+          "name": "Chest-Supported Row",
+          "muscle": "Upper Back",
+          "sets": [
+            {
+              "setNumber": 1,
+              "weight": 0,
+              "reps": null,
+              "completed": true,
+              "isNewPr": false
+            },
+            {
+              "setNumber": 2,
+              "weight": 0,
+              "reps": null,
+              "completed": true,
+              "isNewPr": false
+            },
+            {
+              "setNumber": 3,
+              "weight": 0,
+              "reps": null,
+              "completed": false,
+              "isNewPr": false
+            }
+          ],
+          "kind": "lift",
+          "notes": "Bench was taken, did a seated cable row instead"
+        },
+        {
+          "name": "Seated Dumbbell Shoulder Press",
+          "muscle": "Shoulders",
+          "sets": [
+            {
+              "setNumber": 1,
+              "weight": 0,
+              "reps": null,
+              "completed": true,
+              "isNewPr": false
+            },
+            {
+              "setNumber": 2,
+              "weight": 0,
+              "reps": null,
+              "completed": true,
+              "isNewPr": false
+            },
+            {
+              "setNumber": 3,
+              "weight": 0,
+              "reps": null,
+              "completed": true,
+              "isNewPr": false
+            }
+          ],
+          "kind": "lift",
+          "notes": null
+        },
+        {
+          "name": "Lat Pulldown",
+          "muscle": "Lats",
+          "sets": [
+            {
+              "setNumber": 1,
+              "weight": 0,
+              "reps": null,
+              "completed": true,
+              "isNewPr": false
+            },
+            {
+              "setNumber": 2,
+              "weight": 0,
+              "reps": null,
+              "completed": true,
+              "isNewPr": false
+            },
+            {
+              "setNumber": 3,
+              "weight": 0,
+              "reps": null,
+              "completed": true,
+              "isNewPr": false
+            }
+          ],
+          "kind": "lift",
+          "notes": null
+        },
+        {
+          "name": "Incline Dumbbell Curl",
+          "muscle": "Biceps",
+          "sets": [
+            {
+              "setNumber": 1,
+              "weight": 0,
+              "reps": null,
+              "completed": true,
+              "isNewPr": false
+            },
+            {
+              "setNumber": 2,
+              "weight": 0,
+              "reps": null,
+              "completed": true,
+              "isNewPr": false
+            }
+          ],
+          "kind": "lift",
+          "notes": null
+        },
+        {
+          "name": "Cable Triceps Pushdown",
+          "muscle": "Triceps",
+          "sets": [
+            {
+              "setNumber": 1,
+              "weight": 0,
+              "reps": null,
+              "completed": true,
+              "isNewPr": false
+            },
+            {
+              "setNumber": 2,
+              "weight": 0,
+              "reps": null,
+              "completed": true,
+              "isNewPr": false
+            }
+          ],
+          "kind": "lift",
+          "notes": null
+        },
+        {
+          "name": "Thoracic Mobility",
+          "muscle": "",
+          "sets": [],
+          "kind": "checklist",
+          "completedRounds": 1,
+          "targetSeconds": 150,
+          "category": "mobility",
+          "notes": null
+        }
+      ],
+      "notes": "Gym was busy, took me a while to find the cable station.",
+      "startedAt": "{{datetime:-2}}",
+      "durationSeconds": 3960,
+      "createdAt": "{{datetime:-2}}"
+    }
+  ]
+}
